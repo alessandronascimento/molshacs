@@ -1,0 +1,125 @@
+#include "GUI.h"
+#include "../ElSA.h"
+
+using namespace std;
+
+GUI::GUI(int argc, char* argv[])
+{
+	setWindowTitle(tr(LONG_NAME));
+	createActions();
+}
+
+GUI::~GUI()
+{
+}
+
+void GUI::createActions()
+{
+	Input = new Parser;
+	Editor = new QPlainTextEdit;
+	Editor->setCenterOnScroll(true);
+	tabwidget = new QTabWidget;
+	tabwidget->setTabsClosable(true);
+
+    DockEditor = new QDockWidget;
+    DockEditor->setAllowedAreas(Qt::RightDockWidgetArea);
+    DockEditor->setObjectName("Log Area");
+    DockEditor->setWindowTitle("Log Area");
+    addDockWidget(Qt::RightDockWidgetArea, DockEditor);
+    DockEditor->setWidget(Editor);
+
+	setCentralWidget(tabwidget);
+	Editor->appendHtml("<h1> <center> MolShaCS - LOG AREA </center></h1>");
+	resize(800,600);
+	Editor->setDocumentTitle("MolShaCS LOG AREA");
+
+    statusBar()->show();
+
+    InputWidget = new QAction(tr("&Input"), this);
+    InputWidget->setShortcut(QKeySequence::Italic);
+    InputWidget->setStatusTip(tr("Create a new Input File"));
+    InputFile = menuBar()->addMenu(tr("Input &File"));
+
+    InputFile->addAction(InputWidget);
+    connect(InputWidget, SIGNAL(triggered()), this, SLOT(openInputWidget()));
+
+    Results = menuBar()->addMenu(tr("&Results"));
+    ResultsAction = new QAction(tr("&View Results File"), this);
+    ResultsAction->setStatusTip(tr("Visualize Results"));
+    Results->addAction(ResultsAction);
+    connect(ResultsAction, SIGNAL(triggered()), this, SLOT(ViewResults()));
+
+    Graphics = menuBar()->addMenu(tr("&Graphics"));
+    GraphicsAction = new QAction(tr("&Graph Results"), this);
+    GraphicsAction->setStatusTip(tr("Graph dat result file"));
+    Graphics->addAction(GraphicsAction);
+    connect(GraphicsAction, SIGNAL(triggered()), this, SLOT(GraphResult()));
+
+    Help = menuBar()->addMenu(tr("&Help"));
+    About_ElSA = new QAction(tr("&About MolShaCS"), this);
+    Help->addAction(About_ElSA);
+    About_ElSA->setStatusTip(tr("Help on how to use the program"));
+    About_Qt = new QAction(tr("About Qt"), this);
+    Help->addAction(About_Qt);
+    About_Qt->setStatusTip(tr("About Qt, the language used in this GUI"));
+    connect(About_ElSA, SIGNAL(triggered()), this, SLOT(about_elsa()));
+    connect(About_Qt, SIGNAL(triggered()), qApp, SLOT(aboutQt()));
+
+    Exit = menuBar()->addMenu((tr("&Exit")));
+    ExitAction = new QAction(tr("&Exit"), this);
+    Exit->addAction(ExitAction);
+    connect(ExitAction, SIGNAL(triggered()), this, SLOT(close()));
+
+    connect(tabwidget, SIGNAL(tabCloseRequested(int)), this, SLOT(closethistab(int)));
+
+    openInputWidget();
+
+}
+
+void GUI::openInputWidget(){
+    WInput = new Widget(Input, Editor);
+    tabwidget->addTab(WInput, tr("Parameters Input"));
+}
+
+void GUI::ViewResults(){
+    ResultsText = new QTextBrowser(0);
+    QString filename = QFileDialog::getOpenFileName(this, tr("Choose a Results File"),
+                                                    "", tr("LOG Files (*.log)"));
+    QFile file(filename);
+    if(file.open(QIODevice::ReadOnly|QIODevice::Text)){
+        ResultsText->setPlainText(QString::fromUtf8(file.readAll()));
+        statusBar()->showMessage(tr("File loaded successfully."), 5000);
+
+        tabwidget->addTab(ResultsText, tr("Log File"));
+        int i = tabwidget->indexOf(ResultsText);
+        tabwidget->setCurrentIndex(i);
+    }
+}
+
+void GUI::GraphResult(){
+    plotter* Plotter = new plotter;
+    tabwidget->addTab(Plotter, tr("Graphed Results"));
+    int i = tabwidget->indexOf(Plotter);
+    tabwidget->setCurrentIndex(i);
+}
+
+void GUI::RunEng(){
+	SPCA.run(*Input, Editor, WInput->progressbar);
+}
+
+void GUI::closethistab(int tindex){
+	tabwidget->removeTab(tindex);
+}
+
+void GUI::about_elsa(){
+	ElSA_Message = new QMessageBox;
+	ElSA_Message->information(this, tr("MolShaCS"),
+			tr("This program was written to make similarity analysis comparison among\n"
+			    "molecules using Gaussian shape and charge descriptors. This program\n"
+				"is distributed in the hope that it will be useful, but WITHOUT ANY \n"
+				"WARRANTY; without even the implied warranty of MERCHANTABILITY or\n"
+				"FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+				"Detailed information can be found in http://nascimento.ufabc.edu.br"));
+
+	ElSA_Message->setIcon(QMessageBox::Information);
+}

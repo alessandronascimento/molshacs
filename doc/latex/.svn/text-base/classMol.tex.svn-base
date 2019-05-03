@@ -1,0 +1,505 @@
+\hypertarget{classMol}{
+\section{Mol Class Reference}
+\label{classMol}\index{Mol@{Mol}}
+}
+
+
+{\ttfamily \#include $<$Mol.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMol_a903b3922d8603b95c64fc9642a159bd1}{Mol} (ifstream \&prmtop, ifstream \&inpcrd)
+\item 
+void \hyperlink{classMol_a971c876a4395d211c62c2604f21563e1}{get\_\-N} (ifstream \&prmtop)
+\item 
+void \hyperlink{classMol_ae5c88f61109eee0b53c69a5cff5598a2}{get\_\-atomnames} (ifstream \&prmtop, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\item 
+void \hyperlink{classMol_afbb5bda98f1671a7da1cadbc0060e415}{get\_\-charges} (ifstream \&prmtop, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\item 
+void \hyperlink{classMol_ac1972fa5596b0654084b7e114fec8e2e}{get\_\-masses} (ifstream \&prmtop, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\item 
+void \hyperlink{classMol_a8b396bc071cc93542901f3c09a3ccb64}{get\_\-resnames} (ifstream \&prmtop)
+\item 
+void \hyperlink{classMol_ab1af2dec124c9a4a1acd4cc8abed0e03}{get\_\-res\_\-pointers} (ifstream \&prmtop)
+\item 
+void \hyperlink{classMol_a6d14980bbbf8751f57d8b549fad7f67f}{print\_\-charge} (vector$<$ double $>$ \hyperlink{classMol_a2308c8fa4702a763039a49c0968e8e33}{charges}, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\item 
+void \hyperlink{classMol_a1172cc0364d2cafebc9b5b00b50cd15d}{get\_\-amberatoms} (ifstream \&prmtop, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\item 
+void \hyperlink{classMol_a0853a74bf7b197c8e7528f5961a42b71}{read\_\-atomtypes\_\-prm} ()
+\begin{DoxyCompactList}\small\item\em Function to parse the atomic parameter from AMBER vdw.param file. \end{DoxyCompactList}\item 
+void \hyperlink{classMol_a6e9cb936117ea71f0715b83c10df550d}{get\_\-epsilon} (vector$<$ string $>$\hyperlink{classMol_a8bec2af15b8edd215353fcfd31de5446}{atomtypes\_\-prm}, vector$<$ string $>$\hyperlink{classMol_a4396e0efb3e208d23b8e9251bf29e0ce}{amberatoms}, vector$<$ double $>$\hyperlink{classMol_a14c3c58c2276dcb569af01ed1f2ae48e}{welldepth})
+\item 
+void \hyperlink{classMol_a1022efcc73bb6daab7a58e54fbd69980}{get\_\-radius} (vector$<$ string $>$\hyperlink{classMol_a8bec2af15b8edd215353fcfd31de5446}{atomtypes\_\-prm}, vector$<$ string $>$\hyperlink{classMol_a4396e0efb3e208d23b8e9251bf29e0ce}{amberatoms}, vector$<$ double $>$\hyperlink{classMol_a71012ba1d0eb73f5c3190399e0cab35a}{radius})
+\item 
+void \hyperlink{classMol_a65ed13f1e13df82959baf31b257e3167}{get\_\-xyz} (ifstream \&inpcrd, int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N})
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{N}
+\begin{DoxyCompactList}\small\item\em Number of atoms. \end{DoxyCompactList}\item 
+int \hyperlink{classMol_a8bf2ff3447c11fa9801342c171259431}{Nres}
+\begin{DoxyCompactList}\small\item\em Number of residues. \end{DoxyCompactList}\item 
+int \hyperlink{classMol_a5803cb83dd8aef424271c1303dbb165c}{Natomtypes}
+\begin{DoxyCompactList}\small\item\em Number of atomtypes. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_a2308c8fa4702a763039a49c0968e8e33}{charges}
+\begin{DoxyCompactList}\small\item\em Charges of the atoms. Must be divided by 18.2223 to get electron charges. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_ae738aa143547de5315b7a2b30f00b2d6}{masses}
+\begin{DoxyCompactList}\small\item\em Atomic masses for the system. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \hyperlink{classMol_a4396e0efb3e208d23b8e9251bf29e0ce}{amberatoms}
+\begin{DoxyCompactList}\small\item\em Atom names for the system according to AMBER FF. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \hyperlink{classMol_a8bec2af15b8edd215353fcfd31de5446}{atomtypes\_\-prm}
+\begin{DoxyCompactList}\small\item\em Atomic parameters. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \hyperlink{classMol_a9ac2d8393c05b5f5594b5725683e2b6c}{atomnames}
+\begin{DoxyCompactList}\small\item\em Atomic names. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_a71012ba1d0eb73f5c3190399e0cab35a}{radius}
+\begin{DoxyCompactList}\small\item\em Atomic radii. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_a14c3c58c2276dcb569af01ed1f2ae48e}{welldepth}
+\begin{DoxyCompactList}\small\item\em Welldepth parameters to each atom according to AMBER FF. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classMol_a716faa192c9b9ba3f3008b6122771da9}{xyz}
+\begin{DoxyCompactList}\small\item\em Atomic coordinates. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classMol_a12a9c9a3a3286eff560b77cd95640ab9}{new\_\-xyz}
+\begin{DoxyCompactList}\small\item\em Atomic coordinates after rotation/translation. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classMol_afd9fc3c8d920b5ebdb0fad05f8d4bded}{old\_\-xyz}
+\begin{DoxyCompactList}\small\item\em Atomic coordinates from the last step accepted. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_aee2f47f212cb58f1b87480e6b790dde9}{epsilons}
+\begin{DoxyCompactList}\small\item\em Atomic parameter for LJ computation. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_a59d4b5b913c75faaa5c4251cdd68afa1}{epsilons\_\-sqrt}
+\begin{DoxyCompactList}\small\item\em Squared root of atoms epsilons. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classMol_a34b2c753c9754ef13d45f367af090375}{radii}
+\begin{DoxyCompactList}\small\item\em Atomic radii. \end{DoxyCompactList}\item 
+double \hyperlink{classMol_a38df88e58c8995fb3561821b044ea02e}{mass}
+\begin{DoxyCompactList}\small\item\em Mass value for an individidual atom. \end{DoxyCompactList}\item 
+double \hyperlink{classMol_aa7625b12b934447f8b5ccbe40eed5747}{charge}
+\begin{DoxyCompactList}\small\item\em Atomic charge. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \hyperlink{classMol_a94d701f5dd8e7ca3abb2ce00d38c0422}{resnames}
+\begin{DoxyCompactList}\small\item\em C++ vector with the names of the residues. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classMol_a78bfe843ad94da41b3fb3f89d94fab9b}{residue\_\-pointer}
+\begin{DoxyCompactList}\small\item\em Pointers to the number of residues / number of atoms. \end{DoxyCompactList}\item 
+string \hyperlink{classMol_a0999390bb676f07f8ef4972c2070f3fb}{line}
+\begin{DoxyCompactList}\small\item\em Temporary string to parse prmtop file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classMol_a903b3922d8603b95c64fc9642a159bd1}{
+\index{Mol@{Mol}!Mol@{Mol}}
+\index{Mol@{Mol}!Mol@{Mol}}
+\subsubsection[{Mol}]{\setlength{\rightskip}{0pt plus 5cm}Mol::Mol (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop, }
+\item[{ifstream \&}]{inpcrd}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a903b3922d8603b95c64fc9642a159bd1}
+Class constructor 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+{\em inpcrd} & INPCRD file with molecule coordinates; \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classMol_a1172cc0364d2cafebc9b5b00b50cd15d}{
+\index{Mol@{Mol}!get\_\-amberatoms@{get\_\-amberatoms}}
+\index{get\_\-amberatoms@{get\_\-amberatoms}!Mol@{Mol}}
+\subsubsection[{get\_\-amberatoms}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-amberatoms (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a1172cc0364d2cafebc9b5b00b50cd15d}
+Function to get the AMBER atom types in the PRMTOP file 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_ae5c88f61109eee0b53c69a5cff5598a2}{
+\index{Mol@{Mol}!get\_\-atomnames@{get\_\-atomnames}}
+\index{get\_\-atomnames@{get\_\-atomnames}!Mol@{Mol}}
+\subsubsection[{get\_\-atomnames}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-atomnames (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_ae5c88f61109eee0b53c69a5cff5598a2}
+Function to get the atomic names as defined in the PRMTOP file 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_afbb5bda98f1671a7da1cadbc0060e415}{
+\index{Mol@{Mol}!get\_\-charges@{get\_\-charges}}
+\index{get\_\-charges@{get\_\-charges}!Mol@{Mol}}
+\subsubsection[{get\_\-charges}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-charges (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_afbb5bda98f1671a7da1cadbc0060e415}
+Function to get the atomic charges 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a6e9cb936117ea71f0715b83c10df550d}{
+\index{Mol@{Mol}!get\_\-epsilon@{get\_\-epsilon}}
+\index{get\_\-epsilon@{get\_\-epsilon}!Mol@{Mol}}
+\subsubsection[{get\_\-epsilon}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-epsilon (
+\begin{DoxyParamCaption}
+\item[{vector$<$ string $>$}]{atomtypes\_\-prm, }
+\item[{vector$<$ string $>$}]{amberatoms, }
+\item[{vector$<$ double $>$}]{welldepth}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a6e9cb936117ea71f0715b83c10df550d}
+Function to parse the epsilon parameter used for VDW computation 
+\begin{DoxyParams}{Parameters}
+{\em atomtypes\_\-prm} & VDW parameters parsed from {\itshape vdw.param\/} file; \\
+\hline
+{\em amberatoms} & C++ vector with atom names as defined in AMBER force fields; \\
+\hline
+{\em welldepth} & VDW values for welldepths according to AMBER force field. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_ac1972fa5596b0654084b7e114fec8e2e}{
+\index{Mol@{Mol}!get\_\-masses@{get\_\-masses}}
+\index{get\_\-masses@{get\_\-masses}!Mol@{Mol}}
+\subsubsection[{get\_\-masses}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-masses (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_ac1972fa5596b0654084b7e114fec8e2e}
+Function to get the atomic masses 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a971c876a4395d211c62c2604f21563e1}{
+\index{Mol@{Mol}!get\_\-N@{get\_\-N}}
+\index{get\_\-N@{get\_\-N}!Mol@{Mol}}
+\subsubsection[{get\_\-N}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-N (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a971c876a4395d211c62c2604f21563e1}
+Function to parse the number of atoms from the PRMTOP file 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a1022efcc73bb6daab7a58e54fbd69980}{
+\index{Mol@{Mol}!get\_\-radius@{get\_\-radius}}
+\index{get\_\-radius@{get\_\-radius}!Mol@{Mol}}
+\subsubsection[{get\_\-radius}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-radius (
+\begin{DoxyParamCaption}
+\item[{vector$<$ string $>$}]{atomtypes\_\-prm, }
+\item[{vector$<$ string $>$}]{amberatoms, }
+\item[{vector$<$ double $>$}]{radius}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a1022efcc73bb6daab7a58e54fbd69980}
+Function to parse atomic radii used in VDW computation 
+\begin{DoxyParams}{Parameters}
+{\em atomtypes\_\-prm} & VDW parameters parsed from {\itshape vdw.param\/} file; \\
+\hline
+{\em amberatoms} & C++ vector with atom names as defined in AMBER force fields; \\
+\hline
+{\em radius} & VDW values for radii according to AMBER force field. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_ab1af2dec124c9a4a1acd4cc8abed0e03}{
+\index{Mol@{Mol}!get\_\-res\_\-pointers@{get\_\-res\_\-pointers}}
+\index{get\_\-res\_\-pointers@{get\_\-res\_\-pointers}!Mol@{Mol}}
+\subsubsection[{get\_\-res\_\-pointers}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-res\_\-pointers (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_ab1af2dec124c9a4a1acd4cc8abed0e03}
+Function to parse the number of atoms in each residue; 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a8b396bc071cc93542901f3c09a3ccb64}{
+\index{Mol@{Mol}!get\_\-resnames@{get\_\-resnames}}
+\index{get\_\-resnames@{get\_\-resnames}!Mol@{Mol}}
+\subsubsection[{get\_\-resnames}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-resnames (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{prmtop}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a8b396bc071cc93542901f3c09a3ccb64}
+Function to get the names of the residues in the PRMTOP file 
+\begin{DoxyParams}{Parameters}
+{\em prmtop} & PRMTOP file with molecule parameters; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a65ed13f1e13df82959baf31b257e3167}{
+\index{Mol@{Mol}!get\_\-xyz@{get\_\-xyz}}
+\index{get\_\-xyz@{get\_\-xyz}!Mol@{Mol}}
+\subsubsection[{get\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::get\_\-xyz (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{inpcrd, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a65ed13f1e13df82959baf31b257e3167}
+Function to get atomic coordinates from INPCRD file. 
+\begin{DoxyParams}{Parameters}
+{\em inpcrd} & INPCRD file with molecule coordinates; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a6d14980bbbf8751f57d8b549fad7f67f}{
+\index{Mol@{Mol}!print\_\-charge@{print\_\-charge}}
+\index{print\_\-charge@{print\_\-charge}!Mol@{Mol}}
+\subsubsection[{print\_\-charge}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::print\_\-charge (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{charges, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a6d14980bbbf8751f57d8b549fad7f67f}
+Function to print the atomic charges (unused) 
+\begin{DoxyParams}{Parameters}
+{\em charges} & C++ vector ({\itshape N-\/sized\/}) with molecule atomic charges; \\
+\hline
+{\em N} & Number of atoms in the molecule; \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMol_a0853a74bf7b197c8e7528f5961a42b71}{
+\index{Mol@{Mol}!read\_\-atomtypes\_\-prm@{read\_\-atomtypes\_\-prm}}
+\index{read\_\-atomtypes\_\-prm@{read\_\-atomtypes\_\-prm}!Mol@{Mol}}
+\subsubsection[{read\_\-atomtypes\_\-prm}]{\setlength{\rightskip}{0pt plus 5cm}void Mol::read\_\-atomtypes\_\-prm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMol_a0853a74bf7b197c8e7528f5961a42b71}
+
+
+Function to parse the atomic parameter from AMBER vdw.param file. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classMol_a4396e0efb3e208d23b8e9251bf29e0ce}{
+\index{Mol@{Mol}!amberatoms@{amberatoms}}
+\index{amberatoms@{amberatoms}!Mol@{Mol}}
+\subsubsection[{amberatoms}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ {\bf Mol::amberatoms}}}
+\label{classMol_a4396e0efb3e208d23b8e9251bf29e0ce}
+
+
+Atom names for the system according to AMBER FF. 
+
+\hypertarget{classMol_a9ac2d8393c05b5f5594b5725683e2b6c}{
+\index{Mol@{Mol}!atomnames@{atomnames}}
+\index{atomnames@{atomnames}!Mol@{Mol}}
+\subsubsection[{atomnames}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ {\bf Mol::atomnames}}}
+\label{classMol_a9ac2d8393c05b5f5594b5725683e2b6c}
+
+
+Atomic names. 
+
+\hypertarget{classMol_a8bec2af15b8edd215353fcfd31de5446}{
+\index{Mol@{Mol}!atomtypes\_\-prm@{atomtypes\_\-prm}}
+\index{atomtypes\_\-prm@{atomtypes\_\-prm}!Mol@{Mol}}
+\subsubsection[{atomtypes\_\-prm}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ {\bf Mol::atomtypes\_\-prm}}}
+\label{classMol_a8bec2af15b8edd215353fcfd31de5446}
+
+
+Atomic parameters. 
+
+\hypertarget{classMol_aa7625b12b934447f8b5ccbe40eed5747}{
+\index{Mol@{Mol}!charge@{charge}}
+\index{charge@{charge}!Mol@{Mol}}
+\subsubsection[{charge}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Mol::charge}}}
+\label{classMol_aa7625b12b934447f8b5ccbe40eed5747}
+
+
+Atomic charge. 
+
+\hypertarget{classMol_a2308c8fa4702a763039a49c0968e8e33}{
+\index{Mol@{Mol}!charges@{charges}}
+\index{charges@{charges}!Mol@{Mol}}
+\subsubsection[{charges}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::charges}}}
+\label{classMol_a2308c8fa4702a763039a49c0968e8e33}
+
+
+Charges of the atoms. Must be divided by 18.2223 to get electron charges. 
+
+\hypertarget{classMol_aee2f47f212cb58f1b87480e6b790dde9}{
+\index{Mol@{Mol}!epsilons@{epsilons}}
+\index{epsilons@{epsilons}!Mol@{Mol}}
+\subsubsection[{epsilons}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::epsilons}}}
+\label{classMol_aee2f47f212cb58f1b87480e6b790dde9}
+
+
+Atomic parameter for LJ computation. 
+
+\hypertarget{classMol_a59d4b5b913c75faaa5c4251cdd68afa1}{
+\index{Mol@{Mol}!epsilons\_\-sqrt@{epsilons\_\-sqrt}}
+\index{epsilons\_\-sqrt@{epsilons\_\-sqrt}!Mol@{Mol}}
+\subsubsection[{epsilons\_\-sqrt}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::epsilons\_\-sqrt}}}
+\label{classMol_a59d4b5b913c75faaa5c4251cdd68afa1}
+
+
+Squared root of atoms epsilons. 
+
+\hypertarget{classMol_a0999390bb676f07f8ef4972c2070f3fb}{
+\index{Mol@{Mol}!line@{line}}
+\index{line@{line}!Mol@{Mol}}
+\subsubsection[{line}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Mol::line}}}
+\label{classMol_a0999390bb676f07f8ef4972c2070f3fb}
+
+
+Temporary string to parse prmtop file. 
+
+\hypertarget{classMol_a38df88e58c8995fb3561821b044ea02e}{
+\index{Mol@{Mol}!mass@{mass}}
+\index{mass@{mass}!Mol@{Mol}}
+\subsubsection[{mass}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Mol::mass}}}
+\label{classMol_a38df88e58c8995fb3561821b044ea02e}
+
+
+Mass value for an individidual atom. 
+
+\hypertarget{classMol_ae738aa143547de5315b7a2b30f00b2d6}{
+\index{Mol@{Mol}!masses@{masses}}
+\index{masses@{masses}!Mol@{Mol}}
+\subsubsection[{masses}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::masses}}}
+\label{classMol_ae738aa143547de5315b7a2b30f00b2d6}
+
+
+Atomic masses for the system. 
+
+\hypertarget{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}{
+\index{Mol@{Mol}!N@{N}}
+\index{N@{N}!Mol@{Mol}}
+\subsubsection[{N}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Mol::N}}}
+\label{classMol_a2293751ce0fbd5922b9b48863ef1f3b3}
+
+
+Number of atoms. 
+
+\hypertarget{classMol_a5803cb83dd8aef424271c1303dbb165c}{
+\index{Mol@{Mol}!Natomtypes@{Natomtypes}}
+\index{Natomtypes@{Natomtypes}!Mol@{Mol}}
+\subsubsection[{Natomtypes}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Mol::Natomtypes}}}
+\label{classMol_a5803cb83dd8aef424271c1303dbb165c}
+
+
+Number of atomtypes. 
+
+\hypertarget{classMol_a12a9c9a3a3286eff560b77cd95640ab9}{
+\index{Mol@{Mol}!new\_\-xyz@{new\_\-xyz}}
+\index{new\_\-xyz@{new\_\-xyz}!Mol@{Mol}}
+\subsubsection[{new\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$double$>$ $>$ {\bf Mol::new\_\-xyz}}}
+\label{classMol_a12a9c9a3a3286eff560b77cd95640ab9}
+
+
+Atomic coordinates after rotation/translation. 
+
+\hypertarget{classMol_a8bf2ff3447c11fa9801342c171259431}{
+\index{Mol@{Mol}!Nres@{Nres}}
+\index{Nres@{Nres}!Mol@{Mol}}
+\subsubsection[{Nres}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Mol::Nres}}}
+\label{classMol_a8bf2ff3447c11fa9801342c171259431}
+
+
+Number of residues. 
+
+\hypertarget{classMol_afd9fc3c8d920b5ebdb0fad05f8d4bded}{
+\index{Mol@{Mol}!old\_\-xyz@{old\_\-xyz}}
+\index{old\_\-xyz@{old\_\-xyz}!Mol@{Mol}}
+\subsubsection[{old\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$double$>$ $>$ {\bf Mol::old\_\-xyz}}}
+\label{classMol_afd9fc3c8d920b5ebdb0fad05f8d4bded}
+
+
+Atomic coordinates from the last step accepted. 
+
+\hypertarget{classMol_a34b2c753c9754ef13d45f367af090375}{
+\index{Mol@{Mol}!radii@{radii}}
+\index{radii@{radii}!Mol@{Mol}}
+\subsubsection[{radii}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::radii}}}
+\label{classMol_a34b2c753c9754ef13d45f367af090375}
+
+
+Atomic radii. 
+
+\hypertarget{classMol_a71012ba1d0eb73f5c3190399e0cab35a}{
+\index{Mol@{Mol}!radius@{radius}}
+\index{radius@{radius}!Mol@{Mol}}
+\subsubsection[{radius}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::radius}}}
+\label{classMol_a71012ba1d0eb73f5c3190399e0cab35a}
+
+
+Atomic radii. 
+
+\hypertarget{classMol_a78bfe843ad94da41b3fb3f89d94fab9b}{
+\index{Mol@{Mol}!residue\_\-pointer@{residue\_\-pointer}}
+\index{residue\_\-pointer@{residue\_\-pointer}!Mol@{Mol}}
+\subsubsection[{residue\_\-pointer}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ {\bf Mol::residue\_\-pointer}}}
+\label{classMol_a78bfe843ad94da41b3fb3f89d94fab9b}
+
+
+Pointers to the number of residues / number of atoms. 
+
+\hypertarget{classMol_a94d701f5dd8e7ca3abb2ce00d38c0422}{
+\index{Mol@{Mol}!resnames@{resnames}}
+\index{resnames@{resnames}!Mol@{Mol}}
+\subsubsection[{resnames}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ {\bf Mol::resnames}}}
+\label{classMol_a94d701f5dd8e7ca3abb2ce00d38c0422}
+
+
+C++ vector with the names of the residues. 
+
+\hypertarget{classMol_a14c3c58c2276dcb569af01ed1f2ae48e}{
+\index{Mol@{Mol}!welldepth@{welldepth}}
+\index{welldepth@{welldepth}!Mol@{Mol}}
+\subsubsection[{welldepth}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Mol::welldepth}}}
+\label{classMol_a14c3c58c2276dcb569af01ed1f2ae48e}
+
+
+Welldepth parameters to each atom according to AMBER FF. 
+
+\hypertarget{classMol_a716faa192c9b9ba3f3008b6122771da9}{
+\index{Mol@{Mol}!xyz@{xyz}}
+\index{xyz@{xyz}!Mol@{Mol}}
+\subsubsection[{xyz}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$double$>$ $>$ {\bf Mol::xyz}}}
+\label{classMol_a716faa192c9b9ba3f3008b6122771da9}
+
+
+Atomic coordinates. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol_8h}{Mol.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol_8cpp}{Mol.cpp}\end{DoxyCompactItemize}

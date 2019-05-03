@@ -1,0 +1,46 @@
+\hypertarget{ElSA_8h}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/ElSA.h File Reference}
+\label{ElSA_8h}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/ElSA.h@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/ElSA.h}}
+}
+This graph shows which files directly or indirectly include this file:
+\subsection*{Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{ElSA_8h_a598a3330b3c21701223ee0ca14316eca}{PI}~3.14159265359
+\item 
+\#define \hyperlink{ElSA_8h_adc22e201840d4e3e2e70d8c59c5b8959}{ORGANIZATION}~\char`\"{}Universidade Federal do ABC\char`\"{}
+\item 
+\#define \hyperlink{ElSA_8h_a47f2e62c0dbebc787052c165afcada0e}{NAME}~\char`\"{}MolShaCS\char`\"{}
+\item 
+\#define \hyperlink{ElSA_8h_a038e042d335794c4151ad4fd8facc119}{LONG\_\-NAME}~\char`\"{}MolShaCS -\/ Molecular Shape and Charge Similarity\char`\"{}
+\item 
+\#define \hyperlink{ElSA_8h_a1c6d5de492ac61ad29aec7aa9a436bbf}{VERSION}~\char`\"{}1.0\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Define Documentation}
+\hypertarget{ElSA_8h_a038e042d335794c4151ad4fd8facc119}{
+\index{ElSA.h@{ElSA.h}!LONG\_\-NAME@{LONG\_\-NAME}}
+\index{LONG\_\-NAME@{LONG\_\-NAME}!ElSA.h@{ElSA.h}}
+\subsubsection[{LONG\_\-NAME}]{\setlength{\rightskip}{0pt plus 5cm}\#define LONG\_\-NAME~\char`\"{}MolShaCS -\/ Molecular Shape and Charge Similarity\char`\"{}}}
+\label{ElSA_8h_a038e042d335794c4151ad4fd8facc119}
+\hypertarget{ElSA_8h_a47f2e62c0dbebc787052c165afcada0e}{
+\index{ElSA.h@{ElSA.h}!NAME@{NAME}}
+\index{NAME@{NAME}!ElSA.h@{ElSA.h}}
+\subsubsection[{NAME}]{\setlength{\rightskip}{0pt plus 5cm}\#define NAME~\char`\"{}MolShaCS\char`\"{}}}
+\label{ElSA_8h_a47f2e62c0dbebc787052c165afcada0e}
+\hypertarget{ElSA_8h_adc22e201840d4e3e2e70d8c59c5b8959}{
+\index{ElSA.h@{ElSA.h}!ORGANIZATION@{ORGANIZATION}}
+\index{ORGANIZATION@{ORGANIZATION}!ElSA.h@{ElSA.h}}
+\subsubsection[{ORGANIZATION}]{\setlength{\rightskip}{0pt plus 5cm}\#define ORGANIZATION~\char`\"{}Universidade Federal do ABC\char`\"{}}}
+\label{ElSA_8h_adc22e201840d4e3e2e70d8c59c5b8959}
+\hypertarget{ElSA_8h_a598a3330b3c21701223ee0ca14316eca}{
+\index{ElSA.h@{ElSA.h}!PI@{PI}}
+\index{PI@{PI}!ElSA.h@{ElSA.h}}
+\subsubsection[{PI}]{\setlength{\rightskip}{0pt plus 5cm}\#define PI~3.14159265359}}
+\label{ElSA_8h_a598a3330b3c21701223ee0ca14316eca}
+\hypertarget{ElSA_8h_a1c6d5de492ac61ad29aec7aa9a436bbf}{
+\index{ElSA.h@{ElSA.h}!VERSION@{VERSION}}
+\index{VERSION@{VERSION}!ElSA.h@{ElSA.h}}
+\subsubsection[{VERSION}]{\setlength{\rightskip}{0pt plus 5cm}\#define VERSION~\char`\"{}1.0\char`\"{}}}
+\label{ElSA_8h_a1c6d5de492ac61ad29aec7aa9a436bbf}

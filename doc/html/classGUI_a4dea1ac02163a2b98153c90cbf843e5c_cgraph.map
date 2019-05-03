@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classGUI.html#af458ebcd920d0daaa31e35f021198e3c" title="GUI::about_elsa" alt="" coords="204,5,319,35"/>
+<area shape="rect" id="node5" href="$classGUI.html#a55f8dc18b234b108d0a7109c216ba781" title="GUI::closethistab" alt="" coords="200,59,323,88"/>
+<area shape="rect" id="node7" href="$classGUI.html#a8a68124ff4791c4807bfa5b6793b0dc5" title="GUI::GraphResult" alt="" coords="200,112,323,141"/>
+<area shape="rect" id="node9" href="$classGUI.html#a793993fb8d09d4bbfde2bba4394f6f42" title="GUI::openInputWidget" alt="" coords="187,165,336,195"/>
+<area shape="rect" id="node11" href="$classGUI.html#aa5d8baa6e33f54e0b06a6e88225bad98" title="GUI::ViewResults" alt="" coords="200,219,323,248"/>
+</map>

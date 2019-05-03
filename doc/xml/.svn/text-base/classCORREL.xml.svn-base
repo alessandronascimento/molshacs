@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classCORREL" kind="class" prot="public">
+    <compoundname>CORREL</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCORREL_1a2b11224b8d555ae6fc1d66f7562fd275" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::correl</definition>
+        <argsstring></argsstring>
+        <name>correl</name>
+        <briefdescription>
+<para>Correlation index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="25" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a5b188c7301ac67c54d9ad7ea4f6f0e1a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::elec</definition>
+        <argsstring></argsstring>
+        <name>elec</name>
+        <briefdescription>
+<para>Electrostatic potential at a point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="27" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a914a8b0995015e82256961cbb676717c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+<para>Distance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="29" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a8bfe969d5de8f1138ab78b96c81efe68" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>X coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="31" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a7b95f3b9f6b49a0f30803573d28b08d2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>Y coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a733e2083e37dc8cd372b71f7d04bd645" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>Z Coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="35" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a981a6452d3eec84cb9dd7d6c7dc7d47d" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; CORREL::new_xyz</definition>
+        <argsstring></argsstring>
+        <name>new_xyz</name>
+        <briefdescription>
+<para>New coordinates after movement. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a898800161dee6f1625130c54948a8f03" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; CORREL::temp</definition>
+        <argsstring></argsstring>
+        <name>temp</name>
+        <briefdescription>
+<para>Who knows? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCORREL_1a5befccd178218ad79376170652d91335" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CORREL::sum_product</definition>
+        <argsstring></argsstring>
+        <name>sum_product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="41" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCORREL_1aa9c602157f58ef588517aeb6b0e16ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; CORREL::rototranslate</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, int N, double alpha, double beta, double gamma, double transx, double transy, double transz)</argsstring>
+        <name>rototranslate</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for Rotation AND Translation <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector of vector that stores molecule coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of atoms in the molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler alpha angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler beta angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler gamma angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X-shift in Angstrons </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y-shift in Angstrons </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z-shift in Angstrons </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="13" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classCORREL_1a955fa403fc704715623e06e6b6d3bb3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CORREL::compute_correl</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; gridcoords, vector&lt; double &gt; elec_potential, int N, vector&lt; vector&lt; double &gt; &gt;xyz, vector&lt; double &gt; charges)</argsstring>
+        <name>compute_correl</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>gridcoords</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>elec_potential</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>charges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to compute the correlation index <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gridcoords</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with the coordinates used to compute the electrostatic grid </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elec_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with the electrostatic grid </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of atoms </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector of a vector with atom coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>charges</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with atomic charges </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="28" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classCORREL_1ab2a0a4f465fc8f5fb104b1b082fcd478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; CORREL::translate</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, int N, double tx, double ty, double tz)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Coordinates translation <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector of a vector with atom coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of atoms </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X-shift </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y-shift </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z-shift </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="70" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classCORREL_1a68e6a5ec851190f68e856fcb3527fccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CORREL::write_pdb</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt;xyz, int N, vector&lt; string &gt; atomnames, string name)</argsstring>
+        <name>write_pdb</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>vector&lt; string &gt;</type>
+          <declname>atomnames</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to write a PDB file of the transformed coordinates <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector of a vector with atom coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of atoms </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>atomnames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector of Strings with the names of the atoms as defined in PRMTOP file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String with name of for PDB file output </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="77" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classCORREL_1a0ca3a025e8493c54977c3a8d3ea72e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CORREL::compute_correl_wade</definition>
+        <argsstring>(vector&lt; double &gt; p1, vector&lt; double &gt; p2)</argsstring>
+        <name>compute_correl_wade</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Scalar product of two electrostatic potentials used to compute the Hodgkin index (Hodgkin, E.E., Richards, W.G. </para>        </briefdescription>
+        <detaileddescription>
+<para>Int. J. Quant. Chem. Quant. Bio. Symp. (1987) 14:105-110. Cited in Blomberg N. et al. Proteins (1999) 37:379-387. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with electrostatic grid of the first molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with electrostatic grid of the second molecule </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="85" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="41" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classCORREL_1a8f48c17b831c0fee075dcce379c80daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CORREL::compute_correl_wade</definition>
+        <argsstring>(vector&lt; double &gt; elec_potential, vector&lt; double &gt; p2, double sum_of_elec_potential)</argsstring>
+        <name>compute_correl_wade</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>elec_potential</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sum_of_elec_potential</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to compute the electrostatic correlation as defined by Wade et al. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elec_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Electrostatic potential pre-computed for the reference molecule; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with electrostatic grid of the second molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sum_of_elec_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sum of the elements of the <emphasis>elec_potential</emphasis> vector. Useful to speed up computations. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="91" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" line="21" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h" bodystart="21" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classCORREL_1a955fa403fc704715623e06e6b6d3bb3e" prot="public" virt="non-virtual"><scope>CORREL</scope><name>compute_correl</name></member>
+      <member refid="classCORREL_1a0ca3a025e8493c54977c3a8d3ea72e70" prot="public" virt="non-virtual"><scope>CORREL</scope><name>compute_correl_wade</name></member>
+      <member refid="classCORREL_1a8f48c17b831c0fee075dcce379c80daf" prot="public" virt="non-virtual"><scope>CORREL</scope><name>compute_correl_wade</name></member>
+      <member refid="classCORREL_1a2b11224b8d555ae6fc1d66f7562fd275" prot="public" virt="non-virtual"><scope>CORREL</scope><name>correl</name></member>
+      <member refid="classCORREL_1a5b188c7301ac67c54d9ad7ea4f6f0e1a" prot="public" virt="non-virtual"><scope>CORREL</scope><name>elec</name></member>
+      <member refid="classCORREL_1a981a6452d3eec84cb9dd7d6c7dc7d47d" prot="public" virt="non-virtual"><scope>CORREL</scope><name>new_xyz</name></member>
+      <member refid="classCORREL_1a914a8b0995015e82256961cbb676717c" prot="public" virt="non-virtual"><scope>CORREL</scope><name>r</name></member>
+      <member refid="classCORREL_1aa9c602157f58ef588517aeb6b0e16ec2" prot="public" virt="non-virtual"><scope>CORREL</scope><name>rototranslate</name></member>
+      <member refid="classCORREL_1a5befccd178218ad79376170652d91335" prot="public" virt="non-virtual"><scope>CORREL</scope><name>sum_product</name></member>
+      <member refid="classCORREL_1a898800161dee6f1625130c54948a8f03" prot="public" virt="non-virtual"><scope>CORREL</scope><name>temp</name></member>
+      <member refid="classCORREL_1ab2a0a4f465fc8f5fb104b1b082fcd478" prot="public" virt="non-virtual"><scope>CORREL</scope><name>translate</name></member>
+      <member refid="classCORREL_1a68e6a5ec851190f68e856fcb3527fccc" prot="public" virt="non-virtual"><scope>CORREL</scope><name>write_pdb</name></member>
+      <member refid="classCORREL_1a8bfe969d5de8f1138ab78b96c81efe68" prot="public" virt="non-virtual"><scope>CORREL</scope><name>x</name></member>
+      <member refid="classCORREL_1a7b95f3b9f6b49a0f30803573d28b08d2" prot="public" virt="non-virtual"><scope>CORREL</scope><name>y</name></member>
+      <member refid="classCORREL_1a733e2083e37dc8cd372b71f7d04bd645" prot="public" virt="non-virtual"><scope>CORREL</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

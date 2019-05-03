@@ -1,0 +1,17 @@
+refmol_prmtop /export/home/asn/workspace/SPCA2r1/src/testset/10.prmtop
+refmol_inpcrd /export/home/asn/workspace/SPCA2r1/src/testset/10.inpcrd
+sampling 1.5
+box_size 25
+align_molecules yes
+step 1
+tol 0.1
+ntries 50
+delta 1e-05
+minimizer nlopt_mma
+multimode yes
+multimol /export/home/asn/workspace/SPCA2r1/src/testset/multimol.dat
+output_prefix spca2_gui
+write_coordinates yes
+timeout 120
+elec_scale 1
+vdw_scale 0.8

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_line">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_line')">line</a>
+  <div class="SRChildren">
+    <a id="Item0_c0" onkeydown="return searchResults.NavChild(event,0,0)" onkeypress="return searchResults.NavChild(event,0,0)" onkeyup="return searchResults.NavChild(event,0,0)" class="SRScope" href="../classMol.html#a0999390bb676f07f8ef4972c2070f3fb" target="_parent">Mol::line()</a>
+    <a id="Item0_c1" onkeydown="return searchResults.NavChild(event,0,1)" onkeypress="return searchResults.NavChild(event,0,1)" onkeyup="return searchResults.NavChild(event,0,1)" class="SRScope" href="../classMol2.html#a67ceb39981358eff84552a6eefa21065" target="_parent">Mol2::line()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_logfile">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_logfile')">logfile</a>
+  <div class="SRChildren">
+    <a id="Item1_c0" onkeydown="return searchResults.NavChild(event,1,0)" onkeypress="return searchResults.NavChild(event,1,0)" onkeyup="return searchResults.NavChild(event,1,0)" class="SRScope" href="../classQtWriter.html#a044bb96d71354b34c4a6ba47c3461d42" target="_parent">QtWriter::logfile()</a>
+    <a id="Item1_c1" onkeydown="return searchResults.NavChild(event,1,1)" onkeypress="return searchResults.NavChild(event,1,1)" onkeyup="return searchResults.NavChild(event,1,1)" class="SRScope" href="../classWriter.html#a2bc15cd60f8b6e7f8732bc9421d2a533" target="_parent">Writer::logfile()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_long_5fname">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../ElSA_8h.html#a038e042d335794c4151ad4fd8facc119" target="_parent">LONG_NAME</a>
+  <span class="SRScope">ElSA.h</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

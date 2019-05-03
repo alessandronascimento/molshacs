@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classGrid.html" title="Grid" alt="" coords="44,101,89,131"/>
+<area shape="rect" id="node4" href="$classMol.html" title="Mol" alt="" coords="5,5,48,35"/>
+<area shape="rect" id="node6" href="$classParser.html" title="Parser" alt="" coords="89,5,148,35"/>
+<area shape="rect" id="node8" href="$classMol2.html" title="Mol2" alt="" coords="191,101,241,131"/>
+</map>

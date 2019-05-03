@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classQtWriter" kind="class" prot="public">
+    <compoundname>QtWriter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classQtWriter_1a044bb96d71354b34c4a6ba47c3461d42" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* QtWriter::logfile</definition>
+        <argsstring></argsstring>
+        <name>logfile</name>
+        <briefdescription>
+<para>logfile is defined as a C file to generate a written report (log) of the program run. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="24" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQtWriter_1a2acbd598dd08378981f929a023ef5d41" prot="public" static="no" mutable="no">
+        <type>QPlainTextEdit *</type>
+        <definition>QPlainTextEdit* QtWriter::Editor</definition>
+        <argsstring></argsstring>
+        <name>Editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="26" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classQtWriter_1a82288bebcd187b80b54c2093da0ea820" prot="public" static="no" mutable="no">
+        <type>Mol *</type>
+        <definition>Mol* QtWriter::Cmol</definition>
+        <argsstring></argsstring>
+        <name>Cmol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="29" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classQtWriter_1ab6edda21cb7821d1dd6023d89bba120d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QtWriter::QtWriter</definition>
+        <argsstring>(Parser *Input, QPlainTextEdit *Ed)</argsstring>
+        <name>QtWriter</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>QPlainTextEdit *</type>
+          <declname>Ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class constructor. Opens the logfile with the &quot;output&quot; name defined in the input file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the Parser class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1aad5888cbfde83e9bc36e9797414eb69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_params</definition>
+        <argsstring>(Parser *Input)</argsstring>
+        <name>write_params</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function writes down the parameters given by the user as input. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the Parser class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="15" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1a22835ce6f128702a1590381c2663e2a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_welcome</definition>
+        <argsstring>(void)</argsstring>
+        <name>write_welcome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This function writes a &quot;welcome&quot; message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="91" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1a694c77fe8d34955948b14897ddeaaf24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_to_log</definition>
+        <argsstring>(char info[82])</argsstring>
+        <name>write_to_log</name>
+        <param>
+          <type>char</type>
+          <declname>info</declname>
+          <array>[82]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This message shows a char array in the screen and writes it to the logfile. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array (82 char long) with a message to be written/shown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1a6188e31823cda6193af9ac3632fb19db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_to_log</definition>
+        <argsstring>(void)</argsstring>
+        <name>write_to_log</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This overloaded function writes a blank line in the logfile and in the screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="131" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1aa4424e7a6279fe116b74d06c05cb500b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_pdb</definition>
+        <argsstring>(Mol *Cmol, vector&lt; vector&lt; double &gt; &gt;xyz, string outname)</argsstring>
+        <name>write_pdb</name>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>outname</declname>
+        </param>
+        <briefdescription>
+<para>Class destructor. Closes the logfile. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="138" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1a2dbb1745b70fefff3a5ae3984b853b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QtWriter::write_pdb</definition>
+        <argsstring>(Mol2 *Cmol, vector&lt; vector&lt; double &gt; &gt;xyz, string outname)</argsstring>
+        <name>write_pdb</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>outname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="49" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="164" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classQtWriter_1a255879a3ac447bd5e481042e73f33974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QtWriter::~QtWriter</definition>
+        <argsstring>(void)</argsstring>
+        <name>~QtWriter</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.cpp" bodystart="190" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" line="21" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/QtWriter.h" bodystart="21" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classQtWriter_1a82288bebcd187b80b54c2093da0ea820" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>Cmol</name></member>
+      <member refid="classQtWriter_1a2acbd598dd08378981f929a023ef5d41" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>Editor</name></member>
+      <member refid="classQtWriter_1a044bb96d71354b34c4a6ba47c3461d42" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>logfile</name></member>
+      <member refid="classQtWriter_1ab6edda21cb7821d1dd6023d89bba120d" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>QtWriter</name></member>
+      <member refid="classQtWriter_1aad5888cbfde83e9bc36e9797414eb69c" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_params</name></member>
+      <member refid="classQtWriter_1aa4424e7a6279fe116b74d06c05cb500b" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_pdb</name></member>
+      <member refid="classQtWriter_1a2dbb1745b70fefff3a5ae3984b853b4b" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_pdb</name></member>
+      <member refid="classQtWriter_1a694c77fe8d34955948b14897ddeaaf24" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_to_log</name></member>
+      <member refid="classQtWriter_1a6188e31823cda6193af9ac3632fb19db" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_to_log</name></member>
+      <member refid="classQtWriter_1a22835ce6f128702a1590381c2663e2a2" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>write_welcome</name></member>
+      <member refid="classQtWriter_1a255879a3ac447bd5e481042e73f33974" prot="public" virt="non-virtual"><scope>QtWriter</scope><name>~QtWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

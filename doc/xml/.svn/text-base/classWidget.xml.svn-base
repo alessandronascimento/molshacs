@@ -1,0 +1,887 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classWidget" kind="class" prot="public">
+    <compoundname>Widget</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classWidget_1a0a93a4023e1627e5012a031fc6aefacc" prot="public" static="no" mutable="no">
+        <type>QPlainTextEdit *</type>
+        <definition>QPlainTextEdit* Widget::Editor</definition>
+        <argsstring></argsstring>
+        <name>Editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a09f00f0fbc3d22b922509e84b987ea81" prot="public" static="no" mutable="no">
+        <type>Parser *</type>
+        <definition>Parser* Widget::INP</definition>
+        <argsstring></argsstring>
+        <name>INP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="34" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a45629192ba1de6971cdcf8b45b81ec9b" prot="public" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* Widget::editLayout</definition>
+        <argsstring></argsstring>
+        <name>editLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="36" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a2374bcd79742b94abf99da8b0bc5ab82" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Widget::mainLayout</definition>
+        <argsstring></argsstring>
+        <name>mainLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1adc38f27aed79b34f38bead7efa989e9e" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Widget::buttonLayout</definition>
+        <argsstring></argsstring>
+        <name>buttonLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="38" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a21293648a12d812b04b56a8d7304d844" prot="public" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* Widget::messageLayout</definition>
+        <argsstring></argsstring>
+        <name>messageLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ac217df23703e4dce76c4d7742bdb3b12" prot="public" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* Widget::progress_layout</definition>
+        <argsstring></argsstring>
+        <name>progress_layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="41" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a753a67afefc712f5c3056dd9441ade9b" prot="public" static="no" mutable="no">
+        <type>QProgressBar *</type>
+        <definition>QProgressBar* Widget::progressbar</definition>
+        <argsstring></argsstring>
+        <name>progressbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ab198cdba26079abfc1b314ecc78fd277" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::progress_label</definition>
+        <argsstring></argsstring>
+        <name>progress_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="43" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1af0d6ed53d3e0a901ba967357aa80cf28" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="45" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a084f923d0bf266dab89a05cacf4242e5" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Widget::rmol2</definition>
+        <argsstring></argsstring>
+        <name>rmol2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="47" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1add61f9f3c5ff4de9608b7005cf5d8108" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Widget::mol2_aa</definition>
+        <argsstring></argsstring>
+        <name>mol2_aa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a2cfb362c174e1cde878798e314d3e90f" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::mol2_aa_lab</definition>
+        <argsstring></argsstring>
+        <name>mol2_aa_lab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="49" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a5df339d0ec8237c98869aebf69606e0f" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Widget::Runbutton</definition>
+        <argsstring></argsstring>
+        <name>Runbutton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="51" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a3431d49abb146eda21ddfdab8c62fff9" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Widget::writebutton</definition>
+        <argsstring></argsstring>
+        <name>writebutton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="52" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a453d8972c193ea3b4e66ec5423dbd4b9" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::refmol_mol2_ql</definition>
+        <argsstring></argsstring>
+        <name>refmol_mol2_ql</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ac4142af3d20675c5581a0b11c7dd1923" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::refmol_inpcrd</definition>
+        <argsstring></argsstring>
+        <name>refmol_inpcrd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="55" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a0c629b003852a48f2ed2ca0e6933619d" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Widget::choose_ref_mol2</definition>
+        <argsstring></argsstring>
+        <name>choose_ref_mol2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="57" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ab8e88bc9e0262a61dddfe0698d9bb241" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::sampling_spin</definition>
+        <argsstring></argsstring>
+        <name>sampling_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="59" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a6449ac87554b5404d7e022d4821c032c" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::sampling_label</definition>
+        <argsstring></argsstring>
+        <name>sampling_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="60" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a00ac2afed9c3da6e6e2de78b48b5fbe3" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::boxsize_spin</definition>
+        <argsstring></argsstring>
+        <name>boxsize_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a37ede3dee42478fc2bb571d8a7406064" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::boxsize_label</definition>
+        <argsstring></argsstring>
+        <name>boxsize_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="63" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a47f55c3e87cc3047898ad179d7be7431" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Widget::boxsize</definition>
+        <argsstring></argsstring>
+        <name>boxsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ac59d8a367b3b89817c194260a5082e18" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::alignmol_label</definition>
+        <argsstring></argsstring>
+        <name>alignmol_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1adb5329c1d560e191801b4486b3cc7df7" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Widget::alignmol_combo</definition>
+        <argsstring></argsstring>
+        <name>alignmol_combo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="67" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a3459409639b79f130652dcf4ab46d93d" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::step_spin</definition>
+        <argsstring></argsstring>
+        <name>step_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="69" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a72a6094639c1481d935311eb750284ff" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::step_label</definition>
+        <argsstring></argsstring>
+        <name>step_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="70" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a1459e8a0ea23f9d1bf539dd873791915" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::tol_spin</definition>
+        <argsstring></argsstring>
+        <name>tol_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="72" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1abd70b8fa4d5905357a9c8d00df105551" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::tol_label</definition>
+        <argsstring></argsstring>
+        <name>tol_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="73" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ab46313837eeb06e190d05b690a80f5f3" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* Widget::ntries_spin</definition>
+        <argsstring></argsstring>
+        <name>ntries_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="75" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ac10557f564f22ebb6cca255678cb809f" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::ntries_label</definition>
+        <argsstring></argsstring>
+        <name>ntries_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="76" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a81e547e2bb2cd8cc817a35d8c9da312d" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::delta_spin</definition>
+        <argsstring></argsstring>
+        <name>delta_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="78" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ad2d7ed012f6be9d5fcb26a0656e79c21" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::delta_label</definition>
+        <argsstring></argsstring>
+        <name>delta_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="79" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a419fa4d9b4a76beaa0bbd14e248df722" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::minimizer_label</definition>
+        <argsstring></argsstring>
+        <name>minimizer_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="81" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a084da83d0943d8c68bda0bb8431568fb" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Widget::minimizer_combo</definition>
+        <argsstring></argsstring>
+        <name>minimizer_combo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="82" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1aa7028376387f2eaa10b8e1a29702e262" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* Widget::multifile_label</definition>
+        <argsstring></argsstring>
+        <name>multifile_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="84" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ab636c77944ff054738442e28d195b063" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Widget::choose_multifile</definition>
+        <argsstring></argsstring>
+        <name>choose_multifile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="85" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a92b3e6fc3aeec45d4098fc541d9719db" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::output_label</definition>
+        <argsstring></argsstring>
+        <name>output_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="87" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a6a260181fbf2f03a107ba64cb90c31bd" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* Widget::output_linedit</definition>
+        <argsstring></argsstring>
+        <name>output_linedit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="88" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a117b820531811187ffbb527c0bced7f8" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::writecoor_label</definition>
+        <argsstring></argsstring>
+        <name>writecoor_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="90" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ab8943824c96aba79dacc49dda10f2436" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* Widget::writecoor_combo</definition>
+        <argsstring></argsstring>
+        <name>writecoor_combo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="91" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a34746d0c166f4bc3337bf6544c869a03" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::timeout_label</definition>
+        <argsstring></argsstring>
+        <name>timeout_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="93" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1ac8d2e35e163d65f8f2be7885f2fee336" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* Widget::timeout_spin</definition>
+        <argsstring></argsstring>
+        <name>timeout_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="94" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1afea47794e1af453e8b1da514a558eb0c" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::elecscale_label</definition>
+        <argsstring></argsstring>
+        <name>elecscale_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="96" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1aff48aa4b03b8ecdeae93a0c3d324e369" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::vdwscale_label</definition>
+        <argsstring></argsstring>
+        <name>vdwscale_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="97" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1adb78ab173c1b7443096a60e7efd04ad9" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::elecscale_spin</definition>
+        <argsstring></argsstring>
+        <name>elecscale_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="98" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a4387f6259eb3ab8b7fd1182b88f6045c" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::vdwscale_spin</definition>
+        <argsstring></argsstring>
+        <name>vdwscale_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="99" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a9435891fcdf926143bdb33b630a8b78b" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::softvdw_label</definition>
+        <argsstring></argsstring>
+        <name>softvdw_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="101" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a323b9143a1abc79b4783635944b44bc8" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* Widget::softele_label</definition>
+        <argsstring></argsstring>
+        <name>softele_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="102" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a10994e5b5e5a29ccdc95381c709851de" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::soft_vdw6</definition>
+        <argsstring></argsstring>
+        <name>soft_vdw6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="103" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1a10803060b4bf4f927b7552eb6db723b4" prot="public" static="no" mutable="no">
+        <type>QDoubleSpinBox *</type>
+        <definition>QDoubleSpinBox* Widget::soft_ele6</definition>
+        <argsstring></argsstring>
+        <name>soft_ele6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="104" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWidget_1af0a6420669604b4ee48e2bc3e461a967" prot="public" static="no" mutable="no">
+        <type>RunEngine</type>
+        <definition>RunEngine Widget::SPCA</definition>
+        <argsstring></argsstring>
+        <name>SPCA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="106" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWidget_1a513ca5a28eb32deb16438eef3d53d0fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Widget::Widget</definition>
+        <argsstring>(Parser *Input, QPlainTextEdit *Ed)</argsstring>
+        <name>Widget</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>QPlainTextEdit *</type>
+          <declname>Ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="30" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="5" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classWidget_1aa24f66bcbaaec6d458b0980e8c8eae65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Widget::~Widget</definition>
+        <argsstring>()</argsstring>
+        <name>~Widget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="31" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="456" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classWidget_1a3bb8e62dcbaedaf610b883fc5f6b2e73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::set_parameters</definition>
+        <argsstring>(void)</argsstring>
+        <name>set_parameters</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="108" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="383" bodyend="454"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classWidget_1a9c9e275550adac035842e67e10917553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::write_inp_file</definition>
+        <argsstring>(void)</argsstring>
+        <name>write_inp_file</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="111" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="227" bodyend="380"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classWidget_1a94c61bbeaa08f792dbfd3e79d012cbf1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::choose_ref_mol2_file</definition>
+        <argsstring>(void)</argsstring>
+        <name>choose_ref_mol2_file</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="114" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="207" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWidget_1a03427b8edab950b6e843e01ae95efd67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::choose_dat_file</definition>
+        <argsstring>(void)</argsstring>
+        <name>choose_dat_file</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="115" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="213" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWidget_1aae131e90bd10ce7c9b737905182f014b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::choose_comparing_mol2</definition>
+        <argsstring>(void)</argsstring>
+        <name>choose_comparing_mol2</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="116" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="219" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWidget_1acafb90287c612fb50b983305f8d2c283" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Widget::run</definition>
+        <argsstring>(void)</argsstring>
+        <name>run</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="117" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.cpp" bodystart="460" bodyend="463"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" line="26" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/Widget.h" bodystart="25" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classWidget_1adb5329c1d560e191801b4486b3cc7df7" prot="public" virt="non-virtual"><scope>Widget</scope><name>alignmol_combo</name></member>
+      <member refid="classWidget_1ac59d8a367b3b89817c194260a5082e18" prot="public" virt="non-virtual"><scope>Widget</scope><name>alignmol_label</name></member>
+      <member refid="classWidget_1a47f55c3e87cc3047898ad179d7be7431" prot="public" virt="non-virtual"><scope>Widget</scope><name>boxsize</name></member>
+      <member refid="classWidget_1a37ede3dee42478fc2bb571d8a7406064" prot="public" virt="non-virtual"><scope>Widget</scope><name>boxsize_label</name></member>
+      <member refid="classWidget_1a00ac2afed9c3da6e6e2de78b48b5fbe3" prot="public" virt="non-virtual"><scope>Widget</scope><name>boxsize_spin</name></member>
+      <member refid="classWidget_1adc38f27aed79b34f38bead7efa989e9e" prot="public" virt="non-virtual"><scope>Widget</scope><name>buttonLayout</name></member>
+      <member refid="classWidget_1aae131e90bd10ce7c9b737905182f014b" prot="private" virt="non-virtual"><scope>Widget</scope><name>choose_comparing_mol2</name></member>
+      <member refid="classWidget_1a03427b8edab950b6e843e01ae95efd67" prot="private" virt="non-virtual"><scope>Widget</scope><name>choose_dat_file</name></member>
+      <member refid="classWidget_1ab636c77944ff054738442e28d195b063" prot="public" virt="non-virtual"><scope>Widget</scope><name>choose_multifile</name></member>
+      <member refid="classWidget_1a0c629b003852a48f2ed2ca0e6933619d" prot="public" virt="non-virtual"><scope>Widget</scope><name>choose_ref_mol2</name></member>
+      <member refid="classWidget_1a94c61bbeaa08f792dbfd3e79d012cbf1" prot="private" virt="non-virtual"><scope>Widget</scope><name>choose_ref_mol2_file</name></member>
+      <member refid="classWidget_1ad2d7ed012f6be9d5fcb26a0656e79c21" prot="public" virt="non-virtual"><scope>Widget</scope><name>delta_label</name></member>
+      <member refid="classWidget_1a81e547e2bb2cd8cc817a35d8c9da312d" prot="public" virt="non-virtual"><scope>Widget</scope><name>delta_spin</name></member>
+      <member refid="classWidget_1af0d6ed53d3e0a901ba967357aa80cf28" prot="public" virt="non-virtual"><scope>Widget</scope><name>done</name></member>
+      <member refid="classWidget_1a45629192ba1de6971cdcf8b45b81ec9b" prot="public" virt="non-virtual"><scope>Widget</scope><name>editLayout</name></member>
+      <member refid="classWidget_1a0a93a4023e1627e5012a031fc6aefacc" prot="public" virt="non-virtual"><scope>Widget</scope><name>Editor</name></member>
+      <member refid="classWidget_1afea47794e1af453e8b1da514a558eb0c" prot="public" virt="non-virtual"><scope>Widget</scope><name>elecscale_label</name></member>
+      <member refid="classWidget_1adb78ab173c1b7443096a60e7efd04ad9" prot="public" virt="non-virtual"><scope>Widget</scope><name>elecscale_spin</name></member>
+      <member refid="classWidget_1a09f00f0fbc3d22b922509e84b987ea81" prot="public" virt="non-virtual"><scope>Widget</scope><name>INP</name></member>
+      <member refid="classWidget_1a2374bcd79742b94abf99da8b0bc5ab82" prot="public" virt="non-virtual"><scope>Widget</scope><name>mainLayout</name></member>
+      <member refid="classWidget_1a21293648a12d812b04b56a8d7304d844" prot="public" virt="non-virtual"><scope>Widget</scope><name>messageLayout</name></member>
+      <member refid="classWidget_1a084da83d0943d8c68bda0bb8431568fb" prot="public" virt="non-virtual"><scope>Widget</scope><name>minimizer_combo</name></member>
+      <member refid="classWidget_1a419fa4d9b4a76beaa0bbd14e248df722" prot="public" virt="non-virtual"><scope>Widget</scope><name>minimizer_label</name></member>
+      <member refid="classWidget_1add61f9f3c5ff4de9608b7005cf5d8108" prot="public" virt="non-virtual"><scope>Widget</scope><name>mol2_aa</name></member>
+      <member refid="classWidget_1a2cfb362c174e1cde878798e314d3e90f" prot="public" virt="non-virtual"><scope>Widget</scope><name>mol2_aa_lab</name></member>
+      <member refid="classWidget_1aa7028376387f2eaa10b8e1a29702e262" prot="public" virt="non-virtual"><scope>Widget</scope><name>multifile_label</name></member>
+      <member refid="classWidget_1ac10557f564f22ebb6cca255678cb809f" prot="public" virt="non-virtual"><scope>Widget</scope><name>ntries_label</name></member>
+      <member refid="classWidget_1ab46313837eeb06e190d05b690a80f5f3" prot="public" virt="non-virtual"><scope>Widget</scope><name>ntries_spin</name></member>
+      <member refid="classWidget_1a92b3e6fc3aeec45d4098fc541d9719db" prot="public" virt="non-virtual"><scope>Widget</scope><name>output_label</name></member>
+      <member refid="classWidget_1a6a260181fbf2f03a107ba64cb90c31bd" prot="public" virt="non-virtual"><scope>Widget</scope><name>output_linedit</name></member>
+      <member refid="classWidget_1ab198cdba26079abfc1b314ecc78fd277" prot="public" virt="non-virtual"><scope>Widget</scope><name>progress_label</name></member>
+      <member refid="classWidget_1ac217df23703e4dce76c4d7742bdb3b12" prot="public" virt="non-virtual"><scope>Widget</scope><name>progress_layout</name></member>
+      <member refid="classWidget_1a753a67afefc712f5c3056dd9441ade9b" prot="public" virt="non-virtual"><scope>Widget</scope><name>progressbar</name></member>
+      <member refid="classWidget_1ac4142af3d20675c5581a0b11c7dd1923" prot="public" virt="non-virtual"><scope>Widget</scope><name>refmol_inpcrd</name></member>
+      <member refid="classWidget_1a453d8972c193ea3b4e66ec5423dbd4b9" prot="public" virt="non-virtual"><scope>Widget</scope><name>refmol_mol2_ql</name></member>
+      <member refid="classWidget_1a084f923d0bf266dab89a05cacf4242e5" prot="public" virt="non-virtual"><scope>Widget</scope><name>rmol2</name></member>
+      <member refid="classWidget_1acafb90287c612fb50b983305f8d2c283" prot="private" virt="non-virtual"><scope>Widget</scope><name>run</name></member>
+      <member refid="classWidget_1a5df339d0ec8237c98869aebf69606e0f" prot="public" virt="non-virtual"><scope>Widget</scope><name>Runbutton</name></member>
+      <member refid="classWidget_1a6449ac87554b5404d7e022d4821c032c" prot="public" virt="non-virtual"><scope>Widget</scope><name>sampling_label</name></member>
+      <member refid="classWidget_1ab8e88bc9e0262a61dddfe0698d9bb241" prot="public" virt="non-virtual"><scope>Widget</scope><name>sampling_spin</name></member>
+      <member refid="classWidget_1a3bb8e62dcbaedaf610b883fc5f6b2e73" prot="public" virt="non-virtual"><scope>Widget</scope><name>set_parameters</name></member>
+      <member refid="classWidget_1a10803060b4bf4f927b7552eb6db723b4" prot="public" virt="non-virtual"><scope>Widget</scope><name>soft_ele6</name></member>
+      <member refid="classWidget_1a10994e5b5e5a29ccdc95381c709851de" prot="public" virt="non-virtual"><scope>Widget</scope><name>soft_vdw6</name></member>
+      <member refid="classWidget_1a323b9143a1abc79b4783635944b44bc8" prot="public" virt="non-virtual"><scope>Widget</scope><name>softele_label</name></member>
+      <member refid="classWidget_1a9435891fcdf926143bdb33b630a8b78b" prot="public" virt="non-virtual"><scope>Widget</scope><name>softvdw_label</name></member>
+      <member refid="classWidget_1af0a6420669604b4ee48e2bc3e461a967" prot="public" virt="non-virtual"><scope>Widget</scope><name>SPCA</name></member>
+      <member refid="classWidget_1a72a6094639c1481d935311eb750284ff" prot="public" virt="non-virtual"><scope>Widget</scope><name>step_label</name></member>
+      <member refid="classWidget_1a3459409639b79f130652dcf4ab46d93d" prot="public" virt="non-virtual"><scope>Widget</scope><name>step_spin</name></member>
+      <member refid="classWidget_1a34746d0c166f4bc3337bf6544c869a03" prot="public" virt="non-virtual"><scope>Widget</scope><name>timeout_label</name></member>
+      <member refid="classWidget_1ac8d2e35e163d65f8f2be7885f2fee336" prot="public" virt="non-virtual"><scope>Widget</scope><name>timeout_spin</name></member>
+      <member refid="classWidget_1abd70b8fa4d5905357a9c8d00df105551" prot="public" virt="non-virtual"><scope>Widget</scope><name>tol_label</name></member>
+      <member refid="classWidget_1a1459e8a0ea23f9d1bf539dd873791915" prot="public" virt="non-virtual"><scope>Widget</scope><name>tol_spin</name></member>
+      <member refid="classWidget_1aff48aa4b03b8ecdeae93a0c3d324e369" prot="public" virt="non-virtual"><scope>Widget</scope><name>vdwscale_label</name></member>
+      <member refid="classWidget_1a4387f6259eb3ab8b7fd1182b88f6045c" prot="public" virt="non-virtual"><scope>Widget</scope><name>vdwscale_spin</name></member>
+      <member refid="classWidget_1a513ca5a28eb32deb16438eef3d53d0fd" prot="public" virt="non-virtual"><scope>Widget</scope><name>Widget</name></member>
+      <member refid="classWidget_1a9c9e275550adac035842e67e10917553" prot="public" virt="non-virtual"><scope>Widget</scope><name>write_inp_file</name></member>
+      <member refid="classWidget_1a3431d49abb146eda21ddfdab8c62fff9" prot="public" virt="non-virtual"><scope>Widget</scope><name>writebutton</name></member>
+      <member refid="classWidget_1ab8943824c96aba79dacc49dda10f2436" prot="public" virt="non-virtual"><scope>Widget</scope><name>writecoor_combo</name></member>
+      <member refid="classWidget_1a117b820531811187ffbb527c0bced7f8" prot="public" virt="non-virtual"><scope>Widget</scope><name>writecoor_label</name></member>
+      <member refid="classWidget_1aa24f66bcbaaec6d458b0980e8c8eae65" prot="public" virt="non-virtual"><scope>Widget</scope><name>~Widget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

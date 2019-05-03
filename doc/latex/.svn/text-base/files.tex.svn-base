@@ -1,0 +1,32 @@
+\section{File List}
+Here is a list of all files with brief descriptions:\begin{DoxyCompactList}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{CORREL_8cpp}{CORREL.cpp} }{\pageref{CORREL_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{CORREL_8h}{CORREL.h} }{\pageref{CORREL_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{ElSA_8h}{ElSA.h} }{\pageref{ElSA_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Gaussian_8cpp}{Gaussian.cpp} }{\pageref{Gaussian_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Gaussian_8h}{Gaussian.h} }{\pageref{Gaussian_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Grid_8cpp}{Grid.cpp} }{\pageref{Grid_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Grid_8h}{Grid.h} }{\pageref{Grid_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{main_8cpp}{main.cpp} }{\pageref{main_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{main_8h}{main.h} }{\pageref{main_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Minimizer2_8cpp}{Minimizer2.cpp} }{\pageref{Minimizer2_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Minimizer2_8h}{Minimizer2.h} }{\pageref{Minimizer2_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol_8cpp}{Mol.cpp} }{\pageref{Mol_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol_8h}{Mol.h} }{\pageref{Mol_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol2_8cpp}{Mol2.cpp} }{\pageref{Mol2_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Mol2_8h}{Mol2.h} }{\pageref{Mol2_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Parser_8cpp}{Parser.cpp} }{\pageref{Parser_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Parser_8h}{Parser.h} }{\pageref{Parser_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{RunEngine_8cpp}{RunEngine.cpp} }{\pageref{RunEngine_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{RunEngine_8h}{RunEngine.h} }{\pageref{RunEngine_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Writer_8cpp}{Writer.cpp} }{\pageref{Writer_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Writer_8h}{Writer.h} }{\pageref{Writer_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{GUI_8cpp}{GUI.cpp} }{\pageref{GUI_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{GUI_8h}{GUI.h} }{\pageref{GUI_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{plotter_8cpp}{plotter.cpp} }{\pageref{plotter_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{plotter_8h}{plotter.h} }{\pageref{plotter_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{QtWriter_8cpp}{QtWriter.cpp} }{\pageref{QtWriter_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{QtWriter_8h}{QtWriter.h} }{\pageref{QtWriter_8h}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{Widget_8cpp}{Widget.cpp} }{\pageref{Widget_8cpp}}{}
+\item\contentsline{section}{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{Widget_8h}{Widget.h} }{\pageref{Widget_8h}}{}
+\end{DoxyCompactList}

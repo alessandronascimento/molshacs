@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Minimizer2::minimize_nlopt_mma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Minimizer2::nlopt_func_gauss_density",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMinimizer2.html#a1e0732ccaf045c27bb2cc3186fddff55",tooltip="Objective function for Gaussian Shape and Charge computation."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Gaussian::compute_shape_and_charge_density",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGaussian.html#ae28140feb3ad3043854394808e97b4cf"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Gaussian::dist_squared",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGaussian.html#ae9535543b557e8481b3b7ad1e559d4c0"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Minimizer2::rototranslate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMinimizer2.html#a7bc4c2fe892e0339048d9ca7932cdf69",tooltip="Computes new coordinates after a translation and a rotation."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Minimizer2::compute_com",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMinimizer2.html#addd14de621061132835370b3d02cd405",tooltip="Computes the center of mass of a molecular system."];
+}

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classMinimizer2.html#a1e0732ccaf045c27bb2cc3186fddff55" title="Minimizer2::nlopt_func_gauss_density" alt="" coords="320,32,563,61"/>
+<area shape="rect" id="node5" href="$classGaussian.html#a5389555e41d2b9b506342dd6a3b1f7ec" title="Gaussian::compute_shape_and_charge_density" alt="" coords="612,5,911,35"/>
+<area shape="rect" id="node9" href="$classMinimizer2.html#a7bc4c2fe892e0339048d9ca7932cdf69" title="Computes new coordinates after a translation and a rotation." alt="" coords="679,59,844,88"/>
+<area shape="rect" id="node7" href="$classGaussian.html#ae9535543b557e8481b3b7ad1e559d4c0" title="Gaussian::dist_squared" alt="" coords="961,5,1119,35"/>
+</map>

@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classGUI" kind="class" prot="public">
+    <compoundname>GUI</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGUI_1a23bcccdf0605df7eff9e9e690acbfffe" prot="public" static="no" mutable="no">
+        <type>Parser *</type>
+        <definition>Parser* GUI::Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="35" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1aebedf961b466803965b1d7038d82a06f" prot="public" static="no" mutable="no">
+        <type>QPlainTextEdit *</type>
+        <definition>QPlainTextEdit* GUI::Editor</definition>
+        <argsstring></argsstring>
+        <name>Editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a5e698d5b7b11d9aa0129b0de821c9c52" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* GUI::InputFile</definition>
+        <argsstring></argsstring>
+        <name>InputFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1aad5f7c7aa36938310e748bbe46b5437c" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::InputWidget</definition>
+        <argsstring></argsstring>
+        <name>InputWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="40" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a740fd211720b3a7332993a411e9f4fc9" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* GUI::Results</definition>
+        <argsstring></argsstring>
+        <name>Results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1af49dfca8211ea42785ef715ca8414349" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::ResultsAction</definition>
+        <argsstring></argsstring>
+        <name>ResultsAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="43" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1acdfc4116fda0f3b58620cb7f041d320d" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* GUI::Graphics</definition>
+        <argsstring></argsstring>
+        <name>Graphics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="45" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1ae58c84b60a139da57bf3e826169582d7" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::GraphicsAction</definition>
+        <argsstring></argsstring>
+        <name>GraphicsAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="46" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1ade150ac697c2d6f7e4543661298c2339" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* GUI::Help</definition>
+        <argsstring></argsstring>
+        <name>Help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1ac092d41d36dd036c656ecd787be3588a" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::About_ElSA</definition>
+        <argsstring></argsstring>
+        <name>About_ElSA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="49" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a14bef0e73a4d970df0f2c524af3141c9" prot="public" static="no" mutable="no">
+        <type>QMessageBox *</type>
+        <definition>QMessageBox* GUI::ElSA_Message</definition>
+        <argsstring></argsstring>
+        <name>ElSA_Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a3a0a9d222c3cc47377bd2c9fde788602" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::About_Qt</definition>
+        <argsstring></argsstring>
+        <name>About_Qt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="51" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1aec92e0f1f7459d88ba3bb91022682597" prot="public" static="no" mutable="no">
+        <type>QMenu *</type>
+        <definition>QMenu* GUI::Exit</definition>
+        <argsstring></argsstring>
+        <name>Exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="53" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a4f15ddd21a82be923b234d1c79ca76ea" prot="public" static="no" mutable="no">
+        <type>QAction *</type>
+        <definition>QAction* GUI::ExitAction</definition>
+        <argsstring></argsstring>
+        <name>ExitAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a8681b53347b263f7408ca638f7d51f46" prot="public" static="no" mutable="no">
+        <type>QTabWidget *</type>
+        <definition>QTabWidget* GUI::tabwidget</definition>
+        <argsstring></argsstring>
+        <name>tabwidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="56" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1ab3e72f6946f0ff407d4415032c4a2644" prot="public" static="no" mutable="no">
+        <type>QDockWidget *</type>
+        <definition>QDockWidget* GUI::DockEditor</definition>
+        <argsstring></argsstring>
+        <name>DockEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="58" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1ac324631e6e509d6fcb9bacb7a369a338" prot="public" static="no" mutable="no">
+        <type>QTextBrowser *</type>
+        <definition>QTextBrowser* GUI::ResultsText</definition>
+        <argsstring></argsstring>
+        <name>ResultsText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="60" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1aa77770f0508da22bc8020dbf9996f2aa" prot="public" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* GUI::childWildget</definition>
+        <argsstring></argsstring>
+        <name>childWildget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1a7bb052c7feeae26ac35089086a39f1f0" prot="public" static="no" mutable="no">
+        <type>Widget *</type>
+        <definition>Widget* GUI::WInput</definition>
+        <argsstring></argsstring>
+        <name>WInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGUI_1aebe88ce4da6a85e88795904312014c57" prot="public" static="no" mutable="no">
+        <type>RunEngine</type>
+        <definition>RunEngine GUI::SPCA</definition>
+        <argsstring></argsstring>
+        <name>SPCA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGUI_1a8a4d8b5e6c5573bad1ee290057daa1c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUI::GUI</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>GUI</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="31" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="5" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classGUI_1ac9cae2328dcb5d83bdfaeca49a2eb695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUI::~GUI</definition>
+        <argsstring>()</argsstring>
+        <name>~GUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="32" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classGUI_1a4dea1ac02163a2b98153c90cbf843e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::createActions</definition>
+        <argsstring>()</argsstring>
+        <name>createActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="34" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="15" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classGUI_1a793993fb8d09d4bbfde2bba4394f6f42" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::openInputWidget</definition>
+        <argsstring>()</argsstring>
+        <name>openInputWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="72" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="slot" id="classGUI_1aa5d8baa6e33f54e0b06a6e88225bad98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::ViewResults</definition>
+        <argsstring>()</argsstring>
+        <name>ViewResults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="73" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="83" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="slot" id="classGUI_1a8a68124ff4791c4807bfa5b6793b0dc5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::GraphResult</definition>
+        <argsstring>()</argsstring>
+        <name>GraphResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="74" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="slot" id="classGUI_1abb7f5b41ebe5f97a44b2ee4d504e0e2d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::RunEng</definition>
+        <argsstring>()</argsstring>
+        <name>RunEng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="75" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="slot" id="classGUI_1a55f8dc18b234b108d0a7109c216ba781" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::closethistab</definition>
+        <argsstring>(int tindex)</argsstring>
+        <name>closethistab</name>
+        <param>
+          <type>int</type>
+          <declname>tindex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="76" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="slot" id="classGUI_1af458ebcd920d0daaa31e35f021198e3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUI::about_elsa</definition>
+        <argsstring>()</argsstring>
+        <name>about_elsa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="77" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp" bodystart="113" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" line="27" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.h" bodystart="26" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classGUI_1ac092d41d36dd036c656ecd787be3588a" prot="public" virt="non-virtual"><scope>GUI</scope><name>About_ElSA</name></member>
+      <member refid="classGUI_1af458ebcd920d0daaa31e35f021198e3c" prot="private" virt="non-virtual"><scope>GUI</scope><name>about_elsa</name></member>
+      <member refid="classGUI_1a3a0a9d222c3cc47377bd2c9fde788602" prot="public" virt="non-virtual"><scope>GUI</scope><name>About_Qt</name></member>
+      <member refid="classGUI_1aa77770f0508da22bc8020dbf9996f2aa" prot="public" virt="non-virtual"><scope>GUI</scope><name>childWildget</name></member>
+      <member refid="classGUI_1a55f8dc18b234b108d0a7109c216ba781" prot="private" virt="non-virtual"><scope>GUI</scope><name>closethistab</name></member>
+      <member refid="classGUI_1a4dea1ac02163a2b98153c90cbf843e5c" prot="public" virt="non-virtual"><scope>GUI</scope><name>createActions</name></member>
+      <member refid="classGUI_1ab3e72f6946f0ff407d4415032c4a2644" prot="public" virt="non-virtual"><scope>GUI</scope><name>DockEditor</name></member>
+      <member refid="classGUI_1aebedf961b466803965b1d7038d82a06f" prot="public" virt="non-virtual"><scope>GUI</scope><name>Editor</name></member>
+      <member refid="classGUI_1a14bef0e73a4d970df0f2c524af3141c9" prot="public" virt="non-virtual"><scope>GUI</scope><name>ElSA_Message</name></member>
+      <member refid="classGUI_1aec92e0f1f7459d88ba3bb91022682597" prot="public" virt="non-virtual"><scope>GUI</scope><name>Exit</name></member>
+      <member refid="classGUI_1a4f15ddd21a82be923b234d1c79ca76ea" prot="public" virt="non-virtual"><scope>GUI</scope><name>ExitAction</name></member>
+      <member refid="classGUI_1acdfc4116fda0f3b58620cb7f041d320d" prot="public" virt="non-virtual"><scope>GUI</scope><name>Graphics</name></member>
+      <member refid="classGUI_1ae58c84b60a139da57bf3e826169582d7" prot="public" virt="non-virtual"><scope>GUI</scope><name>GraphicsAction</name></member>
+      <member refid="classGUI_1a8a68124ff4791c4807bfa5b6793b0dc5" prot="private" virt="non-virtual"><scope>GUI</scope><name>GraphResult</name></member>
+      <member refid="classGUI_1a8a4d8b5e6c5573bad1ee290057daa1c5" prot="public" virt="non-virtual"><scope>GUI</scope><name>GUI</name></member>
+      <member refid="classGUI_1ade150ac697c2d6f7e4543661298c2339" prot="public" virt="non-virtual"><scope>GUI</scope><name>Help</name></member>
+      <member refid="classGUI_1a23bcccdf0605df7eff9e9e690acbfffe" prot="public" virt="non-virtual"><scope>GUI</scope><name>Input</name></member>
+      <member refid="classGUI_1a5e698d5b7b11d9aa0129b0de821c9c52" prot="public" virt="non-virtual"><scope>GUI</scope><name>InputFile</name></member>
+      <member refid="classGUI_1aad5f7c7aa36938310e748bbe46b5437c" prot="public" virt="non-virtual"><scope>GUI</scope><name>InputWidget</name></member>
+      <member refid="classGUI_1a793993fb8d09d4bbfde2bba4394f6f42" prot="private" virt="non-virtual"><scope>GUI</scope><name>openInputWidget</name></member>
+      <member refid="classGUI_1a740fd211720b3a7332993a411e9f4fc9" prot="public" virt="non-virtual"><scope>GUI</scope><name>Results</name></member>
+      <member refid="classGUI_1af49dfca8211ea42785ef715ca8414349" prot="public" virt="non-virtual"><scope>GUI</scope><name>ResultsAction</name></member>
+      <member refid="classGUI_1ac324631e6e509d6fcb9bacb7a369a338" prot="public" virt="non-virtual"><scope>GUI</scope><name>ResultsText</name></member>
+      <member refid="classGUI_1abb7f5b41ebe5f97a44b2ee4d504e0e2d" prot="private" virt="non-virtual"><scope>GUI</scope><name>RunEng</name></member>
+      <member refid="classGUI_1aebe88ce4da6a85e88795904312014c57" prot="public" virt="non-virtual"><scope>GUI</scope><name>SPCA</name></member>
+      <member refid="classGUI_1a8681b53347b263f7408ca638f7d51f46" prot="public" virt="non-virtual"><scope>GUI</scope><name>tabwidget</name></member>
+      <member refid="classGUI_1aa5d8baa6e33f54e0b06a6e88225bad98" prot="private" virt="non-virtual"><scope>GUI</scope><name>ViewResults</name></member>
+      <member refid="classGUI_1a7bb052c7feeae26ac35089086a39f1f0" prot="public" virt="non-virtual"><scope>GUI</scope><name>WInput</name></member>
+      <member refid="classGUI_1ac9cae2328dcb5d83bdfaeca49a2eb695" prot="public" virt="non-virtual"><scope>GUI</scope><name>~GUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Gaussian_8h" kind="file">
+    <compoundname>Gaussian.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">ctime</includes>
+    <includes local="no">vector</includes>
+    <includes refid="Mol2_8h" local="yes">Mol2.h</includes>
+    <includes refid="ElSA_8h" local="yes">ElSA.h</includes>
+    <includedby refid="Gaussian_8cpp" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp</includedby>
+    <includedby refid="Minimizer2_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h</includedby>
+    <includedby refid="RunEngine_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h</includedby>
+    <incdepgraph>
+      <node id="14">
+        <label>/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h</label>
+        <link refid="Gaussian.h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>cmath</label>
+      </node>
+      <node id="18">
+        <label>ctime</label>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="16">
+        <label>iostream</label>
+      </node>
+      <node id="15">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classGaussian" prot="public">Gaussian</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Gaussian.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>18/11/2011</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Nascimento</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GAUSSIAN_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GAUSSIAN_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;Mol2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;ElSA.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Gaussian<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pi,<sp/>pj,<sp/>dij2;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha_i,<sp/>alpha_j;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clock_t<sp/>time0,<sp/>time1;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gaussian(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gaussian(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Vab);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gaussian(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Vab);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_si(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_si(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_si_pos_charges(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_si_neg_charges(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_shape_density(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_shape_density(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_shape_density(Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_positive_charge_density(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_positive_charge_density(Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_negative_charge_density(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_negative_charge_density(Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>compute_shape_and_charge_density(Mol2*<sp/>RefMol,<sp/>Mol2*<sp/>CompMol,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/>xyz);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dist_squared(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z2);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~Gaussian();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>GAUSSIAN_H_<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h"/>
+  </compounddef>
+</doxygen>

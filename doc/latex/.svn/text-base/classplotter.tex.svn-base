@@ -1,0 +1,108 @@
+\hypertarget{classplotter}{
+\section{plotter Class Reference}
+\label{classplotter}\index{plotter@{plotter}}
+}
+
+
+{\ttfamily \#include $<$plotter.h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \hyperlink{classplotter_a835971f15f6e1d13cc937e0148fa5e05a09c07970f1030dd3a110bed7c1ddda89}{Margin} =  50
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classplotter_ac2c97e06fd82a35453851f507c366eb7}{plotter} (QWidget $\ast$parent=0)
+\item 
+\hyperlink{classplotter_afd88fcbc5b6eacac3a72697a3d1cab8d}{$\sim$plotter} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ double $>$ \hyperlink{classplotter_a4c6ee2390dfa3557b08631bf1ecb35f1}{x}
+\item 
+vector$<$ double $>$ \hyperlink{classplotter_a64f92ea6035560769da7394ee5b5f0db}{fmin}
+\item 
+vector$<$ double $>$ \hyperlink{classplotter_a7cfad03a29e1eec67a4d7d1021da3aee}{si}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classplotter_ac1fd83a3a57494cdacbe03fa28c98ce5}{paintEvent} (QPaintEvent $\ast$event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classplotter_a835971f15f6e1d13cc937e0148fa5e05}{
+\subsubsection[{"@0}]{\setlength{\rightskip}{0pt plus 5cm}anonymous enum}}
+\label{classplotter_a835971f15f6e1d13cc937e0148fa5e05}
+\begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{Margin@{Margin}!plotter@{plotter}}\index{plotter@{plotter}!Margin@{Margin}}\item[{\em 
+\hypertarget{classplotter_a835971f15f6e1d13cc937e0148fa5e05a09c07970f1030dd3a110bed7c1ddda89}{
+Margin}
+\label{classplotter_a835971f15f6e1d13cc937e0148fa5e05a09c07970f1030dd3a110bed7c1ddda89}
+}]\end{description}
+\end{Desc}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classplotter_ac2c97e06fd82a35453851f507c366eb7}{
+\index{plotter@{plotter}!plotter@{plotter}}
+\index{plotter@{plotter}!plotter@{plotter}}
+\subsubsection[{plotter}]{\setlength{\rightskip}{0pt plus 5cm}plotter::plotter (
+\begin{DoxyParamCaption}
+\item[{QWidget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}
+\label{classplotter_ac2c97e06fd82a35453851f507c366eb7}
+\hypertarget{classplotter_afd88fcbc5b6eacac3a72697a3d1cab8d}{
+\index{plotter@{plotter}!$\sim$plotter@{$\sim$plotter}}
+\index{$\sim$plotter@{$\sim$plotter}!plotter@{plotter}}
+\subsubsection[{$\sim$plotter}]{\setlength{\rightskip}{0pt plus 5cm}plotter::$\sim$plotter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classplotter_afd88fcbc5b6eacac3a72697a3d1cab8d}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classplotter_ac1fd83a3a57494cdacbe03fa28c98ce5}{
+\index{plotter@{plotter}!paintEvent@{paintEvent}}
+\index{paintEvent@{paintEvent}!plotter@{plotter}}
+\subsubsection[{paintEvent}]{\setlength{\rightskip}{0pt plus 5cm}void plotter::paintEvent (
+\begin{DoxyParamCaption}
+\item[{QPaintEvent $\ast$}]{event}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classplotter_ac1fd83a3a57494cdacbe03fa28c98ce5}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classplotter_a64f92ea6035560769da7394ee5b5f0db}{
+\index{plotter@{plotter}!fmin@{fmin}}
+\index{fmin@{fmin}!plotter@{plotter}}
+\subsubsection[{fmin}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf plotter::fmin}}}
+\label{classplotter_a64f92ea6035560769da7394ee5b5f0db}
+\hypertarget{classplotter_a7cfad03a29e1eec67a4d7d1021da3aee}{
+\index{plotter@{plotter}!si@{si}}
+\index{si@{si}!plotter@{plotter}}
+\subsubsection[{si}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf plotter::si}}}
+\label{classplotter_a7cfad03a29e1eec67a4d7d1021da3aee}
+\hypertarget{classplotter_a4c6ee2390dfa3557b08631bf1ecb35f1}{
+\index{plotter@{plotter}!x@{x}}
+\index{x@{x}!plotter@{plotter}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf plotter::x}}}
+\label{classplotter_a4c6ee2390dfa3557b08631bf1ecb35f1}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{plotter_8h}{plotter.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{plotter_8cpp}{plotter.cpp}\end{DoxyCompactItemize}

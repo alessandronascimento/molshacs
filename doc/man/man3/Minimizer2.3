@@ -1,0 +1,423 @@
+.TH "Minimizer2" 3 "29 Nov 2011" "Version 0.1" "ElSA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Minimizer2 \- 
+.PP
+Class \fBMinimizer2\fP.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Minimizer2.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMinimizer2\fP (Mol2 *_Cmol, Parser *_Input, Grid *_Cgrid, vector< double > _elec_potential, vector< double > _rep_potential)"
+.br
+.ti -1c
+.RI "double \fBminimize_lbfgs2_elec_plus_vdw\fP (void)"
+.br
+.ti -1c
+.RI "double \fBminimize_conjugate_gradient_elec_plus_vdw\fP (void)"
+.br
+.ti -1c
+.RI "double \fBminimize_simplex_elec_plus_vdw\fP (void)"
+.br
+.ti -1c
+.RI "double \fBtest_alpha_gradient\fP (double alpha)"
+.br
+.RI "\fIFor test purposes only. Computes the gradient for variations in alpha. \fP"
+.ti -1c
+.RI "double \fBtest_alpha_function\fP (double alpha)"
+.br
+.RI "\fIFor test purposes only. Computes the objective function for variations in alpha. \fP"
+.ti -1c
+.RI "double \fBminimize_nlopt_auglag\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_mma\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_isres\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_subplex\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_simplex\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_bfgs2\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_stogo\fP ()"
+.br
+.ti -1c
+.RI "double \fBminimize_nlopt_direct\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static double \fBdist\fP (double x1, double x2, double y1, double y2, double z1, double z2)"
+.br
+.RI "\fIThis function computes the distance among two atoms. \fP"
+.ti -1c
+.RI "static vector< vector< double > > \fBcompute_grid_elec_plus_vdw\fP (vector< vector< double > >xyz, Mol2 *\fBCmol\fP, Grid *\fBCgrid\fP, Parser *\fBInput\fP)"
+.br
+.RI "\fIComputes the electrostatic and the vdw grids at once for a molecule. \fP"
+.ti -1c
+.RI "static vector< vector< double > > \fBrototranslate\fP (Mol2 *\fBCmol\fP, vector< vector< double > >xyz, double alpha, double beta, double gamma, double transx, double transy, double transz)"
+.br
+.RI "\fIComputes new coordinates after a translation and a rotation. \fP"
+.ti -1c
+.RI "static double \fBcompute_diff_elec_plus_vdw\fP (vector< double > \fBelec_potential\fP, vector< double > \fBrep_potential\fP, vector< double > \fBelec\fP, vector< double > vdw, Parser *\fBInput\fP)"
+.br
+.RI "\fIComputes the objective function. \fP"
+.ti -1c
+.RI "static double \fBdiff_function_ele_vdw\fP (const gsl_vector *v, void *params)"
+.br
+.RI "\fIGSL function to evaluate the objective function. \fP"
+.ti -1c
+.RI "static void \fBdiff_gradient_elec_plus_vdw\fP (const gsl_vector *v, void *params, gsl_vector *df)"
+.br
+.RI "\fIComputes the gradient for GSL functions. \fP"
+.ti -1c
+.RI "static void \fBdiff_function_and_gradient_elec_plus_vdw\fP (const gsl_vector *\fBx\fP, void *params, double *f, gsl_vector *df)"
+.br
+.RI "\fIComputes function and gradient and once. \fP"
+.ti -1c
+.RI "static double \fBnlopt_func_elec_plus_vdw\fP (const vector< double > &\fBx\fP, vector< double > &grad, void *data)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static Mol2 * \fBCmol\fP"
+.br
+.RI "\fIPointer to the MOL Class. \fP"
+.ti -1c
+.RI "static Grid * \fBCgrid\fP"
+.br
+.RI "\fIPointer to the GRID Class. \fP"
+.ti -1c
+.RI "static Parser * \fBInput\fP"
+.br
+.RI "\fIPointer to the INPUT Class. \fP"
+.ti -1c
+.RI "static vector< double > \fBrep_potential\fP"
+.br
+.RI "\fIVDW Repulsive potential for the reference molecule as computed in the main program. \fP"
+.ti -1c
+.RI "static vector< double > \fBelec_potential\fP"
+.br
+.RI "\fIElectrostatic potential for the reference molecule. \fP"
+.ti -1c
+.RI "static vector< double > \fBcurrent_elec\fP"
+.br
+.RI "\fIElectrostatic potential of the 'comparison' molecule. \fP"
+.ti -1c
+.RI "static vector< double > \fBcurrent_vdw\fP"
+.br
+.RI "\fIVDW Repulsive potential of the 'comparison' molecule. \fP"
+.ti -1c
+.RI "static double \fBelec\fP"
+.br
+.RI "\fIElectrostatic potential in a grid point. \fP"
+.ti -1c
+.RI "static double \fBx\fP"
+.br
+.RI "\fIx, y and z coordinates \fP"
+.ti -1c
+.RI "static double \fBr\fP"
+.br
+.RI "\fIDistance r among two atoms;. \fP"
+.ti -1c
+.RI "static double \fBsum_diff\fP"
+.br
+.RI "\fISum of differeces in objective function computation. \fP"
+.ti -1c
+.RI "static vector< vector< double > > \fBnew_xyz\fP"
+.br
+.RI "\fIRototranslated coordinates. \fP"
+.ti -1c
+.RI "static vector< vector< double > > \fBelec_plus_vdw_grids\fP"
+.br
+.RI "\fIVector of vectors containing current_elec and current_vdw. \fP"
+.ti -1c
+.RI "static double \fBt1\fP"
+.br
+.RI "\fIObjective function value. \fP"
+.ti -1c
+.RI "static double \fBf_minimum\fP"
+.br
+.RI "\fIMinimum of the objective function reached after minimization. \fP"
+.ti -1c
+.RI "static int \fBstatus\fP"
+.br
+.RI "\fIStatus of the minimizer. \fP"
+.ti -1c
+.RI "static clock_t \fBtime0\fP"
+.br
+.RI "\fITimer for minimization functions. \fP"
+.ti -1c
+.RI "static double \fBtime_elapsed\fP"
+.br
+.RI "\fITime elapsed for minimization procedure. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class \fBMinimizer2\fP. 
+
+This is the second version of the Minimizer Class. This Class has buit-in functions to handle the minimization of a objective function f that has as parameters three rotation angles (Euler angles) and translation in cartesian axis x, y and z. The function f(a,b,g,x,y,z) is minimized using different algorithms provided here by both GNU Scientific Library (GSL) and (LGPL) NLOPT (Steven G. Johnson, The NLopt nonlinear-optimization package, http://ab-initio.mit.edu/nlopt). 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Minimizer2::Minimizer2 (Mol2 * _Cmol, Parser * _Input, Grid * _Cgrid, vector< double > _elec_potential, vector< double > _rep_potential)"Class Constructor. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_Cmol\fP MOL Class pointer passed as a parameter 
+.br
+\fI_Input\fP PARSER Class pointer passed as a parameter 
+.br
+\fI_CGrid\fP GRID Class pointer passed as parameter 
+.br
+\fI_elec_potential\fP reference molecule electrostatic potential 
+.br
+\fI_rep_potential\fP reference molecule VDW repulsive potential 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "double Minimizer2::compute_diff_elec_plus_vdw (vector< double > elec_potential, vector< double > rep_potential, vector< double > elec, vector< double > vdw, Parser * Input)\fC [static]\fP"
+.PP
+Computes the objective function. The objective function is defined as: $ f = \sum{( ES*\sqrt{(E_c-E_r)^2} )+( VS*\sqrt{(V_c-V_r)^2} )} $ where ES is the electrostatic scale, VS is the VDW scale, Ec and Er are each grid point of the electrostic potential for comparing and reference molecule Vc and Vr are each grid point of the vdw repulsive potential for comparing and reference molecule 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIelec_potential\fP Electrostatic potential of the 'reference' molecule 
+.br
+\fIrep_potential\fP VDW Repulsive potential of the 'reference' molecule 
+.br
+\fIelec\fP Electrostatic potential of the 'comparing' molecule 
+.br
+\fIvdw\fP VDW repulsive potential of the 'comparing' molecule 
+.br
+\fIInput\fP Pointer to the class PARSER with scaling parameters 
+.RE
+.PP
+
+.SS "vector< vector< double > > Minimizer2::compute_grid_elec_plus_vdw (vector< vector< double > > xyz, Mol2 * Cmol, Grid * Cgrid, Parser * Input)\fC [static]\fP"
+.PP
+Computes the electrostatic and the vdw grids at once for a molecule. \fBParameters:\fP
+.RS 4
+\fIxyz\fP Cartesian pointer coordinates of the molecule 
+.br
+\fICmol\fP MOL Class pointer with molecule parameters (charges, atomic radii, etc) 
+.br
+\fICgrid\fP GRID Class pointer with grid computation parameter (limits of the computation box) 
+.br
+\fIInput\fP PARSER Class pointer with sampling rate. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A vector with two other vectors. The first one with the electrostatic potential and the second one with vdw repulsive grid. 
+.RE
+.PP
+
+.SS "double Minimizer2::diff_function_ele_vdw (const gsl_vector * v, void * params)\fC [static]\fP"
+.PP
+GSL function to evaluate the objective function. \fBParameters:\fP
+.RS 4
+\fIv\fP values for a, b, g, x, y and z 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The objective function value 
+.RE
+.PP
+
+.SS "void Minimizer2::diff_gradient_elec_plus_vdw (const gsl_vector * v, void * params, gsl_vector * df)\fC [static]\fP"
+.PP
+Computes the gradient for GSL functions. \fBParameters:\fP
+.RS 4
+\fIv\fP GSL vevtor with the parameters to be minimized. 
+.br
+\fIdf\fP GSL vector with computed gradients 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Nothing. 
+.RE
+.PP
+
+.SS "double Minimizer2::dist (double x1, double x2, double y1, double y2, double z1, double z2)\fC [static]\fP"
+.PP
+This function computes the distance among two atoms. $(d_12)$ = $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$ 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx1\fP X coordinate of the first atom 
+.br
+\fIx2\fP X coordinate of the second atom 
+.br
+\fIy1\fP Y coordinate of the first atom 
+.br
+\fIy2\fP Y coordinate of the second atom 
+.br
+\fIz1\fP Z coordinate of the first atom 
+.br
+\fIz2\fP Z coordinate of the second atom 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The distance. 
+.RE
+.PP
+
+.SS "double Minimizer2::minimize_conjugate_gradient_elec_plus_vdw (void)"Minimizing the objective function using conjugate gradient minimizer implemented in GSL 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function 
+.RE
+.PP
+
+.SS "double Minimizer2::minimize_lbfgs2_elec_plus_vdw (void)"Minimizing the objective function using bfgs minimizer implemented in GSL 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function 
+.RE
+.PP
+
+.SS "double Minimizer2::minimize_nlopt_auglag ()"Minimizes the objective function using Augmented Lagrangian as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_bfgs2 ()"Minimizes the objective function using BFGS as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_direct ()"
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_isres ()"Minimizes the objective function using Improved Stochastic Ranking Evolution Strategy as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_mma ()"Minimizes the objective function using the method of moving asymptotes as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_simplex ()"Minimizes the objective function using Simplex as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_stogo ()"
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_nlopt_subplex ()"Minimizes the objective function using Subplex as implemented in NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function reached 
+.RE
+.PP
+
+.PP
+Defining a timeout 
+.SS "double Minimizer2::minimize_simplex_elec_plus_vdw (void)"Minimizing the objective function using Nelder-Mead Simplex minimizer implemented in GSL 
+.PP
+\fBReturns:\fP
+.RS 4
+the minimum value of the objective function 
+.RE
+.PP
+
+.SS "static double Minimizer2::nlopt_func_elec_plus_vdw (const vector< double > & x, vector< double > & grad, void * data)\fC [static]\fP"Computes the objective function and gradient to minimize using NLOPT 
+.PP
+\fBReturns:\fP
+.RS 4
+the the value of the objective function 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP C++ vector with the 6 parameters to be minimized 
+.br
+\fIgrad\fP C++ vector with the gradient for each variable 
+.RE
+.PP
+
+.SS "vector< vector< double > > Minimizer2::rototranslate (Mol2 * Cmol, vector< vector< double > > xyz, double alpha, double beta, double gamma, double transx, double transy, double transz)\fC [static]\fP"
+.PP
+Computes new coordinates after a translation and a rotation. \fBParameters:\fP
+.RS 4
+\fICmol\fP MOL Class pointer with molecule paramters 
+.br
+\fIxyz\fP Molecule coordinates 
+.br
+\fIalpha\fP Euler alpha angle 
+.br
+\fIbeta\fP Euler beta angle 
+.br
+\fIgamma\fP Euler gamma angle 
+.br
+\fItransx\fP Shift in X direction 
+.br
+\fItransy\fP Shift in Y direction 
+.br
+\fItransz\fP Shift in Z direction 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A new vector of vector with new coordinates. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ElSA from the source code.

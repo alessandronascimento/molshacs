@@ -1,0 +1,51 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classRunEngine.html#a83014ce0e33ab9570f068e8c5991750b" title="Function run." alt="" coords="171,795,280,824"/>
+<area shape="rect" id="node128" href="$classWidget.html#a3bb8e62dcbaedaf610b883fc5f6b2e73" title="Widget::set_parameters" alt="" coords="145,848,305,877"/>
+<area shape="rect" id="node5" href="$classWriter.html#a0e062f09b761e7aee0638ae9bb8de234" title="Writer::close" alt="" coords="483,5,579,35"/>
+<area shape="rect" id="node7" href="$classGrid.html#a995b7d957f244276f0b0cb8835fd7e9a" title="Grid::compute_com" alt="" coords="463,59,599,88"/>
+<area shape="rect" id="node9" href="$classCORREL.html#a0ca3a025e8493c54977c3a8d3ea72e70" title="Scalar product of two electrostatic potentials used to compute the Hodgkin index..." alt="" coords="427,112,635,141"/>
+<area shape="rect" id="node11" href="$classGrid.html#aa4773f2a675a2d42ff1ceb5c3b41ccb9" title="Grid::compute_grid" alt="" coords="465,165,596,195"/>
+<area shape="rect" id="node15" href="$classGaussian.html#aa42c109a39b13f847009947a77cd06b0" title="Gaussian::compute_si" alt="" coords="455,272,607,301"/>
+<area shape="rect" id="node21" href="$classGaussian.html#adb4d179d7a65b8ecf34181be75a3ee93" title="Gaussian::compute_si_neg_charges" alt="" coords="805,223,1037,252"/>
+<area shape="rect" id="node26" href="$classGaussian.html#aab2b48b953d268cfb0e1041e9ae8ffef" title="Gaussian::compute_si_pos_charges" alt="" coords="415,376,647,405"/>
+<area shape="rect" id="node31" href="$classGrid.html#ade0b395e445c10e6283278e013df8b6f" title="Grid::compute_vdw_repulsive_grid" alt="" coords="423,219,639,248"/>
+<area shape="rect" id="node34" href="$classMinimizer2.html#a90746efac2942fa9a6d25b0e4bfdc75d" title="Minimizer2::minimize_conjugate_gradient_elec_plus_vdw" alt="" coords="356,536,705,565"/>
+<area shape="rect" id="node55" href="$classMinimizer2.html#af348b51c5afb1f20b848d0451e16f239" title="Minimizer2::minimize_density_nlopt_mma" alt="" coords="399,429,663,459"/>
+<area shape="rect" id="node63" href="$classMinimizer2.html#a2778f65c914c177b809863bbb138b330" title="Minimizer2::minimize_lbfgs2_elec_plus_vdw" alt="" coords="393,589,668,619"/>
+<area shape="rect" id="node68" href="$classMinimizer2.html#ad602f01ea4329924251775435c97d12c" title="Minimizer2::minimize_nlopt_auglag" alt="" coords="419,795,643,824"/>
+<area shape="rect" id="node72" href="$classMinimizer2.html#a4981a5f90d855bc1d25b857881edb172" title="Minimizer2::minimize_nlopt_bfgs2" alt="" coords="421,848,640,877"/>
+<area shape="rect" id="node75" href="$classMinimizer2.html#ac8b7b2846ad8d37e41f1b6b07045aef2" title="Minimizer2::minimize_nlopt_direct" alt="" coords="421,901,640,931"/>
+<area shape="rect" id="node78" href="$classMinimizer2.html#aca9af00ae1cf0399a476cbb6e22e09e3" title="Minimizer2::minimize_nlopt_isres" alt="" coords="424,955,637,984"/>
+<area shape="rect" id="node81" href="$classMinimizer2.html#a39d440b959db32c57baab3a322758821" title="Minimizer2::minimize_nlopt_mma" alt="" coords="423,1008,639,1037"/>
+<area shape="rect" id="node84" href="$classMinimizer2.html#acd7f7eb0f80c6b91268d3b81abd5bd1e" title="Minimizer2::minimize_nlopt_simplex" alt="" coords="415,1061,647,1091"/>
+<area shape="rect" id="node87" href="$classMinimizer2.html#a3c0a0abe78fc3b33e91e098d13b7f43a" title="Minimizer2::minimize_nlopt_stogo" alt="" coords="421,1115,640,1144"/>
+<area shape="rect" id="node90" href="$classMinimizer2.html#a781d7c1c19a0198afaa2e42bfee1651d" title="Minimizer2::minimize_nlopt_subplex" alt="" coords="415,1168,647,1197"/>
+<area shape="rect" id="node93" href="$classMinimizer2.html#a4669dfe9dc28152658860fd674427279" title="Minimizer2::minimize_simplex_elec_plus_vdw" alt="" coords="779,692,1064,721"/>
+<area shape="rect" id="node96" href="$classMinimizer2.html#a488c67b3251cd6e0c11918e9b8e9eeb4" title="Minimizer2::minimize_simplex_shape_density" alt="" coords="387,483,675,512"/>
+<area shape="rect" id="node102" href="$classRunEngine.html#a96a9ac742e99bc1d475c37a4028d3c31" title="Function ranker." alt="" coords="467,1221,595,1251"/>
+<area shape="rect" id="node104" href="$classMinimizer2.html#aa02fa519d5e9dcbfbf2053317200e9c7" title="For test purposes only. Computes the objective function for variations in alpha." alt="" coords="1184,644,1389,673"/>
+<area shape="rect" id="node109" href="$classMinimizer2.html#a911683db438c2a9ea9f0c47fd123a92e" title="For test purposes only. Computes the gradient for variations in alpha." alt="" coords="1184,697,1389,727"/>
+<area shape="rect" id="node114" href="$classCORREL.html#ab2a0a4f465fc8f5fb104b1b082fcd478" title="CORREL::translate" alt="" coords="464,1275,597,1304"/>
+<area shape="rect" id="node116" href="$classGrid.html#ac47ec8672fada6fd797e3088d6b97807" title="Grid::write_box" alt="" coords="476,1328,585,1357"/>
+<area shape="rect" id="node118" href="$classWriter.html#aae2301f0f38bc7425b9bebd9d01fcf25" title="Writer::write_params" alt="" coords="460,1381,601,1411"/>
+<area shape="rect" id="node120" href="$classWriter.html#ac5d81d1de694841fe7dd26e189d4242f" title="Class destructor. Closes the logfile." alt="" coords="471,1435,591,1464"/>
+<area shape="rect" id="node122" href="$classWriter.html#ae6c8a4c5bc3323564a9fe23ebd288dcb" title="Writer::write_to_log" alt="" coords="464,1488,597,1517"/>
+<area shape="rect" id="node124" href="$classWriter.html#a12c58122d5143eb3e87c368459767da3" title="This function writes a &quot;welcome&quot; message." alt="" coords="456,1541,605,1571"/>
+<area shape="rect" id="node126" href="$classWriter.html#a7f2a6e7297ab91228fd922278d6612b9" title="Writer::~Writer" alt="" coords="477,1595,584,1624"/>
+<area shape="rect" id="node13" href="$classGrid.html#a8e159ca3c90ad644d91507c5571f756b" title="Grid::dist_squared" alt="" coords="857,119,985,148"/>
+<area shape="rect" id="node17" href="$classGaussian.html#a3fd619ab0bd48e3c46537194411de25e" title="Gaussian::compute_shape_density" alt="" coords="1173,171,1400,200"/>
+<area shape="rect" id="node19" href="$classGaussian.html#ae9535543b557e8481b3b7ad1e559d4c0" title="Gaussian::dist_squared" alt="" coords="1537,251,1695,280"/>
+<area shape="rect" id="node23" href="$classGaussian.html#a153b1fc8036233bed9121aa343c2a74d" title="Gaussian::compute_negative_charge_density" alt="" coords="1145,224,1428,253"/>
+<area shape="rect" id="node28" href="$classGaussian.html#ada6ef41c5cf1a988313f917dac04ba55" title="Gaussian::compute_positive_charge_density" alt="" coords="781,276,1061,305"/>
+<area shape="rect" id="node36" href="$classMinimizer2.html#a3bf50d7081499de21718741509ed95f4" title="Computes function and gradient and once." alt="" coords="756,537,1087,567"/>
+<area shape="rect" id="node38" href="$classMinimizer2.html#ae46bf1366f7275747b344ec6e39d9178" title="GSL function to evaluate the objective function." alt="" coords="1180,591,1393,620"/>
+<area shape="rect" id="node48" href="$classMinimizer2.html#aeefc6cb4586a434a88abdadff44ad7ec" title="Computes the gradient for GSL functions." alt="" coords="1161,537,1412,567"/>
+<area shape="rect" id="node40" href="$classMinimizer2.html#a341b5cd394c900ca5496b888168d3948" title="Computes the objective function." alt="" coords="1488,591,1744,620"/>
+<area shape="rect" id="node42" href="$classMinimizer2.html#a1aa54d9e6855cf39ad8be1f2f8499a01" title="Computes the electrostatic and the vdw grids at once for a molecule." alt="" coords="1485,644,1747,673"/>
+<area shape="rect" id="node46" href="$classMinimizer2.html#a7bc4c2fe892e0339048d9ca7932cdf69" title="Computes new coordinates after a translation and a rotation." alt="" coords="1533,537,1699,567"/>
+<area shape="rect" id="node44" href="$classMinimizer2.html#aa34e6305d001acec8ac2238f6ec672ab" title="Minimizer2::dist_squared" alt="" coords="1796,644,1961,673"/>
+<area shape="rect" id="node57" href="$classMinimizer2.html#a1e0732ccaf045c27bb2cc3186fddff55" title="Minimizer2::nlopt_func_gauss_density" alt="" coords="800,329,1043,359"/>
+<area shape="rect" id="node59" href="$classGaussian.html#a5389555e41d2b9b506342dd6a3b1f7ec" title="Gaussian::compute_shape_and_charge_density" alt="" coords="1137,381,1436,411"/>
+<area shape="rect" id="node70" href="$classMinimizer2.html#aa27645b2a1bd68dc6249729bf15340f7" title="Minimizer2::nlopt_func_elec_plus_vdw" alt="" coords="800,981,1043,1011"/>
+<area shape="rect" id="node98" href="$classMinimizer2.html#a62fa0872db1e16736f810a2e6f99c2f1" title="Minimizer2::function_gaussian_shape" alt="" coords="803,383,1040,412"/>
+</map>

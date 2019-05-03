@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="main_8cpp" kind="file">
+    <compoundname>main.cpp</compoundname>
+    <includes refid="main_8h" local="yes">main.h</includes>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/main.cpp" line="52" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/main.cpp" bodystart="52" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>main.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>19/08/2010</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Author:<sp/>Nascimento</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>**********************************************************************************************</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SPCA<sp/>-<sp/>STRUCTURAL-BASED<sp/>PRINCIPAL<sp/>COMPONENT<sp/>ANALYSIS<sp/>v.<sp/>2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment">This<sp/>software<sp/>is<sp/>dedicated<sp/>to<sp/>structural<sp/>analysis<sp/>of<sp/>potential<sp/>interaction<sp/>sites<sp/>given<sp/>a</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">dataset<sp/>of<sp/>superposed<sp/>ligands.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReWritten<sp/>by<sp/>Alessandro<sp/>S.<sp/>Nascimento<sp/>-<sp/>june/2010</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>***********************************************************************************************</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;main.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" kindref="member" tooltip="VDW Repulsive potential for the reference molecule as computed in the main program...">Minimizer2::rep_potential</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" kindref="member" tooltip="Electrostatic potential for the reference molecule.">Minimizer2::elec_potential</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1ae32c788933fe4ffca055ae23817d3455" kindref="member" tooltip="Electrostatic potential of the &amp;quot;comparison&amp;quot; molecule.">Minimizer2::current_elec</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a8aa78fb8c18cb5eb88a2ed2092ea5683" kindref="member" tooltip="VDW Repulsive potential of the &amp;quot;comparison&amp;quot; molecule.">Minimizer2::current_vdw</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" kindref="member" tooltip="Electrostatic potential in a grid point.">Minimizer2::elec</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" kindref="member" tooltip="x, y and z coordinates">Minimizer2::x</ref>,<sp/>Minimizer2::y,<sp/>Minimizer2::z;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a3f56599cc0464de622f4493ab209be67" kindref="member" tooltip="Distance r among two atoms;.">Minimizer2::r</ref>,<sp/>Minimizer2::r2,<sp/>Minimizer2::r6,<sp/>Minimizer2::repul;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a2a073ef1806f84be7c4f4b8cf6f7f2a7" kindref="member" tooltip="Sum of differeces in objective function computation.">Minimizer2::sum_diff</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::elec_term;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::vdw_term;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/><ref refid="classMinimizer2_1a680a201172c6518d60325eaac358b371" kindref="member" tooltip="Rototranslated coordinates.">Minimizer2::new_xyz</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/><ref refid="classMinimizer2_1a8aede4777e9d3fdc7bd0216e8ca9f045" kindref="member" tooltip="Vector of vectors containing current_elec and current_vdw.">Minimizer2::elec_plus_vdw_grids</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1afefc05f3f81b5f002041933d12352642" kindref="member" tooltip="Objective function value.">Minimizer2::t1</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a166a976d19a3c0c33222b3d000377586" kindref="member" tooltip="Minimum of the objective function reached after minimization.">Minimizer2::f_minimum</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ab2fc020ca4f53c83045abb9533932e8f" kindref="member" tooltip="Status of the minimizer.">Minimizer2::status</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a2fefd1c40811da6a30fed3c273e624d7" kindref="member" tooltip="Time elapsed for minimization procedure.">Minimizer2::time_elapsed</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">clock_t<sp/><ref refid="classMinimizer2_1ac63693b02b0d74534c318db59499891b" kindref="member" tooltip="Timer for minimization functions.">Minimizer2::time0</ref>,<sp/>Minimizer2::time1;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">Parser*<sp/><ref refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" kindref="member" tooltip="Pointer to the INPUT Class.">Minimizer2::Input</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">Mol2*<sp/><ref refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" kindref="member" tooltip="Pointer to the MOL Class.">Minimizer2::Cmol</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">Mol2*<sp/>Minimizer2::RefMol;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">Mol2*<sp/>Minimizer2::CompMol;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">Grid*<sp/><ref refid="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" kindref="member" tooltip="Pointer to the GRID Class.">Minimizer2::Cgrid</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::dij2;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::alpha_i;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::alpha_j;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::pi;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Minimizer2::pj;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[])<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>&gt;<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Parser<sp/>Input(argv[1]);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RunEngine<sp/>Engine;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Engine.run(Input);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAS_GUI</highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QApplication<sp/>app(argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>app.setOrganizationName(ORGANIZATION);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>app.setStyle(</highlight><highlight class="stringliteral">&quot;gtk&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>app.setApplicationName(NAME);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>app.setApplicationVersion(VERSION);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QSplashScreen<sp/>*splash<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSplashScreen;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splash-&gt;setPixmap(QPixmap(</highlight><highlight class="stringliteral">&quot;:/elsa.png&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splash-&gt;show();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splash-&gt;showMessage(app.organizationName());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GUI<sp/>w(argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QIcon<sp/>windowIcon(</highlight><highlight class="stringliteral">&quot;:/elsa.png&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.setWindowIcon(windowIcon);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QTimer::singleShot(2000,<sp/>splash,<sp/>SLOT(close()));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QTimer::singleShot(2000,<sp/>&amp;w,<sp/>SLOT(show()));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>app.exec();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="88"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/main.cpp"/>
+  </compounddef>
+</doxygen>

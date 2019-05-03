@@ -1,0 +1,385 @@
+\hypertarget{classGaussian}{
+\section{Gaussian Class Reference}
+\label{classGaussian}\index{Gaussian@{Gaussian}}
+}
+
+
+{\ttfamily \#include $<$Gaussian.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGaussian_a877a470591c41d248bdb4356c1c14370}{Gaussian} (void)
+\item 
+\hyperlink{classGaussian_a62de70c599d1558b705e39ef9f176f3c}{Gaussian} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, double $\ast$Vab)
+\item 
+\hyperlink{classGaussian_a469209c4c984a0118d3f4a6efc693d05}{Gaussian} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz, double $\ast$Vab)
+\item 
+double \hyperlink{classGaussian_aa42c109a39b13f847009947a77cd06b0}{compute\_\-si} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol)
+\item 
+double \hyperlink{classGaussian_ac8b23b3c00889eb1f38da472f9b67fb6}{compute\_\-si} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_aab2b48b953d268cfb0e1041e9ae8ffef}{compute\_\-si\_\-pos\_\-charges} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_adb4d179d7a65b8ecf34181be75a3ee93}{compute\_\-si\_\-neg\_\-charges} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_a3fd619ab0bd48e3c46537194411de25e}{compute\_\-shape\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol)
+\item 
+double \hyperlink{classGaussian_a61cf17d52f0efe6f8b5933023056d6c9}{compute\_\-shape\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_a5b038af926d8a733608e41cdf263241a}{compute\_\-shape\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_ada6ef41c5cf1a988313f917dac04ba55}{compute\_\-positive\_\-charge\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_ab2876d1355fd67cad5faa87062f20348}{compute\_\-positive\_\-charge\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_a153b1fc8036233bed9121aa343c2a74d}{compute\_\-negative\_\-charge\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_a141239850ea75332536cd25ef725762a}{compute\_\-negative\_\-charge\_\-density} (\hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_ae28140feb3ad3043854394808e97b4cf}{compute\_\-shape\_\-and\_\-charge\_\-density} (\hyperlink{classParser}{Parser} $\ast$Input, \hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+double \hyperlink{classGaussian_a32bff8dbdd688b7d1d8f7aa50463ae82}{compute\_\-shape\_\-and\_\-charge\_\-density} (\hyperlink{classParser}{Parser} $\ast$Input, \hyperlink{classMol2}{Mol2} $\ast$RefMol, \hyperlink{classMol2}{Mol2} $\ast$CompMol, vector$<$ vector$<$ double $>$ $>$ xyz, vector$<$ vector$<$ double $>$ $>$ cxyz)
+\item 
+double \hyperlink{classGaussian_ae9535543b557e8481b3b7ad1e559d4c0}{dist\_\-squared} (double x1, double x2, double y1, double y2, double z1, double z2)
+\item 
+virtual \hyperlink{classGaussian_acf8cb96837ea65021e973a735260be5f}{$\sim$Gaussian} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classGaussian_a0296cbcbe7324c6658bd93430a12b40a}{pi}
+\item 
+double \hyperlink{classGaussian_a61907a387874c912ca3460e0d53557d0}{pj}
+\item 
+double \hyperlink{classGaussian_a4219b30f577fb9ee8c8165ea6d093225}{dij2}
+\item 
+double \hyperlink{classGaussian_a5c0b5c62fa9740e7837795e37550fa0e}{alpha\_\-i}
+\item 
+double \hyperlink{classGaussian_a0ade4a35fe0d7b6a6c41943c06444b46}{alpha\_\-j}
+\item 
+clock\_\-t \hyperlink{classGaussian_a32d5fa91e8452f5d333b8cd7f4e588f6}{time0}
+\item 
+clock\_\-t \hyperlink{classGaussian_aac68a2973eaa8d40f218fe64e025093b}{time1}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGaussian_a877a470591c41d248bdb4356c1c14370}{
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\subsubsection[{Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}Gaussian::Gaussian (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a877a470591c41d248bdb4356c1c14370}
+\hypertarget{classGaussian_a62de70c599d1558b705e39ef9f176f3c}{
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\subsubsection[{Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}Gaussian::Gaussian (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{double $\ast$}]{Vab}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a62de70c599d1558b705e39ef9f176f3c}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a469209c4c984a0118d3f4a6efc693d05}{
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\index{Gaussian@{Gaussian}!Gaussian@{Gaussian}}
+\subsubsection[{Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}Gaussian::Gaussian (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{double $\ast$}]{Vab}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a469209c4c984a0118d3f4a6efc693d05}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_acf8cb96837ea65021e973a735260be5f}{
+\index{Gaussian@{Gaussian}!$\sim$Gaussian@{$\sim$Gaussian}}
+\index{$\sim$Gaussian@{$\sim$Gaussian}!Gaussian@{Gaussian}}
+\subsubsection[{$\sim$Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}Gaussian::$\sim$Gaussian (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGaussian_acf8cb96837ea65021e973a735260be5f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGaussian_a153b1fc8036233bed9121aa343c2a74d}{
+\index{Gaussian@{Gaussian}!compute\_\-negative\_\-charge\_\-density@{compute\_\-negative\_\-charge\_\-density}}
+\index{compute\_\-negative\_\-charge\_\-density@{compute\_\-negative\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-negative\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-negative\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a153b1fc8036233bed9121aa343c2a74d}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a141239850ea75332536cd25ef725762a}{
+\index{Gaussian@{Gaussian}!compute\_\-negative\_\-charge\_\-density@{compute\_\-negative\_\-charge\_\-density}}
+\index{compute\_\-negative\_\-charge\_\-density@{compute\_\-negative\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-negative\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-negative\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a141239850ea75332536cd25ef725762a}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_ada6ef41c5cf1a988313f917dac04ba55}{
+\index{Gaussian@{Gaussian}!compute\_\-positive\_\-charge\_\-density@{compute\_\-positive\_\-charge\_\-density}}
+\index{compute\_\-positive\_\-charge\_\-density@{compute\_\-positive\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-positive\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-positive\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_ada6ef41c5cf1a988313f917dac04ba55}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_ab2876d1355fd67cad5faa87062f20348}{
+\index{Gaussian@{Gaussian}!compute\_\-positive\_\-charge\_\-density@{compute\_\-positive\_\-charge\_\-density}}
+\index{compute\_\-positive\_\-charge\_\-density@{compute\_\-positive\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-positive\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-positive\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_ab2876d1355fd67cad5faa87062f20348}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_ae28140feb3ad3043854394808e97b4cf}{
+\index{Gaussian@{Gaussian}!compute\_\-shape\_\-and\_\-charge\_\-density@{compute\_\-shape\_\-and\_\-charge\_\-density}}
+\index{compute\_\-shape\_\-and\_\-charge\_\-density@{compute\_\-shape\_\-and\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-shape\_\-and\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-shape\_\-and\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser} $\ast$}]{Input, }
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_ae28140feb3ad3043854394808e97b4cf}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a32bff8dbdd688b7d1d8f7aa50463ae82}{
+\index{Gaussian@{Gaussian}!compute\_\-shape\_\-and\_\-charge\_\-density@{compute\_\-shape\_\-and\_\-charge\_\-density}}
+\index{compute\_\-shape\_\-and\_\-charge\_\-density@{compute\_\-shape\_\-and\_\-charge\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-shape\_\-and\_\-charge\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-shape\_\-and\_\-charge\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser} $\ast$}]{Input, }
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{cxyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a32bff8dbdd688b7d1d8f7aa50463ae82}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a3fd619ab0bd48e3c46537194411de25e}{
+\index{Gaussian@{Gaussian}!compute\_\-shape\_\-density@{compute\_\-shape\_\-density}}
+\index{compute\_\-shape\_\-density@{compute\_\-shape\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-shape\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-shape\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a3fd619ab0bd48e3c46537194411de25e}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a61cf17d52f0efe6f8b5933023056d6c9}{
+\index{Gaussian@{Gaussian}!compute\_\-shape\_\-density@{compute\_\-shape\_\-density}}
+\index{compute\_\-shape\_\-density@{compute\_\-shape\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-shape\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-shape\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a61cf17d52f0efe6f8b5933023056d6c9}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_a5b038af926d8a733608e41cdf263241a}{
+\index{Gaussian@{Gaussian}!compute\_\-shape\_\-density@{compute\_\-shape\_\-density}}
+\index{compute\_\-shape\_\-density@{compute\_\-shape\_\-density}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-shape\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-shape\_\-density (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_a5b038af926d8a733608e41cdf263241a}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_aa42c109a39b13f847009947a77cd06b0}{
+\index{Gaussian@{Gaussian}!compute\_\-si@{compute\_\-si}}
+\index{compute\_\-si@{compute\_\-si}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-si}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-si (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_aa42c109a39b13f847009947a77cd06b0}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_ac8b23b3c00889eb1f38da472f9b67fb6}{
+\index{Gaussian@{Gaussian}!compute\_\-si@{compute\_\-si}}
+\index{compute\_\-si@{compute\_\-si}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-si}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-si (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_ac8b23b3c00889eb1f38da472f9b67fb6}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_adb4d179d7a65b8ecf34181be75a3ee93}{
+\index{Gaussian@{Gaussian}!compute\_\-si\_\-neg\_\-charges@{compute\_\-si\_\-neg\_\-charges}}
+\index{compute\_\-si\_\-neg\_\-charges@{compute\_\-si\_\-neg\_\-charges}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-si\_\-neg\_\-charges}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-si\_\-neg\_\-charges (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_adb4d179d7a65b8ecf34181be75a3ee93}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_aab2b48b953d268cfb0e1041e9ae8ffef}{
+\index{Gaussian@{Gaussian}!compute\_\-si\_\-pos\_\-charges@{compute\_\-si\_\-pos\_\-charges}}
+\index{compute\_\-si\_\-pos\_\-charges@{compute\_\-si\_\-pos\_\-charges}!Gaussian@{Gaussian}}
+\subsubsection[{compute\_\-si\_\-pos\_\-charges}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::compute\_\-si\_\-pos\_\-charges (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{RefMol, }
+\item[{{\bf Mol2} $\ast$}]{CompMol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_aab2b48b953d268cfb0e1041e9ae8ffef}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGaussian_ae9535543b557e8481b3b7ad1e559d4c0}{
+\index{Gaussian@{Gaussian}!dist\_\-squared@{dist\_\-squared}}
+\index{dist\_\-squared@{dist\_\-squared}!Gaussian@{Gaussian}}
+\subsubsection[{dist\_\-squared}]{\setlength{\rightskip}{0pt plus 5cm}double Gaussian::dist\_\-squared (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)}}
+\label{classGaussian_ae9535543b557e8481b3b7ad1e559d4c0}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classGaussian_a5c0b5c62fa9740e7837795e37550fa0e}{
+\index{Gaussian@{Gaussian}!alpha\_\-i@{alpha\_\-i}}
+\index{alpha\_\-i@{alpha\_\-i}!Gaussian@{Gaussian}}
+\subsubsection[{alpha\_\-i}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Gaussian::alpha\_\-i}}}
+\label{classGaussian_a5c0b5c62fa9740e7837795e37550fa0e}
+\hypertarget{classGaussian_a0ade4a35fe0d7b6a6c41943c06444b46}{
+\index{Gaussian@{Gaussian}!alpha\_\-j@{alpha\_\-j}}
+\index{alpha\_\-j@{alpha\_\-j}!Gaussian@{Gaussian}}
+\subsubsection[{alpha\_\-j}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Gaussian::alpha\_\-j}}}
+\label{classGaussian_a0ade4a35fe0d7b6a6c41943c06444b46}
+\hypertarget{classGaussian_a4219b30f577fb9ee8c8165ea6d093225}{
+\index{Gaussian@{Gaussian}!dij2@{dij2}}
+\index{dij2@{dij2}!Gaussian@{Gaussian}}
+\subsubsection[{dij2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Gaussian::dij2}}}
+\label{classGaussian_a4219b30f577fb9ee8c8165ea6d093225}
+\hypertarget{classGaussian_a0296cbcbe7324c6658bd93430a12b40a}{
+\index{Gaussian@{Gaussian}!pi@{pi}}
+\index{pi@{pi}!Gaussian@{Gaussian}}
+\subsubsection[{pi}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Gaussian::pi}}}
+\label{classGaussian_a0296cbcbe7324c6658bd93430a12b40a}
+\hypertarget{classGaussian_a61907a387874c912ca3460e0d53557d0}{
+\index{Gaussian@{Gaussian}!pj@{pj}}
+\index{pj@{pj}!Gaussian@{Gaussian}}
+\subsubsection[{pj}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Gaussian::pj}}}
+\label{classGaussian_a61907a387874c912ca3460e0d53557d0}
+\hypertarget{classGaussian_a32d5fa91e8452f5d333b8cd7f4e588f6}{
+\index{Gaussian@{Gaussian}!time0@{time0}}
+\index{time0@{time0}!Gaussian@{Gaussian}}
+\subsubsection[{time0}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf Gaussian::time0}}}
+\label{classGaussian_a32d5fa91e8452f5d333b8cd7f4e588f6}
+\hypertarget{classGaussian_aac68a2973eaa8d40f218fe64e025093b}{
+\index{Gaussian@{Gaussian}!time1@{time1}}
+\index{time1@{time1}!Gaussian@{Gaussian}}
+\subsubsection[{time1}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf Gaussian::time1}}}
+\label{classGaussian_aac68a2973eaa8d40f218fe64e025093b}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Gaussian_8h}{Gaussian.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Gaussian_8cpp}{Gaussian.cpp}\end{DoxyCompactItemize}

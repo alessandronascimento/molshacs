@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classRunEngine" kind="class" prot="public">
+    <compoundname>RunEngine</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classRunEngine_1af76db4504afdd5b42e815124a6db776c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+<para>Distance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="38" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1ae9414425d158ffbd39d8302bee2a9a4d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::elect</definition>
+        <argsstring></argsstring>
+        <name>elect</name>
+        <briefdescription>
+<para>Electrostatic potential at a point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="40" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1ae5ff90982e131cb0b906648249761db8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+<para>Alpha angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a93cac05608cfd8e127bb9fc0da85e56f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+<para>Beta angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a40c62f30faa8e29691e039a18bc4a606" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+<para>Gamma angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="46" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1aced0ece845f6d0d8490a122f2cbd9386" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::transx</definition>
+        <argsstring></argsstring>
+        <name>transx</name>
+        <briefdescription>
+<para>Translation step in X direction. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1aa9ac6ca39edba1f8dc8a1cf010e99eec" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::transy</definition>
+        <argsstring></argsstring>
+        <name>transy</name>
+        <briefdescription>
+<para>Translation step in Y direction. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1af37ec9914805f8aac34e9e935f84b0bb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::transz</definition>
+        <argsstring></argsstring>
+        <name>transz</name>
+        <briefdescription>
+<para>Translation step in Z direction. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="52" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a85b10ffa1e2dc263882619f87a8fdfa5" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; RunEngine::gridcoords</definition>
+        <argsstring></argsstring>
+        <name>gridcoords</name>
+        <briefdescription>
+<para>Coordinates for grid computation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a785e7f067bbdb262ded7caf3f804ef73" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::grid_temp</definition>
+        <argsstring></argsstring>
+        <name>grid_temp</name>
+        <briefdescription>
+<para>Grid potential XYX coordinates stored temporarily. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="56" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a03f5b419eec5c3f704f34ff268071b36" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::elec_potential</definition>
+        <argsstring></argsstring>
+        <name>elec_potential</name>
+        <briefdescription>
+<para>Electrostactic potential for a given point sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="58" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a619bbe9f7828da95bc1622d28ae99dc6" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; RunEngine::final_mat</definition>
+        <argsstring></argsstring>
+        <name>final_mat</name>
+        <briefdescription>
+<para>C++ vector with the molecular electrostactic potential. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="60" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a638ebc795e21363ac5a4068acd268b91" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::CCs</definition>
+        <argsstring></argsstring>
+        <name>CCs</name>
+        <briefdescription>
+<para>C++ vector containing all the correlation coeficients when running in the multimode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a56a29c892a29c495f5f1c2dccc801496" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RunEngine::indmol</definition>
+        <argsstring></argsstring>
+        <name>indmol</name>
+        <briefdescription>
+<para>String to parse the molecules (when running in the multimode) from the multifile. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a72e70234abefac658cb2e2fb5731612d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RunEngine::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+<para>Counter for the molecules in the multimode file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a2d09564348e456a721479433297c5e74" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char RunEngine::outname[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>outname</name>
+        <briefdescription>
+<para>Character array to set up a output name for the PDB file given as output. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="68" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1aa47ccf8fcf12abec942b2d8800054c97" prot="public" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t RunEngine::time0</definition>
+        <argsstring></argsstring>
+        <name>time0</name>
+        <briefdescription>
+<para>Variable to get the timing of the execution. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="70" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a0b9f099a872af3419d9a8a2a909221b8" prot="public" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t RunEngine::time1</definition>
+        <argsstring></argsstring>
+        <name>time1</name>
+        <briefdescription>
+<para>Variable to get the timing of the execution. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="72" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a200fc02261b35e2785d0905547fafb4a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::total_time</definition>
+        <argsstring></argsstring>
+        <name>total_time</name>
+        <briefdescription>
+<para>Variable to get the timing of the execution. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="74" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a01247593207aa8837b9da996ea81fa04" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::f_min</definition>
+        <argsstring></argsstring>
+        <name>f_min</name>
+        <briefdescription>
+<para>Minimum value reached after minimization procedure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="76" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a9a3f13d12b68516740c449f1d74c32dd" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char RunEngine::info[82]</definition>
+        <argsstring>[82]</argsstring>
+        <name>info</name>
+        <briefdescription>
+<para>Char array to print running information in the screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="78" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a66754b416ac3363addc1090a2fff6330" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::cc</definition>
+        <argsstring></argsstring>
+        <name>cc</name>
+        <briefdescription>
+<para>Correlation coefficient computed to each molecule after spatial matching. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="80" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a069f5d9be14a64a0041d7e8ad39c6039" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::grid</definition>
+        <argsstring></argsstring>
+        <name>grid</name>
+        <briefdescription>
+<para>Electrostatic grid computed after spatal matching to compose the final matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="82" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a25766a7cb33a0349ef83ae66a9d43869" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::sum_of_elec_potential</definition>
+        <argsstring></argsstring>
+        <name>sum_of_elec_potential</name>
+        <briefdescription>
+<para>Sum of the product of the electrostatic potential of the reference molecule. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="84" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a4bf927d6520841cf87ac0069c635c5f9" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::repulsive_potential</definition>
+        <argsstring></argsstring>
+        <name>repulsive_potential</name>
+        <briefdescription>
+<para>C++ vector to compute the VDW repulsive potential. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="86" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a5918aafeeacb8c8961119fc9b3aa8bcf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::sum_of_repulsive_potential</definition>
+        <argsstring></argsstring>
+        <name>sum_of_repulsive_potential</name>
+        <briefdescription>
+<para>Sum over all the elements of the repulsive grid for the reference molecule. DEPRECATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="88" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a71699c9e4a6b8b0993cbc68b08f4eee0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::vdw_cc</definition>
+        <argsstring></argsstring>
+        <name>vdw_cc</name>
+        <briefdescription>
+<para>Correlation coefficient for the VDW (volume) term. DEPRECATED. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="90" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1ace0e7e510d148f82a7d5816ca6ead0b2" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::VDWs</definition>
+        <argsstring></argsstring>
+        <name>VDWs</name>
+        <briefdescription>
+<para>C++ STL vector used to store the VDW correlation coefficient of each comparison molecule. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="92" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a350dbfe86347990322d471369d3c6bf6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::shape_cc</definition>
+        <argsstring></argsstring>
+        <name>shape_cc</name>
+        <briefdescription>
+<para>Shape correlation coefficient based on the mathcing of gaussian volume function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="94" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1ad50a49540f69ace30bc789cfa0bc54cf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::pc_gauss</definition>
+        <argsstring></argsstring>
+        <name>pc_gauss</name>
+        <briefdescription>
+<para>Positive charges correlation coefficient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="96" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a3d2a40c6c33673609e78f9f7a22fc870" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::nc_gauss</definition>
+        <argsstring></argsstring>
+        <name>nc_gauss</name>
+        <briefdescription>
+<para>Negative charges correlation coefficient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="98" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a80a035c7ffad28058f8122d96df2d1a5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RunEngine::elec_gauss</definition>
+        <argsstring></argsstring>
+        <name>elec_gauss</name>
+        <briefdescription>
+<para>Overall electrostatic correlation coefficient. Take pc_gauss and nc_gass as parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="100" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1a35ff80369525c5ac8db6069a7ac7df85" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; RunEngine::SI</definition>
+        <argsstring></argsstring>
+        <name>SI</name>
+        <briefdescription>
+<para>C++ vector used to store the overall correlation coefficient (shape + electrostatic). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="102" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRunEngine_1aa1d02b1c1e82a5ac125395f8ffc3a23b" prot="public" static="no" mutable="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt;int&gt; RunEngine::sorted_indexes</definition>
+        <argsstring></argsstring>
+        <name>sorted_indexes</name>
+        <briefdescription>
+<para>C++ vector used to store the ranked indexes of the SI for all molecules. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="104" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRunEngine_1a2b8d8b8cedbb19c5142beab691f5fa35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double RunEngine::distance</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>distance</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+<para>Function distance. </para>        </briefdescription>
+        <detaileddescription>
+<para>Computes the distance between two atoms. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X-coordinate of the first atom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X-coordinate of the second atom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y-coordinate of the first atom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y-coordinate of the second atom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z-coordinate of the first atom. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z-coordinate of the second atom. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the distance (double) between the atoms. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="119" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.cpp" bodystart="10" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classRunEngine_1a83014ce0e33ab9570f068e8c5991750b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RunEngine::run</definition>
+        <argsstring>(Parser Input)</argsstring>
+        <name>run</name>
+        <param>
+          <type>Parser</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+<para>Function run. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function actually runs the program. It&apos;s where all the computation takes place. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An Parser object with the parameters taken from user. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Minimization starts here by calling a new Minimizer class &quot;Min&quot; Through parameter passage (coordinates, charges, N, etc) the class is set up and the minimizer actually starts with the method minimize. The minimum difference function value reached during the minimization is returned to the &quot;f_min&quot; variable and printed below</para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="126" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.cpp" bodystart="304" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classRunEngine_1a96a9ac742e99bc1d475c37a4028d3c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt; int &gt; RunEngine::ranker</definition>
+        <argsstring>(vector&lt; double &gt; CCs)</argsstring>
+        <name>ranker</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>CCs</declname>
+        </param>
+        <briefdescription>
+<para>Function ranker. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function writes a vector of integers with the indexes of the SI vector sorted decreasingly. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CCs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with molecule SIs; </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A vector of integers with SIs indexes sorted. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="134" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.cpp" bodystart="560" bodyend="589"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" line="35" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h" bodystart="35" bodyend="150"/>
+    <listofallmembers>
+      <member refid="classRunEngine_1ae5ff90982e131cb0b906648249761db8" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>a</name></member>
+      <member refid="classRunEngine_1a93cac05608cfd8e127bb9fc0da85e56f" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>b</name></member>
+      <member refid="classRunEngine_1a66754b416ac3363addc1090a2fff6330" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>cc</name></member>
+      <member refid="classRunEngine_1a638ebc795e21363ac5a4068acd268b91" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>CCs</name></member>
+      <member refid="classRunEngine_1a72e70234abefac658cb2e2fb5731612d" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>count</name></member>
+      <member refid="classRunEngine_1a2b8d8b8cedbb19c5142beab691f5fa35" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>distance</name></member>
+      <member refid="classRunEngine_1a80a035c7ffad28058f8122d96df2d1a5" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>elec_gauss</name></member>
+      <member refid="classRunEngine_1a03f5b419eec5c3f704f34ff268071b36" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>elec_potential</name></member>
+      <member refid="classRunEngine_1ae9414425d158ffbd39d8302bee2a9a4d" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>elect</name></member>
+      <member refid="classRunEngine_1a01247593207aa8837b9da996ea81fa04" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>f_min</name></member>
+      <member refid="classRunEngine_1a619bbe9f7828da95bc1622d28ae99dc6" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>final_mat</name></member>
+      <member refid="classRunEngine_1a40c62f30faa8e29691e039a18bc4a606" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>g</name></member>
+      <member refid="classRunEngine_1a069f5d9be14a64a0041d7e8ad39c6039" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>grid</name></member>
+      <member refid="classRunEngine_1a785e7f067bbdb262ded7caf3f804ef73" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>grid_temp</name></member>
+      <member refid="classRunEngine_1a85b10ffa1e2dc263882619f87a8fdfa5" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>gridcoords</name></member>
+      <member refid="classRunEngine_1a56a29c892a29c495f5f1c2dccc801496" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>indmol</name></member>
+      <member refid="classRunEngine_1a9a3f13d12b68516740c449f1d74c32dd" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>info</name></member>
+      <member refid="classRunEngine_1a3d2a40c6c33673609e78f9f7a22fc870" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>nc_gauss</name></member>
+      <member refid="classRunEngine_1a2d09564348e456a721479433297c5e74" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>outname</name></member>
+      <member refid="classRunEngine_1ad50a49540f69ace30bc789cfa0bc54cf" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>pc_gauss</name></member>
+      <member refid="classRunEngine_1af76db4504afdd5b42e815124a6db776c" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>r</name></member>
+      <member refid="classRunEngine_1a96a9ac742e99bc1d475c37a4028d3c31" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>ranker</name></member>
+      <member refid="classRunEngine_1a4bf927d6520841cf87ac0069c635c5f9" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>repulsive_potential</name></member>
+      <member refid="classRunEngine_1a83014ce0e33ab9570f068e8c5991750b" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>run</name></member>
+      <member refid="classRunEngine_1a350dbfe86347990322d471369d3c6bf6" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>shape_cc</name></member>
+      <member refid="classRunEngine_1a35ff80369525c5ac8db6069a7ac7df85" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>SI</name></member>
+      <member refid="classRunEngine_1aa1d02b1c1e82a5ac125395f8ffc3a23b" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>sorted_indexes</name></member>
+      <member refid="classRunEngine_1a25766a7cb33a0349ef83ae66a9d43869" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>sum_of_elec_potential</name></member>
+      <member refid="classRunEngine_1a5918aafeeacb8c8961119fc9b3aa8bcf" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>sum_of_repulsive_potential</name></member>
+      <member refid="classRunEngine_1aa47ccf8fcf12abec942b2d8800054c97" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>time0</name></member>
+      <member refid="classRunEngine_1a0b9f099a872af3419d9a8a2a909221b8" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>time1</name></member>
+      <member refid="classRunEngine_1a200fc02261b35e2785d0905547fafb4a" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>total_time</name></member>
+      <member refid="classRunEngine_1aced0ece845f6d0d8490a122f2cbd9386" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>transx</name></member>
+      <member refid="classRunEngine_1aa9ac6ca39edba1f8dc8a1cf010e99eec" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>transy</name></member>
+      <member refid="classRunEngine_1af37ec9914805f8aac34e9e935f84b0bb" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>transz</name></member>
+      <member refid="classRunEngine_1a71699c9e4a6b8b0993cbc68b08f4eee0" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>vdw_cc</name></member>
+      <member refid="classRunEngine_1ace0e7e510d148f82a7d5816ca6ead0b2" prot="public" virt="non-virtual"><scope>RunEngine</scope><name>VDWs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

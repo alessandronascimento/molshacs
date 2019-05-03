@@ -1,0 +1,368 @@
+\hypertarget{classRunEngine}{
+\section{RunEngine Class Reference}
+\label{classRunEngine}\index{RunEngine@{RunEngine}}
+}
+
+
+{\ttfamily \#include $<$RunEngine.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRunEngine_a3f8cd6042753d0f14bcd0855ab69ef7f}{RunEngine} ()
+\item 
+double \hyperlink{classRunEngine_a2b8d8b8cedbb19c5142beab691f5fa35}{distance} (double x1, double x2, double y1, double y2, double z1, double z2)
+\begin{DoxyCompactList}\small\item\em Function distance. \end{DoxyCompactList}\item 
+void \hyperlink{classRunEngine_a83014ce0e33ab9570f068e8c5991750b}{run} (\hyperlink{classParser}{Parser} Input)
+\begin{DoxyCompactList}\small\item\em Function run. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classRunEngine_aca2475d1d35f37f0f68363f3588ac938}{ranker} (vector$<$ float $>$ CCs)
+\begin{DoxyCompactList}\small\item\em Function ranker. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classRunEngine_af76db4504afdd5b42e815124a6db776c}{r}
+\begin{DoxyCompactList}\small\item\em Distance. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_ae9414425d158ffbd39d8302bee2a9a4d}{elect}
+\begin{DoxyCompactList}\small\item\em Electrostatic potential at a point. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_ae5ff90982e131cb0b906648249761db8}{a}
+\begin{DoxyCompactList}\small\item\em Alpha angle. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a93cac05608cfd8e127bb9fc0da85e56f}{b}
+\begin{DoxyCompactList}\small\item\em Beta angle. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a40c62f30faa8e29691e039a18bc4a606}{g}
+\begin{DoxyCompactList}\small\item\em Gamma angle. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_aced0ece845f6d0d8490a122f2cbd9386}{transx}
+\begin{DoxyCompactList}\small\item\em Translation step in X direction. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_aa9ac6ca39edba1f8dc8a1cf010e99eec}{transy}
+\begin{DoxyCompactList}\small\item\em Translation step in Y direction. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_af37ec9914805f8aac34e9e935f84b0bb}{transz}
+\begin{DoxyCompactList}\small\item\em Translation step in Z direction. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classRunEngine_a85b10ffa1e2dc263882619f87a8fdfa5}{gridcoords}
+\begin{DoxyCompactList}\small\item\em Coordinates for grid computation. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classRunEngine_a03f5b419eec5c3f704f34ff268071b36}{elec\_\-potential}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classGrid}{Grid} potential XYX coordinates stored temporarily. \end{DoxyCompactList}\item 
+string \hyperlink{classRunEngine_a56a29c892a29c495f5f1c2dccc801496}{indmol}
+\begin{DoxyCompactList}\small\item\em C++ vector with the molecular electrostactic potential. \end{DoxyCompactList}\item 
+int \hyperlink{classRunEngine_a72e70234abefac658cb2e2fb5731612d}{count}
+\begin{DoxyCompactList}\small\item\em Counter for the molecules in the multimode file. \end{DoxyCompactList}\item 
+char \hyperlink{classRunEngine_a2d09564348e456a721479433297c5e74}{outname} \mbox{[}50\mbox{]}
+\begin{DoxyCompactList}\small\item\em Character array to set up a output name for the PDB file given as output. \end{DoxyCompactList}\item 
+clock\_\-t \hyperlink{classRunEngine_aa47ccf8fcf12abec942b2d8800054c97}{time0}
+\begin{DoxyCompactList}\small\item\em Variable to get the timing of the execution. \end{DoxyCompactList}\item 
+clock\_\-t \hyperlink{classRunEngine_a0b9f099a872af3419d9a8a2a909221b8}{time1}
+\begin{DoxyCompactList}\small\item\em Variable to get the timing of the execution. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a200fc02261b35e2785d0905547fafb4a}{total\_\-time}
+\begin{DoxyCompactList}\small\item\em Variable to get the timing of the execution. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a01247593207aa8837b9da996ea81fa04}{f\_\-min}
+\begin{DoxyCompactList}\small\item\em Minimum value reached after minimization procedure. \end{DoxyCompactList}\item 
+char \hyperlink{classRunEngine_a9a3f13d12b68516740c449f1d74c32dd}{info} \mbox{[}82\mbox{]}
+\begin{DoxyCompactList}\small\item\em Char array to print running information in the screen. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a66754b416ac3363addc1090a2fff6330}{cc}
+\begin{DoxyCompactList}\small\item\em Correlation coefficient computed to each molecule after spatial matching. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a25766a7cb33a0349ef83ae66a9d43869}{sum\_\-of\_\-elec\_\-potential}
+\begin{DoxyCompactList}\small\item\em Sum of the product of the electrostatic potential of the reference molecule. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classRunEngine_a4bf927d6520841cf87ac0069c635c5f9}{repulsive\_\-potential}
+\begin{DoxyCompactList}\small\item\em C++ vector to compute the VDW repulsive potential. \end{DoxyCompactList}\item 
+double \hyperlink{classRunEngine_a5f3672cf9986324bd7808e8a96cb0dba}{Vab}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRunEngine_a3f8cd6042753d0f14bcd0855ab69ef7f}{
+\index{RunEngine@{RunEngine}!RunEngine@{RunEngine}}
+\index{RunEngine@{RunEngine}!RunEngine@{RunEngine}}
+\subsubsection[{RunEngine}]{\setlength{\rightskip}{0pt plus 5cm}RunEngine::RunEngine (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classRunEngine_a3f8cd6042753d0f14bcd0855ab69ef7f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classRunEngine_a2b8d8b8cedbb19c5142beab691f5fa35}{
+\index{RunEngine@{RunEngine}!distance@{distance}}
+\index{distance@{distance}!RunEngine@{RunEngine}}
+\subsubsection[{distance}]{\setlength{\rightskip}{0pt plus 5cm}double RunEngine::distance (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)}}
+\label{classRunEngine_a2b8d8b8cedbb19c5142beab691f5fa35}
+
+
+Function distance. 
+
+Computes the distance between two atoms. 
+\begin{DoxyParams}{Parameters}
+{\em x1} & X-\/coordinate of the first atom. \\
+\hline
+{\em x2} & X-\/coordinate of the second atom. \\
+\hline
+{\em y1} & Y-\/coordinate of the first atom. \\
+\hline
+{\em y2} & Y-\/coordinate of the second atom. \\
+\hline
+{\em z1} & Z-\/coordinate of the first atom. \\
+\hline
+{\em z2} & Z-\/coordinate of the second atom. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the distance (double) between the atoms. 
+\end{DoxyReturn}
+\hypertarget{classRunEngine_aca2475d1d35f37f0f68363f3588ac938}{
+\index{RunEngine@{RunEngine}!ranker@{ranker}}
+\index{ranker@{ranker}!RunEngine@{RunEngine}}
+\subsubsection[{ranker}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ int $>$ RunEngine::ranker (
+\begin{DoxyParamCaption}
+\item[{vector$<$ float $>$}]{CCs}
+\end{DoxyParamCaption}
+)}}
+\label{classRunEngine_aca2475d1d35f37f0f68363f3588ac938}
+
+
+Function ranker. 
+
+This function writes a vector of integers with the indexes of the SI vector sorted decreasingly. 
+\begin{DoxyParams}{Parameters}
+{\em CCs} & C++ vector with molecule SIs; \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of integers with SIs indexes sorted. 
+\end{DoxyReturn}
+\hypertarget{classRunEngine_a83014ce0e33ab9570f068e8c5991750b}{
+\index{RunEngine@{RunEngine}!run@{run}}
+\index{run@{run}!RunEngine@{RunEngine}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void RunEngine::run (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser}}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classRunEngine_a83014ce0e33ab9570f068e8c5991750b}
+
+
+Function run. 
+
+This function actually runs the program. It's where all the computation takes place. 
+\begin{DoxyParams}{Parameters}
+{\em Input} & An \hyperlink{classParser}{Parser} object with the parameters taken from user. \\
+\hline
+\end{DoxyParams}
+
+
+Minimization starts here by calling a new Minimizer class \char`\"{}Min\char`\"{} Through parameter passage (coordinates, charges, N, etc) the class is set up and the minimizer actually starts with the method minimize. The minimum difference function value reached during the minimization is returned to the \char`\"{}f\_\-min\char`\"{} variable and printed below
+
+
+
+Here is the call graph for this function:
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classRunEngine_ae5ff90982e131cb0b906648249761db8}{
+\index{RunEngine@{RunEngine}!a@{a}}
+\index{a@{a}!RunEngine@{RunEngine}}
+\subsubsection[{a}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::a}}}
+\label{classRunEngine_ae5ff90982e131cb0b906648249761db8}
+
+
+Alpha angle. 
+
+\hypertarget{classRunEngine_a93cac05608cfd8e127bb9fc0da85e56f}{
+\index{RunEngine@{RunEngine}!b@{b}}
+\index{b@{b}!RunEngine@{RunEngine}}
+\subsubsection[{b}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::b}}}
+\label{classRunEngine_a93cac05608cfd8e127bb9fc0da85e56f}
+
+
+Beta angle. 
+
+\hypertarget{classRunEngine_a66754b416ac3363addc1090a2fff6330}{
+\index{RunEngine@{RunEngine}!cc@{cc}}
+\index{cc@{cc}!RunEngine@{RunEngine}}
+\subsubsection[{cc}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::cc}}}
+\label{classRunEngine_a66754b416ac3363addc1090a2fff6330}
+
+
+Correlation coefficient computed to each molecule after spatial matching. 
+
+\hypertarget{classRunEngine_a72e70234abefac658cb2e2fb5731612d}{
+\index{RunEngine@{RunEngine}!count@{count}}
+\index{count@{count}!RunEngine@{RunEngine}}
+\subsubsection[{count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf RunEngine::count}}}
+\label{classRunEngine_a72e70234abefac658cb2e2fb5731612d}
+
+
+Counter for the molecules in the multimode file. 
+
+\hypertarget{classRunEngine_a03f5b419eec5c3f704f34ff268071b36}{
+\index{RunEngine@{RunEngine}!elec\_\-potential@{elec\_\-potential}}
+\index{elec\_\-potential@{elec\_\-potential}!RunEngine@{RunEngine}}
+\subsubsection[{elec\_\-potential}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf RunEngine::elec\_\-potential}}}
+\label{classRunEngine_a03f5b419eec5c3f704f34ff268071b36}
+
+
+\hyperlink{classGrid}{Grid} potential XYX coordinates stored temporarily. 
+
+Electrostactic potential for a given point sample \hypertarget{classRunEngine_ae9414425d158ffbd39d8302bee2a9a4d}{
+\index{RunEngine@{RunEngine}!elect@{elect}}
+\index{elect@{elect}!RunEngine@{RunEngine}}
+\subsubsection[{elect}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::elect}}}
+\label{classRunEngine_ae9414425d158ffbd39d8302bee2a9a4d}
+
+
+Electrostatic potential at a point. 
+
+\hypertarget{classRunEngine_a01247593207aa8837b9da996ea81fa04}{
+\index{RunEngine@{RunEngine}!f\_\-min@{f\_\-min}}
+\index{f\_\-min@{f\_\-min}!RunEngine@{RunEngine}}
+\subsubsection[{f\_\-min}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::f\_\-min}}}
+\label{classRunEngine_a01247593207aa8837b9da996ea81fa04}
+
+
+Minimum value reached after minimization procedure. 
+
+\hypertarget{classRunEngine_a40c62f30faa8e29691e039a18bc4a606}{
+\index{RunEngine@{RunEngine}!g@{g}}
+\index{g@{g}!RunEngine@{RunEngine}}
+\subsubsection[{g}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::g}}}
+\label{classRunEngine_a40c62f30faa8e29691e039a18bc4a606}
+
+
+Gamma angle. 
+
+\hypertarget{classRunEngine_a85b10ffa1e2dc263882619f87a8fdfa5}{
+\index{RunEngine@{RunEngine}!gridcoords@{gridcoords}}
+\index{gridcoords@{gridcoords}!RunEngine@{RunEngine}}
+\subsubsection[{gridcoords}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$double$>$ $>$ {\bf RunEngine::gridcoords}}}
+\label{classRunEngine_a85b10ffa1e2dc263882619f87a8fdfa5}
+
+
+Coordinates for grid computation. 
+
+\hypertarget{classRunEngine_a56a29c892a29c495f5f1c2dccc801496}{
+\index{RunEngine@{RunEngine}!indmol@{indmol}}
+\index{indmol@{indmol}!RunEngine@{RunEngine}}
+\subsubsection[{indmol}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf RunEngine::indmol}}}
+\label{classRunEngine_a56a29c892a29c495f5f1c2dccc801496}
+
+
+C++ vector with the molecular electrostactic potential. 
+
+String to parse the molecules (when running in the multimode) from the multifile. \hypertarget{classRunEngine_a9a3f13d12b68516740c449f1d74c32dd}{
+\index{RunEngine@{RunEngine}!info@{info}}
+\index{info@{info}!RunEngine@{RunEngine}}
+\subsubsection[{info}]{\setlength{\rightskip}{0pt plus 5cm}char {\bf RunEngine::info}\mbox{[}82\mbox{]}}}
+\label{classRunEngine_a9a3f13d12b68516740c449f1d74c32dd}
+
+
+Char array to print running information in the screen. 
+
+\hypertarget{classRunEngine_a2d09564348e456a721479433297c5e74}{
+\index{RunEngine@{RunEngine}!outname@{outname}}
+\index{outname@{outname}!RunEngine@{RunEngine}}
+\subsubsection[{outname}]{\setlength{\rightskip}{0pt plus 5cm}char {\bf RunEngine::outname}\mbox{[}50\mbox{]}}}
+\label{classRunEngine_a2d09564348e456a721479433297c5e74}
+
+
+Character array to set up a output name for the PDB file given as output. 
+
+\hypertarget{classRunEngine_af76db4504afdd5b42e815124a6db776c}{
+\index{RunEngine@{RunEngine}!r@{r}}
+\index{r@{r}!RunEngine@{RunEngine}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::r}}}
+\label{classRunEngine_af76db4504afdd5b42e815124a6db776c}
+
+
+Distance. 
+
+\hypertarget{classRunEngine_a4bf927d6520841cf87ac0069c635c5f9}{
+\index{RunEngine@{RunEngine}!repulsive\_\-potential@{repulsive\_\-potential}}
+\index{repulsive\_\-potential@{repulsive\_\-potential}!RunEngine@{RunEngine}}
+\subsubsection[{repulsive\_\-potential}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf RunEngine::repulsive\_\-potential}}}
+\label{classRunEngine_a4bf927d6520841cf87ac0069c635c5f9}
+
+
+C++ vector to compute the VDW repulsive potential. 
+
+\hypertarget{classRunEngine_a25766a7cb33a0349ef83ae66a9d43869}{
+\index{RunEngine@{RunEngine}!sum\_\-of\_\-elec\_\-potential@{sum\_\-of\_\-elec\_\-potential}}
+\index{sum\_\-of\_\-elec\_\-potential@{sum\_\-of\_\-elec\_\-potential}!RunEngine@{RunEngine}}
+\subsubsection[{sum\_\-of\_\-elec\_\-potential}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::sum\_\-of\_\-elec\_\-potential}}}
+\label{classRunEngine_a25766a7cb33a0349ef83ae66a9d43869}
+
+
+Sum of the product of the electrostatic potential of the reference molecule. 
+
+\hypertarget{classRunEngine_aa47ccf8fcf12abec942b2d8800054c97}{
+\index{RunEngine@{RunEngine}!time0@{time0}}
+\index{time0@{time0}!RunEngine@{RunEngine}}
+\subsubsection[{time0}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf RunEngine::time0}}}
+\label{classRunEngine_aa47ccf8fcf12abec942b2d8800054c97}
+
+
+Variable to get the timing of the execution. 
+
+\hypertarget{classRunEngine_a0b9f099a872af3419d9a8a2a909221b8}{
+\index{RunEngine@{RunEngine}!time1@{time1}}
+\index{time1@{time1}!RunEngine@{RunEngine}}
+\subsubsection[{time1}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf RunEngine::time1}}}
+\label{classRunEngine_a0b9f099a872af3419d9a8a2a909221b8}
+
+
+Variable to get the timing of the execution. 
+
+\hypertarget{classRunEngine_a200fc02261b35e2785d0905547fafb4a}{
+\index{RunEngine@{RunEngine}!total\_\-time@{total\_\-time}}
+\index{total\_\-time@{total\_\-time}!RunEngine@{RunEngine}}
+\subsubsection[{total\_\-time}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::total\_\-time}}}
+\label{classRunEngine_a200fc02261b35e2785d0905547fafb4a}
+
+
+Variable to get the timing of the execution. 
+
+\hypertarget{classRunEngine_aced0ece845f6d0d8490a122f2cbd9386}{
+\index{RunEngine@{RunEngine}!transx@{transx}}
+\index{transx@{transx}!RunEngine@{RunEngine}}
+\subsubsection[{transx}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::transx}}}
+\label{classRunEngine_aced0ece845f6d0d8490a122f2cbd9386}
+
+
+Translation step in X direction. 
+
+\hypertarget{classRunEngine_aa9ac6ca39edba1f8dc8a1cf010e99eec}{
+\index{RunEngine@{RunEngine}!transy@{transy}}
+\index{transy@{transy}!RunEngine@{RunEngine}}
+\subsubsection[{transy}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::transy}}}
+\label{classRunEngine_aa9ac6ca39edba1f8dc8a1cf010e99eec}
+
+
+Translation step in Y direction. 
+
+\hypertarget{classRunEngine_af37ec9914805f8aac34e9e935f84b0bb}{
+\index{RunEngine@{RunEngine}!transz@{transz}}
+\index{transz@{transz}!RunEngine@{RunEngine}}
+\subsubsection[{transz}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::transz}}}
+\label{classRunEngine_af37ec9914805f8aac34e9e935f84b0bb}
+
+
+Translation step in Z direction. 
+
+\hypertarget{classRunEngine_a5f3672cf9986324bd7808e8a96cb0dba}{
+\index{RunEngine@{RunEngine}!Vab@{Vab}}
+\index{Vab@{Vab}!RunEngine@{RunEngine}}
+\subsubsection[{Vab}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf RunEngine::Vab}}}
+\label{classRunEngine_a5f3672cf9986324bd7808e8a96cb0dba}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{RunEngine_8h}{RunEngine.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{RunEngine_8cpp}{RunEngine.cpp}\end{DoxyCompactItemize}

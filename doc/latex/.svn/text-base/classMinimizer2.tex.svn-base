@@ -1,0 +1,719 @@
+\hypertarget{classMinimizer2}{
+\section{Minimizer2 Class Reference}
+\label{classMinimizer2}\index{Minimizer2@{Minimizer2}}
+}
+
+
+Class \hyperlink{classMinimizer2}{Minimizer2}.  
+
+
+
+
+{\ttfamily \#include $<$Minimizer2.h$>$}
+
+
+
+Collaboration diagram for Minimizer2:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMinimizer2_adc2a97d8a78ca35e8f9714d8033a1d82}{Minimizer2} (\hyperlink{classMol2}{Mol2} $\ast$\_\-RefMol, \hyperlink{classMol2}{Mol2} $\ast$\_\-CompMol, \hyperlink{classParser}{Parser} $\ast$\_\-Input, \hyperlink{classGrid}{Grid} $\ast$\_\-Cgrid)
+\item 
+double \hyperlink{classMinimizer2_a39d440b959db32c57baab3a322758821}{minimize\_\-nlopt\_\-mma} ()
+\item 
+double \hyperlink{classMinimizer2_aca9af00ae1cf0399a476cbb6e22e09e3}{minimize\_\-nlopt\_\-isres} ()
+\item 
+double \hyperlink{classMinimizer2_a781d7c1c19a0198afaa2e42bfee1651d}{minimize\_\-nlopt\_\-subplex} ()
+\item 
+double \hyperlink{classMinimizer2_acd7f7eb0f80c6b91268d3b81abd5bd1e}{minimize\_\-nlopt\_\-simplex} ()
+\item 
+double \hyperlink{classMinimizer2_a09c326d8dfd60883a7506e0ebfdf4962}{minimize\_\-nlopt\_\-cobyla} ()
+\item 
+double \hyperlink{classMinimizer2_a4981a5f90d855bc1d25b857881edb172}{minimize\_\-nlopt\_\-bfgs2} ()
+\item 
+double \hyperlink{classMinimizer2_a3c0a0abe78fc3b33e91e098d13b7f43a}{minimize\_\-nlopt\_\-stogo} ()
+\item 
+double \hyperlink{classMinimizer2_ac8b7b2846ad8d37e41f1b6b07045aef2}{minimize\_\-nlopt\_\-direct} ()
+\item 
+double \hyperlink{classMinimizer2_a9a993fd3029f2be3c6096e385e1c5ba4}{minimize\_\-nlopt\_\-ln\_\-auglag} ()
+\begin{DoxyCompactList}\small\item\em Minimizes the objective function using local AUGLAG as implemented in NLOPT without using derivatives (LN) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classMinimizer2_a6626777b2e2a1b09d2a1c925f45962a4}{dist} (double x1, double x2, double y1, double y2, double z1, double z2)
+\begin{DoxyCompactList}\small\item\em This function computes the distance among two atoms. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_aa34e6305d001acec8ac2238f6ec672ab}{dist\_\-squared} (double x1, double x2, double y1, double y2, double z1, double z2)
+\begin{DoxyCompactList}\small\item\em This function computes the square of the distance among two atoms. \end{DoxyCompactList}\item 
+static vector$<$ double $>$ \hyperlink{classMinimizer2_addd14de621061132835370b3d02cd405}{compute\_\-com} (vector$<$ vector$<$ double $>$ $>$ xyz, \hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classMinimizer2_af79d496194cba04903627d821f0faca3}{Cmol})
+\begin{DoxyCompactList}\small\item\em Computes the center of mass of a molecular system. \end{DoxyCompactList}\item 
+static vector$<$ vector$<$ double $>$ $>$ \hyperlink{classMinimizer2_a7bc4c2fe892e0339048d9ca7932cdf69}{rototranslate} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classMinimizer2_af79d496194cba04903627d821f0faca3}{Cmol}, vector$<$ vector$<$ double $>$ $>$xyz, double alpha, double beta, double gamma, double transx, double transy, double transz)
+\begin{DoxyCompactList}\small\item\em Computes new coordinates after a translation and a rotation. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a62fa0872db1e16736f810a2e6f99c2f1}{function\_\-gaussian\_\-shape} (const gsl\_\-vector $\ast$v, void $\ast$params)
+\begin{DoxyCompactList}\small\item\em This function computes the objective function for GSL optimizers. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a1e0732ccaf045c27bb2cc3186fddff55}{nlopt\_\-func\_\-gauss\_\-density} (const std::vector$<$ double $>$ \&\hyperlink{classMinimizer2_ad34cff3ae59c83548e2d5485e800897e}{x}, std::vector$<$ double $>$ \&grad, void $\ast$data)
+\begin{DoxyCompactList}\small\item\em Objective function for \hyperlink{classGaussian}{Gaussian} Shape and Charge computation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classMinimizer2_a5907490bde60e76d02217390e32a66eb}{alpha\_\-j}
+\item 
+static double \hyperlink{classMinimizer2_a94cdc4b856be09a22683920582c2fe82}{dij2}
+\item 
+static double \hyperlink{classMinimizer2_a4ec6faa72ef628c5fb9c860f79e22581}{pi}
+\item 
+static double \hyperlink{classMinimizer2_a2a464eda6d14d97c76ad19d9d713a143}{pj}
+\item 
+static double \hyperlink{classMinimizer2_a894a781f062079e7fb78ec9ee176f197}{y}
+\item 
+static double \hyperlink{classMinimizer2_a67af59755e277209aff3e4137364be63}{z}
+\item 
+static double \hyperlink{classMinimizer2_ac39a59aea04d00554b1c55d2d6341897}{r2}
+\item 
+static double \hyperlink{classMinimizer2_a6eb98a0ee8462eb25479560885798552}{r6}
+\item 
+static double \hyperlink{classMinimizer2_aed61b49820c062adf7cd7dd5b4a27555}{repul}
+\item 
+static clock\_\-t \hyperlink{classMinimizer2_abb0118980a0aa4c6717ff9dc88668f45}{time1}
+\item 
+static double \hyperlink{classMinimizer2_a056a439a64220298d298cd7e2bd59339}{vdw\_\-term}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{classMinimizer2_aa446d4997e158501ce036b559904952e}{alpha\_\-i}
+\item 
+static \hyperlink{classMol2}{Mol2} $\ast$ \hyperlink{classMinimizer2_af79d496194cba04903627d821f0faca3}{Cmol}
+\begin{DoxyCompactList}\small\item\em Pointer to the MOL Class. \end{DoxyCompactList}\item 
+static \hyperlink{classGrid}{Grid} $\ast$ \hyperlink{classMinimizer2_a82909d2dd56fc9747ae6edbe94b2e5d2}{Cgrid}
+\begin{DoxyCompactList}\small\item\em Pointer to the GRID Class. \end{DoxyCompactList}\item 
+static \hyperlink{classParser}{Parser} $\ast$ \hyperlink{classMinimizer2_a589bf24b76630588dbd93b78ed85deb4}{Input}
+\begin{DoxyCompactList}\small\item\em Pointer to the INPUT Class. \end{DoxyCompactList}\item 
+static \hyperlink{classMol2}{Mol2} $\ast$ \hyperlink{classMinimizer2_ac00d3a0aba2c77a4202fb647d3dbb561}{RefMol}
+\begin{DoxyCompactList}\small\item\em Pointer to the reference molecule object (type \hyperlink{classMol2}{Mol2}) \end{DoxyCompactList}\item 
+static \hyperlink{classMol2}{Mol2} $\ast$ \hyperlink{classMinimizer2_acb70dec810b27d78484566c87281ab26}{CompMol}
+\begin{DoxyCompactList}\small\item\em Pointer to the comparison molecule object. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a98b7bf0f7dc850bc5ce22721d6a8caf2}{elec}
+\begin{DoxyCompactList}\small\item\em Electrostatic potential in a grid point. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_ad34cff3ae59c83548e2d5485e800897e}{x}
+\begin{DoxyCompactList}\small\item\em x, y and z coordinates \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a3f56599cc0464de622f4493ab209be67}{r}
+\begin{DoxyCompactList}\small\item\em Distance r among two atoms;. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a2a073ef1806f84be7c4f4b8cf6f7f2a7}{sum\_\-diff}
+\begin{DoxyCompactList}\small\item\em Sum of differeces in objective function computation. \end{DoxyCompactList}\item 
+static vector$<$ vector$<$ double $>$ $>$ \hyperlink{classMinimizer2_a680a201172c6518d60325eaac358b371}{new\_\-xyz}
+\begin{DoxyCompactList}\small\item\em Rototranslated coordinates. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_afefc05f3f81b5f002041933d12352642}{t1}
+\begin{DoxyCompactList}\small\item\em Objective function value. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a166a976d19a3c0c33222b3d000377586}{f\_\-minimum}
+\begin{DoxyCompactList}\small\item\em Minimum of the objective function reached after minimization. \end{DoxyCompactList}\item 
+static int \hyperlink{classMinimizer2_ab2fc020ca4f53c83045abb9533932e8f}{status}
+\begin{DoxyCompactList}\small\item\em Status of the minimizer. \end{DoxyCompactList}\item 
+static clock\_\-t \hyperlink{classMinimizer2_ac63693b02b0d74534c318db59499891b}{time0}
+\begin{DoxyCompactList}\small\item\em Timer for minimization functions. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_a2fefd1c40811da6a30fed3c273e624d7}{time\_\-elapsed}
+\begin{DoxyCompactList}\small\item\em Time elapsed for minimization procedure. \end{DoxyCompactList}\item 
+static double \hyperlink{classMinimizer2_adc7e28a36b3364eeeb2e176f101ec3eb}{elec\_\-term}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class \hyperlink{classMinimizer2}{Minimizer2}. 
+
+This is the second version of the Minimizer Class. This Class has buit-\/in functions to handle the minimization of a objective function f that has as parameters three rotation angles (Euler angles) and translation in cartesian axis x, y and z. The function f(a,b,g,x,y,z) is minimized using different algorithms provided here by both GNU Scientific Library (GSL) and (LGPL) NLOPT (Steven G. Johnson, The NLopt nonlinear-\/optimization package, \href{http://ab-initio.mit.edu/nlopt}{\tt http://ab-\/initio.mit.edu/nlopt}). 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classMinimizer2_adc2a97d8a78ca35e8f9714d8033a1d82}{
+\index{Minimizer2@{Minimizer2}!Minimizer2@{Minimizer2}}
+\index{Minimizer2@{Minimizer2}!Minimizer2@{Minimizer2}}
+\subsubsection[{Minimizer2}]{\setlength{\rightskip}{0pt plus 5cm}Minimizer2::Minimizer2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{\_\-RefMol, }
+\item[{{\bf Mol2} $\ast$}]{\_\-CompMol, }
+\item[{{\bf Parser} $\ast$}]{\_\-Input, }
+\item[{{\bf Grid} $\ast$}]{\_\-Cgrid}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_adc2a97d8a78ca35e8f9714d8033a1d82}
+Class Constructor. 
+\begin{DoxyParams}{Parameters}
+{\em \_\-Cmol} & MOL Class pointer passed as a parameter \\
+\hline
+{\em \_\-Input} & PARSER Class pointer passed as a parameter \\
+\hline
+{\em \_\-CGrid} & GRID Class pointer passed as parameter \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classMinimizer2_addd14de621061132835370b3d02cd405}{
+\index{Minimizer2@{Minimizer2}!compute\_\-com@{compute\_\-com}}
+\index{compute\_\-com@{compute\_\-com}!Minimizer2@{Minimizer2}}
+\subsubsection[{compute\_\-com}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Minimizer2::compute\_\-com (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{{\bf Mol2} $\ast$}]{Cmol}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_addd14de621061132835370b3d02cd405}
+
+
+Computes the center of mass of a molecular system. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em xyz} & C++ vector with molecular coordinates \\
+\hline
+{\em Cmol} & Pointer to a \hyperlink{classMol2}{Mol2} Object with Molecular information (massses, charges, etc) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A C++ vector with three elements (x, y and z) for the center of mass. 
+\end{DoxyReturn}
+\hypertarget{classMinimizer2_a6626777b2e2a1b09d2a1c925f45962a4}{
+\index{Minimizer2@{Minimizer2}!dist@{dist}}
+\index{dist@{dist}!Minimizer2@{Minimizer2}}
+\subsubsection[{dist}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::dist (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a6626777b2e2a1b09d2a1c925f45962a4}
+
+
+This function computes the distance among two atoms. 
+
+$(d_12)$ = $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$ 
+\begin{DoxyParams}{Parameters}
+{\em x1} & X coordinate of the first atom \\
+\hline
+{\em x2} & X coordinate of the second atom \\
+\hline
+{\em y1} & Y coordinate of the first atom \\
+\hline
+{\em y2} & Y coordinate of the second atom \\
+\hline
+{\em z1} & Z coordinate of the first atom \\
+\hline
+{\em z2} & Z coordinate of the second atom \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The distance. 
+\end{DoxyReturn}
+\hypertarget{classMinimizer2_aa34e6305d001acec8ac2238f6ec672ab}{
+\index{Minimizer2@{Minimizer2}!dist\_\-squared@{dist\_\-squared}}
+\index{dist\_\-squared@{dist\_\-squared}!Minimizer2@{Minimizer2}}
+\subsubsection[{dist\_\-squared}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::dist\_\-squared (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_aa34e6305d001acec8ac2238f6ec672ab}
+
+
+This function computes the square of the distance among two atoms. 
+
+$(d_12)$ = ${(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$ 
+\begin{DoxyParams}{Parameters}
+{\em x1} & X coordinate of the first atom \\
+\hline
+{\em x2} & X coordinate of the second atom \\
+\hline
+{\em y1} & Y coordinate of the first atom \\
+\hline
+{\em y2} & Y coordinate of the second atom \\
+\hline
+{\em z1} & Z coordinate of the first atom \\
+\hline
+{\em z2} & Z coordinate of the second atom \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The square of the distance. 
+\end{DoxyReturn}
+\hypertarget{classMinimizer2_a62fa0872db1e16736f810a2e6f99c2f1}{
+\index{Minimizer2@{Minimizer2}!function\_\-gaussian\_\-shape@{function\_\-gaussian\_\-shape}}
+\index{function\_\-gaussian\_\-shape@{function\_\-gaussian\_\-shape}!Minimizer2@{Minimizer2}}
+\subsubsection[{function\_\-gaussian\_\-shape}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::function\_\-gaussian\_\-shape (
+\begin{DoxyParamCaption}
+\item[{const gsl\_\-vector $\ast$}]{v, }
+\item[{void $\ast$}]{params}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a62fa0872db1e16736f810a2e6f99c2f1}
+
+
+This function computes the objective function for GSL optimizers. 
+
+But is not being used for now. 
+\begin{DoxyParams}{Parameters}
+{\em v} & GSL vector with the six variables(transx, transy, transz, alpha, beta and gamma) \\
+\hline
+{\em params} & Coefficients for computation (void) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The objective function value 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a4981a5f90d855bc1d25b857881edb172}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-bfgs2@{minimize\_\-nlopt\_\-bfgs2}}
+\index{minimize\_\-nlopt\_\-bfgs2@{minimize\_\-nlopt\_\-bfgs2}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-bfgs2}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-bfgs2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a4981a5f90d855bc1d25b857881edb172}
+Minimizes the objective function using BFGS as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a09c326d8dfd60883a7506e0ebfdf4962}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-cobyla@{minimize\_\-nlopt\_\-cobyla}}
+\index{minimize\_\-nlopt\_\-cobyla@{minimize\_\-nlopt\_\-cobyla}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-cobyla}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-cobyla (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a09c326d8dfd60883a7506e0ebfdf4962}
+Minimizes the objective function using COBYLA as implemented in NLOPT \begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_ac8b7b2846ad8d37e41f1b6b07045aef2}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-direct@{minimize\_\-nlopt\_\-direct}}
+\index{minimize\_\-nlopt\_\-direct@{minimize\_\-nlopt\_\-direct}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-direct}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-direct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_ac8b7b2846ad8d37e41f1b6b07045aef2}
+Minimizes the objective function using DIRECT-\/L as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_aca9af00ae1cf0399a476cbb6e22e09e3}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-isres@{minimize\_\-nlopt\_\-isres}}
+\index{minimize\_\-nlopt\_\-isres@{minimize\_\-nlopt\_\-isres}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-isres}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-isres (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_aca9af00ae1cf0399a476cbb6e22e09e3}
+Minimizes the objective function using Improved Stochastic Ranking Evolution Strategy as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a9a993fd3029f2be3c6096e385e1c5ba4}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-ln\_\-auglag@{minimize\_\-nlopt\_\-ln\_\-auglag}}
+\index{minimize\_\-nlopt\_\-ln\_\-auglag@{minimize\_\-nlopt\_\-ln\_\-auglag}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-ln\_\-auglag}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-ln\_\-auglag (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a9a993fd3029f2be3c6096e385e1c5ba4}
+
+
+Minimizes the objective function using local AUGLAG as implemented in NLOPT without using derivatives (LN) 
+
+\begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a39d440b959db32c57baab3a322758821}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-mma@{minimize\_\-nlopt\_\-mma}}
+\index{minimize\_\-nlopt\_\-mma@{minimize\_\-nlopt\_\-mma}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-mma}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-mma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a39d440b959db32c57baab3a322758821}
+Minimizes the objective function using the method of moving asymptotes as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_acd7f7eb0f80c6b91268d3b81abd5bd1e}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-simplex@{minimize\_\-nlopt\_\-simplex}}
+\index{minimize\_\-nlopt\_\-simplex@{minimize\_\-nlopt\_\-simplex}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-simplex}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-simplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_acd7f7eb0f80c6b91268d3b81abd5bd1e}
+Minimizes the objective function using Simplex as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a3c0a0abe78fc3b33e91e098d13b7f43a}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-stogo@{minimize\_\-nlopt\_\-stogo}}
+\index{minimize\_\-nlopt\_\-stogo@{minimize\_\-nlopt\_\-stogo}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-stogo}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-stogo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a3c0a0abe78fc3b33e91e098d13b7f43a}
+Minimizes the objective function using STOGO as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a781d7c1c19a0198afaa2e42bfee1651d}{
+\index{Minimizer2@{Minimizer2}!minimize\_\-nlopt\_\-subplex@{minimize\_\-nlopt\_\-subplex}}
+\index{minimize\_\-nlopt\_\-subplex@{minimize\_\-nlopt\_\-subplex}!Minimizer2@{Minimizer2}}
+\subsubsection[{minimize\_\-nlopt\_\-subplex}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::minimize\_\-nlopt\_\-subplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classMinimizer2_a781d7c1c19a0198afaa2e42bfee1651d}
+Minimizes the objective function using Subplex as implemented in NLOPT \begin{DoxyReturn}{Returns}
+the minimum value of the objective function reached 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a1e0732ccaf045c27bb2cc3186fddff55}{
+\index{Minimizer2@{Minimizer2}!nlopt\_\-func\_\-gauss\_\-density@{nlopt\_\-func\_\-gauss\_\-density}}
+\index{nlopt\_\-func\_\-gauss\_\-density@{nlopt\_\-func\_\-gauss\_\-density}!Minimizer2@{Minimizer2}}
+\subsubsection[{nlopt\_\-func\_\-gauss\_\-density}]{\setlength{\rightskip}{0pt plus 5cm}double Minimizer2::nlopt\_\-func\_\-gauss\_\-density (
+\begin{DoxyParamCaption}
+\item[{const std::vector$<$ double $>$ \&}]{x, }
+\item[{std::vector$<$ double $>$ \&}]{grad, }
+\item[{void $\ast$}]{data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a1e0732ccaf045c27bb2cc3186fddff55}
+
+
+Objective function for \hyperlink{classGaussian}{Gaussian} Shape and Charge computation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Rotation/Translation variables; \\
+\hline
+{\em grad} & Gradients \\
+\hline
+{\em data} & Coefficients (not used) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The objective function values 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classMinimizer2_a7bc4c2fe892e0339048d9ca7932cdf69}{
+\index{Minimizer2@{Minimizer2}!rototranslate@{rototranslate}}
+\index{rototranslate@{rototranslate}!Minimizer2@{Minimizer2}}
+\subsubsection[{rototranslate}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ double $>$ $>$ Minimizer2::rototranslate (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{double}]{alpha, }
+\item[{double}]{beta, }
+\item[{double}]{gamma, }
+\item[{double}]{transx, }
+\item[{double}]{transy, }
+\item[{double}]{transz}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a7bc4c2fe892e0339048d9ca7932cdf69}
+
+
+Computes new coordinates after a translation and a rotation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Cmol} & MOL Class pointer with molecule paramters \\
+\hline
+{\em xyz} & Molecule coordinates \\
+\hline
+{\em alpha} & Euler alpha angle \\
+\hline
+{\em beta} & Euler beta angle \\
+\hline
+{\em gamma} & Euler gamma angle \\
+\hline
+{\em transx} & Shift in X direction \\
+\hline
+{\em transy} & Shift in Y direction \\
+\hline
+{\em transz} & Shift in Z direction \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new vector of vector with new coordinates. 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function:
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classMinimizer2_aa446d4997e158501ce036b559904952e}{
+\index{Minimizer2@{Minimizer2}!alpha\_\-i@{alpha\_\-i}}
+\index{alpha\_\-i@{alpha\_\-i}!Minimizer2@{Minimizer2}}
+\subsubsection[{alpha\_\-i}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::alpha\_\-i}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_aa446d4997e158501ce036b559904952e}
+\hypertarget{classMinimizer2_a5907490bde60e76d02217390e32a66eb}{
+\index{Minimizer2@{Minimizer2}!alpha\_\-j@{alpha\_\-j}}
+\index{alpha\_\-j@{alpha\_\-j}!Minimizer2@{Minimizer2}}
+\subsubsection[{alpha\_\-j}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::alpha\_\-j}}}
+\label{classMinimizer2_a5907490bde60e76d02217390e32a66eb}
+\hypertarget{classMinimizer2_a82909d2dd56fc9747ae6edbe94b2e5d2}{
+\index{Minimizer2@{Minimizer2}!Cgrid@{Cgrid}}
+\index{Cgrid@{Cgrid}!Minimizer2@{Minimizer2}}
+\subsubsection[{Cgrid}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Grid} $\ast$ {\bf Minimizer2::Cgrid}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a82909d2dd56fc9747ae6edbe94b2e5d2}
+
+
+Pointer to the GRID Class. 
+
+\hypertarget{classMinimizer2_af79d496194cba04903627d821f0faca3}{
+\index{Minimizer2@{Minimizer2}!Cmol@{Cmol}}
+\index{Cmol@{Cmol}!Minimizer2@{Minimizer2}}
+\subsubsection[{Cmol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mol2} $\ast$ {\bf Minimizer2::Cmol}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_af79d496194cba04903627d821f0faca3}
+
+
+Pointer to the MOL Class. 
+
+\hypertarget{classMinimizer2_acb70dec810b27d78484566c87281ab26}{
+\index{Minimizer2@{Minimizer2}!CompMol@{CompMol}}
+\index{CompMol@{CompMol}!Minimizer2@{Minimizer2}}
+\subsubsection[{CompMol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mol2} $\ast$ {\bf Minimizer2::CompMol}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_acb70dec810b27d78484566c87281ab26}
+
+
+Pointer to the comparison molecule object. 
+
+\hypertarget{classMinimizer2_a94cdc4b856be09a22683920582c2fe82}{
+\index{Minimizer2@{Minimizer2}!dij2@{dij2}}
+\index{dij2@{dij2}!Minimizer2@{Minimizer2}}
+\subsubsection[{dij2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::dij2}}}
+\label{classMinimizer2_a94cdc4b856be09a22683920582c2fe82}
+\hypertarget{classMinimizer2_a98b7bf0f7dc850bc5ce22721d6a8caf2}{
+\index{Minimizer2@{Minimizer2}!elec@{elec}}
+\index{elec@{elec}!Minimizer2@{Minimizer2}}
+\subsubsection[{elec}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::elec}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a98b7bf0f7dc850bc5ce22721d6a8caf2}
+
+
+Electrostatic potential in a grid point. 
+
+\hypertarget{classMinimizer2_adc7e28a36b3364eeeb2e176f101ec3eb}{
+\index{Minimizer2@{Minimizer2}!elec\_\-term@{elec\_\-term}}
+\index{elec\_\-term@{elec\_\-term}!Minimizer2@{Minimizer2}}
+\subsubsection[{elec\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::elec\_\-term}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_adc7e28a36b3364eeeb2e176f101ec3eb}
+\hypertarget{classMinimizer2_a166a976d19a3c0c33222b3d000377586}{
+\index{Minimizer2@{Minimizer2}!f\_\-minimum@{f\_\-minimum}}
+\index{f\_\-minimum@{f\_\-minimum}!Minimizer2@{Minimizer2}}
+\subsubsection[{f\_\-minimum}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::f\_\-minimum}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a166a976d19a3c0c33222b3d000377586}
+
+
+Minimum of the objective function reached after minimization. 
+
+\hypertarget{classMinimizer2_a589bf24b76630588dbd93b78ed85deb4}{
+\index{Minimizer2@{Minimizer2}!Input@{Input}}
+\index{Input@{Input}!Minimizer2@{Minimizer2}}
+\subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parser} $\ast$ {\bf Minimizer2::Input}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a589bf24b76630588dbd93b78ed85deb4}
+
+
+Pointer to the INPUT Class. 
+
+\hypertarget{classMinimizer2_a680a201172c6518d60325eaac358b371}{
+\index{Minimizer2@{Minimizer2}!new\_\-xyz@{new\_\-xyz}}
+\index{new\_\-xyz@{new\_\-xyz}!Minimizer2@{Minimizer2}}
+\subsubsection[{new\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ double $>$ $>$ {\bf Minimizer2::new\_\-xyz}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a680a201172c6518d60325eaac358b371}
+
+
+Rototranslated coordinates. 
+
+\hypertarget{classMinimizer2_a4ec6faa72ef628c5fb9c860f79e22581}{
+\index{Minimizer2@{Minimizer2}!pi@{pi}}
+\index{pi@{pi}!Minimizer2@{Minimizer2}}
+\subsubsection[{pi}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::pi}}}
+\label{classMinimizer2_a4ec6faa72ef628c5fb9c860f79e22581}
+\hypertarget{classMinimizer2_a2a464eda6d14d97c76ad19d9d713a143}{
+\index{Minimizer2@{Minimizer2}!pj@{pj}}
+\index{pj@{pj}!Minimizer2@{Minimizer2}}
+\subsubsection[{pj}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::pj}}}
+\label{classMinimizer2_a2a464eda6d14d97c76ad19d9d713a143}
+\hypertarget{classMinimizer2_a3f56599cc0464de622f4493ab209be67}{
+\index{Minimizer2@{Minimizer2}!r@{r}}
+\index{r@{r}!Minimizer2@{Minimizer2}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::r}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a3f56599cc0464de622f4493ab209be67}
+
+
+Distance r among two atoms;. 
+
+\hypertarget{classMinimizer2_ac39a59aea04d00554b1c55d2d6341897}{
+\index{Minimizer2@{Minimizer2}!r2@{r2}}
+\index{r2@{r2}!Minimizer2@{Minimizer2}}
+\subsubsection[{r2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::r2}}}
+\label{classMinimizer2_ac39a59aea04d00554b1c55d2d6341897}
+\hypertarget{classMinimizer2_a6eb98a0ee8462eb25479560885798552}{
+\index{Minimizer2@{Minimizer2}!r6@{r6}}
+\index{r6@{r6}!Minimizer2@{Minimizer2}}
+\subsubsection[{r6}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::r6}}}
+\label{classMinimizer2_a6eb98a0ee8462eb25479560885798552}
+\hypertarget{classMinimizer2_ac00d3a0aba2c77a4202fb647d3dbb561}{
+\index{Minimizer2@{Minimizer2}!RefMol@{RefMol}}
+\index{RefMol@{RefMol}!Minimizer2@{Minimizer2}}
+\subsubsection[{RefMol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mol2} $\ast$ {\bf Minimizer2::RefMol}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_ac00d3a0aba2c77a4202fb647d3dbb561}
+
+
+Pointer to the reference molecule object (type \hyperlink{classMol2}{Mol2}) 
+
+\hypertarget{classMinimizer2_aed61b49820c062adf7cd7dd5b4a27555}{
+\index{Minimizer2@{Minimizer2}!repul@{repul}}
+\index{repul@{repul}!Minimizer2@{Minimizer2}}
+\subsubsection[{repul}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::repul}}}
+\label{classMinimizer2_aed61b49820c062adf7cd7dd5b4a27555}
+\hypertarget{classMinimizer2_ab2fc020ca4f53c83045abb9533932e8f}{
+\index{Minimizer2@{Minimizer2}!status@{status}}
+\index{status@{status}!Minimizer2@{Minimizer2}}
+\subsubsection[{status}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Minimizer2::status}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_ab2fc020ca4f53c83045abb9533932e8f}
+
+
+Status of the minimizer. 
+
+\hypertarget{classMinimizer2_a2a073ef1806f84be7c4f4b8cf6f7f2a7}{
+\index{Minimizer2@{Minimizer2}!sum\_\-diff@{sum\_\-diff}}
+\index{sum\_\-diff@{sum\_\-diff}!Minimizer2@{Minimizer2}}
+\subsubsection[{sum\_\-diff}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::sum\_\-diff}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a2a073ef1806f84be7c4f4b8cf6f7f2a7}
+
+
+Sum of differeces in objective function computation. 
+
+\hypertarget{classMinimizer2_afefc05f3f81b5f002041933d12352642}{
+\index{Minimizer2@{Minimizer2}!t1@{t1}}
+\index{t1@{t1}!Minimizer2@{Minimizer2}}
+\subsubsection[{t1}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::t1}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_afefc05f3f81b5f002041933d12352642}
+
+
+Objective function value. 
+
+\hypertarget{classMinimizer2_ac63693b02b0d74534c318db59499891b}{
+\index{Minimizer2@{Minimizer2}!time0@{time0}}
+\index{time0@{time0}!Minimizer2@{Minimizer2}}
+\subsubsection[{time0}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf Minimizer2::time0}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_ac63693b02b0d74534c318db59499891b}
+
+
+Timer for minimization functions. 
+
+\hypertarget{classMinimizer2_abb0118980a0aa4c6717ff9dc88668f45}{
+\index{Minimizer2@{Minimizer2}!time1@{time1}}
+\index{time1@{time1}!Minimizer2@{Minimizer2}}
+\subsubsection[{time1}]{\setlength{\rightskip}{0pt plus 5cm}clock\_\-t {\bf Minimizer2::time1}}}
+\label{classMinimizer2_abb0118980a0aa4c6717ff9dc88668f45}
+\hypertarget{classMinimizer2_a2fefd1c40811da6a30fed3c273e624d7}{
+\index{Minimizer2@{Minimizer2}!time\_\-elapsed@{time\_\-elapsed}}
+\index{time\_\-elapsed@{time\_\-elapsed}!Minimizer2@{Minimizer2}}
+\subsubsection[{time\_\-elapsed}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::time\_\-elapsed}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_a2fefd1c40811da6a30fed3c273e624d7}
+
+
+Time elapsed for minimization procedure. 
+
+\hypertarget{classMinimizer2_a056a439a64220298d298cd7e2bd59339}{
+\index{Minimizer2@{Minimizer2}!vdw\_\-term@{vdw\_\-term}}
+\index{vdw\_\-term@{vdw\_\-term}!Minimizer2@{Minimizer2}}
+\subsubsection[{vdw\_\-term}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::vdw\_\-term}}}
+\label{classMinimizer2_a056a439a64220298d298cd7e2bd59339}
+\hypertarget{classMinimizer2_ad34cff3ae59c83548e2d5485e800897e}{
+\index{Minimizer2@{Minimizer2}!x@{x}}
+\index{x@{x}!Minimizer2@{Minimizer2}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::x}\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classMinimizer2_ad34cff3ae59c83548e2d5485e800897e}
+
+
+x, y and z coordinates 
+
+\hypertarget{classMinimizer2_a894a781f062079e7fb78ec9ee176f197}{
+\index{Minimizer2@{Minimizer2}!y@{y}}
+\index{y@{y}!Minimizer2@{Minimizer2}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::y}}}
+\label{classMinimizer2_a894a781f062079e7fb78ec9ee176f197}
+\hypertarget{classMinimizer2_a67af59755e277209aff3e4137364be63}{
+\index{Minimizer2@{Minimizer2}!z@{z}}
+\index{z@{z}!Minimizer2@{Minimizer2}}
+\subsubsection[{z}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Minimizer2::z}}}
+\label{classMinimizer2_a67af59755e277209aff3e4137364be63}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Minimizer2_8h}{Minimizer2.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{main_8h}{main.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Minimizer2_8cpp}{Minimizer2.cpp}\end{DoxyCompactItemize}

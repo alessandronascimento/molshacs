@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_eb26ad3c3a043f2ecba6090fe6c46154" kind="dir">
+    <compoundname>..\src/</compoundname>
+    <innerdir refid="dir_f5c10117c2660cc71e90bb0ebb752583">..\src/GUI/</innerdir>
+    <innerfile refid="CORREL_8cpp">CORREL.cpp</innerfile>
+    <innerfile refid="CORREL_8h">CORREL.h</innerfile>
+    <innerfile refid="ElSA_8h">ElSA.h</innerfile>
+    <innerfile refid="Gaussian_8cpp">Gaussian.cpp</innerfile>
+    <innerfile refid="Gaussian_8h">Gaussian.h</innerfile>
+    <innerfile refid="Grid_8cpp">Grid.cpp</innerfile>
+    <innerfile refid="Grid_8h">Grid.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="main_8h">main.h</innerfile>
+    <innerfile refid="Minimizer2_8cpp">Minimizer2.cpp</innerfile>
+    <innerfile refid="Minimizer2_8h">Minimizer2.h</innerfile>
+    <innerfile refid="Mol_8cpp">Mol.cpp</innerfile>
+    <innerfile refid="Mol_8h">Mol.h</innerfile>
+    <innerfile refid="Mol2_8cpp">Mol2.cpp</innerfile>
+    <innerfile refid="Mol2_8h">Mol2.h</innerfile>
+    <innerfile refid="Parser_8cpp">Parser.cpp</innerfile>
+    <innerfile refid="Parser_8h">Parser.h</innerfile>
+    <innerfile refid="RunEngine_8cpp">RunEngine.cpp</innerfile>
+    <innerfile refid="RunEngine_8h">RunEngine.h</innerfile>
+    <innerfile refid="Writer_8cpp">Writer.cpp</innerfile>
+    <innerfile refid="Writer_8h">Writer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/doc/..\src/"/>
+  </compounddef>
+</doxygen>

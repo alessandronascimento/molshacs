@@ -1,0 +1,19 @@
+\hypertarget{QtWriter_8h}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/QtWriter.h File Reference}
+\label{QtWriter_8h}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/QtWriter.h@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/QtWriter.h}}
+}
+{\ttfamily \#include \char`\"{}../Parser.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../Mol.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../Mol2.h\char`\"{}}\par
+{\ttfamily \#include $<$QPlainTextEdit$>$}\par
+{\ttfamily \#include $<$QString$>$}\par
+{\ttfamily \#include $<$QApplication$>$}\par
+{\ttfamily \#include \char`\"{}zlib.h\char`\"{}}\par
+{\ttfamily \#include $<$stdio.h$>$}\par
+Include dependency graph for QtWriter.h:
+This graph shows which files directly or indirectly include this file:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classQtWriter}{QtWriter}
+\end{DoxyCompactItemize}

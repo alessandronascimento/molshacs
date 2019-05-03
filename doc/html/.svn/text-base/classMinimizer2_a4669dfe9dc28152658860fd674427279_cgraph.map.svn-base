@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classMinimizer2.html#ae46bf1366f7275747b344ec6e39d9178" title="GSL function to evaluate the objective function." alt="" coords="341,59,555,88"/>
+<area shape="rect" id="node5" href="$classMinimizer2.html#a341b5cd394c900ca5496b888168d3948" title="Computes the objective function." alt="" coords="605,5,861,35"/>
+<area shape="rect" id="node7" href="$classMinimizer2.html#a1aa54d9e6855cf39ad8be1f2f8499a01" title="Computes the electrostatic and the vdw grids at once for a molecule." alt="" coords="603,59,864,88"/>
+<area shape="rect" id="node11" href="$classMinimizer2.html#a7bc4c2fe892e0339048d9ca7932cdf69" title="Computes new coordinates after a translation and a rotation." alt="" coords="651,112,816,141"/>
+<area shape="rect" id="node9" href="$classMinimizer2.html#aa34e6305d001acec8ac2238f6ec672ab" title="Minimizer2::dist_squared" alt="" coords="913,59,1079,88"/>
+</map>

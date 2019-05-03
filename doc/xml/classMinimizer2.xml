@@ -1,0 +1,1376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classMinimizer2" kind="class" prot="public">
+    <compoundname>Minimizer2</compoundname>
+    <includes local="no">Minimizer2.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMinimizer2_1aa446d4997e158501ce036b559904952e" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::alpha_i</definition>
+        <argsstring></argsstring>
+        <name>alpha_i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a5907490bde60e76d02217390e32a66eb" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::alpha_j</definition>
+        <argsstring></argsstring>
+        <name>alpha_j</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a94cdc4b856be09a22683920582c2fe82" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::dij2</definition>
+        <argsstring></argsstring>
+        <name>dij2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a4ec6faa72ef628c5fb9c860f79e22581" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a2a464eda6d14d97c76ad19d9d713a143" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::pj</definition>
+        <argsstring></argsstring>
+        <name>pj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1af79d496194cba04903627d821f0faca3" prot="public" static="yes" mutable="no">
+        <type>Mol2 *</type>
+        <definition>Mol2 * Minimizer2::Cmol</definition>
+        <argsstring></argsstring>
+        <name>Cmol</name>
+        <briefdescription>
+<para>Pointer to the MOL Class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" prot="public" static="yes" mutable="no">
+        <type>Grid *</type>
+        <definition>Grid * Minimizer2::Cgrid</definition>
+        <argsstring></argsstring>
+        <name>Cgrid</name>
+        <briefdescription>
+<para>Pointer to the GRID Class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="46" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" prot="public" static="yes" mutable="no">
+        <type>Parser *</type>
+        <definition>Parser * Minimizer2::Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+<para>Pointer to the INPUT Class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ac00d3a0aba2c77a4202fb647d3dbb561" prot="public" static="yes" mutable="no">
+        <type>Mol2 *</type>
+        <definition>Mol2 * Minimizer2::RefMol</definition>
+        <argsstring></argsstring>
+        <name>RefMol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1acb70dec810b27d78484566c87281ab26" prot="public" static="yes" mutable="no">
+        <type>Mol2 *</type>
+        <definition>Mol2 * Minimizer2::CompMol</definition>
+        <argsstring></argsstring>
+        <name>CompMol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="51" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" prot="public" static="yes" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Minimizer2::rep_potential</definition>
+        <argsstring></argsstring>
+        <name>rep_potential</name>
+        <briefdescription>
+<para>VDW Repulsive potential for the reference molecule as computed in the main program. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" prot="public" static="yes" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Minimizer2::elec_potential</definition>
+        <argsstring></argsstring>
+        <name>elec_potential</name>
+        <briefdescription>
+<para>Electrostatic potential for the reference molecule. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="56" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ae32c788933fe4ffca055ae23817d3455" prot="public" static="yes" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Minimizer2::current_elec</definition>
+        <argsstring></argsstring>
+        <name>current_elec</name>
+        <briefdescription>
+<para>Electrostatic potential of the &quot;comparison&quot; molecule. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="58" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a8aa78fb8c18cb5eb88a2ed2092ea5683" prot="public" static="yes" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Minimizer2::current_vdw</definition>
+        <argsstring></argsstring>
+        <name>current_vdw</name>
+        <briefdescription>
+<para>VDW Repulsive potential of the &quot;comparison&quot; molecule. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="60" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::elec</definition>
+        <argsstring></argsstring>
+        <name>elec</name>
+        <briefdescription>
+<para>Electrostatic potential in a grid point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>x, y and z coordinates </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a894a781f062079e7fb78ec9ee176f197" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a67af59755e277209aff3e4137364be63" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a3f56599cc0464de622f4493ab209be67" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+<para>Distance r among two atoms;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ac39a59aea04d00554b1c55d2d6341897" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::r2</definition>
+        <argsstring></argsstring>
+        <name>r2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a6eb98a0ee8462eb25479560885798552" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::r6</definition>
+        <argsstring></argsstring>
+        <name>r6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1aed61b49820c062adf7cd7dd5b4a27555" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::repul</definition>
+        <argsstring></argsstring>
+        <name>repul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a2a073ef1806f84be7c4f4b8cf6f7f2a7" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::sum_diff</definition>
+        <argsstring></argsstring>
+        <name>sum_diff</name>
+        <briefdescription>
+<para>Sum of differeces in objective function computation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="68" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a680a201172c6518d60325eaac358b371" prot="public" static="yes" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; Minimizer2::new_xyz</definition>
+        <argsstring></argsstring>
+        <name>new_xyz</name>
+        <briefdescription>
+<para>Rototranslated coordinates. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="70" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a8aede4777e9d3fdc7bd0216e8ca9f045" prot="public" static="yes" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; Minimizer2::elec_plus_vdw_grids</definition>
+        <argsstring></argsstring>
+        <name>elec_plus_vdw_grids</name>
+        <briefdescription>
+<para>Vector of vectors containing current_elec and current_vdw. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="72" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1afefc05f3f81b5f002041933d12352642" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::t1</definition>
+        <argsstring></argsstring>
+        <name>t1</name>
+        <briefdescription>
+<para>Objective function value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="74" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a166a976d19a3c0c33222b3d000377586" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::f_minimum</definition>
+        <argsstring></argsstring>
+        <name>f_minimum</name>
+        <briefdescription>
+<para>Minimum of the objective function reached after minimization. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="76" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ab2fc020ca4f53c83045abb9533932e8f" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Minimizer2::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>Status of the minimizer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="78" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1ac63693b02b0d74534c318db59499891b" prot="public" static="yes" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t Minimizer2::time0</definition>
+        <argsstring></argsstring>
+        <name>time0</name>
+        <briefdescription>
+<para>Timer for minimization functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="80" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1abb0118980a0aa4c6717ff9dc88668f45" prot="public" static="yes" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t Minimizer2::time1</definition>
+        <argsstring></argsstring>
+        <name>time1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="80" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a2fefd1c40811da6a30fed3c273e624d7" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::time_elapsed</definition>
+        <argsstring></argsstring>
+        <name>time_elapsed</name>
+        <briefdescription>
+<para>Time elapsed for minimization procedure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="82" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1adc7e28a36b3364eeeb2e176f101ec3eb" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::elec_term</definition>
+        <argsstring></argsstring>
+        <name>elec_term</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="84" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinimizer2_1a056a439a64220298d298cd7e2bd59339" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Minimizer2::vdw_term</definition>
+        <argsstring></argsstring>
+        <name>vdw_term</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="84" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMinimizer2_1a2e3f0b082ca42570ecd579be6f6aad01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Minimizer2::Minimizer2</definition>
+        <argsstring>(Mol2 *_Cmol, Parser *_Input, Grid *_Cgrid, vector&lt; double &gt; _elec_potential, vector&lt; double &gt; _rep_potential)</argsstring>
+        <name>Minimizer2</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>_Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>_Input</declname>
+        </param>
+        <param>
+          <type>Grid *</type>
+          <declname>_Cgrid</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>_elec_potential</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>_rep_potential</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class Constructor. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_Cmol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MOL Class pointer passed as a parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PARSER Class pointer passed as a parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_CGrid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GRID Class pointer passed as parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_elec_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference molecule electrostatic potential </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_rep_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference molecule VDW repulsive potential </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="93" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a5489d1f3733db660028707044a32db8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Minimizer2::Minimizer2</definition>
+        <argsstring>(Mol2 *_RefMol, Mol2 *_CompMol, Parser *_Input, Grid *_Cgrid, vector&lt; double &gt; _elec_potential, vector&lt; double &gt; _rep_potential)</argsstring>
+        <name>Minimizer2</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>_RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>_CompMol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>_Input</declname>
+        </param>
+        <param>
+          <type>Grid *</type>
+          <declname>_Cgrid</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>_elec_potential</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>_rep_potential</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="95" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="19" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a2778f65c914c177b809863bbb138b330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_lbfgs2_elec_plus_vdw</definition>
+        <argsstring>(void)</argsstring>
+        <name>minimize_lbfgs2_elec_plus_vdw</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizing the objective function using bfgs minimizer implemented in GSL <simplesect kind="return"><para>the minimum value of the objective function </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="176" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="239" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a90746efac2942fa9a6d25b0e4bfdc75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_conjugate_gradient_elec_plus_vdw</definition>
+        <argsstring>(void)</argsstring>
+        <name>minimize_conjugate_gradient_elec_plus_vdw</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizing the objective function using conjugate gradient minimizer implemented in GSL <simplesect kind="return"><para>the minimum value of the objective function </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="180" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="335" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a4669dfe9dc28152658860fd674427279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_simplex_elec_plus_vdw</definition>
+        <argsstring>(void)</argsstring>
+        <name>minimize_simplex_elec_plus_vdw</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizing the objective function using Nelder-Mead Simplex minimizer implemented in GSL <simplesect kind="return"><para>the minimum value of the objective function </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="184" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="416" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a488c67b3251cd6e0c11918e9b8e9eeb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_simplex_shape_density</definition>
+        <argsstring>(void)</argsstring>
+        <name>minimize_simplex_shape_density</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="186" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="487" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a911683db438c2a9ea9f0c47fd123a92e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::test_alpha_gradient</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>test_alpha_gradient</name>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>For test purposes only. Computes the gradient for variations in alpha. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="189" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="558" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1aa02fa519d5e9dcbfbf2053317200e9c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::test_alpha_function</definition>
+        <argsstring>(double alpha)</argsstring>
+        <name>test_alpha_function</name>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>For test purposes only. Computes the objective function for variations in alpha. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="191" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="569" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1ad602f01ea4329924251775435c97d12c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_auglag</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_auglag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using Augmented Lagrangian as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="201" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="668" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a39d440b959db32c57baab3a322758821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_mma</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_mma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using the method of moving asymptotes as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="205" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="722" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1aca9af00ae1cf0399a476cbb6e22e09e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_isres</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_isres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using Improved Stochastic Ranking Evolution Strategy as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="209" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="819" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a781d7c1c19a0198afaa2e42bfee1651d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_subplex</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_subplex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using Subplex as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="213" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="873" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1acd7f7eb0f80c6b91268d3b81abd5bd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_simplex</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_simplex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using Simplex as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="217" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="927" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a4981a5f90d855bc1d25b857881edb172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_bfgs2</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_bfgs2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimizes the objective function using BFGS as implemented in NLOPT <simplesect kind="return"><para>the minimum value of the objective function reached </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="221" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="982" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a3c0a0abe78fc3b33e91e098d13b7f43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_stogo</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_stogo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="224" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="1086" bodyend="1138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1ac8b7b2846ad8d37e41f1b6b07045aef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_nlopt_direct</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_nlopt_direct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Defining a timeout </para>        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="227" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="1032" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1af348b51c5afb1f20b848d0451e16f239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::minimize_density_nlopt_mma</definition>
+        <argsstring>()</argsstring>
+        <name>minimize_density_nlopt_mma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="233" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="775" bodyend="817"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMinimizer2_1a6626777b2e2a1b09d2a1c925f45962a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::dist</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>dist</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+<para>This function computes the distance among two atoms. </para>        </briefdescription>
+        <detaileddescription>
+<para><formula id="0">$(d_12)$</formula> = <formula id="1">$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$</formula> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The distance. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="109" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1aa34e6305d001acec8ac2238f6ec672ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::dist_squared</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>dist_squared</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="111" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a1aa54d9e6855cf39ad8be1f2f8499a01" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; Minimizer2::compute_grid_elec_plus_vdw</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt;xyz, Mol2 *Cmol, Grid *Cgrid, Parser *Input)</argsstring>
+        <name>compute_grid_elec_plus_vdw</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Grid *</type>
+          <declname>Cgrid</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+<para>Computes the electrostatic and the vdw grids at once for a molecule. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cartesian pointer coordinates of the molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cmol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MOL Class pointer with molecule parameters (charges, atomic radii, etc) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Cgrid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GRID Class pointer with grid computation parameter (limits of the computation box) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PARSER Class pointer with sampling rate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A vector with two other vectors. The first one with the electrostatic potential and the second one with vdw repulsive grid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="121" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="41" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a7bc4c2fe892e0339048d9ca7932cdf69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; Minimizer2::rototranslate</definition>
+        <argsstring>(Mol2 *Cmol, vector&lt; vector&lt; double &gt; &gt;xyz, double alpha, double beta, double gamma, double transx, double transy, double transz)</argsstring>
+        <name>rototranslate</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>transz</declname>
+        </param>
+        <briefdescription>
+<para>Computes new coordinates after a translation and a rotation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Cmol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>MOL Class pointer with molecule paramters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Molecule coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler alpha angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler beta angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gamma</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Euler gamma angle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shift in X direction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shift in Y direction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shift in Z direction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new vector of vector with new coordinates. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="135" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="67" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a341b5cd394c900ca5496b888168d3948" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::compute_diff_elec_plus_vdw</definition>
+        <argsstring>(vector&lt; double &gt; elec_potential, vector&lt; double &gt; rep_potential, vector&lt; double &gt; elec, vector&lt; double &gt; vdw, Parser *Input)</argsstring>
+        <name>compute_diff_elec_plus_vdw</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>elec_potential</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>rep_potential</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>elec</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>vdw</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+<para>Computes the objective function. </para>        </briefdescription>
+        <detaileddescription>
+<para>The objective function is defined as: <formula id="2">$ f = \sum{( ES*\sqrt{(E_c-E_r)^2} )+( VS*\sqrt{(V_c-V_r)^2} )} $</formula> where ES is the electrostatic scale, VS is the VDW scale, Ec and Er are each grid point of the electrostic potential for comparing and reference molecule Vc and Vr are each grid point of the vdw repulsive potential for comparing and reference molecule <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elec_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Electrostatic potential of the &quot;reference&quot; molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rep_potential</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>VDW Repulsive potential of the &quot;reference&quot; molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>elec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Electrostatic potential of the &quot;comparing&quot; molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vdw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>VDW repulsive potential of the &quot;comparing&quot; molecule </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the class PARSER with scaling parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="152" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="83" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1ae46bf1366f7275747b344ec6e39d9178" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::diff_function_ele_vdw</definition>
+        <argsstring>(const gsl_vector *v, void *params)</argsstring>
+        <name>diff_function_ele_vdw</name>
+        <param>
+          <type>const gsl_vector *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>GSL function to evaluate the objective function. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>values for a, b, g, x, y and z </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The objective function value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="159" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="102" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a62fa0872db1e16736f810a2e6f99c2f1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::function_gaussian_shape</definition>
+        <argsstring>(const gsl_vector *v, void *params)</argsstring>
+        <name>function_gaussian_shape</name>
+        <param>
+          <type>const gsl_vector *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="161" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="142" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1aeefc6cb4586a434a88abdadff44ad7ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Minimizer2::diff_gradient_elec_plus_vdw</definition>
+        <argsstring>(const gsl_vector *v, void *params, gsl_vector *df)</argsstring>
+        <name>diff_gradient_elec_plus_vdw</name>
+        <param>
+          <type>const gsl_vector *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>gsl_vector *</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+<para>Computes the gradient for GSL functions. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GSL vevtor with the parameters to be minimized. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>df</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GSL vector with computed gradients </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Nothing. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="169" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="166" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a3bf50d7081499de21718741509ed95f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Minimizer2::diff_function_and_gradient_elec_plus_vdw</definition>
+        <argsstring>(const gsl_vector *x, void *params, double *f, gsl_vector *df)</argsstring>
+        <name>diff_function_and_gradient_elec_plus_vdw</name>
+        <param>
+          <type>const gsl_vector *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>gsl_vector *</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+<para>Computes function and gradient and once. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="172" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1aa27645b2a1bd68dc6249729bf15340f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Minimizer2::nlopt_func_elec_plus_vdw</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;x, vector&lt; double &gt; &amp;grad, void *data)</argsstring>
+        <name>nlopt_func_elec_plus_vdw</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt; &amp;</type>
+          <declname>grad</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the objective function and gradient to minimize using NLOPT <simplesect kind="return"><para>the the value of the objective function </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with the 6 parameters to be minimized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>grad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with the gradient for each variable </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinimizer2_1a1e0732ccaf045c27bb2cc3186fddff55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Minimizer2::nlopt_func_gauss_density</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;x, std::vector&lt; double &gt; &amp;grad, void *data)</argsstring>
+        <name>nlopt_func_gauss_density</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>grad</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="230" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp" bodystart="621" bodyend="666"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="classMinimizer2" kindref="compound">Minimizer2</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is the second version of the Minimizer Class. This Class has buit-in functions to handle the minimization of a objective function f that has as parameters three rotation angles (Euler angles) and translation in cartesian axis x, y and z. The function f(a,b,g,x,y,z) is minimized using different algorithms provided here by both GNU Scientific Library (GSL) and (LGPL) NLOPT (Steven G. Johnson, The NLopt nonlinear-optimization package, <ulink url="http://ab-initio.mit.edu/nlopt">http://ab-initio.mit.edu/nlopt</ulink>). </para>    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h" bodystart="37" bodyend="234"/>
+    <listofallmembers>
+      <member refid="classMinimizer2_1aa446d4997e158501ce036b559904952e" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>alpha_i</name></member>
+      <member refid="classMinimizer2_1a5907490bde60e76d02217390e32a66eb" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>alpha_j</name></member>
+      <member refid="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>Cgrid</name></member>
+      <member refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>Cmol</name></member>
+      <member refid="classMinimizer2_1acb70dec810b27d78484566c87281ab26" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>CompMol</name></member>
+      <member refid="classMinimizer2_1a341b5cd394c900ca5496b888168d3948" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>compute_diff_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1a1aa54d9e6855cf39ad8be1f2f8499a01" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>compute_grid_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1ae32c788933fe4ffca055ae23817d3455" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>current_elec</name></member>
+      <member refid="classMinimizer2_1a8aa78fb8c18cb5eb88a2ed2092ea5683" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>current_vdw</name></member>
+      <member refid="classMinimizer2_1a3bf50d7081499de21718741509ed95f4" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>diff_function_and_gradient_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1ae46bf1366f7275747b344ec6e39d9178" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>diff_function_ele_vdw</name></member>
+      <member refid="classMinimizer2_1aeefc6cb4586a434a88abdadff44ad7ec" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>diff_gradient_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1a94cdc4b856be09a22683920582c2fe82" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>dij2</name></member>
+      <member refid="classMinimizer2_1a6626777b2e2a1b09d2a1c925f45962a4" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>dist</name></member>
+      <member refid="classMinimizer2_1aa34e6305d001acec8ac2238f6ec672ab" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>dist_squared</name></member>
+      <member refid="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>elec</name></member>
+      <member refid="classMinimizer2_1a8aede4777e9d3fdc7bd0216e8ca9f045" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>elec_plus_vdw_grids</name></member>
+      <member refid="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>elec_potential</name></member>
+      <member refid="classMinimizer2_1adc7e28a36b3364eeeb2e176f101ec3eb" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>elec_term</name></member>
+      <member refid="classMinimizer2_1a166a976d19a3c0c33222b3d000377586" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>f_minimum</name></member>
+      <member refid="classMinimizer2_1a62fa0872db1e16736f810a2e6f99c2f1" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>function_gaussian_shape</name></member>
+      <member refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>Input</name></member>
+      <member refid="classMinimizer2_1a90746efac2942fa9a6d25b0e4bfdc75d" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_conjugate_gradient_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1af348b51c5afb1f20b848d0451e16f239" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_density_nlopt_mma</name></member>
+      <member refid="classMinimizer2_1a2778f65c914c177b809863bbb138b330" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_lbfgs2_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1ad602f01ea4329924251775435c97d12c" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_auglag</name></member>
+      <member refid="classMinimizer2_1a4981a5f90d855bc1d25b857881edb172" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_bfgs2</name></member>
+      <member refid="classMinimizer2_1ac8b7b2846ad8d37e41f1b6b07045aef2" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_direct</name></member>
+      <member refid="classMinimizer2_1aca9af00ae1cf0399a476cbb6e22e09e3" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_isres</name></member>
+      <member refid="classMinimizer2_1a39d440b959db32c57baab3a322758821" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_mma</name></member>
+      <member refid="classMinimizer2_1acd7f7eb0f80c6b91268d3b81abd5bd1e" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_simplex</name></member>
+      <member refid="classMinimizer2_1a3c0a0abe78fc3b33e91e098d13b7f43a" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_stogo</name></member>
+      <member refid="classMinimizer2_1a781d7c1c19a0198afaa2e42bfee1651d" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_nlopt_subplex</name></member>
+      <member refid="classMinimizer2_1a4669dfe9dc28152658860fd674427279" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_simplex_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1a488c67b3251cd6e0c11918e9b8e9eeb4" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>minimize_simplex_shape_density</name></member>
+      <member refid="classMinimizer2_1a2e3f0b082ca42570ecd579be6f6aad01" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>Minimizer2</name></member>
+      <member refid="classMinimizer2_1a5489d1f3733db660028707044a32db8b" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>Minimizer2</name></member>
+      <member refid="classMinimizer2_1a680a201172c6518d60325eaac358b371" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>new_xyz</name></member>
+      <member refid="classMinimizer2_1aa27645b2a1bd68dc6249729bf15340f7" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>nlopt_func_elec_plus_vdw</name></member>
+      <member refid="classMinimizer2_1a1e0732ccaf045c27bb2cc3186fddff55" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>nlopt_func_gauss_density</name></member>
+      <member refid="classMinimizer2_1a4ec6faa72ef628c5fb9c860f79e22581" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>pi</name></member>
+      <member refid="classMinimizer2_1a2a464eda6d14d97c76ad19d9d713a143" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>pj</name></member>
+      <member refid="classMinimizer2_1a3f56599cc0464de622f4493ab209be67" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>r</name></member>
+      <member refid="classMinimizer2_1ac39a59aea04d00554b1c55d2d6341897" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>r2</name></member>
+      <member refid="classMinimizer2_1a6eb98a0ee8462eb25479560885798552" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>r6</name></member>
+      <member refid="classMinimizer2_1ac00d3a0aba2c77a4202fb647d3dbb561" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>RefMol</name></member>
+      <member refid="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>rep_potential</name></member>
+      <member refid="classMinimizer2_1aed61b49820c062adf7cd7dd5b4a27555" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>repul</name></member>
+      <member refid="classMinimizer2_1a7bc4c2fe892e0339048d9ca7932cdf69" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>rototranslate</name></member>
+      <member refid="classMinimizer2_1ab2fc020ca4f53c83045abb9533932e8f" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>status</name></member>
+      <member refid="classMinimizer2_1a2a073ef1806f84be7c4f4b8cf6f7f2a7" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>sum_diff</name></member>
+      <member refid="classMinimizer2_1afefc05f3f81b5f002041933d12352642" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>t1</name></member>
+      <member refid="classMinimizer2_1aa02fa519d5e9dcbfbf2053317200e9c7" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>test_alpha_function</name></member>
+      <member refid="classMinimizer2_1a911683db438c2a9ea9f0c47fd123a92e" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>test_alpha_gradient</name></member>
+      <member refid="classMinimizer2_1ac63693b02b0d74534c318db59499891b" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>time0</name></member>
+      <member refid="classMinimizer2_1abb0118980a0aa4c6717ff9dc88668f45" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>time1</name></member>
+      <member refid="classMinimizer2_1a2fefd1c40811da6a30fed3c273e624d7" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>time_elapsed</name></member>
+      <member refid="classMinimizer2_1a056a439a64220298d298cd7e2bd59339" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>vdw_term</name></member>
+      <member refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>x</name></member>
+      <member refid="classMinimizer2_1a894a781f062079e7fb78ec9ee176f197" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>y</name></member>
+      <member refid="classMinimizer2_1a67af59755e277209aff3e4137364be63" prot="public" virt="non-virtual"><scope>Minimizer2</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

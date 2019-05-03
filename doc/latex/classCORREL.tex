@@ -1,0 +1,312 @@
+\hypertarget{classCORREL}{
+\section{CORREL Class Reference}
+\label{classCORREL}\index{CORREL@{CORREL}}
+}
+
+
+{\ttfamily \#include $<$CORREL.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCORREL_a5a1b02211831dd60a7e82e56638e75d4}{CORREL} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classCORREL_aa9c602157f58ef588517aeb6b0e16ec2}{rototranslate} (vector$<$ vector$<$ double $>$ $>$ xyz, int N, double alpha, double beta, double gamma, double transx, double transy, double transz)
+\item 
+double \hyperlink{classCORREL_a955fa403fc704715623e06e6b6d3bb3e}{compute\_\-correl} (vector$<$ vector$<$ double $>$ $>$ gridcoords, vector$<$ double $>$ elec\_\-potential, int N, vector$<$ vector$<$ double $>$ $>$xyz, vector$<$ double $>$ charges)
+\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classCORREL_ab2a0a4f465fc8f5fb104b1b082fcd478}{translate} (vector$<$ vector$<$ double $>$ $>$ xyz, int N, double tx, double ty, double tz)
+\item 
+void \hyperlink{classCORREL_a68e6a5ec851190f68e856fcb3527fccc}{write\_\-pdb} (vector$<$ vector$<$ double $>$ $>$xyz, int N, vector$<$ string $>$ atomnames, string name)
+\item 
+double \hyperlink{classCORREL_a0ca3a025e8493c54977c3a8d3ea72e70}{compute\_\-correl\_\-wade} (vector$<$ double $>$ p1, vector$<$ double $>$ p2)
+\begin{DoxyCompactList}\small\item\em Scalar product of two electrostatic potentials used to compute the Hodgkin index (Hodgkin, E.E., Richards, W.G. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a8f48c17b831c0fee075dcce379c80daf}{compute\_\-correl\_\-wade} (vector$<$ double $>$ elec\_\-potential, vector$<$ double $>$ p2, double sum\_\-of\_\-elec\_\-potential)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classCORREL_a2b11224b8d555ae6fc1d66f7562fd275}{correl}
+\begin{DoxyCompactList}\small\item\em Correlation index. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a5b188c7301ac67c54d9ad7ea4f6f0e1a}{elec}
+\begin{DoxyCompactList}\small\item\em Electrostatic potential at a point. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a914a8b0995015e82256961cbb676717c}{r}
+\begin{DoxyCompactList}\small\item\em Distance. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a8bfe969d5de8f1138ab78b96c81efe68}{x}
+\begin{DoxyCompactList}\small\item\em X coordinate. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a7b95f3b9f6b49a0f30803573d28b08d2}{y}
+\begin{DoxyCompactList}\small\item\em Y coordinate. \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a733e2083e37dc8cd372b71f7d04bd645}{z}
+\begin{DoxyCompactList}\small\item\em Z Coordinate. \end{DoxyCompactList}\item 
+vector$<$ vector$<$ double $>$ $>$ \hyperlink{classCORREL_a981a6452d3eec84cb9dd7d6c7dc7d47d}{new\_\-xyz}
+\begin{DoxyCompactList}\small\item\em New coordinates after movement. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classCORREL_a898800161dee6f1625130c54948a8f03}{temp}
+\begin{DoxyCompactList}\small\item\em Who knows? \end{DoxyCompactList}\item 
+double \hyperlink{classCORREL_a5befccd178218ad79376170652d91335}{sum\_\-product}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classCORREL_a5a1b02211831dd60a7e82e56638e75d4}{
+\index{CORREL@{CORREL}!CORREL@{CORREL}}
+\index{CORREL@{CORREL}!CORREL@{CORREL}}
+\subsubsection[{CORREL}]{\setlength{\rightskip}{0pt plus 5cm}CORREL::CORREL (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_a5a1b02211831dd60a7e82e56638e75d4}
+
+
+Default constructor. 
+
+Does nothing. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classCORREL_a955fa403fc704715623e06e6b6d3bb3e}{
+\index{CORREL@{CORREL}!compute\_\-correl@{compute\_\-correl}}
+\index{compute\_\-correl@{compute\_\-correl}!CORREL@{CORREL}}
+\subsubsection[{compute\_\-correl}]{\setlength{\rightskip}{0pt plus 5cm}double CORREL::compute\_\-correl (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{gridcoords, }
+\item[{vector$<$ double $>$}]{elec\_\-potential, }
+\item[{int}]{N, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{vector$<$ double $>$}]{charges}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_a955fa403fc704715623e06e6b6d3bb3e}
+Method to compute the correlation index 
+\begin{DoxyParams}{Parameters}
+{\em gridcoords} & C++ vector with the coordinates used to compute the electrostatic grid \\
+\hline
+{\em elec\_\-potential} & C++ vector with the electrostatic grid \\
+\hline
+{\em N} & Number of atoms \\
+\hline
+{\em xyz} & C++ vector of a vector with atom coordinates \\
+\hline
+{\em charges} & C++ vector with atomic charges \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classCORREL_a0ca3a025e8493c54977c3a8d3ea72e70}{
+\index{CORREL@{CORREL}!compute\_\-correl\_\-wade@{compute\_\-correl\_\-wade}}
+\index{compute\_\-correl\_\-wade@{compute\_\-correl\_\-wade}!CORREL@{CORREL}}
+\subsubsection[{compute\_\-correl\_\-wade}]{\setlength{\rightskip}{0pt plus 5cm}double CORREL::compute\_\-correl\_\-wade (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{p1, }
+\item[{vector$<$ double $>$}]{p2}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_a0ca3a025e8493c54977c3a8d3ea72e70}
+
+
+Scalar product of two electrostatic potentials used to compute the Hodgkin index (Hodgkin, E.E., Richards, W.G. 
+
+Int. J. Quant. Chem. Quant. Bio. Symp. (1987) 14:105-\/110. Cited in Blomberg N. et al. Proteins (1999) 37:379-\/387. 
+\begin{DoxyParams}{Parameters}
+{\em p1} & C++ vector with electrostatic grid of the first molecule \\
+\hline
+{\em p2} & C++ vector with electrostatic grid of the second molecule \\
+\hline
+\end{DoxyParams}
+\hypertarget{classCORREL_a8f48c17b831c0fee075dcce379c80daf}{
+\index{CORREL@{CORREL}!compute\_\-correl\_\-wade@{compute\_\-correl\_\-wade}}
+\index{compute\_\-correl\_\-wade@{compute\_\-correl\_\-wade}!CORREL@{CORREL}}
+\subsubsection[{compute\_\-correl\_\-wade}]{\setlength{\rightskip}{0pt plus 5cm}double CORREL::compute\_\-correl\_\-wade (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{elec\_\-potential, }
+\item[{vector$<$ double $>$}]{p2, }
+\item[{double}]{sum\_\-of\_\-elec\_\-potential}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_a8f48c17b831c0fee075dcce379c80daf}
+Method to compute the electrostatic correlation as defined by Wade et al. 
+\begin{DoxyParams}{Parameters}
+{\em elec\_\-potential} & Electrostatic potential pre-\/computed for the reference molecule; \\
+\hline
+{\em p2} & C++ vector with electrostatic grid of the second molecule \\
+\hline
+{\em sum\_\-of\_\-elec\_\-potential} & Sum of the elements of the {\itshape elec\_\-potential\/} vector. Useful to speed up computations. \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classCORREL_aa9c602157f58ef588517aeb6b0e16ec2}{
+\index{CORREL@{CORREL}!rototranslate@{rototranslate}}
+\index{rototranslate@{rototranslate}!CORREL@{CORREL}}
+\subsubsection[{rototranslate}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ double $>$ $>$ CORREL::rototranslate (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{int}]{N, }
+\item[{double}]{alpha, }
+\item[{double}]{beta, }
+\item[{double}]{gamma, }
+\item[{double}]{transx, }
+\item[{double}]{transy, }
+\item[{double}]{transz}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_aa9c602157f58ef588517aeb6b0e16ec2}
+Method for Rotation AND Translation 
+\begin{DoxyParams}{Parameters}
+{\em xyz} & C++ vector of vector that stores molecule coordinates \\
+\hline
+{\em N} & Number of atoms in the molecule \\
+\hline
+{\em alpha} & Euler alpha angle \\
+\hline
+{\em beta} & Euler beta angle \\
+\hline
+{\em gamma} & Euler gamma angle \\
+\hline
+{\em transx} & X-\/shift in Angstrons \\
+\hline
+{\em transy} & Y-\/shift in Angstrons \\
+\hline
+{\em transz} & Z-\/shift in Angstrons \\
+\hline
+\end{DoxyParams}
+\hypertarget{classCORREL_ab2a0a4f465fc8f5fb104b1b082fcd478}{
+\index{CORREL@{CORREL}!translate@{translate}}
+\index{translate@{translate}!CORREL@{CORREL}}
+\subsubsection[{translate}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ double $>$ $>$ CORREL::translate (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{int}]{N, }
+\item[{double}]{tx, }
+\item[{double}]{ty, }
+\item[{double}]{tz}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_ab2a0a4f465fc8f5fb104b1b082fcd478}
+Coordinates translation 
+\begin{DoxyParams}{Parameters}
+{\em xyz} & C++ vector of a vector with atom coordinates \\
+\hline
+{\em N} & Number of atoms \\
+\hline
+{\em tx} & X-\/shift \\
+\hline
+{\em ty} & Y-\/shift \\
+\hline
+{\em tz} & Z-\/shift \\
+\hline
+\end{DoxyParams}
+\hypertarget{classCORREL_a68e6a5ec851190f68e856fcb3527fccc}{
+\index{CORREL@{CORREL}!write\_\-pdb@{write\_\-pdb}}
+\index{write\_\-pdb@{write\_\-pdb}!CORREL@{CORREL}}
+\subsubsection[{write\_\-pdb}]{\setlength{\rightskip}{0pt plus 5cm}void CORREL::write\_\-pdb (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{int}]{N, }
+\item[{vector$<$ string $>$}]{atomnames, }
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}
+\label{classCORREL_a68e6a5ec851190f68e856fcb3527fccc}
+Method to write a PDB file of the transformed coordinates 
+\begin{DoxyParams}{Parameters}
+{\em xyz} & C++ vector of a vector with atom coordinates \\
+\hline
+{\em N} & Number of atoms \\
+\hline
+{\em atomnames} & C++ vector of Strings with the names of the atoms as defined in PRMTOP file. \\
+\hline
+{\em name} & String with name of for PDB file output \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classCORREL_a2b11224b8d555ae6fc1d66f7562fd275}{
+\index{CORREL@{CORREL}!correl@{correl}}
+\index{correl@{correl}!CORREL@{CORREL}}
+\subsubsection[{correl}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::correl}}}
+\label{classCORREL_a2b11224b8d555ae6fc1d66f7562fd275}
+
+
+Correlation index. 
+
+\hypertarget{classCORREL_a5b188c7301ac67c54d9ad7ea4f6f0e1a}{
+\index{CORREL@{CORREL}!elec@{elec}}
+\index{elec@{elec}!CORREL@{CORREL}}
+\subsubsection[{elec}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::elec}}}
+\label{classCORREL_a5b188c7301ac67c54d9ad7ea4f6f0e1a}
+
+
+Electrostatic potential at a point. 
+
+\hypertarget{classCORREL_a981a6452d3eec84cb9dd7d6c7dc7d47d}{
+\index{CORREL@{CORREL}!new\_\-xyz@{new\_\-xyz}}
+\index{new\_\-xyz@{new\_\-xyz}!CORREL@{CORREL}}
+\subsubsection[{new\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$double$>$ $>$ {\bf CORREL::new\_\-xyz}}}
+\label{classCORREL_a981a6452d3eec84cb9dd7d6c7dc7d47d}
+
+
+New coordinates after movement. 
+
+\hypertarget{classCORREL_a914a8b0995015e82256961cbb676717c}{
+\index{CORREL@{CORREL}!r@{r}}
+\index{r@{r}!CORREL@{CORREL}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::r}}}
+\label{classCORREL_a914a8b0995015e82256961cbb676717c}
+
+
+Distance. 
+
+\hypertarget{classCORREL_a5befccd178218ad79376170652d91335}{
+\index{CORREL@{CORREL}!sum\_\-product@{sum\_\-product}}
+\index{sum\_\-product@{sum\_\-product}!CORREL@{CORREL}}
+\subsubsection[{sum\_\-product}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::sum\_\-product}}}
+\label{classCORREL_a5befccd178218ad79376170652d91335}
+\hypertarget{classCORREL_a898800161dee6f1625130c54948a8f03}{
+\index{CORREL@{CORREL}!temp@{temp}}
+\index{temp@{temp}!CORREL@{CORREL}}
+\subsubsection[{temp}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf CORREL::temp}}}
+\label{classCORREL_a898800161dee6f1625130c54948a8f03}
+
+
+Who knows? 
+
+\hypertarget{classCORREL_a8bfe969d5de8f1138ab78b96c81efe68}{
+\index{CORREL@{CORREL}!x@{x}}
+\index{x@{x}!CORREL@{CORREL}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::x}}}
+\label{classCORREL_a8bfe969d5de8f1138ab78b96c81efe68}
+
+
+X coordinate. 
+
+\hypertarget{classCORREL_a7b95f3b9f6b49a0f30803573d28b08d2}{
+\index{CORREL@{CORREL}!y@{y}}
+\index{y@{y}!CORREL@{CORREL}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::y}}}
+\label{classCORREL_a7b95f3b9f6b49a0f30803573d28b08d2}
+
+
+Y coordinate. 
+
+\hypertarget{classCORREL_a733e2083e37dc8cd372b71f7d04bd645}{
+\index{CORREL@{CORREL}!z@{z}}
+\index{z@{z}!CORREL@{CORREL}}
+\subsubsection[{z}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CORREL::z}}}
+\label{classCORREL_a733e2083e37dc8cd372b71f7d04bd645}
+
+
+Z Coordinate. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{CORREL_8h}{CORREL.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{CORREL_8cpp}{CORREL.cpp}\end{DoxyCompactItemize}

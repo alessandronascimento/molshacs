@@ -1,0 +1,19 @@
+#!/bin/bash
+
+CC=g++
+CFLAGS=-c -O3 -ffast-math -w -IC:/ASN/libs/nlopt-2.2.4/api -IC:/ASN/libs/zlib-1.2.6
+LDFLAGS= -lgsl -lgslcblas -lm -lz -lnlopt_cxx -static -LC:/ASN/libs/zlib-1.2.6 -LC:/ASN/libs/nlopt-2.2.4/.libs
+SOURCES=CORREL.cpp  Grid.cpp  main.cpp  Minimizer2.cpp  Mol2.cpp  Parser.cpp  RunEngine.cpp  Writer.cpp Gaussian.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=MolShaCS.nogui
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm $(OBJECTS) $(EXECUTABLE)

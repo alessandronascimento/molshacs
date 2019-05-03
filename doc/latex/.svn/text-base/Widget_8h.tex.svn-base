@@ -1,0 +1,30 @@
+\hypertarget{Widget_8h}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/Widget.h File Reference}
+\label{Widget_8h}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/Widget.h@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/Widget.h}}
+}
+{\ttfamily \#include $<$QtGui/QWidget$>$}\par
+{\ttfamily \#include $<$QVBoxLayout$>$}\par
+{\ttfamily \#include $<$QHBoxLayout$>$}\par
+{\ttfamily \#include $<$QGridLayout$>$}\par
+{\ttfamily \#include $<$QLabel$>$}\par
+{\ttfamily \#include $<$QLineEdit$>$}\par
+{\ttfamily \#include $<$QPushButton$>$}\par
+{\ttfamily \#include $<$QComboBox$>$}\par
+{\ttfamily \#include $<$QDoubleSpinBox$>$}\par
+{\ttfamily \#include $<$QSpinBox$>$}\par
+{\ttfamily \#include $<$iostream$>$}\par
+{\ttfamily \#include $<$QFileDialog$>$}\par
+{\ttfamily \#include $<$QPlainTextEdit$>$}\par
+{\ttfamily \#include $<$QEventLoop$>$}\par
+{\ttfamily \#include $<$QStringList$>$}\par
+{\ttfamily \#include $<$QProgressBar$>$}\par
+{\ttfamily \#include \char`\"{}../Parser.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../RunEngine.h\char`\"{}}\par
+{\ttfamily \#include $<$cstdio$>$}\par
+Include dependency graph for Widget.h:
+This graph shows which files directly or indirectly include this file:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classWidget}{Widget}
+\end{DoxyCompactItemize}

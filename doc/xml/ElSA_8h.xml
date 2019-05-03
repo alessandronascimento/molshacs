@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="ElSA_8h" kind="file">
+    <compoundname>ElSA.h</compoundname>
+    <includedby refid="CORREL_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/CORREL.h</includedby>
+    <includedby refid="Gaussian_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h</includedby>
+    <includedby refid="main_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/main.h</includedby>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ElSA_8h_1a598a3330b3c21701223ee0ca14316eca" prot="public" static="no">
+        <name>PI</name>
+        <initializer>3.14159265359</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" line="11" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ElSA_8h_1adc22e201840d4e3e2e70d8c59c5b8959" prot="public" static="no">
+        <name>ORGANIZATION</name>
+        <initializer>&quot;Universidade Federal do ABC&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" line="12" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ElSA_8h_1a47f2e62c0dbebc787052c165afcada0e" prot="public" static="no">
+        <name>NAME</name>
+        <initializer>&quot;ElSA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" line="13" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ElSA_8h_1a1c6d5de492ac61ad29aec7aa9a436bbf" prot="public" static="no">
+        <name>VERSION</name>
+        <initializer>&quot;0.1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" line="14" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>ElSA.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>24/11/2011</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Nascimento</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ELSA_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ELSA_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PI<sp/>3.14159265359</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ORGANIZATION<sp/>&quot;Universidade<sp/>Federal<sp/>do<sp/>ABC&quot;</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NAME<sp/>&quot;ElSA&quot;</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>VERSION<sp/>&quot;0.1&quot;</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ELSA_H_<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/ElSA.h"/>
+  </compounddef>
+</doxygen>

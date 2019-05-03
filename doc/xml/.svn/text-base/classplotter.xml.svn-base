@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classplotter" kind="class" prot="public">
+    <compoundname>plotter</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classplotter_1a835971f15f6e1d13cc937e0148fa5e05" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="classplotter_1a835971f15f6e1d13cc937e0148fa5e05a09c07970f1030dd3a110bed7c1ddda89" prot="public">
+          <name>Margin</name>
+          <initializer> 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="20" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classplotter_1a4c6ee2390dfa3557b08631bf1ecb35f1" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; plotter::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="19" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classplotter_1a4fe6653b2044ae9f3f3236fb4ac6cd41" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; plotter::elec</definition>
+        <argsstring></argsstring>
+        <name>elec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="19" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classplotter_1a8d05be8ebc3f3c0420d8019928b17a9b" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; plotter::vdw</definition>
+        <argsstring></argsstring>
+        <name>vdw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="19" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classplotter_1a7cfad03a29e1eec67a4d7d1021da3aee" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; plotter::si</definition>
+        <argsstring></argsstring>
+        <name>si</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="19" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classplotter_1ac2c97e06fd82a35453851f507c366eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>plotter::plotter</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>plotter</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="17" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.cpp" bodystart="3" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classplotter_1afd88fcbc5b6eacac3a72697a3d1cab8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>plotter::~plotter</definition>
+        <argsstring>()</argsstring>
+        <name>~plotter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="18" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classplotter_1ac1fd83a3a57494cdacbe03fa28c98ce5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void plotter::paintEvent</definition>
+        <argsstring>(QPaintEvent *event)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="23" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.cpp" bodystart="33" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" line="13" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/plotter.h" bodystart="12" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classplotter_1a4fe6653b2044ae9f3f3236fb4ac6cd41" prot="public" virt="non-virtual"><scope>plotter</scope><name>elec</name></member>
+      <member refid="classplotter_1a835971f15f6e1d13cc937e0148fa5e05a09c07970f1030dd3a110bed7c1ddda89" prot="public" virt="non-virtual"><scope>plotter</scope><name>Margin</name></member>
+      <member refid="classplotter_1ac1fd83a3a57494cdacbe03fa28c98ce5" prot="private" virt="non-virtual"><scope>plotter</scope><name>paintEvent</name></member>
+      <member refid="classplotter_1ac2c97e06fd82a35453851f507c366eb7" prot="public" virt="non-virtual"><scope>plotter</scope><name>plotter</name></member>
+      <member refid="classplotter_1a7cfad03a29e1eec67a4d7d1021da3aee" prot="public" virt="non-virtual"><scope>plotter</scope><name>si</name></member>
+      <member refid="classplotter_1a8d05be8ebc3f3c0420d8019928b17a9b" prot="public" virt="non-virtual"><scope>plotter</scope><name>vdw</name></member>
+      <member refid="classplotter_1a4c6ee2390dfa3557b08631bf1ecb35f1" prot="public" virt="non-virtual"><scope>plotter</scope><name>x</name></member>
+      <member refid="classplotter_1afd88fcbc5b6eacac3a72697a3d1cab8d" prot="public" virt="non-virtual"><scope>plotter</scope><name>~plotter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

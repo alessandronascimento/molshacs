@@ -1,0 +1,275 @@
+\hypertarget{classGUI}{
+\section{GUI Class Reference}
+\label{classGUI}\index{GUI@{GUI}}
+}
+
+
+{\ttfamily \#include $<$GUI.h$>$}
+
+
+
+Collaboration diagram for GUI:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGUI_a8a4d8b5e6c5573bad1ee290057daa1c5}{GUI} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\hyperlink{classGUI_ac9cae2328dcb5d83bdfaeca49a2eb695}{$\sim$GUI} ()
+\item 
+void \hyperlink{classGUI_a4dea1ac02163a2b98153c90cbf843e5c}{createActions} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classParser}{Parser} $\ast$ \hyperlink{classGUI_a23bcccdf0605df7eff9e9e690acbfffe}{Input}
+\item 
+QPlainTextEdit $\ast$ \hyperlink{classGUI_aebedf961b466803965b1d7038d82a06f}{Editor}
+\item 
+QMenu $\ast$ \hyperlink{classGUI_a5e698d5b7b11d9aa0129b0de821c9c52}{InputFile}
+\item 
+QAction $\ast$ \hyperlink{classGUI_aad5f7c7aa36938310e748bbe46b5437c}{InputWidget}
+\item 
+QMenu $\ast$ \hyperlink{classGUI_a740fd211720b3a7332993a411e9f4fc9}{Results}
+\item 
+QAction $\ast$ \hyperlink{classGUI_af49dfca8211ea42785ef715ca8414349}{ResultsAction}
+\item 
+QMenu $\ast$ \hyperlink{classGUI_acdfc4116fda0f3b58620cb7f041d320d}{Graphics}
+\item 
+QAction $\ast$ \hyperlink{classGUI_ae58c84b60a139da57bf3e826169582d7}{GraphicsAction}
+\item 
+QMenu $\ast$ \hyperlink{classGUI_ade150ac697c2d6f7e4543661298c2339}{Help}
+\item 
+QAction $\ast$ \hyperlink{classGUI_ac092d41d36dd036c656ecd787be3588a}{About\_\-ElSA}
+\item 
+QMessageBox $\ast$ \hyperlink{classGUI_a14bef0e73a4d970df0f2c524af3141c9}{ElSA\_\-Message}
+\item 
+QAction $\ast$ \hyperlink{classGUI_a3a0a9d222c3cc47377bd2c9fde788602}{About\_\-Qt}
+\item 
+QMenu $\ast$ \hyperlink{classGUI_aec92e0f1f7459d88ba3bb91022682597}{Exit}
+\item 
+QAction $\ast$ \hyperlink{classGUI_a4f15ddd21a82be923b234d1c79ca76ea}{ExitAction}
+\item 
+QTabWidget $\ast$ \hyperlink{classGUI_a8681b53347b263f7408ca638f7d51f46}{tabwidget}
+\item 
+QDockWidget $\ast$ \hyperlink{classGUI_ab3e72f6946f0ff407d4415032c4a2644}{DockEditor}
+\item 
+QTextBrowser $\ast$ \hyperlink{classGUI_ac324631e6e509d6fcb9bacb7a369a338}{ResultsText}
+\item 
+QWidget $\ast$ \hyperlink{classGUI_aa77770f0508da22bc8020dbf9996f2aa}{childWildget}
+\item 
+\hyperlink{classWidget}{Widget} $\ast$ \hyperlink{classGUI_a7bb052c7feeae26ac35089086a39f1f0}{WInput}
+\item 
+\hyperlink{classRunEngine}{RunEngine} \hyperlink{classGUI_aebe88ce4da6a85e88795904312014c57}{SPCA}
+\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classGUI_a793993fb8d09d4bbfde2bba4394f6f42}{openInputWidget} ()
+\item 
+void \hyperlink{classGUI_aa5d8baa6e33f54e0b06a6e88225bad98}{ViewResults} ()
+\item 
+void \hyperlink{classGUI_a8a68124ff4791c4807bfa5b6793b0dc5}{GraphResult} ()
+\item 
+void \hyperlink{classGUI_abb7f5b41ebe5f97a44b2ee4d504e0e2d}{RunEng} ()
+\item 
+void \hyperlink{classGUI_a55f8dc18b234b108d0a7109c216ba781}{closethistab} (int tindex)
+\item 
+void \hyperlink{classGUI_af458ebcd920d0daaa31e35f021198e3c}{about\_\-elsa} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGUI_a8a4d8b5e6c5573bad1ee290057daa1c5}{
+\index{GUI@{GUI}!GUI@{GUI}}
+\index{GUI@{GUI}!GUI@{GUI}}
+\subsubsection[{GUI}]{\setlength{\rightskip}{0pt plus 5cm}GUI::GUI (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}
+\label{classGUI_a8a4d8b5e6c5573bad1ee290057daa1c5}
+\hypertarget{classGUI_ac9cae2328dcb5d83bdfaeca49a2eb695}{
+\index{GUI@{GUI}!$\sim$GUI@{$\sim$GUI}}
+\index{$\sim$GUI@{$\sim$GUI}!GUI@{GUI}}
+\subsubsection[{$\sim$GUI}]{\setlength{\rightskip}{0pt plus 5cm}GUI::$\sim$GUI (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classGUI_ac9cae2328dcb5d83bdfaeca49a2eb695}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGUI_af458ebcd920d0daaa31e35f021198e3c}{
+\index{GUI@{GUI}!about\_\-elsa@{about\_\-elsa}}
+\index{about\_\-elsa@{about\_\-elsa}!GUI@{GUI}}
+\subsubsection[{about\_\-elsa}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::about\_\-elsa (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_af458ebcd920d0daaa31e35f021198e3c}
+\hypertarget{classGUI_a55f8dc18b234b108d0a7109c216ba781}{
+\index{GUI@{GUI}!closethistab@{closethistab}}
+\index{closethistab@{closethistab}!GUI@{GUI}}
+\subsubsection[{closethistab}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::closethistab (
+\begin{DoxyParamCaption}
+\item[{int}]{tindex}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_a55f8dc18b234b108d0a7109c216ba781}
+\hypertarget{classGUI_a4dea1ac02163a2b98153c90cbf843e5c}{
+\index{GUI@{GUI}!createActions@{createActions}}
+\index{createActions@{createActions}!GUI@{GUI}}
+\subsubsection[{createActions}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::createActions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classGUI_a4dea1ac02163a2b98153c90cbf843e5c}
+\hypertarget{classGUI_a8a68124ff4791c4807bfa5b6793b0dc5}{
+\index{GUI@{GUI}!GraphResult@{GraphResult}}
+\index{GraphResult@{GraphResult}!GUI@{GUI}}
+\subsubsection[{GraphResult}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::GraphResult (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_a8a68124ff4791c4807bfa5b6793b0dc5}
+\hypertarget{classGUI_a793993fb8d09d4bbfde2bba4394f6f42}{
+\index{GUI@{GUI}!openInputWidget@{openInputWidget}}
+\index{openInputWidget@{openInputWidget}!GUI@{GUI}}
+\subsubsection[{openInputWidget}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::openInputWidget (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_a793993fb8d09d4bbfde2bba4394f6f42}
+\hypertarget{classGUI_abb7f5b41ebe5f97a44b2ee4d504e0e2d}{
+\index{GUI@{GUI}!RunEng@{RunEng}}
+\index{RunEng@{RunEng}!GUI@{GUI}}
+\subsubsection[{RunEng}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::RunEng (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_abb7f5b41ebe5f97a44b2ee4d504e0e2d}
+\hypertarget{classGUI_aa5d8baa6e33f54e0b06a6e88225bad98}{
+\index{GUI@{GUI}!ViewResults@{ViewResults}}
+\index{ViewResults@{ViewResults}!GUI@{GUI}}
+\subsubsection[{ViewResults}]{\setlength{\rightskip}{0pt plus 5cm}void GUI::ViewResults (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private, slot\mbox{]}}}}
+\label{classGUI_aa5d8baa6e33f54e0b06a6e88225bad98}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classGUI_ac092d41d36dd036c656ecd787be3588a}{
+\index{GUI@{GUI}!About\_\-ElSA@{About\_\-ElSA}}
+\index{About\_\-ElSA@{About\_\-ElSA}!GUI@{GUI}}
+\subsubsection[{About\_\-ElSA}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::About\_\-ElSA}}}
+\label{classGUI_ac092d41d36dd036c656ecd787be3588a}
+\hypertarget{classGUI_a3a0a9d222c3cc47377bd2c9fde788602}{
+\index{GUI@{GUI}!About\_\-Qt@{About\_\-Qt}}
+\index{About\_\-Qt@{About\_\-Qt}!GUI@{GUI}}
+\subsubsection[{About\_\-Qt}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::About\_\-Qt}}}
+\label{classGUI_a3a0a9d222c3cc47377bd2c9fde788602}
+\hypertarget{classGUI_aa77770f0508da22bc8020dbf9996f2aa}{
+\index{GUI@{GUI}!childWildget@{childWildget}}
+\index{childWildget@{childWildget}!GUI@{GUI}}
+\subsubsection[{childWildget}]{\setlength{\rightskip}{0pt plus 5cm}QWidget$\ast$ {\bf GUI::childWildget}}}
+\label{classGUI_aa77770f0508da22bc8020dbf9996f2aa}
+\hypertarget{classGUI_ab3e72f6946f0ff407d4415032c4a2644}{
+\index{GUI@{GUI}!DockEditor@{DockEditor}}
+\index{DockEditor@{DockEditor}!GUI@{GUI}}
+\subsubsection[{DockEditor}]{\setlength{\rightskip}{0pt plus 5cm}QDockWidget$\ast$ {\bf GUI::DockEditor}}}
+\label{classGUI_ab3e72f6946f0ff407d4415032c4a2644}
+\hypertarget{classGUI_aebedf961b466803965b1d7038d82a06f}{
+\index{GUI@{GUI}!Editor@{Editor}}
+\index{Editor@{Editor}!GUI@{GUI}}
+\subsubsection[{Editor}]{\setlength{\rightskip}{0pt plus 5cm}QPlainTextEdit$\ast$ {\bf GUI::Editor}}}
+\label{classGUI_aebedf961b466803965b1d7038d82a06f}
+\hypertarget{classGUI_a14bef0e73a4d970df0f2c524af3141c9}{
+\index{GUI@{GUI}!ElSA\_\-Message@{ElSA\_\-Message}}
+\index{ElSA\_\-Message@{ElSA\_\-Message}!GUI@{GUI}}
+\subsubsection[{ElSA\_\-Message}]{\setlength{\rightskip}{0pt plus 5cm}QMessageBox$\ast$ {\bf GUI::ElSA\_\-Message}}}
+\label{classGUI_a14bef0e73a4d970df0f2c524af3141c9}
+\hypertarget{classGUI_aec92e0f1f7459d88ba3bb91022682597}{
+\index{GUI@{GUI}!Exit@{Exit}}
+\index{Exit@{Exit}!GUI@{GUI}}
+\subsubsection[{Exit}]{\setlength{\rightskip}{0pt plus 5cm}QMenu$\ast$ {\bf GUI::Exit}}}
+\label{classGUI_aec92e0f1f7459d88ba3bb91022682597}
+\hypertarget{classGUI_a4f15ddd21a82be923b234d1c79ca76ea}{
+\index{GUI@{GUI}!ExitAction@{ExitAction}}
+\index{ExitAction@{ExitAction}!GUI@{GUI}}
+\subsubsection[{ExitAction}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::ExitAction}}}
+\label{classGUI_a4f15ddd21a82be923b234d1c79ca76ea}
+\hypertarget{classGUI_acdfc4116fda0f3b58620cb7f041d320d}{
+\index{GUI@{GUI}!Graphics@{Graphics}}
+\index{Graphics@{Graphics}!GUI@{GUI}}
+\subsubsection[{Graphics}]{\setlength{\rightskip}{0pt plus 5cm}QMenu$\ast$ {\bf GUI::Graphics}}}
+\label{classGUI_acdfc4116fda0f3b58620cb7f041d320d}
+\hypertarget{classGUI_ae58c84b60a139da57bf3e826169582d7}{
+\index{GUI@{GUI}!GraphicsAction@{GraphicsAction}}
+\index{GraphicsAction@{GraphicsAction}!GUI@{GUI}}
+\subsubsection[{GraphicsAction}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::GraphicsAction}}}
+\label{classGUI_ae58c84b60a139da57bf3e826169582d7}
+\hypertarget{classGUI_ade150ac697c2d6f7e4543661298c2339}{
+\index{GUI@{GUI}!Help@{Help}}
+\index{Help@{Help}!GUI@{GUI}}
+\subsubsection[{Help}]{\setlength{\rightskip}{0pt plus 5cm}QMenu$\ast$ {\bf GUI::Help}}}
+\label{classGUI_ade150ac697c2d6f7e4543661298c2339}
+\hypertarget{classGUI_a23bcccdf0605df7eff9e9e690acbfffe}{
+\index{GUI@{GUI}!Input@{Input}}
+\index{Input@{Input}!GUI@{GUI}}
+\subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parser}$\ast$ {\bf GUI::Input}}}
+\label{classGUI_a23bcccdf0605df7eff9e9e690acbfffe}
+\hypertarget{classGUI_a5e698d5b7b11d9aa0129b0de821c9c52}{
+\index{GUI@{GUI}!InputFile@{InputFile}}
+\index{InputFile@{InputFile}!GUI@{GUI}}
+\subsubsection[{InputFile}]{\setlength{\rightskip}{0pt plus 5cm}QMenu$\ast$ {\bf GUI::InputFile}}}
+\label{classGUI_a5e698d5b7b11d9aa0129b0de821c9c52}
+\hypertarget{classGUI_aad5f7c7aa36938310e748bbe46b5437c}{
+\index{GUI@{GUI}!InputWidget@{InputWidget}}
+\index{InputWidget@{InputWidget}!GUI@{GUI}}
+\subsubsection[{InputWidget}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::InputWidget}}}
+\label{classGUI_aad5f7c7aa36938310e748bbe46b5437c}
+\hypertarget{classGUI_a740fd211720b3a7332993a411e9f4fc9}{
+\index{GUI@{GUI}!Results@{Results}}
+\index{Results@{Results}!GUI@{GUI}}
+\subsubsection[{Results}]{\setlength{\rightskip}{0pt plus 5cm}QMenu$\ast$ {\bf GUI::Results}}}
+\label{classGUI_a740fd211720b3a7332993a411e9f4fc9}
+\hypertarget{classGUI_af49dfca8211ea42785ef715ca8414349}{
+\index{GUI@{GUI}!ResultsAction@{ResultsAction}}
+\index{ResultsAction@{ResultsAction}!GUI@{GUI}}
+\subsubsection[{ResultsAction}]{\setlength{\rightskip}{0pt plus 5cm}QAction$\ast$ {\bf GUI::ResultsAction}}}
+\label{classGUI_af49dfca8211ea42785ef715ca8414349}
+\hypertarget{classGUI_ac324631e6e509d6fcb9bacb7a369a338}{
+\index{GUI@{GUI}!ResultsText@{ResultsText}}
+\index{ResultsText@{ResultsText}!GUI@{GUI}}
+\subsubsection[{ResultsText}]{\setlength{\rightskip}{0pt plus 5cm}QTextBrowser$\ast$ {\bf GUI::ResultsText}}}
+\label{classGUI_ac324631e6e509d6fcb9bacb7a369a338}
+\hypertarget{classGUI_aebe88ce4da6a85e88795904312014c57}{
+\index{GUI@{GUI}!SPCA@{SPCA}}
+\index{SPCA@{SPCA}!GUI@{GUI}}
+\subsubsection[{SPCA}]{\setlength{\rightskip}{0pt plus 5cm}{\bf RunEngine} {\bf GUI::SPCA}}}
+\label{classGUI_aebe88ce4da6a85e88795904312014c57}
+\hypertarget{classGUI_a8681b53347b263f7408ca638f7d51f46}{
+\index{GUI@{GUI}!tabwidget@{tabwidget}}
+\index{tabwidget@{tabwidget}!GUI@{GUI}}
+\subsubsection[{tabwidget}]{\setlength{\rightskip}{0pt plus 5cm}QTabWidget$\ast$ {\bf GUI::tabwidget}}}
+\label{classGUI_a8681b53347b263f7408ca638f7d51f46}
+\hypertarget{classGUI_a7bb052c7feeae26ac35089086a39f1f0}{
+\index{GUI@{GUI}!WInput@{WInput}}
+\index{WInput@{WInput}!GUI@{GUI}}
+\subsubsection[{WInput}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Widget}$\ast$ {\bf GUI::WInput}}}
+\label{classGUI_a7bb052c7feeae26ac35089086a39f1f0}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{GUI_8h}{GUI.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{GUI_8cpp}{GUI.cpp}\end{DoxyCompactItemize}

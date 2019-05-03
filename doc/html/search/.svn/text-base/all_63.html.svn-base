@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_cc">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classRunEngine.html#a66754b416ac3363addc1090a2fff6330" target="_parent">cc</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_center">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classGrid.html#a9a5662b9d7dafec37fe08f5851f7926c" target="_parent">center</a>
+  <span class="SRScope">Grid</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_cgrid">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classMinimizer2.html#a82909d2dd56fc9747ae6edbe94b2e5d2" target="_parent">Cgrid</a>
+  <span class="SRScope">Minimizer2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_charge">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../classMol.html#aa7625b12b934447f8b5ccbe40eed5747" target="_parent">charge</a>
+  <span class="SRScope">Mol</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_charges">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_charges')">charges</a>
+  <div class="SRChildren">
+    <a id="Item4_c0" onkeydown="return searchResults.NavChild(event,4,0)" onkeypress="return searchResults.NavChild(event,4,0)" onkeyup="return searchResults.NavChild(event,4,0)" class="SRScope" href="../classMol.html#a2308c8fa4702a763039a49c0968e8e33" target="_parent">Mol::charges()</a>
+    <a id="Item4_c1" onkeydown="return searchResults.NavChild(event,4,1)" onkeypress="return searchResults.NavChild(event,4,1)" onkeyup="return searchResults.NavChild(event,4,1)" class="SRScope" href="../classMol2.html#a85429e831336c4f3044b6cc879a8b656" target="_parent">Mol2::charges()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_childwildget">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../classGUI.html#aa77770f0508da22bc8020dbf9996f2aa" target="_parent">childWildget</a>
+  <span class="SRScope">GUI</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fcharge">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="../classMol2.html#a19f5f8645105f9395c4ca8455b7bde25" target="_parent">choose_charge</a>
+  <span class="SRScope">Mol2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fcomparing_5fmol2">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="../classWidget.html#aae131e90bd10ce7c9b737905182f014b" target="_parent">choose_comparing_mol2</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fdat_5ffile">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="../classWidget.html#a03427b8edab950b6e843e01ae95efd67" target="_parent">choose_dat_file</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fmultifile">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="../classWidget.html#ab636c77944ff054738442e28d195b063" target="_parent">choose_multifile</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fref_5fmol2">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="../classWidget.html#a0c629b003852a48f2ed2ca0e6933619d" target="_parent">choose_ref_mol2</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_choose_5fref_5fmol2_5ffile">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="../classWidget.html#a94c61bbeaa08f792dbfd3e79d012cbf1" target="_parent">choose_ref_mol2_file</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_close">
+ <div class="SREntry">
+  <a id="Item12" onkeydown="return searchResults.Nav(event,12)" onkeypress="return searchResults.Nav(event,12)" onkeyup="return searchResults.Nav(event,12)" class="SRSymbol" href="../classWriter.html#a0e062f09b761e7aee0638ae9bb8de234" target="_parent">close</a>
+  <span class="SRScope">Writer</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_closethistab">
+ <div class="SREntry">
+  <a id="Item13" onkeydown="return searchResults.Nav(event,13)" onkeypress="return searchResults.Nav(event,13)" onkeyup="return searchResults.Nav(event,13)" class="SRSymbol" href="../classGUI.html#a55f8dc18b234b108d0a7109c216ba781" target="_parent">closethistab</a>
+  <span class="SRScope">GUI</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_cmol">
+ <div class="SREntry">
+  <a id="Item14" onkeydown="return searchResults.Nav(event,14)" onkeypress="return searchResults.Nav(event,14)" onkeyup="return searchResults.Nav(event,14)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_cmol')">Cmol</a>
+  <div class="SRChildren">
+    <a id="Item14_c0" onkeydown="return searchResults.NavChild(event,14,0)" onkeypress="return searchResults.NavChild(event,14,0)" onkeyup="return searchResults.NavChild(event,14,0)" class="SRScope" href="../classGrid.html#ab5087e114551f00fbb0d281b801d3dfc" target="_parent">Grid::Cmol()</a>
+    <a id="Item14_c1" onkeydown="return searchResults.NavChild(event,14,1)" onkeypress="return searchResults.NavChild(event,14,1)" onkeyup="return searchResults.NavChild(event,14,1)" class="SRScope" href="../classQtWriter.html#a82288bebcd187b80b54c2093da0ea820" target="_parent">QtWriter::Cmol()</a>
+    <a id="Item14_c2" onkeydown="return searchResults.NavChild(event,14,2)" onkeypress="return searchResults.NavChild(event,14,2)" onkeyup="return searchResults.NavChild(event,14,2)" class="SRScope" href="../classMinimizer2.html#af79d496194cba04903627d821f0faca3" target="_parent">Minimizer2::Cmol()</a>
+    <a id="Item14_c3" onkeydown="return searchResults.NavChild(event,14,3)" onkeypress="return searchResults.NavChild(event,14,3)" onkeyup="return searchResults.NavChild(event,14,3)" class="SRScope" href="../classWriter.html#ae349fbe066befdd157107283457548f7" target="_parent">Writer::Cmol()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_com">
+ <div class="SREntry">
+  <a id="Item15" onkeydown="return searchResults.Nav(event,15)" onkeypress="return searchResults.Nav(event,15)" onkeyup="return searchResults.Nav(event,15)" class="SRSymbol" href="../classGrid.html#a46c4f059aba71bdb9b3eecac4b7275a8" target="_parent">com</a>
+  <span class="SRScope">Grid</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_comparing">
+ <div class="SREntry">
+  <a id="Item16" onkeydown="return searchResults.Nav(event,16)" onkeypress="return searchResults.Nav(event,16)" onkeyup="return searchResults.Nav(event,16)" class="SRSymbol" href="../classParser.html#a749bb0b98af67a59540977c7271405e0" target="_parent">comparing</a>
+  <span class="SRScope">Parser</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compmol">
+ <div class="SREntry">
+  <a id="Item17" onkeydown="return searchResults.Nav(event,17)" onkeypress="return searchResults.Nav(event,17)" onkeyup="return searchResults.Nav(event,17)" class="SRSymbol" href="../classMinimizer2.html#acb70dec810b27d78484566c87281ab26" target="_parent">CompMol</a>
+  <span class="SRScope">Minimizer2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fcom">
+ <div class="SREntry">
+  <a id="Item18" onkeydown="return searchResults.Nav(event,18)" onkeypress="return searchResults.Nav(event,18)" onkeyup="return searchResults.Nav(event,18)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fcom')">compute_com</a>
+  <div class="SRChildren">
+    <a id="Item18_c0" onkeydown="return searchResults.NavChild(event,18,0)" onkeypress="return searchResults.NavChild(event,18,0)" onkeyup="return searchResults.NavChild(event,18,0)" class="SRScope" href="../classGrid.html#a995b7d957f244276f0b0cb8835fd7e9a" target="_parent">Grid::compute_com()</a>
+    <a id="Item18_c1" onkeydown="return searchResults.NavChild(event,18,1)" onkeypress="return searchResults.NavChild(event,18,1)" onkeyup="return searchResults.NavChild(event,18,1)" class="SRScope" href="../classMinimizer2.html#addd14de621061132835370b3d02cd405" target="_parent">Minimizer2::compute_com()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fcorrel">
+ <div class="SREntry">
+  <a id="Item19" onkeydown="return searchResults.Nav(event,19)" onkeypress="return searchResults.Nav(event,19)" onkeyup="return searchResults.Nav(event,19)" class="SRSymbol" href="../classCORREL.html#a955fa403fc704715623e06e6b6d3bb3e" target="_parent">compute_correl</a>
+  <span class="SRScope">CORREL</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fcorrel_5fwade">
+ <div class="SREntry">
+  <a id="Item20" onkeydown="return searchResults.Nav(event,20)" onkeypress="return searchResults.Nav(event,20)" onkeyup="return searchResults.Nav(event,20)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fcorrel_5fwade')">compute_correl_wade</a>
+  <div class="SRChildren">
+    <a id="Item20_c0" onkeydown="return searchResults.NavChild(event,20,0)" onkeypress="return searchResults.NavChild(event,20,0)" onkeyup="return searchResults.NavChild(event,20,0)" class="SRScope" href="../classCORREL.html#a0ca3a025e8493c54977c3a8d3ea72e70" target="_parent">CORREL::compute_correl_wade(vector&lt; double &gt; p1, vector&lt; double &gt; p2)</a>
+    <a id="Item20_c1" onkeydown="return searchResults.NavChild(event,20,1)" onkeypress="return searchResults.NavChild(event,20,1)" onkeyup="return searchResults.NavChild(event,20,1)" class="SRScope" href="../classCORREL.html#a8f48c17b831c0fee075dcce379c80daf" target="_parent">CORREL::compute_correl_wade(vector&lt; double &gt; elec_potential, vector&lt; double &gt; p2, double sum_of_elec_potential)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fgrid">
+ <div class="SREntry">
+  <a id="Item21" onkeydown="return searchResults.Nav(event,21)" onkeypress="return searchResults.Nav(event,21)" onkeyup="return searchResults.Nav(event,21)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fgrid')">compute_grid</a>
+  <div class="SRChildren">
+    <a id="Item21_c0" onkeydown="return searchResults.NavChild(event,21,0)" onkeypress="return searchResults.NavChild(event,21,0)" onkeyup="return searchResults.NavChild(event,21,0)" class="SRScope" href="../classGrid.html#aa4773f2a675a2d42ff1ceb5c3b41ccb9" target="_parent">Grid::compute_grid(vector&lt; vector&lt; double &gt; &gt; xyz, vector&lt; double &gt; charges, double min_x, double min_y, double min_z, double max_x, double max_y, double max_z, double sampling, int N)</a>
+    <a id="Item21_c1" onkeydown="return searchResults.NavChild(event,21,1)" onkeypress="return searchResults.NavChild(event,21,1)" onkeyup="return searchResults.NavChild(event,21,1)" class="SRScope" href="../classGrid.html#a9fc3c970a7912ea84f379eb5788345ac" target="_parent">Grid::compute_grid(vector&lt; vector&lt; double &gt; &gt; xyz, vector&lt; double &gt; charges, double sampling, int N)</a>
+    <a id="Item21_c2" onkeydown="return searchResults.NavChild(event,21,2)" onkeypress="return searchResults.NavChild(event,21,2)" onkeyup="return searchResults.NavChild(event,21,2)" class="SRScope" href="../classGrid.html#a7a4296b76a0f3cc87f7ad21b4c4e9a19" target="_parent">Grid::compute_grid(Mol *Cmol, Parser *Input)</a>
+    <a id="Item21_c3" onkeydown="return searchResults.NavChild(event,21,3)" onkeypress="return searchResults.NavChild(event,21,3)" onkeyup="return searchResults.NavChild(event,21,3)" class="SRScope" href="../classGrid.html#a97d1697a546a55da45d7ccca26b097e6" target="_parent">Grid::compute_grid(Mol2 *Cmol, Parser *Input)</a>
+    <a id="Item21_c4" onkeydown="return searchResults.NavChild(event,21,4)" onkeypress="return searchResults.NavChild(event,21,4)" onkeyup="return searchResults.NavChild(event,21,4)" class="SRScope" href="../classGrid.html#aa92e40ab2d91491f715dd64ea011d865" target="_parent">Grid::compute_grid(vector&lt; vector&lt; double &gt; &gt; xyz, Mol *Cmol, Parser *Input)</a>
+    <a id="Item21_c5" onkeydown="return searchResults.NavChild(event,21,5)" onkeypress="return searchResults.NavChild(event,21,5)" onkeyup="return searchResults.NavChild(event,21,5)" class="SRScope" href="../classGrid.html#a4a11a22c3a40911fd084d26c90d93400" target="_parent">Grid::compute_grid(vector&lt; vector&lt; double &gt; &gt; xyz, Mol2 *Cmol, Parser *Input)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fnegative_5fcharge_5fdensity">
+ <div class="SREntry">
+  <a id="Item22" onkeydown="return searchResults.Nav(event,22)" onkeypress="return searchResults.Nav(event,22)" onkeyup="return searchResults.Nav(event,22)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fnegative_5fcharge_5fdensity')">compute_negative_charge_density</a>
+  <div class="SRChildren">
+    <a id="Item22_c0" onkeydown="return searchResults.NavChild(event,22,0)" onkeypress="return searchResults.NavChild(event,22,0)" onkeyup="return searchResults.NavChild(event,22,0)" class="SRScope" href="../classGaussian.html#a153b1fc8036233bed9121aa343c2a74d" target="_parent">Gaussian::compute_negative_charge_density(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+    <a id="Item22_c1" onkeydown="return searchResults.NavChild(event,22,1)" onkeypress="return searchResults.NavChild(event,22,1)" onkeyup="return searchResults.NavChild(event,22,1)" class="SRScope" href="../classGaussian.html#a141239850ea75332536cd25ef725762a" target="_parent">Gaussian::compute_negative_charge_density(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fpositive_5fcharge_5fdensity">
+ <div class="SREntry">
+  <a id="Item23" onkeydown="return searchResults.Nav(event,23)" onkeypress="return searchResults.Nav(event,23)" onkeyup="return searchResults.Nav(event,23)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fpositive_5fcharge_5fdensity')">compute_positive_charge_density</a>
+  <div class="SRChildren">
+    <a id="Item23_c0" onkeydown="return searchResults.NavChild(event,23,0)" onkeypress="return searchResults.NavChild(event,23,0)" onkeyup="return searchResults.NavChild(event,23,0)" class="SRScope" href="../classGaussian.html#ada6ef41c5cf1a988313f917dac04ba55" target="_parent">Gaussian::compute_positive_charge_density(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+    <a id="Item23_c1" onkeydown="return searchResults.NavChild(event,23,1)" onkeypress="return searchResults.NavChild(event,23,1)" onkeyup="return searchResults.NavChild(event,23,1)" class="SRScope" href="../classGaussian.html#ab2876d1355fd67cad5faa87062f20348" target="_parent">Gaussian::compute_positive_charge_density(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fshape_5fand_5fcharge_5fdensity">
+ <div class="SREntry">
+  <a id="Item24" onkeydown="return searchResults.Nav(event,24)" onkeypress="return searchResults.Nav(event,24)" onkeyup="return searchResults.Nav(event,24)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fshape_5fand_5fcharge_5fdensity')">compute_shape_and_charge_density</a>
+  <div class="SRChildren">
+    <a id="Item24_c0" onkeydown="return searchResults.NavChild(event,24,0)" onkeypress="return searchResults.NavChild(event,24,0)" onkeyup="return searchResults.NavChild(event,24,0)" class="SRScope" href="../classGaussian.html#ae28140feb3ad3043854394808e97b4cf" target="_parent">Gaussian::compute_shape_and_charge_density(Parser *Input, Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+    <a id="Item24_c1" onkeydown="return searchResults.NavChild(event,24,1)" onkeypress="return searchResults.NavChild(event,24,1)" onkeyup="return searchResults.NavChild(event,24,1)" class="SRScope" href="../classGaussian.html#a32bff8dbdd688b7d1d8f7aa50463ae82" target="_parent">Gaussian::compute_shape_and_charge_density(Parser *Input, Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz, vector&lt; vector&lt; double &gt; &gt; cxyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fshape_5fdensity">
+ <div class="SREntry">
+  <a id="Item25" onkeydown="return searchResults.Nav(event,25)" onkeypress="return searchResults.Nav(event,25)" onkeyup="return searchResults.Nav(event,25)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fshape_5fdensity')">compute_shape_density</a>
+  <div class="SRChildren">
+    <a id="Item25_c0" onkeydown="return searchResults.NavChild(event,25,0)" onkeypress="return searchResults.NavChild(event,25,0)" onkeyup="return searchResults.NavChild(event,25,0)" class="SRScope" href="../classGaussian.html#a3fd619ab0bd48e3c46537194411de25e" target="_parent">Gaussian::compute_shape_density(Mol2 *RefMol, Mol2 *CompMol)</a>
+    <a id="Item25_c1" onkeydown="return searchResults.NavChild(event,25,1)" onkeypress="return searchResults.NavChild(event,25,1)" onkeyup="return searchResults.NavChild(event,25,1)" class="SRScope" href="../classGaussian.html#a61cf17d52f0efe6f8b5933023056d6c9" target="_parent">Gaussian::compute_shape_density(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+    <a id="Item25_c2" onkeydown="return searchResults.NavChild(event,25,2)" onkeypress="return searchResults.NavChild(event,25,2)" onkeyup="return searchResults.NavChild(event,25,2)" class="SRScope" href="../classGaussian.html#a5b038af926d8a733608e41cdf263241a" target="_parent">Gaussian::compute_shape_density(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fsi">
+ <div class="SREntry">
+  <a id="Item26" onkeydown="return searchResults.Nav(event,26)" onkeypress="return searchResults.Nav(event,26)" onkeyup="return searchResults.Nav(event,26)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fsi')">compute_si</a>
+  <div class="SRChildren">
+    <a id="Item26_c0" onkeydown="return searchResults.NavChild(event,26,0)" onkeypress="return searchResults.NavChild(event,26,0)" onkeyup="return searchResults.NavChild(event,26,0)" class="SRScope" href="../classGaussian.html#aa42c109a39b13f847009947a77cd06b0" target="_parent">Gaussian::compute_si(Mol2 *RefMol, Mol2 *CompMol)</a>
+    <a id="Item26_c1" onkeydown="return searchResults.NavChild(event,26,1)" onkeypress="return searchResults.NavChild(event,26,1)" onkeyup="return searchResults.NavChild(event,26,1)" class="SRScope" href="../classGaussian.html#ac8b23b3c00889eb1f38da472f9b67fb6" target="_parent">Gaussian::compute_si(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fsi_5fneg_5fcharges">
+ <div class="SREntry">
+  <a id="Item27" onkeydown="return searchResults.Nav(event,27)" onkeypress="return searchResults.Nav(event,27)" onkeyup="return searchResults.Nav(event,27)" class="SRSymbol" href="../classGaussian.html#adb4d179d7a65b8ecf34181be75a3ee93" target="_parent">compute_si_neg_charges</a>
+  <span class="SRScope">Gaussian</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fsi_5fpos_5fcharges">
+ <div class="SREntry">
+  <a id="Item28" onkeydown="return searchResults.Nav(event,28)" onkeypress="return searchResults.Nav(event,28)" onkeyup="return searchResults.Nav(event,28)" class="SRSymbol" href="../classGaussian.html#aab2b48b953d268cfb0e1041e9ae8ffef" target="_parent">compute_si_pos_charges</a>
+  <span class="SRScope">Gaussian</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_compute_5fvdw_5frepulsive_5fgrid">
+ <div class="SREntry">
+  <a id="Item29" onkeydown="return searchResults.Nav(event,29)" onkeypress="return searchResults.Nav(event,29)" onkeyup="return searchResults.Nav(event,29)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_compute_5fvdw_5frepulsive_5fgrid')">compute_vdw_repulsive_grid</a>
+  <div class="SRChildren">
+    <a id="Item29_c0" onkeydown="return searchResults.NavChild(event,29,0)" onkeypress="return searchResults.NavChild(event,29,0)" onkeyup="return searchResults.NavChild(event,29,0)" class="SRScope" href="../classGrid.html#ade0b395e445c10e6283278e013df8b6f" target="_parent">Grid::compute_vdw_repulsive_grid(Mol *Cmol, Parser *Input)</a>
+    <a id="Item29_c1" onkeydown="return searchResults.NavChild(event,29,1)" onkeypress="return searchResults.NavChild(event,29,1)" onkeyup="return searchResults.NavChild(event,29,1)" class="SRScope" href="../classGrid.html#abf80e1b21d01043995f0b03da28b47a7" target="_parent">Grid::compute_vdw_repulsive_grid(Mol2 *Cmol, Parser *Input)</a>
+    <a id="Item29_c2" onkeydown="return searchResults.NavChild(event,29,2)" onkeypress="return searchResults.NavChild(event,29,2)" onkeyup="return searchResults.NavChild(event,29,2)" class="SRScope" href="../classGrid.html#a2593908db0c66fae993f7c382b021c57" target="_parent">Grid::compute_vdw_repulsive_grid(Mol *Cmol, Parser *Input, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+    <a id="Item29_c3" onkeydown="return searchResults.NavChild(event,29,3)" onkeypress="return searchResults.NavChild(event,29,3)" onkeyup="return searchResults.NavChild(event,29,3)" class="SRScope" href="../classGrid.html#a075128538932e833ffdb57cde197c540" target="_parent">Grid::compute_vdw_repulsive_grid(Mol2 *Cmol, Parser *Input, vector&lt; vector&lt; double &gt; &gt; xyz)</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_comx">
+ <div class="SREntry">
+  <a id="Item30" onkeydown="return searchResults.Nav(event,30)" onkeypress="return searchResults.Nav(event,30)" onkeyup="return searchResults.Nav(event,30)" class="SRSymbol" href="../classGrid.html#ac49fae4528db3bc897b5c99d6b5a5a1d" target="_parent">comx</a>
+  <span class="SRScope">Grid</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_comy">
+ <div class="SREntry">
+  <a id="Item31" onkeydown="return searchResults.Nav(event,31)" onkeypress="return searchResults.Nav(event,31)" onkeyup="return searchResults.Nav(event,31)" class="SRSymbol" href="../classGrid.html#a594a208bcfd831efadc544c051f62f30" target="_parent">comy</a>
+  <span class="SRScope">Grid</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_comz">
+ <div class="SREntry">
+  <a id="Item32" onkeydown="return searchResults.Nav(event,32)" onkeypress="return searchResults.Nav(event,32)" onkeyup="return searchResults.Nav(event,32)" class="SRSymbol" href="../classGrid.html#a8cbad1d609a7592a19b065f7ad647f8a" target="_parent">comz</a>
+  <span class="SRScope">Grid</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_convert2gaff">
+ <div class="SREntry">
+  <a id="Item33" onkeydown="return searchResults.Nav(event,33)" onkeypress="return searchResults.Nav(event,33)" onkeyup="return searchResults.Nav(event,33)" class="SRSymbol" href="../classMol2.html#af1016f0bda8dfee9c9793c854f251c12" target="_parent">convert2gaff</a>
+  <span class="SRScope">Mol2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_correl">
+ <div class="SREntry">
+  <a id="Item34" onkeydown="return searchResults.Nav(event,34)" onkeypress="return searchResults.Nav(event,34)" onkeyup="return searchResults.Nav(event,34)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_correl')">CORREL</a>
+  <div class="SRChildren">
+    <a id="Item34_c0" onkeydown="return searchResults.NavChild(event,34,0)" onkeypress="return searchResults.NavChild(event,34,0)" onkeyup="return searchResults.NavChild(event,34,0)" class="SRScope" href="../classCORREL.html" target="_parent">CORREL</a>
+    <a id="Item34_c1" onkeydown="return searchResults.NavChild(event,34,1)" onkeypress="return searchResults.NavChild(event,34,1)" onkeyup="return searchResults.NavChild(event,34,1)" class="SRScope" href="../classCORREL.html#a2b11224b8d555ae6fc1d66f7562fd275" target="_parent">CORREL::correl()</a>
+    <a id="Item34_c2" onkeydown="return searchResults.NavChild(event,34,2)" onkeypress="return searchResults.NavChild(event,34,2)" onkeyup="return searchResults.NavChild(event,34,2)" class="SRScope" href="../classCORREL.html#a5a1b02211831dd60a7e82e56638e75d4" target="_parent">CORREL::CORREL()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_correl_2ecpp">
+ <div class="SREntry">
+  <a id="Item35" onkeydown="return searchResults.Nav(event,35)" onkeypress="return searchResults.Nav(event,35)" onkeyup="return searchResults.Nav(event,35)" class="SRSymbol" href="../CORREL_8cpp.html" target="_parent">CORREL.cpp</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_correl_2eh">
+ <div class="SREntry">
+  <a id="Item36" onkeydown="return searchResults.Nav(event,36)" onkeypress="return searchResults.Nav(event,36)" onkeyup="return searchResults.Nav(event,36)" class="SRSymbol" href="../CORREL_8h.html" target="_parent">CORREL.h</a>
+ </div>
+</div>
+<div class="SRResult" id="SR_count">
+ <div class="SREntry">
+  <a id="Item37" onkeydown="return searchResults.Nav(event,37)" onkeypress="return searchResults.Nav(event,37)" onkeyup="return searchResults.Nav(event,37)" class="SRSymbol" href="../classRunEngine.html#a72e70234abefac658cb2e2fb5731612d" target="_parent">count</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_createactions">
+ <div class="SREntry">
+  <a id="Item38" onkeydown="return searchResults.Nav(event,38)" onkeypress="return searchResults.Nav(event,38)" onkeyup="return searchResults.Nav(event,38)" class="SRSymbol" href="../classGUI.html#a4dea1ac02163a2b98153c90cbf843e5c" target="_parent">createActions</a>
+  <span class="SRScope">GUI</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

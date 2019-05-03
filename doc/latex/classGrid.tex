@@ -1,0 +1,553 @@
+\hypertarget{classGrid}{
+\section{Grid Class Reference}
+\label{classGrid}\index{Grid@{Grid}}
+}
+
+
+{\ttfamily \#include $<$Grid.h$>$}
+
+
+
+Collaboration diagram for Grid:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}{Grid} ()
+\begin{DoxyCompactList}\small\item\em Class constructor. No actual function. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_ada629d223e3a74fa536b5c5c75ed9438}{dist} (double x1, double x2, double y1, double y2, double z1, double z2)
+\item 
+double \hyperlink{classGrid_a8e159ca3c90ad644d91507c5571f756b}{dist\_\-squared} (double x1, double x2, double y1, double y2, double z1, double z2)
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a995b7d957f244276f0b0cb8835fd7e9a}{compute\_\-com} (vector$<$ vector$<$ double $>$ $>$xyz, vector$<$ double $>$masses)
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_aa4773f2a675a2d42ff1ceb5c3b41ccb9}{compute\_\-grid} (vector$<$ vector$<$ double $>$ $>$ xyz, vector$<$ double $>$ charges, double \hyperlink{classGrid_a16930d1358fd0b70fc84031dbd1b6149}{min\_\-x}, double \hyperlink{classGrid_ac5c22ae5c418071029cd7b4613704be3}{min\_\-y}, double \hyperlink{classGrid_a492df49b72c09feb4e9c5ab2e28ece24}{min\_\-z}, double \hyperlink{classGrid_a72ca32ea381e695f8705fcd3ff248523}{max\_\-x}, double \hyperlink{classGrid_a8f3f3adf7d9a7bfe12f842603fd78787}{max\_\-y}, double \hyperlink{classGrid_a4c93a619b7ef2501f1eb16cb0efc4a09}{max\_\-z}, double sampling, int N)
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a9fc3c970a7912ea84f379eb5788345ac}{compute\_\-grid} (vector$<$ vector$<$ double $>$ $>$ xyz, vector$<$ double $>$ charges, double sampling, int N)
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a7a4296b76a0f3cc87f7ad21b4c4e9a19}{compute\_\-grid} (\hyperlink{classMol}{Mol} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a97d1697a546a55da45d7ccca26b097e6}{compute\_\-grid} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_aa92e40ab2d91491f715dd64ea011d865}{compute\_\-grid} (vector$<$ vector$<$ double $>$ $>$ xyz, \hyperlink{classMol}{Mol} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a4a11a22c3a40911fd084d26c90d93400}{compute\_\-grid} (vector$<$ vector$<$ double $>$ $>$ xyz, \hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+void \hyperlink{classGrid_ac47ec8672fada6fd797e3088d6b97807}{write\_\-box} (vector$<$ double $>$\hyperlink{classGrid_a9a5662b9d7dafec37fe08f5851f7926c}{center}, double \hyperlink{classGrid_a16930d1358fd0b70fc84031dbd1b6149}{min\_\-x}, double \hyperlink{classGrid_ac5c22ae5c418071029cd7b4613704be3}{min\_\-y}, double \hyperlink{classGrid_a492df49b72c09feb4e9c5ab2e28ece24}{min\_\-z}, double \hyperlink{classGrid_a72ca32ea381e695f8705fcd3ff248523}{max\_\-x}, double \hyperlink{classGrid_a8f3f3adf7d9a7bfe12f842603fd78787}{max\_\-y}, double \hyperlink{classGrid_a4c93a619b7ef2501f1eb16cb0efc4a09}{max\_\-z})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_ade0b395e445c10e6283278e013df8b6f}{compute\_\-vdw\_\-repulsive\_\-grid} (\hyperlink{classMol}{Mol} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_abf80e1b21d01043995f0b03da28b47a7}{compute\_\-vdw\_\-repulsive\_\-grid} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input})
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a2593908db0c66fae993f7c382b021c57}{compute\_\-vdw\_\-repulsive\_\-grid} (\hyperlink{classMol}{Mol} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input}, vector$<$ vector$<$ double $>$ $>$ xyz)
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a075128538932e833ffdb57cde197c540}{compute\_\-vdw\_\-repulsive\_\-grid} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}, \hyperlink{classParser}{Parser} $\ast$\hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input}, vector$<$ vector$<$ double $>$ $>$ xyz)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ double $>$ \hyperlink{classGrid_a9a5662b9d7dafec37fe08f5851f7926c}{center}
+\begin{DoxyCompactList}\small\item\em Center of Mass. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classGrid_a46c4f059aba71bdb9b3eecac4b7275a8}{com}
+\item 
+double \hyperlink{classGrid_a16930d1358fd0b70fc84031dbd1b6149}{min\_\-x}
+\item 
+double \hyperlink{classGrid_ac5c22ae5c418071029cd7b4613704be3}{min\_\-y}
+\begin{DoxyCompactList}\small\item\em Lower limit for computation in Y direction;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a492df49b72c09feb4e9c5ab2e28ece24}{min\_\-z}
+\begin{DoxyCompactList}\small\item\em Lower limit for computation in Z direction;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a72ca32ea381e695f8705fcd3ff248523}{max\_\-x}
+\begin{DoxyCompactList}\small\item\em Upper limit for computation in X direction;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a8f3f3adf7d9a7bfe12f842603fd78787}{max\_\-y}
+\begin{DoxyCompactList}\small\item\em Upper limit for computation in Y direction;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a4c93a619b7ef2501f1eb16cb0efc4a09}{max\_\-z}
+\begin{DoxyCompactList}\small\item\em Upper limit for computation in Z direction;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_afbb458694097a88a996838a131f61ead}{elec}
+\begin{DoxyCompactList}\small\item\em Electrostactic correlation computed according to the method proposed by Rebecca Wade;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_ac49fae4528db3bc897b5c99d6b5a5a1d}{comx}
+\begin{DoxyCompactList}\small\item\em X component of the Center of Mass;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a594a208bcfd831efadc544c051f62f30}{comy}
+\begin{DoxyCompactList}\small\item\em Y component of the Center of Mass;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a8cbad1d609a7592a19b065f7ad647f8a}{comz}
+\begin{DoxyCompactList}\small\item\em Z component of the Center of Mass;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a2c6ed23a2ebb4e4bc967228bfbab6480}{sumofmasses}
+\begin{DoxyCompactList}\small\item\em Sum of the atomic masses in the molecule;. \end{DoxyCompactList}\item 
+double \hyperlink{classGrid_a50100ef8f1e23ba090567bd460e779cb}{r}
+\begin{DoxyCompactList}\small\item\em Distance {\itshape r\/} among two atoms;. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \hyperlink{classGrid_ac9dcc7447af2497822b6e6e22be45f7e}{grid}
+\begin{DoxyCompactList}\small\item\em C++ vector to store the electrostatic grid. \end{DoxyCompactList}\item 
+\hyperlink{classMol}{Mol} $\ast$ \hyperlink{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{Cmol}
+\begin{DoxyCompactList}\small\item\em Pointer to molecule PRMTOP class. \end{DoxyCompactList}\item 
+\hyperlink{classParser}{Parser} $\ast$ \hyperlink{classGrid_aa9824cf9539971c3d32e92532c9c37be}{Input}
+\begin{DoxyCompactList}\small\item\em Pointer to \hyperlink{classParser}{Parser} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}{
+\index{Grid@{Grid}!Grid@{Grid}}
+\index{Grid@{Grid}!Grid@{Grid}}
+\subsubsection[{Grid}]{\setlength{\rightskip}{0pt plus 5cm}Grid::Grid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}
+
+
+Class constructor. No actual function. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGrid_a995b7d957f244276f0b0cb8835fd7e9a}{
+\index{Grid@{Grid}!compute\_\-com@{compute\_\-com}}
+\index{compute\_\-com@{compute\_\-com}!Grid@{Grid}}
+\subsubsection[{compute\_\-com}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-com (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{vector$<$ double $>$}]{masses}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a995b7d957f244276f0b0cb8835fd7e9a}
+Method t compute the center of mass of a molecule 
+\begin{DoxyParams}{Parameters}
+{\em xyz} & XYZ C++ vector of a vector with molecule coordinates \\
+\hline
+{\em masses} & C++ vector with atomic masses \\
+\hline
+\end{DoxyParams}
+\hypertarget{classGrid_aa4773f2a675a2d42ff1ceb5c3b41ccb9}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{vector$<$ double $>$}]{charges, }
+\item[{double}]{min\_\-x, }
+\item[{double}]{min\_\-y, }
+\item[{double}]{min\_\-z, }
+\item[{double}]{max\_\-x, }
+\item[{double}]{max\_\-y, }
+\item[{double}]{max\_\-z, }
+\item[{double}]{sampling, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_aa4773f2a675a2d42ff1ceb5c3b41ccb9}
+Method to compute the electrostactic grid 
+\begin{DoxyParams}{Parameters}
+{\em xyz} & XYZ C++ vector of a vector with molecule coordinates \\
+\hline
+{\em charges} & C++ vector with atomic charges \\
+\hline
+{\em min\_\-x} & Lower limit in X direction for electrostactic computation \\
+\hline
+{\em min\_\-y} & Lower limit in Y direction for electrostactic computation \\
+\hline
+{\em min\_\-z} & Lower limit in Z direction for electrostactic computation \\
+\hline
+{\em max\_\-x} & Upper limit in X direction for electrostactic computation \\
+\hline
+{\em max\_\-y} & Upper limit in Y direction for electrostactic computation \\
+\hline
+{\em max\_\-z} & Upper limit in Z direction for electrostactic computation \\
+\hline
+{\em sampling} & defines the spacing among grid points in each direction \\
+\hline
+{\em N} & Number of atoms in the molecule \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_aa92e40ab2d91491f715dd64ea011d865}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{{\bf Mol} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_aa92e40ab2d91491f715dd64ea011d865}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a4a11a22c3a40911fd084d26c90d93400}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a4a11a22c3a40911fd084d26c90d93400}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a9fc3c970a7912ea84f379eb5788345ac}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{vector$<$ double $>$}]{charges, }
+\item[{double}]{sampling, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a9fc3c970a7912ea84f379eb5788345ac}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a7a4296b76a0f3cc87f7ad21b4c4e9a19}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a7a4296b76a0f3cc87f7ad21b4c4e9a19}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a97d1697a546a55da45d7ccca26b097e6}{
+\index{Grid@{Grid}!compute\_\-grid@{compute\_\-grid}}
+\index{compute\_\-grid@{compute\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a97d1697a546a55da45d7ccca26b097e6}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a2593908db0c66fae993f7c382b021c57}{
+\index{Grid@{Grid}!compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}}
+\index{compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-vdw\_\-repulsive\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-vdw\_\-repulsive\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a2593908db0c66fae993f7c382b021c57}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_a075128538932e833ffdb57cde197c540}{
+\index{Grid@{Grid}!compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}}
+\index{compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-vdw\_\-repulsive\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-vdw\_\-repulsive\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a075128538932e833ffdb57cde197c540}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_ade0b395e445c10e6283278e013df8b6f}{
+\index{Grid@{Grid}!compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}}
+\index{compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-vdw\_\-repulsive\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-vdw\_\-repulsive\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_ade0b395e445c10e6283278e013df8b6f}
+Method to compute the VDW repulsive grid 
+\begin{DoxyParams}{Parameters}
+{\em Cmol} & pointer to PRMTOP class \\
+\hline
+{\em Input} & pointer to \hyperlink{classParser}{Parser} class \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_abf80e1b21d01043995f0b03da28b47a7}{
+\index{Grid@{Grid}!compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}}
+\index{compute\_\-vdw\_\-repulsive\_\-grid@{compute\_\-vdw\_\-repulsive\_\-grid}!Grid@{Grid}}
+\subsubsection[{compute\_\-vdw\_\-repulsive\_\-grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ double $>$ Grid::compute\_\-vdw\_\-repulsive\_\-grid (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_abf80e1b21d01043995f0b03da28b47a7}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classGrid_ada629d223e3a74fa536b5c5c75ed9438}{
+\index{Grid@{Grid}!dist@{dist}}
+\index{dist@{dist}!Grid@{Grid}}
+\subsubsection[{dist}]{\setlength{\rightskip}{0pt plus 5cm}double Grid::dist (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_ada629d223e3a74fa536b5c5c75ed9438}
+Computes the distance among two atoms. 
+\begin{DoxyParams}{Parameters}
+{\em x1} & X coordinate of the first atom \\
+\hline
+{\em y1} & Y coordinate of the first atom \\
+\hline
+{\em z1} & Z coordinate of the first atom \\
+\hline
+{\em x2} & X coordinate of the second atom \\
+\hline
+{\em y2} & Y coordinate of the second atom \\
+\hline
+{\em Z2} & Z coordinate of the second atom \\
+\hline
+\end{DoxyParams}
+\hypertarget{classGrid_a8e159ca3c90ad644d91507c5571f756b}{
+\index{Grid@{Grid}!dist\_\-squared@{dist\_\-squared}}
+\index{dist\_\-squared@{dist\_\-squared}!Grid@{Grid}}
+\subsubsection[{dist\_\-squared}]{\setlength{\rightskip}{0pt plus 5cm}double Grid::dist\_\-squared (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_a8e159ca3c90ad644d91507c5571f756b}
+Computes the square of the distance among two atoms. 
+\begin{DoxyParams}{Parameters}
+{\em x1} & X coordinate of the first atom \\
+\hline
+{\em y1} & Y coordinate of the first atom \\
+\hline
+{\em z1} & Z coordinate of the first atom \\
+\hline
+{\em x2} & X coordinate of the second atom \\
+\hline
+{\em y2} & Y coordinate of the second atom \\
+\hline
+{\em Z2} & Z coordinate of the second atom \\
+\hline
+\end{DoxyParams}
+\hypertarget{classGrid_ac47ec8672fada6fd797e3088d6b97807}{
+\index{Grid@{Grid}!write\_\-box@{write\_\-box}}
+\index{write\_\-box@{write\_\-box}!Grid@{Grid}}
+\subsubsection[{write\_\-box}]{\setlength{\rightskip}{0pt plus 5cm}void Grid::write\_\-box (
+\begin{DoxyParamCaption}
+\item[{vector$<$ double $>$}]{center, }
+\item[{double}]{min\_\-x, }
+\item[{double}]{min\_\-y, }
+\item[{double}]{min\_\-z, }
+\item[{double}]{max\_\-x, }
+\item[{double}]{max\_\-y, }
+\item[{double}]{max\_\-z}
+\end{DoxyParamCaption}
+)}}
+\label{classGrid_ac47ec8672fada6fd797e3088d6b97807}
+Method to write a RCSB PDB file with the box that defines the grid 
+\begin{DoxyParams}{Parameters}
+{\em min\_\-x} & Lower limit in X direction for electrostactic computation \\
+\hline
+{\em min\_\-y} & Lower limit in Y direction for electrostactic computation \\
+\hline
+{\em min\_\-z} & Lower limit in Z direction for electrostactic computation \\
+\hline
+{\em max\_\-x} & Upper limit in X direction for electrostactic computation \\
+\hline
+{\em max\_\-y} & Upper limit in Y direction for electrostactic computation \\
+\hline
+{\em max\_\-z} & Upper limit in Z direction for electrostactic computation \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classGrid_a9a5662b9d7dafec37fe08f5851f7926c}{
+\index{Grid@{Grid}!center@{center}}
+\index{center@{center}!Grid@{Grid}}
+\subsubsection[{center}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Grid::center}}}
+\label{classGrid_a9a5662b9d7dafec37fe08f5851f7926c}
+
+
+Center of Mass. 
+
+\hypertarget{classGrid_ab5087e114551f00fbb0d281b801d3dfc}{
+\index{Grid@{Grid}!Cmol@{Cmol}}
+\index{Cmol@{Cmol}!Grid@{Grid}}
+\subsubsection[{Cmol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mol}$\ast$ {\bf Grid::Cmol}}}
+\label{classGrid_ab5087e114551f00fbb0d281b801d3dfc}
+
+
+Pointer to molecule PRMTOP class. 
+
+\hypertarget{classGrid_a46c4f059aba71bdb9b3eecac4b7275a8}{
+\index{Grid@{Grid}!com@{com}}
+\index{com@{com}!Grid@{Grid}}
+\subsubsection[{com}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Grid::com}}}
+\label{classGrid_a46c4f059aba71bdb9b3eecac4b7275a8}
+\hypertarget{classGrid_ac49fae4528db3bc897b5c99d6b5a5a1d}{
+\index{Grid@{Grid}!comx@{comx}}
+\index{comx@{comx}!Grid@{Grid}}
+\subsubsection[{comx}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::comx}}}
+\label{classGrid_ac49fae4528db3bc897b5c99d6b5a5a1d}
+
+
+X component of the Center of Mass;. 
+
+\hypertarget{classGrid_a594a208bcfd831efadc544c051f62f30}{
+\index{Grid@{Grid}!comy@{comy}}
+\index{comy@{comy}!Grid@{Grid}}
+\subsubsection[{comy}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::comy}}}
+\label{classGrid_a594a208bcfd831efadc544c051f62f30}
+
+
+Y component of the Center of Mass;. 
+
+\hypertarget{classGrid_a8cbad1d609a7592a19b065f7ad647f8a}{
+\index{Grid@{Grid}!comz@{comz}}
+\index{comz@{comz}!Grid@{Grid}}
+\subsubsection[{comz}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::comz}}}
+\label{classGrid_a8cbad1d609a7592a19b065f7ad647f8a}
+
+
+Z component of the Center of Mass;. 
+
+\hypertarget{classGrid_afbb458694097a88a996838a131f61ead}{
+\index{Grid@{Grid}!elec@{elec}}
+\index{elec@{elec}!Grid@{Grid}}
+\subsubsection[{elec}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::elec}}}
+\label{classGrid_afbb458694097a88a996838a131f61ead}
+
+
+Electrostactic correlation computed according to the method proposed by Rebecca Wade;. 
+
+\hypertarget{classGrid_ac9dcc7447af2497822b6e6e22be45f7e}{
+\index{Grid@{Grid}!grid@{grid}}
+\index{grid@{grid}!Grid@{Grid}}
+\subsubsection[{grid}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$double$>$ {\bf Grid::grid}}}
+\label{classGrid_ac9dcc7447af2497822b6e6e22be45f7e}
+
+
+C++ vector to store the electrostatic grid. 
+
+\hypertarget{classGrid_aa9824cf9539971c3d32e92532c9c37be}{
+\index{Grid@{Grid}!Input@{Input}}
+\index{Input@{Input}!Grid@{Grid}}
+\subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parser}$\ast$ {\bf Grid::Input}}}
+\label{classGrid_aa9824cf9539971c3d32e92532c9c37be}
+
+
+Pointer to \hyperlink{classParser}{Parser} class. 
+
+\hypertarget{classGrid_a72ca32ea381e695f8705fcd3ff248523}{
+\index{Grid@{Grid}!max\_\-x@{max\_\-x}}
+\index{max\_\-x@{max\_\-x}!Grid@{Grid}}
+\subsubsection[{max\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::max\_\-x}}}
+\label{classGrid_a72ca32ea381e695f8705fcd3ff248523}
+
+
+Upper limit for computation in X direction;. 
+
+\hypertarget{classGrid_a8f3f3adf7d9a7bfe12f842603fd78787}{
+\index{Grid@{Grid}!max\_\-y@{max\_\-y}}
+\index{max\_\-y@{max\_\-y}!Grid@{Grid}}
+\subsubsection[{max\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::max\_\-y}}}
+\label{classGrid_a8f3f3adf7d9a7bfe12f842603fd78787}
+
+
+Upper limit for computation in Y direction;. 
+
+\hypertarget{classGrid_a4c93a619b7ef2501f1eb16cb0efc4a09}{
+\index{Grid@{Grid}!max\_\-z@{max\_\-z}}
+\index{max\_\-z@{max\_\-z}!Grid@{Grid}}
+\subsubsection[{max\_\-z}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::max\_\-z}}}
+\label{classGrid_a4c93a619b7ef2501f1eb16cb0efc4a09}
+
+
+Upper limit for computation in Z direction;. 
+
+\hypertarget{classGrid_a16930d1358fd0b70fc84031dbd1b6149}{
+\index{Grid@{Grid}!min\_\-x@{min\_\-x}}
+\index{min\_\-x@{min\_\-x}!Grid@{Grid}}
+\subsubsection[{min\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::min\_\-x}}}
+\label{classGrid_a16930d1358fd0b70fc84031dbd1b6149}
+\hypertarget{classGrid_ac5c22ae5c418071029cd7b4613704be3}{
+\index{Grid@{Grid}!min\_\-y@{min\_\-y}}
+\index{min\_\-y@{min\_\-y}!Grid@{Grid}}
+\subsubsection[{min\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::min\_\-y}}}
+\label{classGrid_ac5c22ae5c418071029cd7b4613704be3}
+
+
+Lower limit for computation in Y direction;. 
+
+\hypertarget{classGrid_a492df49b72c09feb4e9c5ab2e28ece24}{
+\index{Grid@{Grid}!min\_\-z@{min\_\-z}}
+\index{min\_\-z@{min\_\-z}!Grid@{Grid}}
+\subsubsection[{min\_\-z}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::min\_\-z}}}
+\label{classGrid_a492df49b72c09feb4e9c5ab2e28ece24}
+
+
+Lower limit for computation in Z direction;. 
+
+\hypertarget{classGrid_a50100ef8f1e23ba090567bd460e779cb}{
+\index{Grid@{Grid}!r@{r}}
+\index{r@{r}!Grid@{Grid}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::r}}}
+\label{classGrid_a50100ef8f1e23ba090567bd460e779cb}
+
+
+Distance {\itshape r\/} among two atoms;. 
+
+\hypertarget{classGrid_a2c6ed23a2ebb4e4bc967228bfbab6480}{
+\index{Grid@{Grid}!sumofmasses@{sumofmasses}}
+\index{sumofmasses@{sumofmasses}!Grid@{Grid}}
+\subsubsection[{sumofmasses}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Grid::sumofmasses}}}
+\label{classGrid_a2c6ed23a2ebb4e4bc967228bfbab6480}
+
+
+Sum of the atomic masses in the molecule;. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Grid_8h}{Grid.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Grid_8cpp}{Grid.cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,28 @@
+\hypertarget{CORREL_8cpp}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/CORREL.cpp File Reference}
+\label{CORREL_8cpp}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/CORREL.cpp@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/CORREL.cpp}}
+}
+{\ttfamily \#include \char`\"{}CORREL.h\char`\"{}}\par
+Include dependency graph for CORREL.cpp:
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{CORREL_8cpp_a3974f110ccb6aafb2a6d113b5e8c3b86}{dist} (double x1, double x2, double y1, double y2, double z1, double z2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{CORREL_8cpp_a3974f110ccb6aafb2a6d113b5e8c3b86}{
+\index{CORREL.cpp@{CORREL.cpp}!dist@{dist}}
+\index{dist@{dist}!CORREL.cpp@{CORREL.cpp}}
+\subsubsection[{dist}]{\setlength{\rightskip}{0pt plus 5cm}double dist (
+\begin{DoxyParamCaption}
+\item[{double}]{x1, }
+\item[{double}]{x2, }
+\item[{double}]{y1, }
+\item[{double}]{y2, }
+\item[{double}]{z1, }
+\item[{double}]{z2}
+\end{DoxyParamCaption}
+)}}
+\label{CORREL_8cpp_a3974f110ccb6aafb2a6d113b5e8c3b86}

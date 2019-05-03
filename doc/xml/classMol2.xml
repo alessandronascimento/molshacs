@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classMol2" kind="class" prot="public">
+    <compoundname>Mol2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMol2_1a7fcd40f8ea09f926d94e8394afb4751b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mol2::N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <briefdescription>
+<para>Number of atoms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="28" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a1cc7fff66596ea277d2ff447082b8808" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mol2::Nres</definition>
+        <argsstring></argsstring>
+        <name>Nres</name>
+        <briefdescription>
+<para>Number of residues. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="30" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1abec1d304ce65117eafb1bfc03bd37cae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Mol2::Natomtypes</definition>
+        <argsstring></argsstring>
+        <name>Natomtypes</name>
+        <briefdescription>
+<para>Number of atomtypes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="32" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a85429e831336c4f3044b6cc879a8b656" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::charges</definition>
+        <argsstring></argsstring>
+        <name>charges</name>
+        <briefdescription>
+<para>Charges of the atoms. Must be divided by 18.2223 to get electron charges. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="34" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a74b5089ad2715395ee10b9fd88bff5cb" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::masses</definition>
+        <argsstring></argsstring>
+        <name>masses</name>
+        <briefdescription>
+<para>Atomic masses for the system. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="36" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1af85e3cb0ab589edbe1f892600dd00d16" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Mol2::amberatoms</definition>
+        <argsstring></argsstring>
+        <name>amberatoms</name>
+        <briefdescription>
+<para>Atom names for the system according to AMBER FF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="38" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a6bda0cb634fcad4bc779b68e15e4862a" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Mol2::atomtypes_prm</definition>
+        <argsstring></argsstring>
+        <name>atomtypes_prm</name>
+        <briefdescription>
+<para>Atomic parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="40" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1acfc5e49a5d727d7eb189d14af49dc686" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Mol2::atomnames</definition>
+        <argsstring></argsstring>
+        <name>atomnames</name>
+        <briefdescription>
+<para>Atomic names. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1ae7574bc736a4fcf91d269806af6dac56" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+<para>Atomic radii. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1aa6b07421f7462dbbb56fdae22b01dcd3" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::welldepth</definition>
+        <argsstring></argsstring>
+        <name>welldepth</name>
+        <briefdescription>
+<para>Welldepth parameters to each atom according to AMBER FF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="46" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1afb3479b3d5aea0293e981c2f94f20851" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; Mol2::xyz</definition>
+        <argsstring></argsstring>
+        <name>xyz</name>
+        <briefdescription>
+<para>Atomic coordinates. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1acc192964e0d203c413a24b5344cdcf20" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; Mol2::new_xyz</definition>
+        <argsstring></argsstring>
+        <name>new_xyz</name>
+        <briefdescription>
+<para>Atomic coordinates after rotation/translation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a610095e1130b4083d386ca5d5e279b1f" prot="public" static="no" mutable="no">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt;vector&lt;double&gt; &gt; Mol2::old_xyz</definition>
+        <argsstring></argsstring>
+        <name>old_xyz</name>
+        <briefdescription>
+<para>Atomic coordinates from the last step accepted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="52" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1adcc95358a2c491ac6a14a30044787472" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::epsilons</definition>
+        <argsstring></argsstring>
+        <name>epsilons</name>
+        <briefdescription>
+<para>Atomic parameter for LJ computation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="54" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1ae70f58cb375c447b9ec696083ee9eef8" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::epsilons_sqrt</definition>
+        <argsstring></argsstring>
+        <name>epsilons_sqrt</name>
+        <briefdescription>
+<para>Squared root of atoms epsilons. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="56" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a7b15edd05ff72f2d22479ad8f4d1429a" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Mol2::radii</definition>
+        <argsstring></argsstring>
+        <name>radii</name>
+        <briefdescription>
+<para>Atomic radii. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="58" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1ae90bc79def72332bc0673ad31ad73fdd" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; Mol2::resnames</definition>
+        <argsstring></argsstring>
+        <name>resnames</name>
+        <briefdescription>
+<para>C++ vector with the names of the residues. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="60" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1af422c05d5d408a1b5d64522532ace2d3" prot="public" static="no" mutable="no">
+        <type>vector&lt; int &gt;</type>
+        <definition>vector&lt;int&gt; Mol2::residue_pointer</definition>
+        <argsstring></argsstring>
+        <name>residue_pointer</name>
+        <briefdescription>
+<para>Pointers to the number of residues / number of atoms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="62" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a67ceb39981358eff84552a6eefa21065" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Mol2::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+<para>Temporary string to parse prmtop file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="64" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1a6041f89cb497b7bd329a7d2de0bdd164" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Mol2::str[80]</definition>
+        <argsstring>[80]</argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="66" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMol2_1ab7f7de6a9bd8dc025659a9db852943ba" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Mol2::elsa_dir_path</definition>
+        <argsstring></argsstring>
+        <name>elsa_dir_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="68" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMol2_1aff957509e1c8052cb7a33917ce102e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mol2::Mol2</definition>
+        <argsstring>(Parser *Input, ifstream &amp;mol2file)</argsstring>
+        <name>Mol2</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>mol2file</declname>
+        </param>
+        <briefdescription>
+<para>Initializer. </para>        </briefdescription>
+        <detaileddescription>
+<para>This class has, as arguments, a pointer to the class PARSER. The class uses some information given by the user there. The filename is also given as argument. This makes possible to use the same object to reference and comparing molecules. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="77" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="12" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1a779d02b61ecaab67c65a69721f238bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mol2::Mol2</definition>
+        <argsstring>(Parser *Input, FILE *mol2file)</argsstring>
+        <name>Mol2</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>mol2file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="78" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="86" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1af1016f0bda8dfee9c9793c854f251c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Mol2::convert2gaff</definition>
+        <argsstring>(string atom)</argsstring>
+        <name>convert2gaff</name>
+        <param>
+          <type>string</type>
+          <declname>atom</declname>
+        </param>
+        <briefdescription>
+<para>This method is used to manually convert SYBYL atom types to AMBER (GAFF) atom types. </para>        </briefdescription>
+        <detaileddescription>
+<para>The conversion does not need to be very accurate since the VDW parameters are the only parameters used here and only for alignment purposes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="85" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="149" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1aa45d86655d8da4b16f4b0c10973db532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mol2::read_atomtypes_prm</definition>
+        <argsstring>()</argsstring>
+        <name>read_atomtypes_prm</name>
+        <briefdescription>
+<para>This method parses the file &quot;vdw.param&quot; to get GAFF atomic VDW parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="90" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="353" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1a67891cb3f97578ffaaa534e88365b4a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mol2::get_epsilon</definition>
+        <argsstring>(vector&lt; string &gt;atomtypes_prm, string amberatom, vector&lt; double &gt;welldepth)</argsstring>
+        <name>get_epsilon</name>
+        <param>
+          <type>vector&lt; string &gt;</type>
+          <declname>atomtypes_prm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>amberatom</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>welldepth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="95" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="377" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1ae61015438b1bdad702acd9257c39a167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mol2::get_radius</definition>
+        <argsstring>(vector&lt; string &gt;atomtypes_prm, string amberatom, vector&lt; double &gt;radius)</argsstring>
+        <name>get_radius</name>
+        <param>
+          <type>vector&lt; string &gt;</type>
+          <declname>atomtypes_prm</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>amberatom</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="100" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="386" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMol2_1ab66223849c845f05b25b84b8a9aa6fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mol2::get_masses</definition>
+        <argsstring>(string atomname)</argsstring>
+        <name>get_masses</name>
+        <param>
+          <type>string</type>
+          <declname>atomname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="105" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.cpp" bodystart="405" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" line="21" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Mol2.h" bodystart="21" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classMol2_1af85e3cb0ab589edbe1f892600dd00d16" prot="public" virt="non-virtual"><scope>Mol2</scope><name>amberatoms</name></member>
+      <member refid="classMol2_1acfc5e49a5d727d7eb189d14af49dc686" prot="public" virt="non-virtual"><scope>Mol2</scope><name>atomnames</name></member>
+      <member refid="classMol2_1a6bda0cb634fcad4bc779b68e15e4862a" prot="public" virt="non-virtual"><scope>Mol2</scope><name>atomtypes_prm</name></member>
+      <member refid="classMol2_1a85429e831336c4f3044b6cc879a8b656" prot="public" virt="non-virtual"><scope>Mol2</scope><name>charges</name></member>
+      <member refid="classMol2_1af1016f0bda8dfee9c9793c854f251c12" prot="public" virt="non-virtual"><scope>Mol2</scope><name>convert2gaff</name></member>
+      <member refid="classMol2_1ab7f7de6a9bd8dc025659a9db852943ba" prot="public" virt="non-virtual"><scope>Mol2</scope><name>elsa_dir_path</name></member>
+      <member refid="classMol2_1adcc95358a2c491ac6a14a30044787472" prot="public" virt="non-virtual"><scope>Mol2</scope><name>epsilons</name></member>
+      <member refid="classMol2_1ae70f58cb375c447b9ec696083ee9eef8" prot="public" virt="non-virtual"><scope>Mol2</scope><name>epsilons_sqrt</name></member>
+      <member refid="classMol2_1a67891cb3f97578ffaaa534e88365b4a9" prot="public" virt="non-virtual"><scope>Mol2</scope><name>get_epsilon</name></member>
+      <member refid="classMol2_1ab66223849c845f05b25b84b8a9aa6fb9" prot="public" virt="non-virtual"><scope>Mol2</scope><name>get_masses</name></member>
+      <member refid="classMol2_1ae61015438b1bdad702acd9257c39a167" prot="public" virt="non-virtual"><scope>Mol2</scope><name>get_radius</name></member>
+      <member refid="classMol2_1a67ceb39981358eff84552a6eefa21065" prot="public" virt="non-virtual"><scope>Mol2</scope><name>line</name></member>
+      <member refid="classMol2_1a74b5089ad2715395ee10b9fd88bff5cb" prot="public" virt="non-virtual"><scope>Mol2</scope><name>masses</name></member>
+      <member refid="classMol2_1aff957509e1c8052cb7a33917ce102e28" prot="public" virt="non-virtual"><scope>Mol2</scope><name>Mol2</name></member>
+      <member refid="classMol2_1a779d02b61ecaab67c65a69721f238bc7" prot="public" virt="non-virtual"><scope>Mol2</scope><name>Mol2</name></member>
+      <member refid="classMol2_1a7fcd40f8ea09f926d94e8394afb4751b" prot="public" virt="non-virtual"><scope>Mol2</scope><name>N</name></member>
+      <member refid="classMol2_1abec1d304ce65117eafb1bfc03bd37cae" prot="public" virt="non-virtual"><scope>Mol2</scope><name>Natomtypes</name></member>
+      <member refid="classMol2_1acc192964e0d203c413a24b5344cdcf20" prot="public" virt="non-virtual"><scope>Mol2</scope><name>new_xyz</name></member>
+      <member refid="classMol2_1a1cc7fff66596ea277d2ff447082b8808" prot="public" virt="non-virtual"><scope>Mol2</scope><name>Nres</name></member>
+      <member refid="classMol2_1a610095e1130b4083d386ca5d5e279b1f" prot="public" virt="non-virtual"><scope>Mol2</scope><name>old_xyz</name></member>
+      <member refid="classMol2_1a7b15edd05ff72f2d22479ad8f4d1429a" prot="public" virt="non-virtual"><scope>Mol2</scope><name>radii</name></member>
+      <member refid="classMol2_1ae7574bc736a4fcf91d269806af6dac56" prot="public" virt="non-virtual"><scope>Mol2</scope><name>radius</name></member>
+      <member refid="classMol2_1aa45d86655d8da4b16f4b0c10973db532" prot="public" virt="non-virtual"><scope>Mol2</scope><name>read_atomtypes_prm</name></member>
+      <member refid="classMol2_1af422c05d5d408a1b5d64522532ace2d3" prot="public" virt="non-virtual"><scope>Mol2</scope><name>residue_pointer</name></member>
+      <member refid="classMol2_1ae90bc79def72332bc0673ad31ad73fdd" prot="public" virt="non-virtual"><scope>Mol2</scope><name>resnames</name></member>
+      <member refid="classMol2_1a6041f89cb497b7bd329a7d2de0bdd164" prot="public" virt="non-virtual"><scope>Mol2</scope><name>str</name></member>
+      <member refid="classMol2_1aa6b07421f7462dbbb56fdae22b01dcd3" prot="public" virt="non-virtual"><scope>Mol2</scope><name>welldepth</name></member>
+      <member refid="classMol2_1afb3479b3d5aea0293e981c2f94f20851" prot="public" virt="non-virtual"><scope>Mol2</scope><name>xyz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

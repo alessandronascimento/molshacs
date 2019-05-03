@@ -1,0 +1,19 @@
+#!/bin/bash
+
+CC=g++
+CFLAGS=-c -O3 -ffast-math -DNLOPT -w
+LDFLAGS= -lgsl -lgslcblas -lm -lz -lnlopt_cxx -static
+SOURCES=CORREL.cpp  Grid.cpp  main.cpp  Minimizer2.cpp  Mol2.cpp  Parser.cpp  RunEngine.cpp  Writer.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=ElSA.nogui
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm $(OBJECTS) $(EXECUTABLE)

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classMinimizer2.html#a3bf50d7081499de21718741509ed95f4" title="Computes function and gradient and once." alt="" coords="332,59,663,88"/>
+<area shape="rect" id="node5" href="$classMinimizer2.html#ae46bf1366f7275747b344ec6e39d9178" title="GSL function to evaluate the objective function." alt="" coords="732,32,945,61"/>
+<area shape="rect" id="node15" href="$classMinimizer2.html#aeefc6cb4586a434a88abdadff44ad7ec" title="Computes the gradient for GSL functions." alt="" coords="713,85,964,115"/>
+<area shape="rect" id="node7" href="$classMinimizer2.html#a341b5cd394c900ca5496b888168d3948" title="Computes the objective function." alt="" coords="1016,5,1272,35"/>
+<area shape="rect" id="node9" href="$classMinimizer2.html#a1aa54d9e6855cf39ad8be1f2f8499a01" title="Computes the electrostatic and the vdw grids at once for a molecule." alt="" coords="1013,59,1275,88"/>
+<area shape="rect" id="node13" href="$classMinimizer2.html#a7bc4c2fe892e0339048d9ca7932cdf69" title="Computes new coordinates after a translation and a rotation." alt="" coords="1061,112,1227,141"/>
+<area shape="rect" id="node11" href="$classMinimizer2.html#aa34e6305d001acec8ac2238f6ec672ab" title="Minimizer2::dist_squared" alt="" coords="1324,59,1489,88"/>
+</map>

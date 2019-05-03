@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/7/trunk/0.2b/src/GUI
+END
+spca2.png
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/spca2.png
+END
+Widget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/Widget.ui
+END
+GUI.ui
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/GUI.ui
+END
+QtWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/QtWriter.cpp
+END
+elsa.xcf
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/elsa.xcf
+END
+Widget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/Widget.cpp
+END
+GUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/GUI.cpp
+END
+plotter.ui
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/plotter.ui
+END
+elsa.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/elsa.png
+END
+QtWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/QtWriter.h
+END
+GUI.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/GUI.qrc
+END
+Widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/Widget.h
+END
+plotter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/plotter.cpp
+END
+GUI.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/GUI.h
+END
+plotter.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/0.2b/src/GUI/plotter.h
+END

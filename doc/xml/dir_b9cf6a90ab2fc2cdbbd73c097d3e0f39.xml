@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_b9cf6a90ab2fc2cdbbd73c097d3e0f39" kind="dir">
+    <compoundname>/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/</compoundname>
+    <innerfile refid="GUI_8cpp">GUI.cpp</innerfile>
+    <innerfile refid="GUI_8h">GUI.h</innerfile>
+    <innerfile refid="plotter_8cpp">plotter.cpp</innerfile>
+    <innerfile refid="plotter_8h">plotter.h</innerfile>
+    <innerfile refid="QtWriter_8cpp">QtWriter.cpp</innerfile>
+    <innerfile refid="QtWriter_8h">QtWriter.h</innerfile>
+    <innerfile refid="Widget_8cpp">Widget.cpp</innerfile>
+    <innerfile refid="Widget_8h">Widget.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/"/>
+  </compounddef>
+</doxygen>

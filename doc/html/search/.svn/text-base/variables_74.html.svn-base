@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_t1">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classMinimizer2.html#afefc05f3f81b5f002041933d12352642" target="_parent">t1</a>
+  <span class="SRScope">Minimizer2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_tabwidget">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classGUI.html#a8681b53347b263f7408ca638f7d51f46" target="_parent">tabwidget</a>
+  <span class="SRScope">GUI</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_temp">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classCORREL.html#a898800161dee6f1625130c54948a8f03" target="_parent">temp</a>
+  <span class="SRScope">CORREL</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_time0">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_time0')">time0</a>
+  <div class="SRChildren">
+    <a id="Item3_c0" onkeydown="return searchResults.NavChild(event,3,0)" onkeypress="return searchResults.NavChild(event,3,0)" onkeyup="return searchResults.NavChild(event,3,0)" class="SRScope" href="../classGaussian.html#a32d5fa91e8452f5d333b8cd7f4e588f6" target="_parent">Gaussian::time0()</a>
+    <a id="Item3_c1" onkeydown="return searchResults.NavChild(event,3,1)" onkeypress="return searchResults.NavChild(event,3,1)" onkeyup="return searchResults.NavChild(event,3,1)" class="SRScope" href="../classMinimizer2.html#ac63693b02b0d74534c318db59499891b" target="_parent">Minimizer2::time0()</a>
+    <a id="Item3_c2" onkeydown="return searchResults.NavChild(event,3,2)" onkeypress="return searchResults.NavChild(event,3,2)" onkeyup="return searchResults.NavChild(event,3,2)" class="SRScope" href="../classRunEngine.html#aa47ccf8fcf12abec942b2d8800054c97" target="_parent">RunEngine::time0()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_time1">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_time1')">time1</a>
+  <div class="SRChildren">
+    <a id="Item4_c0" onkeydown="return searchResults.NavChild(event,4,0)" onkeypress="return searchResults.NavChild(event,4,0)" onkeyup="return searchResults.NavChild(event,4,0)" class="SRScope" href="../classGaussian.html#aac68a2973eaa8d40f218fe64e025093b" target="_parent">Gaussian::time1()</a>
+    <a id="Item4_c1" onkeydown="return searchResults.NavChild(event,4,1)" onkeypress="return searchResults.NavChild(event,4,1)" onkeyup="return searchResults.NavChild(event,4,1)" class="SRScope" href="../classMinimizer2.html#abb0118980a0aa4c6717ff9dc88668f45" target="_parent">Minimizer2::time1()</a>
+    <a id="Item4_c2" onkeydown="return searchResults.NavChild(event,4,2)" onkeypress="return searchResults.NavChild(event,4,2)" onkeyup="return searchResults.NavChild(event,4,2)" class="SRScope" href="../classRunEngine.html#a0b9f099a872af3419d9a8a2a909221b8" target="_parent">RunEngine::time1()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_time_5felapsed">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../classMinimizer2.html#a2fefd1c40811da6a30fed3c273e624d7" target="_parent">time_elapsed</a>
+  <span class="SRScope">Minimizer2</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_timeout">
+ <div class="SREntry">
+  <a id="Item6" onkeydown="return searchResults.Nav(event,6)" onkeypress="return searchResults.Nav(event,6)" onkeyup="return searchResults.Nav(event,6)" class="SRSymbol" href="../classParser.html#a674ed2371f1689ee54cd8b6b29324b65" target="_parent">timeout</a>
+  <span class="SRScope">Parser</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_timeout_5flabel">
+ <div class="SREntry">
+  <a id="Item7" onkeydown="return searchResults.Nav(event,7)" onkeypress="return searchResults.Nav(event,7)" onkeyup="return searchResults.Nav(event,7)" class="SRSymbol" href="../classWidget.html#a34746d0c166f4bc3337bf6544c869a03" target="_parent">timeout_label</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_timeout_5fspin">
+ <div class="SREntry">
+  <a id="Item8" onkeydown="return searchResults.Nav(event,8)" onkeypress="return searchResults.Nav(event,8)" onkeyup="return searchResults.Nav(event,8)" class="SRSymbol" href="../classWidget.html#ac8d2e35e163d65f8f2be7885f2fee336" target="_parent">timeout_spin</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_tmp">
+ <div class="SREntry">
+  <a id="Item9" onkeydown="return searchResults.Nav(event,9)" onkeypress="return searchResults.Nav(event,9)" onkeyup="return searchResults.Nav(event,9)" class="SRSymbol" href="../classParser.html#a30d6b0f27feee6006fc83f3dc477493b" target="_parent">tmp</a>
+  <span class="SRScope">Parser</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_tol">
+ <div class="SREntry">
+  <a id="Item10" onkeydown="return searchResults.Nav(event,10)" onkeypress="return searchResults.Nav(event,10)" onkeyup="return searchResults.Nav(event,10)" class="SRSymbol" href="../classParser.html#a43b1eddc700d5b2049d1ee701592b96a" target="_parent">tol</a>
+  <span class="SRScope">Parser</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_tol_5flabel">
+ <div class="SREntry">
+  <a id="Item11" onkeydown="return searchResults.Nav(event,11)" onkeypress="return searchResults.Nav(event,11)" onkeyup="return searchResults.Nav(event,11)" class="SRSymbol" href="../classWidget.html#abd70b8fa4d5905357a9c8d00df105551" target="_parent">tol_label</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_tol_5fspin">
+ <div class="SREntry">
+  <a id="Item12" onkeydown="return searchResults.Nav(event,12)" onkeypress="return searchResults.Nav(event,12)" onkeyup="return searchResults.Nav(event,12)" class="SRSymbol" href="../classWidget.html#a1459e8a0ea23f9d1bf539dd873791915" target="_parent">tol_spin</a>
+  <span class="SRScope">Widget</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_total_5ftime">
+ <div class="SREntry">
+  <a id="Item13" onkeydown="return searchResults.Nav(event,13)" onkeypress="return searchResults.Nav(event,13)" onkeyup="return searchResults.Nav(event,13)" class="SRSymbol" href="../classRunEngine.html#a200fc02261b35e2785d0905547fafb4a" target="_parent">total_time</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_transx">
+ <div class="SREntry">
+  <a id="Item14" onkeydown="return searchResults.Nav(event,14)" onkeypress="return searchResults.Nav(event,14)" onkeyup="return searchResults.Nav(event,14)" class="SRSymbol" href="../classRunEngine.html#aced0ece845f6d0d8490a122f2cbd9386" target="_parent">transx</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_transy">
+ <div class="SREntry">
+  <a id="Item15" onkeydown="return searchResults.Nav(event,15)" onkeypress="return searchResults.Nav(event,15)" onkeyup="return searchResults.Nav(event,15)" class="SRSymbol" href="../classRunEngine.html#aa9ac6ca39edba1f8dc8a1cf010e99eec" target="_parent">transy</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_transz">
+ <div class="SREntry">
+  <a id="Item16" onkeydown="return searchResults.Nav(event,16)" onkeypress="return searchResults.Nav(event,16)" onkeyup="return searchResults.Nav(event,16)" class="SRSymbol" href="../classRunEngine.html#af37ec9914805f8aac34e9e935f84b0bb" target="_parent">transz</a>
+  <span class="SRScope">RunEngine</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classMol2.html#af1016f0bda8dfee9c9793c854f251c12" title="This method is used to manually convert SYBYL atom types to AMBER (GAFF) atom types..." alt="" coords="169,5,295,35"/>
+<area shape="rect" id="node5" href="$classMol2.html#a67891cb3f97578ffaaa534e88365b4a9" title="Mol2::get_epsilon" alt="" coords="171,59,293,88"/>
+<area shape="rect" id="node7" href="$classMol2.html#ab66223849c845f05b25b84b8a9aa6fb9" title="Mol2::get_masses" alt="" coords="168,112,296,141"/>
+<area shape="rect" id="node9" href="$classMol2.html#ae61015438b1bdad702acd9257c39a167" title="Mol2::get_radius" alt="" coords="173,165,291,195"/>
+<area shape="rect" id="node11" href="$classMol2.html#aa45d86655d8da4b16f4b0c10973db532" title="This method parses the file &quot;vdw.param&quot; to get GAFF atomic VDW parameters..." alt="" coords="143,219,321,248"/>
+</map>

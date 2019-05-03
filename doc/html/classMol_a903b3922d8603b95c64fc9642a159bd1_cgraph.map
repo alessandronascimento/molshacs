@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classMol.html#a1172cc0364d2cafebc9b5b00b50cd15d" title="Mol::get_amberatoms" alt="" coords="139,5,285,35"/>
+<area shape="rect" id="node5" href="$classMol.html#ae5c88f61109eee0b53c69a5cff5598a2" title="Mol::get_atomnames" alt="" coords="140,59,284,88"/>
+<area shape="rect" id="node7" href="$classMol.html#afbb5bda98f1671a7da1cadbc0060e415" title="Mol::get_charges" alt="" coords="151,112,273,141"/>
+<area shape="rect" id="node9" href="$classMol.html#a6e9cb936117ea71f0715b83c10df550d" title="Mol::get_epsilon" alt="" coords="153,165,271,195"/>
+<area shape="rect" id="node11" href="$classMol.html#ac1972fa5596b0654084b7e114fec8e2e" title="Mol::get_masses" alt="" coords="151,219,273,248"/>
+<area shape="rect" id="node13" href="$classMol.html#a971c876a4395d211c62c2604f21563e1" title="Mol::get_N" alt="" coords="169,272,255,301"/>
+<area shape="rect" id="node15" href="$classMol.html#a1022efcc73bb6daab7a58e54fbd69980" title="Mol::get_radius" alt="" coords="157,325,267,355"/>
+<area shape="rect" id="node17" href="$classMol.html#ab1af2dec124c9a4a1acd4cc8abed0e03" title="Mol::get_res_pointers" alt="" coords="139,379,285,408"/>
+<area shape="rect" id="node19" href="$classMol.html#a8b396bc071cc93542901f3c09a3ccb64" title="Mol::get_resnames" alt="" coords="145,432,279,461"/>
+<area shape="rect" id="node21" href="$classMol.html#a65ed13f1e13df82959baf31b257e3167" title="Mol::get_xyz" alt="" coords="164,485,260,515"/>
+<area shape="rect" id="node23" href="$classMol.html#a0853a74bf7b197c8e7528f5961a42b71" title="Function to parse the atomic parameter from AMBER vdw.param file." alt="" coords="125,539,299,568"/>
+</map>

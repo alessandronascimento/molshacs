@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="GUI_8cpp" kind="file">
+    <compoundname>GUI.cpp</compoundname>
+    <includes refid="GUI_8h" local="yes">GUI.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;GUI.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">GUI::GUI(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[])</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setWindowTitle(tr(</highlight><highlight class="stringliteral">&quot;ELSA<sp/>-<sp/>Electrostatic<sp/>Similarity<sp/>Analysis&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>createActions();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">GUI::~GUI()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::createActions()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Input<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Parser;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Editor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPlainTextEdit;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Editor-&gt;setCenterOnScroll(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabwidget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTabWidget;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabwidget-&gt;setTabsClosable(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>DockEditor<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDockWidget;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>DockEditor-&gt;setAllowedAreas(Qt::RightDockWidgetArea);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>DockEditor-&gt;setObjectName(</highlight><highlight class="stringliteral">&quot;Log<sp/>Area&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>DockEditor-&gt;setWindowTitle(</highlight><highlight class="stringliteral">&quot;Log<sp/>Area&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>addDockWidget(Qt::RightDockWidgetArea,<sp/>DockEditor);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>DockEditor-&gt;setWidget(Editor);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setCentralWidget(tabwidget);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Editor-&gt;appendHtml(</highlight><highlight class="stringliteral">&quot;&lt;h1&gt;<sp/>&lt;align<sp/>=<sp/>center&gt;<sp/>ELSA<sp/>0.1<sp/>-<sp/>LOG<sp/>AREA<sp/>&lt;/center&gt;<sp/>&lt;/h1&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resize(800,600);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Editor-&gt;setDocumentTitle(</highlight><highlight class="stringliteral">&quot;ElSA<sp/>LOG<sp/>AREA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>statusBar()-&gt;show();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>InputWidget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;&amp;Input&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>InputWidget-&gt;setShortcut(QKeySequence::Italic);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>InputWidget-&gt;setStatusTip(tr(</highlight><highlight class="stringliteral">&quot;Create<sp/>a<sp/>new<sp/>Input<sp/>File&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>InputFile<sp/>=<sp/>menuBar()-&gt;addMenu(tr(</highlight><highlight class="stringliteral">&quot;Input<sp/>&amp;File&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>InputFile-&gt;addAction(InputWidget);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(InputWidget,<sp/>SIGNAL(triggered()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(openInputWidget()));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Results<sp/>=<sp/>menuBar()-&gt;addMenu(tr(</highlight><highlight class="stringliteral">&quot;&amp;Results&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>ResultsAction<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;&amp;View<sp/>Results<sp/>File&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ResultsAction-&gt;setStatusTip(tr(</highlight><highlight class="stringliteral">&quot;Visualize<sp/>Results&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>Results-&gt;addAction(ResultsAction);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(ResultsAction,<sp/>SIGNAL(triggered()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(ViewResults()));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>Graphics<sp/>=<sp/>menuBar()-&gt;addMenu(tr(</highlight><highlight class="stringliteral">&quot;&amp;Graphics&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>GraphicsAction<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;&amp;Graph<sp/>Results&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>GraphicsAction-&gt;setStatusTip(tr(</highlight><highlight class="stringliteral">&quot;Graph<sp/>dat<sp/>result<sp/>file&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>Graphics-&gt;addAction(GraphicsAction);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(GraphicsAction,<sp/>SIGNAL(triggered()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(GraphResult()));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>Help<sp/>=<sp/>menuBar()-&gt;addMenu(tr(</highlight><highlight class="stringliteral">&quot;&amp;Help&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>About_ElSA<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;&amp;About<sp/>ElSA&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>Help-&gt;addAction(About_ElSA);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>About_ElSA-&gt;setStatusTip(tr(</highlight><highlight class="stringliteral">&quot;Help<sp/>on<sp/>how<sp/>to<sp/>use<sp/>the<sp/>program&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>About_Qt<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;About<sp/>Qt&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>Help-&gt;addAction(About_Qt);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>About_Qt-&gt;setStatusTip(tr(</highlight><highlight class="stringliteral">&quot;About<sp/>Qt,<sp/>the<sp/>language<sp/>used<sp/>in<sp/>this<sp/>GUI&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(About_ElSA,<sp/>SIGNAL(triggered()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(about_elsa()));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(About_Qt,<sp/>SIGNAL(triggered()),<sp/>qApp,<sp/>SLOT(aboutQt()));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>Exit<sp/>=<sp/>menuBar()-&gt;addMenu((tr(</highlight><highlight class="stringliteral">&quot;&amp;Exit&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ExitAction<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QAction(tr(</highlight><highlight class="stringliteral">&quot;&amp;Exit&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>Exit-&gt;addAction(ExitAction);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(ExitAction,<sp/>SIGNAL(triggered()),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(close()));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(tabwidget,<sp/>SIGNAL(tabCloseRequested(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(closethistab(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>openInputWidget();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::openInputWidget(){</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>WInput<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Widget(Input,<sp/>Editor);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>tabwidget-&gt;addTab(WInput,<sp/>tr(</highlight><highlight class="stringliteral">&quot;Parameters<sp/>Input&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::ViewResults(){</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>ResultsText<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTextBrowser(0);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>filename<sp/>=<sp/>QFileDialog::getOpenFileName(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>tr(</highlight><highlight class="stringliteral">&quot;Choose<sp/>a<sp/>Results<sp/>File&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>tr(</highlight><highlight class="stringliteral">&quot;LOG<sp/>Files<sp/>(*.log)&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>file(filename);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(file.open(QIODevice::ReadOnly|QIODevice::Text)){</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsText-&gt;setPlainText(QString::fromUtf8(file.readAll()));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>statusBar()-&gt;showMessage(tr(</highlight><highlight class="stringliteral">&quot;File<sp/>loaded<sp/>successfully.&quot;</highlight><highlight class="normal">),<sp/>5000);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabwidget-&gt;addTab(ResultsText,<sp/>tr(</highlight><highlight class="stringliteral">&quot;Log<sp/>File&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>tabwidget-&gt;indexOf(ResultsText);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabwidget-&gt;setCurrentIndex(i);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::GraphResult(){</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>plotter*<sp/>Plotter<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>plotter;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>tabwidget-&gt;addTab(Plotter,<sp/>tr(</highlight><highlight class="stringliteral">&quot;Graphed<sp/>Results&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>tabwidget-&gt;indexOf(Plotter);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>tabwidget-&gt;setCurrentIndex(i);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::RunEng(){</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SPCA.run(*Input,<sp/>Editor,<sp/>WInput-&gt;progressbar);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::closethistab(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tindex){</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tabwidget-&gt;removeTab(tindex);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GUI::about_elsa(){</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElSA_Message<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMessageBox;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElSA_Message-&gt;information(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>tr(</highlight><highlight class="stringliteral">&quot;ElSA&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr(</highlight><highlight class="stringliteral">&quot;This<sp/>program<sp/>was<sp/>written<sp/>to<sp/>make<sp/>similarity<sp/>analysis<sp/>among<sp/>molecules\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;using<sp/>their<sp/>electrostatic<sp/>potential<sp/>among<sp/>with<sp/>VDW<sp/>maps.<sp/>This<sp/>program\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/>MERCHANTABILITY<sp/>or\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Detailed<sp/>information<sp/>can<sp/>be<sp/>found<sp/>in<sp/>http://nascimento.ufabc.edu.br&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElSA_Message-&gt;setIcon(QMessageBox::Information);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/GUI/GUI.cpp"/>
+  </compounddef>
+</doxygen>

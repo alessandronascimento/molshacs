@@ -1,0 +1,29 @@
+\hypertarget{GUI_8h}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/GUI.h File Reference}
+\label{GUI_8h}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/GUI.h@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/GUI.h}}
+}
+{\ttfamily \#include $<$QMainWindow$>$}\par
+{\ttfamily \#include $<$QAction$>$}\par
+{\ttfamily \#include $<$QDockWidget$>$}\par
+{\ttfamily \#include $<$QTextBrowser$>$}\par
+{\ttfamily \#include $<$iostream$>$}\par
+{\ttfamily \#include $<$QStringList$>$}\par
+{\ttfamily \#include $<$vector$>$}\par
+{\ttfamily \#include $<$QFile$>$}\par
+{\ttfamily \#include $<$QStatusBar$>$}\par
+{\ttfamily \#include $<$QPlainTextEdit$>$}\par
+{\ttfamily \#include $<$QMenuBar$>$}\par
+{\ttfamily \#include $<$QTabWidget$>$}\par
+{\ttfamily \#include \char`\"{}plotter.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}Widget.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../Parser.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}../RunEngine.h\char`\"{}}\par
+{\ttfamily \#include $<$QApplication$>$}\par
+{\ttfamily \#include $<$QMessageBox$>$}\par
+Include dependency graph for GUI.h:
+This graph shows which files directly or indirectly include this file:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classGUI}{GUI}
+\end{DoxyCompactItemize}

@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classGrid" kind="class" prot="public">
+    <compoundname>Grid</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGrid_1a9a5662b9d7dafec37fe08f5851f7926c" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Grid::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <briefdescription>
+<para>Center of Mass. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="30" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a46c4f059aba71bdb9b3eecac4b7275a8" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Grid::com</definition>
+        <argsstring></argsstring>
+        <name>com</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="32" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a16930d1358fd0b70fc84031dbd1b6149" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::min_x</definition>
+        <argsstring></argsstring>
+        <name>min_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1ac5c22ae5c418071029cd7b4613704be3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::min_y</definition>
+        <argsstring></argsstring>
+        <name>min_y</name>
+        <briefdescription>
+<para>Lower limit for computation in Y direction;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="35" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a492df49b72c09feb4e9c5ab2e28ece24" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::min_z</definition>
+        <argsstring></argsstring>
+        <name>min_z</name>
+        <briefdescription>
+<para>Lower limit for computation in Z direction;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a72ca32ea381e695f8705fcd3ff248523" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::max_x</definition>
+        <argsstring></argsstring>
+        <name>max_x</name>
+        <briefdescription>
+<para>Upper limit for computation in X direction;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a8f3f3adf7d9a7bfe12f842603fd78787" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::max_y</definition>
+        <argsstring></argsstring>
+        <name>max_y</name>
+        <briefdescription>
+<para>Upper limit for computation in Y direction;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="41" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a4c93a619b7ef2501f1eb16cb0efc4a09" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::max_z</definition>
+        <argsstring></argsstring>
+        <name>max_z</name>
+        <briefdescription>
+<para>Upper limit for computation in Z direction;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="43" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1afbb458694097a88a996838a131f61ead" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::elec</definition>
+        <argsstring></argsstring>
+        <name>elec</name>
+        <briefdescription>
+<para>Electrostactic correlation computed according to the method proposed by Rebecca Wade;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="45" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1ac49fae4528db3bc897b5c99d6b5a5a1d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::comx</definition>
+        <argsstring></argsstring>
+        <name>comx</name>
+        <briefdescription>
+<para>X component of the Center of Mass;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="47" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a594a208bcfd831efadc544c051f62f30" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::comy</definition>
+        <argsstring></argsstring>
+        <name>comy</name>
+        <briefdescription>
+<para>Y component of the Center of Mass;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="49" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a8cbad1d609a7592a19b065f7ad647f8a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::comz</definition>
+        <argsstring></argsstring>
+        <name>comz</name>
+        <briefdescription>
+<para>Z component of the Center of Mass;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="51" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a2c6ed23a2ebb4e4bc967228bfbab6480" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::sumofmasses</definition>
+        <argsstring></argsstring>
+        <name>sumofmasses</name>
+        <briefdescription>
+<para>Sum of the atomic masses in the molecule;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="53" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1a50100ef8f1e23ba090567bd460e779cb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Grid::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+<para>Distance <emphasis>r</emphasis> among two atoms;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="55" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1ac9dcc7447af2497822b6e6e22be45f7e" prot="public" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; Grid::grid</definition>
+        <argsstring></argsstring>
+        <name>grid</name>
+        <briefdescription>
+<para>C++ vector to store the electrostatic grid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="57" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1ab5087e114551f00fbb0d281b801d3dfc" prot="public" static="no" mutable="no">
+        <type>Mol *</type>
+        <definition>Mol* Grid::Cmol</definition>
+        <argsstring></argsstring>
+        <name>Cmol</name>
+        <briefdescription>
+<para>Pointer to molecule PRMTOP class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="59" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGrid_1aa9824cf9539971c3d32e92532c9c37be" prot="public" static="no" mutable="no">
+        <type>Parser *</type>
+        <definition>Parser* Grid::Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+<para>Pointer to Parser class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="61" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGrid_1a4ac9ff4f63552b4c61ff90fcb35ad66c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Grid::Grid</definition>
+        <argsstring>()</argsstring>
+        <name>Grid</name>
+        <briefdescription>
+<para>Class constructor. No actual function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="67" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1ada629d223e3a74fa536b5c5c75ed9438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Grid::dist</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>dist</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the distance among two atoms. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Z2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="76" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a8e159ca3c90ad644d91507c5571f756b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Grid::dist_squared</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>dist_squared</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the square of the distance among two atoms. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the first atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Z2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Z coordinate of the second atom </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="85" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a995b7d957f244276f0b0cb8835fd7e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_com</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt;xyz, vector&lt; double &gt;masses)</argsstring>
+        <name>compute_com</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>masses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method t compute the center of mass of a molecule <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XYZ C++ vector of a vector with molecule coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>masses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with atomic masses </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="90" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="21" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1aa4773f2a675a2d42ff1ceb5c3b41ccb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, vector&lt; double &gt; charges, double min_x, double min_y, double min_z, double max_x, double max_y, double max_z, double sampling, int N)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>charges</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to compute the electrostactic grid <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xyz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XYZ C++ vector of a vector with molecule coordinates </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>charges</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ vector with atomic charges </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in X direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in Y direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in Z direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in X direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in Y direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in Z direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sampling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>defines the spacing among grid points in each direction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of atoms in the molecule </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="103" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="41" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a9fc3c970a7912ea84f379eb5788345ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, vector&lt; double &gt; charges, double sampling, int N)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>charges</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="104" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="59" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a7a4296b76a0f3cc87f7ad21b4c4e9a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(Mol *Cmol, Parser *Input)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="105" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="77" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a97d1697a546a55da45d7ccca26b097e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(Mol2 *Cmol, Parser *Input)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="106" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="96" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1aa92e40ab2d91491f715dd64ea011d865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, Mol *Cmol, Parser *Input)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="107" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="114" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a4a11a22c3a40911fd084d26c90d93400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_grid</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt; &gt; xyz, Mol2 *Cmol, Parser *Input)</argsstring>
+        <name>compute_grid</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="108" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="132" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1ac47ec8672fada6fd797e3088d6b97807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Grid::write_box</definition>
+        <argsstring>(vector&lt; double &gt;center, double min_x, double min_y, double min_z, double max_x, double max_y, double max_z)</argsstring>
+        <name>write_box</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to write a RCSB PDB file with the box that defines the grid <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in X direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in Y direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit in Z direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in X direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in Y direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Upper limit in Z direction for electrostactic computation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="117" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="150" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1ade0b395e445c10e6283278e013df8b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_vdw_repulsive_grid</definition>
+        <argsstring>(Mol *Cmol, Parser *Input)</argsstring>
+        <name>compute_vdw_repulsive_grid</name>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method to compute the VDW repulsive grid <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Cmol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to PRMTOP class </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to Parser class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="122" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="177" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1abf80e1b21d01043995f0b03da28b47a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_vdw_repulsive_grid</definition>
+        <argsstring>(Mol2 *Cmol, Parser *Input)</argsstring>
+        <name>compute_vdw_repulsive_grid</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="123" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="197" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a2593908db0c66fae993f7c382b021c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_vdw_repulsive_grid</definition>
+        <argsstring>(Mol *Cmol, Parser *Input, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_vdw_repulsive_grid</name>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="124" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="217" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classGrid_1a075128538932e833ffdb57cde197c540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt; double &gt; Grid::compute_vdw_repulsive_grid</definition>
+        <argsstring>(Mol2 *Cmol, Parser *Input, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_vdw_repulsive_grid</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="125" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.cpp" bodystart="237" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" line="24" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Grid.h" bodystart="24" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classGrid_1a9a5662b9d7dafec37fe08f5851f7926c" prot="public" virt="non-virtual"><scope>Grid</scope><name>center</name></member>
+      <member refid="classGrid_1ab5087e114551f00fbb0d281b801d3dfc" prot="public" virt="non-virtual"><scope>Grid</scope><name>Cmol</name></member>
+      <member refid="classGrid_1a46c4f059aba71bdb9b3eecac4b7275a8" prot="public" virt="non-virtual"><scope>Grid</scope><name>com</name></member>
+      <member refid="classGrid_1a995b7d957f244276f0b0cb8835fd7e9a" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_com</name></member>
+      <member refid="classGrid_1aa4773f2a675a2d42ff1ceb5c3b41ccb9" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1a9fc3c970a7912ea84f379eb5788345ac" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1a7a4296b76a0f3cc87f7ad21b4c4e9a19" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1a97d1697a546a55da45d7ccca26b097e6" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1aa92e40ab2d91491f715dd64ea011d865" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1a4a11a22c3a40911fd084d26c90d93400" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_grid</name></member>
+      <member refid="classGrid_1ade0b395e445c10e6283278e013df8b6f" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_vdw_repulsive_grid</name></member>
+      <member refid="classGrid_1abf80e1b21d01043995f0b03da28b47a7" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_vdw_repulsive_grid</name></member>
+      <member refid="classGrid_1a2593908db0c66fae993f7c382b021c57" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_vdw_repulsive_grid</name></member>
+      <member refid="classGrid_1a075128538932e833ffdb57cde197c540" prot="public" virt="non-virtual"><scope>Grid</scope><name>compute_vdw_repulsive_grid</name></member>
+      <member refid="classGrid_1ac49fae4528db3bc897b5c99d6b5a5a1d" prot="public" virt="non-virtual"><scope>Grid</scope><name>comx</name></member>
+      <member refid="classGrid_1a594a208bcfd831efadc544c051f62f30" prot="public" virt="non-virtual"><scope>Grid</scope><name>comy</name></member>
+      <member refid="classGrid_1a8cbad1d609a7592a19b065f7ad647f8a" prot="public" virt="non-virtual"><scope>Grid</scope><name>comz</name></member>
+      <member refid="classGrid_1ada629d223e3a74fa536b5c5c75ed9438" prot="public" virt="non-virtual"><scope>Grid</scope><name>dist</name></member>
+      <member refid="classGrid_1a8e159ca3c90ad644d91507c5571f756b" prot="public" virt="non-virtual"><scope>Grid</scope><name>dist_squared</name></member>
+      <member refid="classGrid_1afbb458694097a88a996838a131f61ead" prot="public" virt="non-virtual"><scope>Grid</scope><name>elec</name></member>
+      <member refid="classGrid_1a4ac9ff4f63552b4c61ff90fcb35ad66c" prot="public" virt="non-virtual"><scope>Grid</scope><name>Grid</name></member>
+      <member refid="classGrid_1ac9dcc7447af2497822b6e6e22be45f7e" prot="public" virt="non-virtual"><scope>Grid</scope><name>grid</name></member>
+      <member refid="classGrid_1aa9824cf9539971c3d32e92532c9c37be" prot="public" virt="non-virtual"><scope>Grid</scope><name>Input</name></member>
+      <member refid="classGrid_1a72ca32ea381e695f8705fcd3ff248523" prot="public" virt="non-virtual"><scope>Grid</scope><name>max_x</name></member>
+      <member refid="classGrid_1a8f3f3adf7d9a7bfe12f842603fd78787" prot="public" virt="non-virtual"><scope>Grid</scope><name>max_y</name></member>
+      <member refid="classGrid_1a4c93a619b7ef2501f1eb16cb0efc4a09" prot="public" virt="non-virtual"><scope>Grid</scope><name>max_z</name></member>
+      <member refid="classGrid_1a16930d1358fd0b70fc84031dbd1b6149" prot="public" virt="non-virtual"><scope>Grid</scope><name>min_x</name></member>
+      <member refid="classGrid_1ac5c22ae5c418071029cd7b4613704be3" prot="public" virt="non-virtual"><scope>Grid</scope><name>min_y</name></member>
+      <member refid="classGrid_1a492df49b72c09feb4e9c5ab2e28ece24" prot="public" virt="non-virtual"><scope>Grid</scope><name>min_z</name></member>
+      <member refid="classGrid_1a50100ef8f1e23ba090567bd460e779cb" prot="public" virt="non-virtual"><scope>Grid</scope><name>r</name></member>
+      <member refid="classGrid_1a2c6ed23a2ebb4e4bc967228bfbab6480" prot="public" virt="non-virtual"><scope>Grid</scope><name>sumofmasses</name></member>
+      <member refid="classGrid_1ac47ec8672fada6fd797e3088d6b97807" prot="public" virt="non-virtual"><scope>Grid</scope><name>write_box</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

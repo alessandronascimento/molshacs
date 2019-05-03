@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classGaussian" kind="class" prot="public">
+    <compoundname>Gaussian</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGaussian_1a0296cbcbe7324c6658bd93430a12b40a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Gaussian::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="24" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1a61907a387874c912ca3460e0d53557d0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Gaussian::pj</definition>
+        <argsstring></argsstring>
+        <name>pj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="24" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1a4219b30f577fb9ee8c8165ea6d093225" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Gaussian::dij2</definition>
+        <argsstring></argsstring>
+        <name>dij2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="24" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1a5c0b5c62fa9740e7837795e37550fa0e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Gaussian::alpha_i</definition>
+        <argsstring></argsstring>
+        <name>alpha_i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="25" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1a0ade4a35fe0d7b6a6c41943c06444b46" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Gaussian::alpha_j</definition>
+        <argsstring></argsstring>
+        <name>alpha_j</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="25" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1a32d5fa91e8452f5d333b8cd7f4e588f6" prot="public" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t Gaussian::time0</definition>
+        <argsstring></argsstring>
+        <name>time0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="26" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussian_1aac68a2973eaa8d40f218fe64e025093b" prot="public" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t Gaussian::time1</definition>
+        <argsstring></argsstring>
+        <name>time1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="26" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGaussian_1a877a470591c41d248bdb4356c1c14370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gaussian::Gaussian</definition>
+        <argsstring>(void)</argsstring>
+        <name>Gaussian</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="28" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a62de70c599d1558b705e39ef9f176f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gaussian::Gaussian</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, double *Vab)</argsstring>
+        <name>Gaussian</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Vab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="29" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a469209c4c984a0118d3f4a6efc693d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Gaussian::Gaussian</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz, double *Vab)</argsstring>
+        <name>Gaussian</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Vab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="30" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="29" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1aa42c109a39b13f847009947a77cd06b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_si</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol)</argsstring>
+        <name>compute_si</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="31" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1ac8b23b3c00889eb1f38da472f9b67fb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_si</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_si</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="32" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="88" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1aab2b48b953d268cfb0e1041e9ae8ffef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_si_pos_charges</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_si_pos_charges</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1adb4d179d7a65b8ecf34181be75a3ee93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_si_neg_charges</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_si_neg_charges</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="34" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="111" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a3fd619ab0bd48e3c46537194411de25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_shape_density</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol)</argsstring>
+        <name>compute_shape_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="35" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a61cf17d52f0efe6f8b5933023056d6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_shape_density</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_shape_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="36" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a5b038af926d8a733608e41cdf263241a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_shape_density</definition>
+        <argsstring>(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_shape_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1ada6ef41c5cf1a988313f917dac04ba55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_positive_charge_density</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_positive_charge_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="38" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="125" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1ab2876d1355fd67cad5faa87062f20348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_positive_charge_density</definition>
+        <argsstring>(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_positive_charge_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="152" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a153b1fc8036233bed9121aa343c2a74d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_negative_charge_density</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_negative_charge_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="40" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="179" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a141239850ea75332536cd25ef725762a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_negative_charge_density</definition>
+        <argsstring>(Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_negative_charge_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="41" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="206" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1a5389555e41d2b9b506342dd6a3b1f7ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::compute_shape_and_charge_density</definition>
+        <argsstring>(Mol2 *RefMol, Mol2 *CompMol, vector&lt; vector&lt; double &gt; &gt; xyz)</argsstring>
+        <name>compute_shape_and_charge_density</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>RefMol</declname>
+        </param>
+        <param>
+          <type>Mol2 *</type>
+          <declname>CompMol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="233" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1ae9535543b557e8481b3b7ad1e559d4c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Gaussian::dist_squared</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double z1, double z2)</argsstring>
+        <name>dist_squared</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="43" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classGaussian_1acf8cb96837ea65021e973a735260be5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Gaussian::~Gaussian</definition>
+        <argsstring>()</argsstring>
+        <name>~Gaussian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.cpp" bodystart="303" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" line="22" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Gaussian.h" bodystart="22" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classGaussian_1a5c0b5c62fa9740e7837795e37550fa0e" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>alpha_i</name></member>
+      <member refid="classGaussian_1a0ade4a35fe0d7b6a6c41943c06444b46" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>alpha_j</name></member>
+      <member refid="classGaussian_1a153b1fc8036233bed9121aa343c2a74d" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_negative_charge_density</name></member>
+      <member refid="classGaussian_1a141239850ea75332536cd25ef725762a" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_negative_charge_density</name></member>
+      <member refid="classGaussian_1ada6ef41c5cf1a988313f917dac04ba55" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_positive_charge_density</name></member>
+      <member refid="classGaussian_1ab2876d1355fd67cad5faa87062f20348" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_positive_charge_density</name></member>
+      <member refid="classGaussian_1a5389555e41d2b9b506342dd6a3b1f7ec" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_shape_and_charge_density</name></member>
+      <member refid="classGaussian_1a3fd619ab0bd48e3c46537194411de25e" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_shape_density</name></member>
+      <member refid="classGaussian_1a61cf17d52f0efe6f8b5933023056d6c9" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_shape_density</name></member>
+      <member refid="classGaussian_1a5b038af926d8a733608e41cdf263241a" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_shape_density</name></member>
+      <member refid="classGaussian_1aa42c109a39b13f847009947a77cd06b0" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_si</name></member>
+      <member refid="classGaussian_1ac8b23b3c00889eb1f38da472f9b67fb6" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_si</name></member>
+      <member refid="classGaussian_1adb4d179d7a65b8ecf34181be75a3ee93" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_si_neg_charges</name></member>
+      <member refid="classGaussian_1aab2b48b953d268cfb0e1041e9ae8ffef" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>compute_si_pos_charges</name></member>
+      <member refid="classGaussian_1a4219b30f577fb9ee8c8165ea6d093225" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>dij2</name></member>
+      <member refid="classGaussian_1ae9535543b557e8481b3b7ad1e559d4c0" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>dist_squared</name></member>
+      <member refid="classGaussian_1a877a470591c41d248bdb4356c1c14370" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>Gaussian</name></member>
+      <member refid="classGaussian_1a62de70c599d1558b705e39ef9f176f3c" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>Gaussian</name></member>
+      <member refid="classGaussian_1a469209c4c984a0118d3f4a6efc693d05" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>Gaussian</name></member>
+      <member refid="classGaussian_1a0296cbcbe7324c6658bd93430a12b40a" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>pi</name></member>
+      <member refid="classGaussian_1a61907a387874c912ca3460e0d53557d0" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>pj</name></member>
+      <member refid="classGaussian_1a32d5fa91e8452f5d333b8cd7f4e588f6" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>time0</name></member>
+      <member refid="classGaussian_1aac68a2973eaa8d40f218fe64e025093b" prot="public" virt="non-virtual"><scope>Gaussian</scope><name>time1</name></member>
+      <member refid="classGaussian_1acf8cb96837ea65021e973a735260be5f" prot="public" virt="virtual"><scope>Gaussian</scope><name>~Gaussian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

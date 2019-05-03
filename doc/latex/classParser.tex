@@ -1,0 +1,375 @@
+\hypertarget{classParser}{
+\section{Parser Class Reference}
+\label{classParser}\index{Parser@{Parser}}
+}
+
+
+{\ttfamily \#include $<$Parser.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classParser_abc75c0a7b785e032e4b9de51ee771f66}{Parser} (char $\ast$infile)
+\item 
+\hyperlink{classParser_a5dfbeb40b0d8dbb76ac2212a41ff6248}{Parser} (void)
+\item 
+void \hyperlink{classParser_ac3854cf49b4abdcf3a130477c3c7dbf7}{set\_\-parameters} (char $\ast$infile)
+\item 
+void \hyperlink{classParser_a749bb0b98af67a59540977c7271405e0}{comparing} (string \hyperlink{classParser_a52d2639511cc6ae75cb7e26b3a632169}{param}, ifstream \&input)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classParser_a260001029b62071b57edd6c8e66ca02f}{refmol\_\-prmtop}
+\begin{DoxyCompactList}\small\item\em Reference Molecule PRMTOP filename. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a74975ac5ab6c59e6d67ea5319590271e}{refmol\_\-inpcrd}
+\begin{DoxyCompactList}\small\item\em Reference Molecule Coordinates filename. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a92f17b5998dfe205b33c1713f5a16ab8}{refmol\_\-mol2}
+\begin{DoxyCompactList}\small\item\em Reference Molecule SYBYL MOL2 file. \end{DoxyCompactList}\item 
+bool \hyperlink{classParser_a8db5c5682da4ecd746f4e73594955b09}{mol2\_\-aa}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classMol2}{Mol2} file has AMBER (GAFF) atom types. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a52d2639511cc6ae75cb7e26b3a632169}{param}
+\begin{DoxyCompactList}\small\item\em Parameter reading during parsing. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a0acd57af169e5e9bdcc891ece8336b67}{sampling}
+\begin{DoxyCompactList}\small\item\em Samping scheme during electrostactic potential computation. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a9779ee1f5fc41336fe3628451d8dbe15}{step}
+\begin{DoxyCompactList}\small\item\em Angle step during rotational matching. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a10e43de411867ce8d978b4da09595274}{box\_\-size}
+\begin{DoxyCompactList}\small\item\em Actually, half the box size, i.e., the distance from COM to the box edges in each direction. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_aabdbf6e55bcc06654dac165f6b5bc427}{molsfile}
+\begin{DoxyCompactList}\small\item\em File containing the comparing molecule file names. \end{DoxyCompactList}\item 
+bool \hyperlink{classParser_aa1083e4b4f1db0abf7ab28a1ef55e9df}{multi}
+\begin{DoxyCompactList}\small\item\em Whether the multifile comparison should be done or not. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a39ef75157a58e058f258a6ca4b9de7a5}{output}
+\begin{DoxyCompactList}\small\item\em Prefix for all the output files. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a30d6b0f27feee6006fc83f3dc477493b}{tmp}
+\begin{DoxyCompactList}\small\item\em Temporary string.... \end{DoxyCompactList}\item 
+int \hyperlink{classParser_a32c82268dfcd000070219f3d8a243cd6}{nsteps}
+\begin{DoxyCompactList}\small\item\em Number of minimization steps. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a43b1eddc700d5b2049d1ee701592b96a}{tol}
+\begin{DoxyCompactList}\small\item\em Tolerance to gradient minimization. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a8cc4bd73e4cefb212d6db5ef3e9c5825}{delta}
+\begin{DoxyCompactList}\small\item\em Delta for derivative computation in minimization. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_ad13db04a963874a5cdfcc21b74e157c8}{minimizer}
+\begin{DoxyCompactList}\small\item\em Chooses the algorithm to spatial minimization. \end{DoxyCompactList}\item 
+bool \hyperlink{classParser_ae5704efc1c1353fdc47e1e8c369516fc}{write\_\-pdb}
+\begin{DoxyCompactList}\small\item\em Decides wether re-\/oriented coordinates will or not be written. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a3dd10708e371fd27b05fcfb3e3caac62}{vdw\_\-scale}
+\begin{DoxyCompactList}\small\item\em Scale of VDW term in minimization. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a848002312e9561eca6d4d6ebcf9c0138}{elec\_\-scale}
+\begin{DoxyCompactList}\small\item\em Scale of Electrostatic term in minimization. \end{DoxyCompactList}\item 
+int \hyperlink{classParser_a674ed2371f1689ee54cd8b6b29324b65}{timeout}
+\begin{DoxyCompactList}\small\item\em Timeout (in secods) for molecule minimization. \end{DoxyCompactList}\item 
+bool \hyperlink{classParser_a55ff6e4e374bb795d761a0b96d7e24d3}{align}
+\begin{DoxyCompactList}\small\item\em Defines wether the algorithm should or should not align molecules first. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_a37e294cd788ca37540592f9bff930757}{deltaij6}
+\begin{DoxyCompactList}\small\item\em Softcore term for VDW energy. Avoids numerical instability when r-\/$>$0;. \end{DoxyCompactList}\item 
+double \hyperlink{classParser_ae28df0a3a3e5ee001ece1bec87f34aca}{deltaij\_\-es6}
+\begin{DoxyCompactList}\small\item\em Softcore term for electrostatic energy. Avoids numerical instability when r-\/$>$0;. \end{DoxyCompactList}\item 
+bool \hyperlink{classParser_adf5a767adcb85a53e31ef2ad7232c75e}{use\_\-write\_\-coord\_\-threshold}
+\item 
+float \hyperlink{classParser_a136c2191cbc90fcce8277ad2f98031b8}{write\_\-coord\_\-threshold}
+\item 
+bool \hyperlink{classParser_a126f993711c0fbbb87b6789f169c8aa0}{macromol}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classParser_abc75c0a7b785e032e4b9de51ee771f66}{
+\index{Parser@{Parser}!Parser@{Parser}}
+\index{Parser@{Parser}!Parser@{Parser}}
+\subsubsection[{Parser}]{\setlength{\rightskip}{0pt plus 5cm}Parser::Parser (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{infile}
+\end{DoxyParamCaption}
+)}}
+\label{classParser_abc75c0a7b785e032e4b9de51ee771f66}
+Class constructor 
+\begin{DoxyParams}{Parameters}
+{\em infile} & Text file with parameters to be parsed with program parameters \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+\hypertarget{classParser_a5dfbeb40b0d8dbb76ac2212a41ff6248}{
+\index{Parser@{Parser}!Parser@{Parser}}
+\index{Parser@{Parser}!Parser@{Parser}}
+\subsubsection[{Parser}]{\setlength{\rightskip}{0pt plus 5cm}Parser::Parser (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classParser_a5dfbeb40b0d8dbb76ac2212a41ff6248}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classParser_a749bb0b98af67a59540977c7271405e0}{
+\index{Parser@{Parser}!comparing@{comparing}}
+\index{comparing@{comparing}!Parser@{Parser}}
+\subsubsection[{comparing}]{\setlength{\rightskip}{0pt plus 5cm}void Parser::comparing (
+\begin{DoxyParamCaption}
+\item[{string}]{param, }
+\item[{ifstream \&}]{input}
+\end{DoxyParamCaption}
+)}}
+\label{classParser_a749bb0b98af67a59540977c7271405e0}
+Function to compare the parameter token from input file and compare with known parameters. 
+\begin{DoxyParams}{Parameters}
+{\em param} & Text string parsed in the {\itshape infile\/} with a program keyword \\
+\hline
+{\em input} & Text file with parameters to be parsed with program parameters \\
+\hline
+\end{DoxyParams}
+\hypertarget{classParser_ac3854cf49b4abdcf3a130477c3c7dbf7}{
+\index{Parser@{Parser}!set\_\-parameters@{set\_\-parameters}}
+\index{set\_\-parameters@{set\_\-parameters}!Parser@{Parser}}
+\subsubsection[{set\_\-parameters}]{\setlength{\rightskip}{0pt plus 5cm}void Parser::set\_\-parameters (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{infile}
+\end{DoxyParamCaption}
+)}}
+\label{classParser_ac3854cf49b4abdcf3a130477c3c7dbf7}
+Function to get a individual parameter; 
+\begin{DoxyParams}{Parameters}
+{\em infile} & Text file with parameters to be parsed with program parameters \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function:
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classParser_a55ff6e4e374bb795d761a0b96d7e24d3}{
+\index{Parser@{Parser}!align@{align}}
+\index{align@{align}!Parser@{Parser}}
+\subsubsection[{align}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::align}}}
+\label{classParser_a55ff6e4e374bb795d761a0b96d7e24d3}
+
+
+Defines wether the algorithm should or should not align molecules first. 
+
+\hypertarget{classParser_a10e43de411867ce8d978b4da09595274}{
+\index{Parser@{Parser}!box\_\-size@{box\_\-size}}
+\index{box\_\-size@{box\_\-size}!Parser@{Parser}}
+\subsubsection[{box\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::box\_\-size}}}
+\label{classParser_a10e43de411867ce8d978b4da09595274}
+
+
+Actually, half the box size, i.e., the distance from COM to the box edges in each direction. 
+
+\hypertarget{classParser_a8cc4bd73e4cefb212d6db5ef3e9c5825}{
+\index{Parser@{Parser}!delta@{delta}}
+\index{delta@{delta}!Parser@{Parser}}
+\subsubsection[{delta}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::delta}}}
+\label{classParser_a8cc4bd73e4cefb212d6db5ef3e9c5825}
+
+
+Delta for derivative computation in minimization. 
+
+\hypertarget{classParser_a37e294cd788ca37540592f9bff930757}{
+\index{Parser@{Parser}!deltaij6@{deltaij6}}
+\index{deltaij6@{deltaij6}!Parser@{Parser}}
+\subsubsection[{deltaij6}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::deltaij6}}}
+\label{classParser_a37e294cd788ca37540592f9bff930757}
+
+
+Softcore term for VDW energy. Avoids numerical instability when r-\/$>$0;. 
+
+\hypertarget{classParser_ae28df0a3a3e5ee001ece1bec87f34aca}{
+\index{Parser@{Parser}!deltaij\_\-es6@{deltaij\_\-es6}}
+\index{deltaij\_\-es6@{deltaij\_\-es6}!Parser@{Parser}}
+\subsubsection[{deltaij\_\-es6}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::deltaij\_\-es6}}}
+\label{classParser_ae28df0a3a3e5ee001ece1bec87f34aca}
+
+
+Softcore term for electrostatic energy. Avoids numerical instability when r-\/$>$0;. 
+
+\hypertarget{classParser_a848002312e9561eca6d4d6ebcf9c0138}{
+\index{Parser@{Parser}!elec\_\-scale@{elec\_\-scale}}
+\index{elec\_\-scale@{elec\_\-scale}!Parser@{Parser}}
+\subsubsection[{elec\_\-scale}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::elec\_\-scale}}}
+\label{classParser_a848002312e9561eca6d4d6ebcf9c0138}
+
+
+Scale of Electrostatic term in minimization. 
+
+\hypertarget{classParser_a126f993711c0fbbb87b6789f169c8aa0}{
+\index{Parser@{Parser}!macromol@{macromol}}
+\index{macromol@{macromol}!Parser@{Parser}}
+\subsubsection[{macromol}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::macromol}}}
+\label{classParser_a126f993711c0fbbb87b6789f169c8aa0}
+\hypertarget{classParser_ad13db04a963874a5cdfcc21b74e157c8}{
+\index{Parser@{Parser}!minimizer@{minimizer}}
+\index{minimizer@{minimizer}!Parser@{Parser}}
+\subsubsection[{minimizer}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::minimizer}}}
+\label{classParser_ad13db04a963874a5cdfcc21b74e157c8}
+
+
+Chooses the algorithm to spatial minimization. 
+
+\hypertarget{classParser_a8db5c5682da4ecd746f4e73594955b09}{
+\index{Parser@{Parser}!mol2\_\-aa@{mol2\_\-aa}}
+\index{mol2\_\-aa@{mol2\_\-aa}!Parser@{Parser}}
+\subsubsection[{mol2\_\-aa}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::mol2\_\-aa}}}
+\label{classParser_a8db5c5682da4ecd746f4e73594955b09}
+
+
+\hyperlink{classMol2}{Mol2} file has AMBER (GAFF) atom types. 
+
+\hypertarget{classParser_aabdbf6e55bcc06654dac165f6b5bc427}{
+\index{Parser@{Parser}!molsfile@{molsfile}}
+\index{molsfile@{molsfile}!Parser@{Parser}}
+\subsubsection[{molsfile}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::molsfile}}}
+\label{classParser_aabdbf6e55bcc06654dac165f6b5bc427}
+
+
+File containing the comparing molecule file names. 
+
+\hypertarget{classParser_aa1083e4b4f1db0abf7ab28a1ef55e9df}{
+\index{Parser@{Parser}!multi@{multi}}
+\index{multi@{multi}!Parser@{Parser}}
+\subsubsection[{multi}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::multi}}}
+\label{classParser_aa1083e4b4f1db0abf7ab28a1ef55e9df}
+
+
+Whether the multifile comparison should be done or not. 
+
+\hypertarget{classParser_a32c82268dfcd000070219f3d8a243cd6}{
+\index{Parser@{Parser}!nsteps@{nsteps}}
+\index{nsteps@{nsteps}!Parser@{Parser}}
+\subsubsection[{nsteps}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Parser::nsteps}}}
+\label{classParser_a32c82268dfcd000070219f3d8a243cd6}
+
+
+Number of minimization steps. 
+
+\hypertarget{classParser_a39ef75157a58e058f258a6ca4b9de7a5}{
+\index{Parser@{Parser}!output@{output}}
+\index{output@{output}!Parser@{Parser}}
+\subsubsection[{output}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::output}}}
+\label{classParser_a39ef75157a58e058f258a6ca4b9de7a5}
+
+
+Prefix for all the output files. 
+
+\hypertarget{classParser_a52d2639511cc6ae75cb7e26b3a632169}{
+\index{Parser@{Parser}!param@{param}}
+\index{param@{param}!Parser@{Parser}}
+\subsubsection[{param}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::param}}}
+\label{classParser_a52d2639511cc6ae75cb7e26b3a632169}
+
+
+Parameter reading during parsing. 
+
+\hypertarget{classParser_a74975ac5ab6c59e6d67ea5319590271e}{
+\index{Parser@{Parser}!refmol\_\-inpcrd@{refmol\_\-inpcrd}}
+\index{refmol\_\-inpcrd@{refmol\_\-inpcrd}!Parser@{Parser}}
+\subsubsection[{refmol\_\-inpcrd}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::refmol\_\-inpcrd}}}
+\label{classParser_a74975ac5ab6c59e6d67ea5319590271e}
+
+
+Reference Molecule Coordinates filename. 
+
+\hypertarget{classParser_a92f17b5998dfe205b33c1713f5a16ab8}{
+\index{Parser@{Parser}!refmol\_\-mol2@{refmol\_\-mol2}}
+\index{refmol\_\-mol2@{refmol\_\-mol2}!Parser@{Parser}}
+\subsubsection[{refmol\_\-mol2}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::refmol\_\-mol2}}}
+\label{classParser_a92f17b5998dfe205b33c1713f5a16ab8}
+
+
+Reference Molecule SYBYL MOL2 file. 
+
+\hypertarget{classParser_a260001029b62071b57edd6c8e66ca02f}{
+\index{Parser@{Parser}!refmol\_\-prmtop@{refmol\_\-prmtop}}
+\index{refmol\_\-prmtop@{refmol\_\-prmtop}!Parser@{Parser}}
+\subsubsection[{refmol\_\-prmtop}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::refmol\_\-prmtop}}}
+\label{classParser_a260001029b62071b57edd6c8e66ca02f}
+
+
+Reference Molecule PRMTOP filename. 
+
+\hypertarget{classParser_a0acd57af169e5e9bdcc891ece8336b67}{
+\index{Parser@{Parser}!sampling@{sampling}}
+\index{sampling@{sampling}!Parser@{Parser}}
+\subsubsection[{sampling}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::sampling}}}
+\label{classParser_a0acd57af169e5e9bdcc891ece8336b67}
+
+
+Samping scheme during electrostactic potential computation. 
+
+\hypertarget{classParser_a9779ee1f5fc41336fe3628451d8dbe15}{
+\index{Parser@{Parser}!step@{step}}
+\index{step@{step}!Parser@{Parser}}
+\subsubsection[{step}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::step}}}
+\label{classParser_a9779ee1f5fc41336fe3628451d8dbe15}
+
+
+Angle step during rotational matching. 
+
+\hypertarget{classParser_a674ed2371f1689ee54cd8b6b29324b65}{
+\index{Parser@{Parser}!timeout@{timeout}}
+\index{timeout@{timeout}!Parser@{Parser}}
+\subsubsection[{timeout}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Parser::timeout}}}
+\label{classParser_a674ed2371f1689ee54cd8b6b29324b65}
+
+
+Timeout (in secods) for molecule minimization. 
+
+\hypertarget{classParser_a30d6b0f27feee6006fc83f3dc477493b}{
+\index{Parser@{Parser}!tmp@{tmp}}
+\index{tmp@{tmp}!Parser@{Parser}}
+\subsubsection[{tmp}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf Parser::tmp}}}
+\label{classParser_a30d6b0f27feee6006fc83f3dc477493b}
+
+
+Temporary string.... 
+
+\hypertarget{classParser_a43b1eddc700d5b2049d1ee701592b96a}{
+\index{Parser@{Parser}!tol@{tol}}
+\index{tol@{tol}!Parser@{Parser}}
+\subsubsection[{tol}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::tol}}}
+\label{classParser_a43b1eddc700d5b2049d1ee701592b96a}
+
+
+Tolerance to gradient minimization. 
+
+\hypertarget{classParser_adf5a767adcb85a53e31ef2ad7232c75e}{
+\index{Parser@{Parser}!use\_\-write\_\-coord\_\-threshold@{use\_\-write\_\-coord\_\-threshold}}
+\index{use\_\-write\_\-coord\_\-threshold@{use\_\-write\_\-coord\_\-threshold}!Parser@{Parser}}
+\subsubsection[{use\_\-write\_\-coord\_\-threshold}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::use\_\-write\_\-coord\_\-threshold}}}
+\label{classParser_adf5a767adcb85a53e31ef2ad7232c75e}
+\hypertarget{classParser_a3dd10708e371fd27b05fcfb3e3caac62}{
+\index{Parser@{Parser}!vdw\_\-scale@{vdw\_\-scale}}
+\index{vdw\_\-scale@{vdw\_\-scale}!Parser@{Parser}}
+\subsubsection[{vdw\_\-scale}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Parser::vdw\_\-scale}}}
+\label{classParser_a3dd10708e371fd27b05fcfb3e3caac62}
+
+
+Scale of VDW term in minimization. 
+
+\hypertarget{classParser_a136c2191cbc90fcce8277ad2f98031b8}{
+\index{Parser@{Parser}!write\_\-coord\_\-threshold@{write\_\-coord\_\-threshold}}
+\index{write\_\-coord\_\-threshold@{write\_\-coord\_\-threshold}!Parser@{Parser}}
+\subsubsection[{write\_\-coord\_\-threshold}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf Parser::write\_\-coord\_\-threshold}}}
+\label{classParser_a136c2191cbc90fcce8277ad2f98031b8}
+\hypertarget{classParser_ae5704efc1c1353fdc47e1e8c369516fc}{
+\index{Parser@{Parser}!write\_\-pdb@{write\_\-pdb}}
+\index{write\_\-pdb@{write\_\-pdb}!Parser@{Parser}}
+\subsubsection[{write\_\-pdb}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Parser::write\_\-pdb}}}
+\label{classParser_ae5704efc1c1353fdc47e1e8c369516fc}
+
+
+Decides wether re-\/oriented coordinates will or not be written. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Parser_8h}{Parser.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/\hyperlink{Parser_8cpp}{Parser.cpp}\end{DoxyCompactItemize}

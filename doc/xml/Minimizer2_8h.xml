@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Minimizer2_8h" kind="file">
+    <compoundname>Minimizer2.h</compoundname>
+    <includes local="no">gsl/gsl_multimin.h</includes>
+    <includes local="yes">gsl/gsl_errno.h</includes>
+    <includes local="yes">gsl/gsl_math.h</includes>
+    <includes local="yes">gsl/gsl_vector.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">cmath</includes>
+    <includes refid="Mol2_8h" local="yes">Mol2.h</includes>
+    <includes refid="Parser_8h" local="yes">Parser.h</includes>
+    <includes refid="Grid_8h" local="yes">Grid.h</includes>
+    <includes refid="Gaussian_8h" local="yes">Gaussian.h</includes>
+    <includes local="yes">nlopt.h</includes>
+    <includes local="yes">nlopt.hpp</includes>
+    <includes local="no">time.h</includes>
+    <includedby refid="Minimizer2_8cpp" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.cpp</includedby>
+    <includedby refid="RunEngine_8h" local="yes">/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/RunEngine.h</includedby>
+    <incdepgraph>
+      <node id="108">
+        <label>gsl/gsl_vector.h</label>
+      </node>
+      <node id="104">
+        <label>/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h</label>
+        <link refid="Minimizer2.h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>cmath</label>
+      </node>
+      <node id="114">
+        <label>nlopt.hpp</label>
+      </node>
+      <node id="113">
+        <label>nlopt.h</label>
+      </node>
+      <node id="109">
+        <label>string.h</label>
+      </node>
+      <node id="111">
+        <label>vector</label>
+      </node>
+      <node id="105">
+        <label>gsl/gsl_multimin.h</label>
+      </node>
+      <node id="115">
+        <label>time.h</label>
+      </node>
+      <node id="107">
+        <label>gsl/gsl_math.h</label>
+      </node>
+      <node id="110">
+        <label>stdio.h</label>
+      </node>
+      <node id="106">
+        <label>gsl/gsl_errno.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMinimizer2" prot="public">Minimizer2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Minimizer2.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>03/03/2011</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Nascimento</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MINIMIZER2_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MINIMIZER2_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;gsl/gsl_multimin.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;gsl/gsl_errno.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;gsl/gsl_math.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;gsl/gsl_vector.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;Mol2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;Parser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include&quot;Grid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Gaussian.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;nlopt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;nlopt.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classMinimizer2" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMinimizer2" kindref="compound" tooltip="Class Minimizer2.">Minimizer2</ref><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha_i,<sp/>alpha_j,<sp/>dij2,<sp/>pi,<sp/>pj;</highlight></codeline>
+<codeline lineno="44" refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Mol2<sp/>*<ref refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" kindref="member" tooltip="Pointer to the MOL Class.">Cmol</ref>;</highlight></codeline>
+<codeline lineno="46" refid="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Grid<sp/>*<ref refid="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" kindref="member" tooltip="Pointer to the GRID Class.">Cgrid</ref>;</highlight></codeline>
+<codeline lineno="48" refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Parser<sp/>*<ref refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" kindref="member" tooltip="Pointer to the INPUT Class.">Input</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Mol2*<sp/>RefMol;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Mol2*<sp/>CompMol;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" kindref="member" tooltip="VDW Repulsive potential for the reference molecule as computed in the main program...">rep_potential</ref>;</highlight></codeline>
+<codeline lineno="56" refid="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" kindref="member" tooltip="Electrostatic potential for the reference molecule.">elec_potential</ref>;</highlight></codeline>
+<codeline lineno="58" refid="classMinimizer2_1ae32c788933fe4ffca055ae23817d3455" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1ae32c788933fe4ffca055ae23817d3455" kindref="member" tooltip="Electrostatic potential of the &amp;quot;comparison&amp;quot; molecule.">current_elec</ref>;</highlight></codeline>
+<codeline lineno="60" refid="classMinimizer2_1a8aa78fb8c18cb5eb88a2ed2092ea5683" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a8aa78fb8c18cb5eb88a2ed2092ea5683" kindref="member" tooltip="VDW Repulsive potential of the &amp;quot;comparison&amp;quot; molecule.">current_vdw</ref>;</highlight></codeline>
+<codeline lineno="62" refid="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" kindref="member" tooltip="Electrostatic potential in a grid point.">elec</ref>;</highlight></codeline>
+<codeline lineno="64" refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" kindref="member" tooltip="x, y and z coordinates">x</ref>,<sp/>y,<sp/>z;</highlight></codeline>
+<codeline lineno="66" refid="classMinimizer2_1a3f56599cc0464de622f4493ab209be67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a3f56599cc0464de622f4493ab209be67" kindref="member" tooltip="Distance r among two atoms;.">r</ref>,<sp/>r2,<sp/>r6,<sp/>repul;</highlight></codeline>
+<codeline lineno="68" refid="classMinimizer2_1a2a073ef1806f84be7c4f4b8cf6f7f2a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a2a073ef1806f84be7c4f4b8cf6f7f2a7" kindref="member" tooltip="Sum of differeces in objective function computation.">sum_diff</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classMinimizer2_1a680a201172c6518d60325eaac358b371" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<ref refid="classMinimizer2_1a680a201172c6518d60325eaac358b371" kindref="member" tooltip="Rototranslated coordinates.">new_xyz</ref>;</highlight></codeline>
+<codeline lineno="72" refid="classMinimizer2_1a8aede4777e9d3fdc7bd0216e8ca9f045" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<ref refid="classMinimizer2_1a8aede4777e9d3fdc7bd0216e8ca9f045" kindref="member" tooltip="Vector of vectors containing current_elec and current_vdw.">elec_plus_vdw_grids</ref>;</highlight></codeline>
+<codeline lineno="74" refid="classMinimizer2_1afefc05f3f81b5f002041933d12352642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1afefc05f3f81b5f002041933d12352642" kindref="member" tooltip="Objective function value.">t1</ref>;</highlight></codeline>
+<codeline lineno="76" refid="classMinimizer2_1a166a976d19a3c0c33222b3d000377586" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a166a976d19a3c0c33222b3d000377586" kindref="member" tooltip="Minimum of the objective function reached after minimization.">f_minimum</ref>;</highlight></codeline>
+<codeline lineno="78" refid="classMinimizer2_1ab2fc020ca4f53c83045abb9533932e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ab2fc020ca4f53c83045abb9533932e8f" kindref="member" tooltip="Status of the minimizer.">status</ref>;</highlight></codeline>
+<codeline lineno="80" refid="classMinimizer2_1ac63693b02b0d74534c318db59499891b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>clock_t<sp/><ref refid="classMinimizer2_1ac63693b02b0d74534c318db59499891b" kindref="member" tooltip="Timer for minimization functions.">time0</ref>,<sp/>time1;</highlight></codeline>
+<codeline lineno="82" refid="classMinimizer2_1a2fefd1c40811da6a30fed3c273e624d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a2fefd1c40811da6a30fed3c273e624d7" kindref="member" tooltip="Time elapsed for minimization procedure.">time_elapsed</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>elec_term,<sp/>vdw_term;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMinimizer2_1a2e3f0b082ca42570ecd579be6f6aad01" kindref="member">Minimizer2</ref>(Mol2<sp/>*_Cmol,<sp/>Parser<sp/>*_Input,<sp/>Grid<sp/>*_Cgrid,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;double&gt;<sp/>_elec_potential,<sp/>vector&lt;double&gt;<sp/>_rep_potential);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMinimizer2_1a2e3f0b082ca42570ecd579be6f6aad01" kindref="member">Minimizer2</ref>(Mol2<sp/>*_RefMol,<sp/>Mol2*<sp/>_CompMol,<sp/>Parser<sp/>*_Input,<sp/>Grid<sp/>*_Cgrid,vector&lt;double&gt;<sp/>_elec_potential,<sp/>vector&lt;double&gt;<sp/>_rep_potential);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a6626777b2e2a1b09d2a1c925f45962a4" kindref="member" tooltip="This function computes the distance among two atoms.">dist</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z2);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dist_squared(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z2);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/><ref refid="classMinimizer2_1a1aa54d9e6855cf39ad8be1f2f8499a01" kindref="member" tooltip="Computes the electrostatic and the vdw grids at once for a molecule.">compute_grid_elec_plus_vdw</ref>(vector&lt;vector&lt;double&gt;<sp/>&gt;xyz,<sp/>Mol2<sp/>*<ref refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" kindref="member" tooltip="Pointer to the MOL Class.">Cmol</ref>,<sp/>Grid<sp/>*<ref refid="classMinimizer2_1a82909d2dd56fc9747ae6edbe94b2e5d2" kindref="member" tooltip="Pointer to the GRID Class.">Cgrid</ref>,<sp/>Parser<sp/>*<ref refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" kindref="member" tooltip="Pointer to the INPUT Class.">Input</ref>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;<sp/><ref refid="classMinimizer2_1a7bc4c2fe892e0339048d9ca7932cdf69" kindref="member" tooltip="Computes new coordinates after a translation and a rotation.">rototranslate</ref>(Mol2<sp/>*<ref refid="classMinimizer2_1af79d496194cba04903627d821f0faca3" kindref="member" tooltip="Pointer to the MOL Class.">Cmol</ref>,<sp/>vector&lt;vector&lt;double&gt;<sp/>&gt;xyz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>beta,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gamma,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>transx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>transy,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>transz);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a341b5cd394c900ca5496b888168d3948" kindref="member" tooltip="Computes the objective function.">compute_diff_elec_plus_vdw</ref>(vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a83498ab8f10adf03fa6e909b24987468" kindref="member" tooltip="Electrostatic potential for the reference molecule.">elec_potential</ref>,<sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a5464403781e3ce5bbd29027c954b0163" kindref="member" tooltip="VDW Repulsive potential for the reference molecule as computed in the main program...">rep_potential</ref>,<sp/>vector&lt;double&gt;<sp/><ref refid="classMinimizer2_1a98b7bf0f7dc850bc5ce22721d6a8caf2" kindref="member" tooltip="Electrostatic potential in a grid point.">elec</ref>,<sp/>vector&lt;double&gt;<sp/>vdw,<sp/>Parser<sp/>*<ref refid="classMinimizer2_1a589bf24b76630588dbd93b78ed85deb4" kindref="member" tooltip="Pointer to the INPUT Class.">Input</ref>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ae46bf1366f7275747b344ec6e39d9178" kindref="member" tooltip="GSL function to evaluate the objective function.">diff_function_ele_vdw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>gsl_vector<sp/>*v,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*params);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>function_gaussian_shape(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>gsl_vector<sp/>*v,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*params);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1aeefc6cb4586a434a88abdadff44ad7ec" kindref="member" tooltip="Computes the gradient for GSL functions.">diff_gradient_elec_plus_vdw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>gsl_vector<sp/>*v,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*params,<sp/>gsl_vector<sp/>*df);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a3bf50d7081499de21718741509ed95f4" kindref="member" tooltip="Computes function and gradient and once.">diff_function_and_gradient_elec_plus_vdw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>gsl_vector<sp/>*<ref refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" kindref="member" tooltip="x, y and z coordinates">x</ref>,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*params,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*f,<sp/>gsl_vector<sp/>*df);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a2778f65c914c177b809863bbb138b330" kindref="member">minimize_lbfgs2_elec_plus_vdw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a90746efac2942fa9a6d25b0e4bfdc75d" kindref="member">minimize_conjugate_gradient_elec_plus_vdw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a4669dfe9dc28152658860fd674427279" kindref="member">minimize_simplex_elec_plus_vdw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>minimize_simplex_shape_density(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a911683db438c2a9ea9f0c47fd123a92e" kindref="member" tooltip="For test purposes only. Computes the gradient for variations in alpha.">test_alpha_gradient</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1aa02fa519d5e9dcbfbf2053317200e9c7" kindref="member" tooltip="For test purposes only. Computes the objective function for variations in alpha.">test_alpha_function</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1aa27645b2a1bd68dc6249729bf15340f7" kindref="member">nlopt_func_elec_plus_vdw</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/>&amp;<ref refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" kindref="member" tooltip="x, y and z coordinates">x</ref>,<sp/>vector&lt;double&gt;<sp/>&amp;grad,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ad602f01ea4329924251775435c97d12c" kindref="member">minimize_nlopt_auglag</ref>();</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a39d440b959db32c57baab3a322758821" kindref="member">minimize_nlopt_mma</ref>();</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1aca9af00ae1cf0399a476cbb6e22e09e3" kindref="member">minimize_nlopt_isres</ref>();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a781d7c1c19a0198afaa2e42bfee1651d" kindref="member">minimize_nlopt_subplex</ref>();</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1acd7f7eb0f80c6b91268d3b81abd5bd1e" kindref="member">minimize_nlopt_simplex</ref>();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a4981a5f90d855bc1d25b857881edb172" kindref="member">minimize_nlopt_bfgs2</ref>();</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1a3c0a0abe78fc3b33e91e098d13b7f43a" kindref="member">minimize_nlopt_stogo</ref>();</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classMinimizer2_1ac8b7b2846ad8d37e41f1b6b07045aef2" kindref="member">minimize_nlopt_direct</ref>();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>nlopt_func_gauss_density(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/>&amp;<ref refid="classMinimizer2_1ad34cff3ae59c83548e2d5485e800897e" kindref="member" tooltip="x, y and z coordinates">x</ref>,<sp/>std::vector&lt;double&gt;<sp/>&amp;grad,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*data);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>minimize_density_nlopt_mma();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>MINIMIZER2_H_<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Minimizer2.h"/>
+  </compounddef>
+</doxygen>

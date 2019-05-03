@@ -1,0 +1,248 @@
+\hypertarget{classQtWriter}{
+\section{QtWriter Class Reference}
+\label{classQtWriter}\index{QtWriter@{QtWriter}}
+}
+
+
+{\ttfamily \#include $<$QtWriter.h$>$}
+
+
+
+Collaboration diagram for QtWriter:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classQtWriter_ab6edda21cb7821d1dd6023d89bba120d}{QtWriter} (\hyperlink{classParser}{Parser} $\ast$Input, QPlainTextEdit $\ast$Ed)
+\item 
+void \hyperlink{classQtWriter_aad5888cbfde83e9bc36e9797414eb69c}{write\_\-params} (\hyperlink{classParser}{Parser} $\ast$Input)
+\item 
+void \hyperlink{classQtWriter_a22835ce6f128702a1590381c2663e2a2}{write\_\-welcome} (void)
+\begin{DoxyCompactList}\small\item\em This function writes a \char`\"{}welcome\char`\"{} message. \end{DoxyCompactList}\item 
+void \hyperlink{classQtWriter_a694c77fe8d34955948b14897ddeaaf24}{write\_\-to\_\-log} (char info\mbox{[}82\mbox{]})
+\item 
+void \hyperlink{classQtWriter_a6188e31823cda6193af9ac3632fb19db}{write\_\-to\_\-log} (void)
+\begin{DoxyCompactList}\small\item\em This overloaded function writes a blank line in the logfile and in the screen. \end{DoxyCompactList}\item 
+void \hyperlink{classQtWriter_aa4424e7a6279fe116b74d06c05cb500b}{write\_\-pdb} (\hyperlink{classMol}{Mol} $\ast$\hyperlink{classQtWriter_a82288bebcd187b80b54c2093da0ea820}{Cmol}, vector$<$ vector$<$ double $>$ $>$xyz, string outname)
+\begin{DoxyCompactList}\small\item\em Class destructor. Closes the logfile. \end{DoxyCompactList}\item 
+void \hyperlink{classQtWriter_a2dbb1745b70fefff3a5ae3984b853b4b}{write\_\-pdb} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classQtWriter_a82288bebcd187b80b54c2093da0ea820}{Cmol}, vector$<$ vector$<$ double $>$ $>$xyz, string outname)
+\begin{DoxyCompactList}\small\item\em Class to write a PDB file (overloaded) \end{DoxyCompactList}\item 
+void \hyperlink{classQtWriter_a12261d1488b5a7e0ff64d3326842c04c}{writeMol2} (\hyperlink{classMol2}{Mol2} $\ast$\hyperlink{classQtWriter_a82288bebcd187b80b54c2093da0ea820}{Cmol}, vector$<$ vector$<$ double $>$ $>$xyz, double cc)
+\begin{DoxyCompactList}\small\item\em Class used to write \hyperlink{classMol2}{Mol2} files. \end{DoxyCompactList}\item 
+\hyperlink{classQtWriter_a255879a3ac447bd5e481042e73f33974}{$\sim$QtWriter} (void)
+\begin{DoxyCompactList}\small\item\em Deconstructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+FILE $\ast$ \hyperlink{classQtWriter_a044bb96d71354b34c4a6ba47c3461d42}{logfile}
+\begin{DoxyCompactList}\small\item\em logfile is defined as a C file to generate a written report (log) of the program run. \end{DoxyCompactList}\item 
+gzFile \hyperlink{classQtWriter_a41ae23e5a7e0c18505f3a7c654c672b7}{outmol2}
+\begin{DoxyCompactList}\small\item\em Output file with aligned molecules in format SYBYL MOL2. \end{DoxyCompactList}\item 
+QPlainTextEdit $\ast$ \hyperlink{classQtWriter_a2acbd598dd08378981f929a023ef5d41}{Editor}
+\begin{DoxyCompactList}\small\item\em Pointer to a QPlainTextEdit class. This object is used to show the log in the screen (\hyperlink{classGUI}{GUI}) \end{DoxyCompactList}\item 
+\hyperlink{classMol}{Mol} $\ast$ \hyperlink{classQtWriter_a82288bebcd187b80b54c2093da0ea820}{Cmol}
+\begin{DoxyCompactList}\small\item\em Pointer to \hyperlink{classMol2}{Mol2} Object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classQtWriter_ab6edda21cb7821d1dd6023d89bba120d}{
+\index{QtWriter@{QtWriter}!QtWriter@{QtWriter}}
+\index{QtWriter@{QtWriter}!QtWriter@{QtWriter}}
+\subsubsection[{QtWriter}]{\setlength{\rightskip}{0pt plus 5cm}QtWriter::QtWriter (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser} $\ast$}]{Input, }
+\item[{QPlainTextEdit $\ast$}]{Ed}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_ab6edda21cb7821d1dd6023d89bba120d}
+Class constructor. Opens the logfile with the \char`\"{}output\char`\"{} name defined in the input file. 
+\begin{DoxyParams}{Parameters}
+{\em Input} & Pointer to the \hyperlink{classParser}{Parser} class. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQtWriter_a255879a3ac447bd5e481042e73f33974}{
+\index{QtWriter@{QtWriter}!$\sim$QtWriter@{$\sim$QtWriter}}
+\index{$\sim$QtWriter@{$\sim$QtWriter}!QtWriter@{QtWriter}}
+\subsubsection[{$\sim$QtWriter}]{\setlength{\rightskip}{0pt plus 5cm}QtWriter::$\sim$QtWriter (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a255879a3ac447bd5e481042e73f33974}
+
+
+Deconstructor. 
+
+Closes opened files. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classQtWriter_aad5888cbfde83e9bc36e9797414eb69c}{
+\index{QtWriter@{QtWriter}!write\_\-params@{write\_\-params}}
+\index{write\_\-params@{write\_\-params}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-params (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser} $\ast$}]{Input}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_aad5888cbfde83e9bc36e9797414eb69c}
+This function writes down the parameters given by the user as input. 
+\begin{DoxyParams}{Parameters}
+{\em Pointer} & to the \hyperlink{classParser}{Parser} class \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQtWriter_aa4424e7a6279fe116b74d06c05cb500b}{
+\index{QtWriter@{QtWriter}!write\_\-pdb@{write\_\-pdb}}
+\index{write\_\-pdb@{write\_\-pdb}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-pdb}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-pdb (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol} $\ast$}]{Cmol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{string}]{outname}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_aa4424e7a6279fe116b74d06c05cb500b}
+
+
+Class destructor. Closes the logfile. 
+
+Method to write a PDB file (not used anymore). 
+\begin{DoxyParams}{Parameters}
+{\em Cmol} & Pointer to a \hyperlink{classMol2}{Mol2} Object with molecule parameters \\
+\hline
+{\em xyz} & C++ vector with molecule coordinates \\
+\hline
+{\em outname} & string for file output \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQtWriter_a2dbb1745b70fefff3a5ae3984b853b4b}{
+\index{QtWriter@{QtWriter}!write\_\-pdb@{write\_\-pdb}}
+\index{write\_\-pdb@{write\_\-pdb}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-pdb}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-pdb (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{string}]{outname}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a2dbb1745b70fefff3a5ae3984b853b4b}
+
+
+Class to write a PDB file (overloaded) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Cmol} & Pointer to a \hyperlink{classMol2}{Mol2} Object with molecule parameters \\
+\hline
+{\em xyz} & C++ vector with molecule coordinates \\
+\hline
+{\em outname} & string for file output \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQtWriter_a6188e31823cda6193af9ac3632fb19db}{
+\index{QtWriter@{QtWriter}!write\_\-to\_\-log@{write\_\-to\_\-log}}
+\index{write\_\-to\_\-log@{write\_\-to\_\-log}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-to\_\-log}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-to\_\-log (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a6188e31823cda6193af9ac3632fb19db}
+
+
+This overloaded function writes a blank line in the logfile and in the screen. 
+
+\hypertarget{classQtWriter_a694c77fe8d34955948b14897ddeaaf24}{
+\index{QtWriter@{QtWriter}!write\_\-to\_\-log@{write\_\-to\_\-log}}
+\index{write\_\-to\_\-log@{write\_\-to\_\-log}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-to\_\-log}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-to\_\-log (
+\begin{DoxyParamCaption}
+\item[{char}]{info\mbox{[}82\mbox{]}}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a694c77fe8d34955948b14897ddeaaf24}
+This message shows a char array in the screen and writes it to the logfile. 
+\begin{DoxyParams}{Parameters}
+{\em info} & char array (82 char long) with a message to be written/shown. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classQtWriter_a22835ce6f128702a1590381c2663e2a2}{
+\index{QtWriter@{QtWriter}!write\_\-welcome@{write\_\-welcome}}
+\index{write\_\-welcome@{write\_\-welcome}!QtWriter@{QtWriter}}
+\subsubsection[{write\_\-welcome}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::write\_\-welcome (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a22835ce6f128702a1590381c2663e2a2}
+
+
+This function writes a \char`\"{}welcome\char`\"{} message. 
+
+\hypertarget{classQtWriter_a12261d1488b5a7e0ff64d3326842c04c}{
+\index{QtWriter@{QtWriter}!writeMol2@{writeMol2}}
+\index{writeMol2@{writeMol2}!QtWriter@{QtWriter}}
+\subsubsection[{writeMol2}]{\setlength{\rightskip}{0pt plus 5cm}void QtWriter::writeMol2 (
+\begin{DoxyParamCaption}
+\item[{{\bf Mol2} $\ast$}]{Cmol, }
+\item[{vector$<$ vector$<$ double $>$ $>$}]{xyz, }
+\item[{double}]{cc}
+\end{DoxyParamCaption}
+)}}
+\label{classQtWriter_a12261d1488b5a7e0ff64d3326842c04c}
+
+
+Class used to write \hyperlink{classMol2}{Mol2} files. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Cmol} & Pointer to a \hyperlink{classMol2}{Mol2} object with molecule parameters \\
+\hline
+{\em xyz} & C++ vector with molecule atomic coordinates \\
+\hline
+{\em cc} & Correlation coefficient written in mol2 file \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classQtWriter_a82288bebcd187b80b54c2093da0ea820}{
+\index{QtWriter@{QtWriter}!Cmol@{Cmol}}
+\index{Cmol@{Cmol}!QtWriter@{QtWriter}}
+\subsubsection[{Cmol}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Mol}$\ast$ {\bf QtWriter::Cmol}}}
+\label{classQtWriter_a82288bebcd187b80b54c2093da0ea820}
+
+
+Pointer to \hyperlink{classMol2}{Mol2} Object. 
+
+\hypertarget{classQtWriter_a2acbd598dd08378981f929a023ef5d41}{
+\index{QtWriter@{QtWriter}!Editor@{Editor}}
+\index{Editor@{Editor}!QtWriter@{QtWriter}}
+\subsubsection[{Editor}]{\setlength{\rightskip}{0pt plus 5cm}QPlainTextEdit$\ast$ {\bf QtWriter::Editor}}}
+\label{classQtWriter_a2acbd598dd08378981f929a023ef5d41}
+
+
+Pointer to a QPlainTextEdit class. This object is used to show the log in the screen (\hyperlink{classGUI}{GUI}) 
+
+\hypertarget{classQtWriter_a044bb96d71354b34c4a6ba47c3461d42}{
+\index{QtWriter@{QtWriter}!logfile@{logfile}}
+\index{logfile@{logfile}!QtWriter@{QtWriter}}
+\subsubsection[{logfile}]{\setlength{\rightskip}{0pt plus 5cm}FILE$\ast$ {\bf QtWriter::logfile}}}
+\label{classQtWriter_a044bb96d71354b34c4a6ba47c3461d42}
+
+
+logfile is defined as a C file to generate a written report (log) of the program run. 
+
+\hypertarget{classQtWriter_a41ae23e5a7e0c18505f3a7c654c672b7}{
+\index{QtWriter@{QtWriter}!outmol2@{outmol2}}
+\index{outmol2@{outmol2}!QtWriter@{QtWriter}}
+\subsubsection[{outmol2}]{\setlength{\rightskip}{0pt plus 5cm}gzFile {\bf QtWriter::outmol2}}}
+\label{classQtWriter_a41ae23e5a7e0c18505f3a7c654c672b7}
+
+
+Output file with aligned molecules in format SYBYL MOL2. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{QtWriter_8h}{QtWriter.h}\item 
+/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/\hyperlink{QtWriter_8cpp}{QtWriter.cpp}\end{DoxyCompactItemize}

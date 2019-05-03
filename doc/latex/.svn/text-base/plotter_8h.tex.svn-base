@@ -1,0 +1,17 @@
+\hypertarget{plotter_8h}{
+\section{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/plotter.h File Reference}
+\label{plotter_8h}\index{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/plotter.h@{/cygdrive/c/Users/Nascimento/workspace/MolShaCS/src/GUI/plotter.h}}
+}
+{\ttfamily \#include $<$vector$>$}\par
+{\ttfamily \#include $<$QtGui/QWidget$>$}\par
+{\ttfamily \#include $<$QFile$>$}\par
+{\ttfamily \#include $<$QPainter$>$}\par
+{\ttfamily \#include $<$QFileDialog$>$}\par
+{\ttfamily \#include $<$QPaintEvent$>$}\par
+Include dependency graph for plotter.h:
+This graph shows which files directly or indirectly include this file:
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classplotter}{plotter}
+\end{DoxyCompactItemize}

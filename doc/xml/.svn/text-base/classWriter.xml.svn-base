@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classWriter" kind="class" prot="public">
+    <compoundname>Writer</compoundname>
+    <includes local="no">Writer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classWriter_1a2bc15cd60f8b6e7f8732bc9421d2a533" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* Writer::logfile</definition>
+        <argsstring></argsstring>
+        <name>logfile</name>
+        <briefdescription>
+<para>logfile is defined as a C file to generate a written report (log) of the program run. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="25" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWriter_1ae349fbe066befdd157107283457548f7" prot="public" static="no" mutable="no">
+        <type>Mol *</type>
+        <definition>Mol* Writer::Cmol</definition>
+        <argsstring></argsstring>
+        <name>Cmol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="28" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWriter_1ac88fad807802f918f68052d7f3b06c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Writer::Writer</definition>
+        <argsstring>(Parser *Input)</argsstring>
+        <name>Writer</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Class constructor. Opens the logfile with the &quot;output&quot; name defined in the input file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the Parser class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="33" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1aae2301f0f38bc7425b9bebd9d01fcf25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_params</definition>
+        <argsstring>(Parser *Input)</argsstring>
+        <name>write_params</name>
+        <param>
+          <type>Parser *</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function writes down the parameters given by the user as input. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to the Parser class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="37" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="14" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1a12c58122d5143eb3e87c368459767da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_welcome</definition>
+        <argsstring>(void)</argsstring>
+        <name>write_welcome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This function writes a &quot;welcome&quot; message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="39" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="89" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1ae6c8a4c5bc3323564a9fe23ebd288dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_to_log</definition>
+        <argsstring>(char info[82])</argsstring>
+        <name>write_to_log</name>
+        <param>
+          <type>char</type>
+          <declname>info</declname>
+          <array>[82]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This message shows a char array in the screen and writes it to the logfile. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>char array (82 char long) with a message to be written/shown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="42" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1ab1ac284f7605d1c3d48744081b5989c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_to_log</definition>
+        <argsstring>(void)</argsstring>
+        <name>write_to_log</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This overloaded function writes a blank line in the logfile and in the screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="44" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1ac5d81d1de694841fe7dd26e189d4242f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_pdb</definition>
+        <argsstring>(Mol *Cmol, vector&lt; vector&lt; double &gt; &gt;xyz, string outname)</argsstring>
+        <name>write_pdb</name>
+        <param>
+          <type>Mol *</type>
+          <declname>Cmol</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>outname</declname>
+        </param>
+        <briefdescription>
+<para>Class destructor. Closes the logfile. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="48" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="129" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1a3d2f812e8292520dff648a9cc6cd8c11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::write_pdb</definition>
+        <argsstring>(Mol2 *Cmol2, vector&lt; vector&lt; double &gt; &gt;xyz, string outname)</argsstring>
+        <name>write_pdb</name>
+        <param>
+          <type>Mol2 *</type>
+          <declname>Cmol2</declname>
+        </param>
+        <param>
+          <type>vector&lt; vector&lt; double &gt; &gt;</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>outname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="49" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="154" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1a0e062f09b761e7aee0638ae9bb8de234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Writer::close</definition>
+        <argsstring>(void)</argsstring>
+        <name>close</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="50" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classWriter_1a7f2a6e7297ab91228fd922278d6612b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Writer::~Writer</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Writer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="51" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.cpp" bodystart="179" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class handles the output generated by the program. </para>    </briefdescription>
+    <detaileddescription>
+<para>Functions are provided to both write computed data to a logfile and show it on the screen. </para>    </detaileddescription>
+    <location file="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" line="20" bodyfile="/cygdrive/c/Users/Nascimento/workspace/SPCA_GUI/src/Writer.h" bodystart="20" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classWriter_1a0e062f09b761e7aee0638ae9bb8de234" prot="public" virt="non-virtual"><scope>Writer</scope><name>close</name></member>
+      <member refid="classWriter_1ae349fbe066befdd157107283457548f7" prot="public" virt="non-virtual"><scope>Writer</scope><name>Cmol</name></member>
+      <member refid="classWriter_1a2bc15cd60f8b6e7f8732bc9421d2a533" prot="public" virt="non-virtual"><scope>Writer</scope><name>logfile</name></member>
+      <member refid="classWriter_1aae2301f0f38bc7425b9bebd9d01fcf25" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_params</name></member>
+      <member refid="classWriter_1ac5d81d1de694841fe7dd26e189d4242f" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_pdb</name></member>
+      <member refid="classWriter_1a3d2f812e8292520dff648a9cc6cd8c11" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_pdb</name></member>
+      <member refid="classWriter_1ae6c8a4c5bc3323564a9fe23ebd288dcb" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_to_log</name></member>
+      <member refid="classWriter_1ab1ac284f7605d1c3d48744081b5989c8" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_to_log</name></member>
+      <member refid="classWriter_1a12c58122d5143eb3e87c368459767da3" prot="public" virt="non-virtual"><scope>Writer</scope><name>write_welcome</name></member>
+      <member refid="classWriter_1ac88fad807802f918f68052d7f3b06c32" prot="public" virt="non-virtual"><scope>Writer</scope><name>Writer</name></member>
+      <member refid="classWriter_1a7f2a6e7297ab91228fd922278d6612b9" prot="public" virt="non-virtual"><scope>Writer</scope><name>~Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
