@@ -11,8 +11,9 @@
 #include <QApplication>
 #include <QCoreApplication>
 #include <QSplashScreen>
-#include "../src/GUI/GUI.h"
 #include <QTimer>
+#include "../src/GUI/GUI.h"
+#include <QMainWindow>
 #endif
 #include<iostream>
 #include<stdio.h>

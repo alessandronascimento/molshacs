@@ -5,21 +5,21 @@
 #include <QAction>
 #include <QDockWidget>
 #include <QTextBrowser>
-#include <iostream>
-#include <QStringList>
-#include <vector>
-#include <QFile>
-#include <QStatusBar>
-#include <QPlainTextEdit>
+#include <QMessageBox>
 #include <QMenuBar>
 #include <QTabWidget>
+#include <QStringList>
+#include <QStatusBar>
+#include <QPlainTextEdit>
+#include <QApplication>
+#include <QFile>
+#include <iostream>
+#include <vector>
 #include "plotter.h"
 #include "Widget.h"
 #include "../Parser.h"
 #include "../RunEngine.h"
 #include "Widget.h"
-#include <QApplication>
-#include <QMessageBox>
 
 using namespace std;
 

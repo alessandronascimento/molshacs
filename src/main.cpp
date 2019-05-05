@@ -45,7 +45,7 @@ int main (int argc, char* argv[]) {
 
 		GUI w(argc, argv);
 		QIcon windowIcon(":/elsa.png");
-		w.setWindowIcon(windowIcon);
+//		w.setWindowIcon(windowIcon);
 
 		QTimer::singleShot(2000, splash, SLOT(close()));
 		QTimer::singleShot(2000, &w, SLOT(show()));

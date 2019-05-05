@@ -32,14 +32,13 @@ SOURCES += src/Mol2.cpp \
     src/Writer.cpp \
     src/Gaussian.cpp \
     src/main.cpp
-RESOURCES += src/GUI/GUI.qrc \
-    src/GUI/GUI.qrc
-LIBS += C:/Dev-Cpp/lib/libgsl.a \
-    C:/Dev-Cpp/lib/libgslcblas.a \
-    -lm \
-    C:/ASN/libs/zlib-1.2.7/libz.a \
-    'C:/ASN/libs/nlopt-2.3/.libs/libnlopt_cxx.a'
-INCLUDEPATH += 'C:/ASN/libs/nlopt-2.3/api' \
-    'C:/Dev-Cpp/include' \
-    'C:/ASN/libs/zlib-1.2.7'
-QMAKE_CXXFLAGS = -O3 --fast-math
+RESOURCES += src/GUI/GUI.qrc
+LIBS += -L/Users/asn/workspace/libela/trunk/lib/gsl/lib \
+    -L/Users/asn/workspace/libela/trunk/lib/nlopt/lib \
+    -L/Users/asn/workspace/libela/trunk/lib/zlib/lib \
+    -lgsl -lgslcblas -lz -lnlopt_cxx
+INCLUDEPATH += /Users/asn/workspace/libela/trunk/lib/gsl/include \
+    /Users/asn/workspace/libela/trunk/lib/nlopt/include/ \
+    /Users/asn/workspace/libela/trunk/lib/zlib/include/
+QMAKE_CXXFLAGS = -O3 -ffast-math -std=c++11
+CXXFLAGS=-std=c++11
