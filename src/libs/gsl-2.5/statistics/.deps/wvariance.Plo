@@ -1,0 +1,88 @@
+wvariance.lo: wvariance.c ../config.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ ../gsl/gsl_statistics.h ../gsl/gsl_statistics_long_double.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h \
+ ../gsl/gsl_statistics_double.h ../gsl/gsl_statistics_float.h \
+ ../gsl/gsl_statistics_ulong.h ../gsl/gsl_statistics_long.h \
+ ../gsl/gsl_statistics_uint.h ../gsl/gsl_statistics_int.h \
+ ../gsl/gsl_statistics_ushort.h ../gsl/gsl_statistics_short.h \
+ ../gsl/gsl_statistics_uchar.h ../gsl/gsl_statistics_char.h \
+ ../templates_on.h wvariance_source.c ../templates_off.h
+
+../config.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+../gsl/gsl_statistics.h:
+
+../gsl/gsl_statistics_long_double.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h:
+
+../gsl/gsl_statistics_double.h:
+
+../gsl/gsl_statistics_float.h:
+
+../gsl/gsl_statistics_ulong.h:
+
+../gsl/gsl_statistics_long.h:
+
+../gsl/gsl_statistics_uint.h:
+
+../gsl/gsl_statistics_int.h:
+
+../gsl/gsl_statistics_ushort.h:
+
+../gsl/gsl_statistics_short.h:
+
+../gsl/gsl_statistics_uchar.h:
+
+../gsl/gsl_statistics_char.h:
+
+../templates_on.h:
+
+wvariance_source.c:
+
+../templates_off.h:

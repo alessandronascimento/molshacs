@@ -1,0 +1,34 @@
+pow_int.lo: pow_int.c ../config.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ ../build.h ../gsl/gsl_pow_int.h ../gsl/gsl_inline.h
+
+../config.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+../build.h:
+
+../gsl/gsl_pow_int.h:
+
+../gsl/gsl_inline.h:
