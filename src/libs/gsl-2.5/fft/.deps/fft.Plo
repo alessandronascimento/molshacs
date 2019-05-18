@@ -1,0 +1,211 @@
+fft.lo: fft.c ../config.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h \
+ ../gsl/gsl_errno.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdio.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/errno.h \
+ ../gsl/gsl_types.h ../gsl/gsl_complex.h ../gsl/gsl_fft_complex.h \
+ ../gsl/gsl_math.h ../gsl/gsl_sys.h ../gsl/gsl_inline.h \
+ ../gsl/gsl_machine.h \
+ C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/float.h \
+ C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/float.h \
+ ../gsl/gsl_precision.h ../gsl/gsl_nan.h ../gsl/gsl_pow_int.h \
+ ../gsl/gsl_minmax.h ../gsl/gsl_fft.h ../gsl/gsl_fft_complex_float.h \
+ ../templates_on.h bitreverse.c complex_internal.h bitreverse.h \
+ ../templates_off.h factorize.c factorize.h c_init.c c_main.c c_pass.h \
+ c_pass_2.c c_pass_3.c c_pass_4.c c_pass_5.c c_pass_6.c c_pass_7.c \
+ c_pass_n.c c_radix2.c ../gsl/gsl_fft_halfcomplex.h ../gsl/gsl_fft_real.h \
+ ../gsl/gsl_fft_halfcomplex_float.h ../gsl/gsl_fft_real_float.h hc_init.c \
+ hc_main.c hc_pass.h hc_pass_2.c hc_pass_3.c hc_pass_4.c hc_pass_5.c \
+ hc_pass_n.c hc_radix2.c hc_unpack.c real_init.c real_main.c real_pass.h \
+ real_pass_2.c real_pass_3.c real_pass_4.c real_pass_5.c real_pass_n.c \
+ real_radix2.c real_unpack.c
+
+../config.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/math.h:
+
+../gsl/gsl_errno.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_push.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/errno.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_complex.h:
+
+../gsl/gsl_fft_complex.h:
+
+../gsl/gsl_math.h:
+
+../gsl/gsl_sys.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_machine.h:
+
+C:/Qt5/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/float.h:
+
+C:/Qt5/Tools/mingw730_64/x86_64-w64-mingw32/include/float.h:
+
+../gsl/gsl_precision.h:
+
+../gsl/gsl_nan.h:
+
+../gsl/gsl_pow_int.h:
+
+../gsl/gsl_minmax.h:
+
+../gsl/gsl_fft.h:
+
+../gsl/gsl_fft_complex_float.h:
+
+../templates_on.h:
+
+bitreverse.c:
+
+complex_internal.h:
+
+bitreverse.h:
+
+../templates_off.h:
+
+factorize.c:
+
+factorize.h:
+
+c_init.c:
+
+c_main.c:
+
+c_pass.h:
+
+c_pass_2.c:
+
+c_pass_3.c:
+
+c_pass_4.c:
+
+c_pass_5.c:
+
+c_pass_6.c:
+
+c_pass_7.c:
+
+c_pass_n.c:
+
+c_radix2.c:
+
+../gsl/gsl_fft_halfcomplex.h:
+
+../gsl/gsl_fft_real.h:
+
+../gsl/gsl_fft_halfcomplex_float.h:
+
+../gsl/gsl_fft_real_float.h:
+
+hc_init.c:
+
+hc_main.c:
+
+hc_pass.h:
+
+hc_pass_2.c:
+
+hc_pass_3.c:
+
+hc_pass_4.c:
+
+hc_pass_5.c:
+
+hc_pass_n.c:
+
+hc_radix2.c:
+
+hc_unpack.c:
+
+real_init.c:
+
+real_main.c:
+
+real_pass.h:
+
+real_pass_2.c:
+
+real_pass_3.c:
+
+real_pass_4.c:
+
+real_pass_5.c:
+
+real_pass_n.c:
+
+real_radix2.c:
+
+real_unpack.c:

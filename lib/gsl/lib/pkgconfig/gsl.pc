@@ -1,0 +1,11 @@
+prefix=/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl
+exec_prefix=/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl
+libdir=/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/lib
+includedir=/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.5
+Libs: -L/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/c/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/include
