@@ -33,12 +33,14 @@ SOURCES += src/Mol2.cpp \
     src/Gaussian.cpp \
     src/main.cpp
 RESOURCES += src/GUI/GUI.qrc
-LIBS += C:/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/lib/libgsl.a \
-    C:/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/lib/libgslcblas.a \
-    C:/Users/Nascimento/workspace/MolShaCS_2/lib/nlopt/lib/libnlopt.a \
-    C:/Users/Nascimento/workspace/MolShaCS_2/lib/zlib/lib/libz.a
-INCLUDEPATH += C:/Users/Nascimento/workspace/MolShaCS_2/lib/gsl/include \
-    C:/Users/Nascimento/workspace/MolShaCS_2/lib/nlopt/include/ \
-    C:/Users/Nascimento/workspace/MolShaCS_2/lib/zlib/include/
+LIBS += -L../../../libela/trunk/lib/nlopt/lib \
+    -L../../../libela/trunk/lib/gsl/lib \
+    -lgsl \
+    -lgslcblas \
+    -lm \
+    -lz \
+    -lnlopt
+INCLUDEPATH += ../../../libela/trunk/lib/gsl/include \
+    ../../../libela/trunk/lib/nlopt/include
 QMAKE_CXXFLAGS = -O3 -ffast-math -std=c++11 -static
 CXXFLAGS=-std=c++11

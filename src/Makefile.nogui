@@ -1,11 +1,11 @@
 #!/bin/bash
 
-CC=g++
-CFLAGS=-c -O3 -ffast-math -DNLOPT -w
-LDFLAGS= -lgsl -lgslcblas -lm -lz -lnlopt_cxx -static
-SOURCES=CORREL.cpp  Grid.cpp  main.cpp  Minimizer2.cpp  Mol2.cpp  Parser.cpp  RunEngine.cpp  Writer.cpp
+CC=/usr/local/opt/llvm/bin/clang++
+CFLAGS=-c -O3 -ffast-math -DNLOPT -w -I../../../libela/trunk/lib/gsl/include -I../../../libela/trunk/lib/nlopt/include
+LDFLAGS= -L../../../libela/trunk/lib/nlopt/lib -L../../../libela/trunk/lib/gsl/lib -lgsl -lgslcblas -lm -lz -lnlopt
+SOURCES=CORREL.cpp Gaussian.cpp Grid.cpp  main.cpp  Minimizer2.cpp  Mol2.cpp  Parser.cpp  RunEngine.cpp  Writer.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=ElSA.nogui
+EXECUTABLE=MolShaCS.nogui
 
 all: $(SOURCES) $(EXECUTABLE)
 	

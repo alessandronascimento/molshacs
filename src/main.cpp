@@ -28,7 +28,7 @@ int main (int argc, char* argv[]) {
 	}
 	else {
 
-//#ifdef HAS_GUI
+#ifdef HAS_GUI
 
         QApplication app(argc, argv);
         QCoreApplication::setOrganizationName(ORGANIZATION);
@@ -52,6 +52,6 @@ int main (int argc, char* argv[]) {
 
 		return app.exec();
 
-//#endif
+#endif
 	}
 }
